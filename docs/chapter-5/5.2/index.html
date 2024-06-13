@@ -1,0 +1,514 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		5.2 Zeros &amp; Polynomial Equations &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#zeros-of-polynomials">Zeros of Polynomials</a></li>
+    <li><a href="#galois-theory">Galois Theory</a></li>
+    <li><a href="#finding-possible-zeros">Finding Possible Zeros</a></li>
+    <li><a href="#verifying-zeros">Verifying Zeros</a></li>
+    <li><a href="#finding-rational-zeros-of-a-polynomial">Finding Rational Zeros of a Polynomial</a>
+      <ul>
+        <li><a href="#rational-zeros-example-1">Rational Zeros Example 1</a></li>
+        <li><a href="#rational-zeros-example-2">Rational Zeros Example 2</a></li>
+      </ul>
+    </li>
+    <li><a href="#finding-real-zeros-of-a-polynomial">Finding Real Zeros of a Polynomial</a>
+      <ul>
+        <li><a href="#real-zeros-example-1">Real Zeros Example 1</a></li>
+        <li><a href="#real-zeros-example-2">Real Zeros Example 2</a></li>
+      </ul>
+    </li>
+    <li><a href="#finding-complex-zeros-of-a-polynomial">Finding Complex Zeros of a Polynomial</a>
+      <ul>
+        <li><a href="#complex-zeros-example-1">Complex Zeros Example 1</a></li>
+        <li><a href="#complex-zeros-example-2">Complex Zeros Example 2</a></li>
+      </ul>
+    </li>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>5.2 Zeros &amp; Polynomial Equations</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-5/duel.jpg"  title="Drawing by Bauce and Rouget"  alt="Drawing by Bauce and Rouget" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://commons.wikimedia.org/wiki/File:Duel_pistolet.JPG">Drawing by Bauce and Rouget</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>As the smoke cleared on the morning of May 30, 1832, young Évariste Galois lay mortally wounded on the ground, having been shot in the stomach.  Though only 20 years old, Galois had earned a reputation not only as a brilliant mathematician, but also as a reckless political activist who had threatened the life of the French king and been arrested for carrying loaded weapons during a protest in Paris.</p>
+<p>No one knows for sure why Galois was involved the duel.  Some say that he was defending the honor of a young lady or that he was the victim of a government conspiracy.  All we know is that he feared for his life and spent the night before the duel writing farewell letters to close friends.</p>
+<p>In one of those letters Galois famously described a new mathematical theory that revealed the hidden framework of polynomials.</p>
+<h2 id="zeros-of-polynomials">Zeros of Polynomials</h2>
+<p>In the last section we saw that x-intercepts are real number solutions to the polynomial equation $p(x)=0$ and that they are simple to find if the polynomial has been factored.
+<label for="sn-factor theorem" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-factor theorem" class="margin-toggle" />
+<span class="sidenote">The <strong>factor theorem</strong> told us that $x=c$ is an x-intercept if and only if $(x-c)$ is a factor</span>
+If the polynomial isn't factored, then solving $p(x)=0$ can be challenging.</p>
+<p>Throughout history efforts have been made to find formulas that will produce the zeros of polynomials. The Indian mathematician Brahmagupta is generally credited as being the first to publish a description of the <a href="https://duragauge.github.io/img/chapter-5/quadratic_formula.svg">quadratic formula</a> in 628 AD, though the roots of the solution go back thousands of years.  The quadratic formula gives the two zeros of any 2nd degree polynomial.</p>
+<p>In the 1500's, Niccolò Tartaglia, one of the most gifted mathematicians in Italy, found a general process for solving all cubic equations.  Within a few years a fellow Italian by the name of Lodovico Ferrari found a way to find the zeros of all 4th degree polynomials.</p>
+<p>The work of Tartaglia and Ferrari showed there are always 3 solutions to every 3rd degree polynomial and 4 solutions to every 4th degree polynomial.  Following that pattern, it would be reasonable to expect that a polynomial with a degree of $n$ always has $n$ zeros.</p>
+<p>If you made that assumption, you'd be in good company.  In 1799, Carl Friedrich Gauss, arguably the greatest mathematician in history, proved that result as a consequence of his <strong>Fundamental Theorem of Algebra</strong>.</p>
+<p>While the proof is very complicated and beyond the scope of this text, what the Fundamental Theorem of Algebra says is actually very simple.  In essence, Gauss showed that a polynomial whose degree is $n$ will always have exactly $n$ zeros.  Some of the zeros might involve imaginary numbers, some may be repeated, but there will always be $n$ zeros total.</p>
+<p>For instance, since  $p(x)=2x^4-3x+8$ is a $4th$ degree polynomial, we know that it has exactly $4$ zeros.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>How many total zeros does $p(x)=-3x^6+x^{2}-9x$ have? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />It is a 6th degree polynomial, so it must have 6 zeros.</details></p>
+</li>
+<li>
+<p>How many total zeros does $p(x)=5x^{3}-4$ have? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />It is a 3rd degree polynomial, so it must have 3 zeros.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="galois-theory">Galois Theory</h2>
+<p>Gauss showed that for an polynomial of degree $n$ there will always be $n$ solutions to the equation $p(x)=0$.  He did not, however, come up with a formula to find all of those solutions.  And there's a very good reason he didn't.</p>
+<p>In the early 1800's, Galois' notes and letters, together with the work of his equally tragic contemporary Niels Henrik Abel
+<label for="sn-Abel" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-Abel" class="margin-toggle" />
+<span class="sidenote">Abel was a young Norwegian mathematician struggling to find steady income so he could marry his fiancée.  He died, unwed, at the age of 26 from tuberculosis.  Two days later a letter arrived offering a post at the University of Berlin.</span>
+, showed that it is impossible to find a general algebraic formula (ie. a formula involving only addition, subtraction, multiplication, division, powers and roots) for the zeros of a polynomial if the degree is higher than 4.</p>
+<p>In other words, we cannot count on using a formula to find the zeros of a polynomial if its degree is higher than 4.  In fact, since the formulas for the <a href="https://duragauge.github.io/img/chapter-5/cubic_formula.svg">cubic</a> and <a href="https://duragauge.github.io/img/chapter-5/quartic_formula.svg">quartic</a> are impractical, the only polynomial formula you'll likely need to remember is the <a href="https://duragauge.github.io/img/chapter-5/quadratic_formula.svg">quadratic formula</a>.</p>
+<p>Instead of using complicated formulas, we will use a combination of graphical, algebraic, and numerical methods to find the zeros of polynomials.  And since graphs help us estimate the number and location of any real zeros as well as the number of imaginary zeros, it is preferable to study the graph of a polynomial first.</p>
+<h2 id="finding-possible-zeros">Finding Possible Zeros</h2>
+<p>Since the real zeros of a polynomial correspond to the x-intercepts of its graph, we can sometimes identify them with just by looking.</p>
+<p>For instance, the graph of $p(x)=x^5-5x^{3}+4x$, shown here, appears to have x-intercepts at $x=-2$, $x=-1$, $x=0$, $x=1$ and $x=2$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/poly_graph_5_integer_zeros.svg#center" alt=""></p>
+<p>But what if a graph isn't available or if the graph is difficult to read?  For example, the cubic polynomial $p(x)=3x^{3}+8x^{2}+3x-2$ appears to have zeros when $x=-2$ and $x=-1$ the location of third zero is not clear.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/poly_graph_1_rational_2_integer_zeros.svg#center" alt=""></p>
+<p>It might be $\frac{1}{4}$ or $\frac{1}{3}$ or maybe it's some irrational number like $\sqrt{\frac{1}{8}}$.  We simply can't tell just by looking.</p>
+<p>Luckily, there is a nice tool called the <strong>rational zeros theorem</strong> that allows us to make a list of numbers that <em>might</em> be zeros.  Take a look at the table below and see if you can spot the (color-coded) pattern yourself.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/rational_zeros_table.svg#center" alt=""></p>
+<p>Notice that the <em><font color="red">numerators</font></em> of each zero are factors of the <em><font color="red">constant term</font></em> and the <em><font color="blue">denominators</font></em> are factors of the <em><font color="blue">leading coefficient</font></em>.</p>
+<p>If a polynomial with integer coefficients has a rational zero, then the <strong>rational zeros theorem</strong> says this pattern will always occur.  Which means we can use that pattern to reverse engineer a list of fractions that <em>might</em> be zeros.</p>
+<p>Let's test this and find all the fractions that might be zeros of $p(x)=\color{blue}{3}x^{3}+8x^{2}+3x\color{red}{-2}$.</p>
+<p>The constant term is $\color{red}{-2}$, which can be divided evenly by $\color{red}{\pm 1, \thinspace \pm 2}$, so those are its factors.</p>
+<p>The factors of the leading coefficient $\color{blue}{3}$ are $\color{blue}{\pm 1, \thinspace \pm 3}$.</p>
+<p>Putting those together, our list of fractions that might be zeros is</p>
+<p>[ \pm \frac{\color{red}{1}}{\color{blue}{1}}, \thinspace  \pm \frac{\color{red}{2}}{\color{blue}{1}},  \pm \frac{\color{red}{1}}{\color{blue}{3}}, \thinspace  \pm \frac{\color{red}{2}}{\color{blue}{3}} ]</p>
+<p>Notice that the two zeros we spotted from the graph, $x=-2$ and $x=-1$, are in this list.  If our missing third zero is a fraction, then the rational zeros theorem guarantees that it is in this list.  The theorem <strong>does not</strong> however, guarantee that the missing zero is a fraction.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Consider the polynomial $p(x)=\color{blue}{5}x^2+3x+\color{red}{6}$.</p>
+<ol>
+<li>
+<p>List all the factors of the constant term $\color{red}{6}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{6}$ can be divided evenly by $\color{red}{\pm 1, \thinspace \pm 2, \thinspace \pm 3, \thinspace \pm 6}$ , so those are its factors.</details></p>
+</li>
+<li>
+<p>List all the factors of the leading coefficient $\color{blue}{5}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{blue}{5}$ can be divided evenly by $\color{blue}{\pm 1, \thinspace \pm 5}$ , so those are its factors.</details></p>
+</li>
+<li>
+<p>List all the fractions with numerators that are factors of $\color{red}{6}$ and denominators that are factors of $\color{blue}{5}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />There are sixteen combinations.
+[ \pm \frac{\color{red}{1}}{\color{blue}{1}}, \thinspace  \pm \frac{\color{red}{2}}{\color{blue}{1}}, \thinspace \pm \frac{\color{red}{3}}{\color{blue}{1}}, \thinspace \pm \frac{\color{red}{6}}{\color{blue}{1}} ]
+and
+[ \pm \frac{\color{red}{1}}{\color{blue}{5}}, \thinspace  \pm \frac{\color{red}{2}}{\color{blue}{5}}, \thinspace \pm \frac{\color{red}{3}}{\color{blue}{5}}, \thinspace \pm \frac{\color{red}{6}}{\color{blue}{5}} ]</details></p>
+</li>
+</ol>
+</div>
+<h2 id="verifying-zeros">Verifying Zeros</h2>
+<p>You'll recall that the real zeros of a polynomial are real numbers that are solutions to the equation $p(x)=0$.  Graphically they correspond to the x-intercepts of its graph.</p>
+<p>For instance, the graph of $p(x)=x^5-5x^{3}+4x$, shown here, appears to have x-intercepts at $x=-2$, $x=-1$, $x=0$, $x=1$ and $x=2$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/poly_graph_5_integer_zeros.svg#center" alt=""></p>
+<p>But how do we know if these really are the zeros?  Maybe the true values are slightly different.  To verify that those values really are zeros we must check to see if $p(x)=0$ for each one.  With $x=-2$, for example,</p>
+<p>[ \begin{align}
+p(-2) &amp;= (-2)^5-5(-2)^3+4(-2) \newline
+&amp;=-32+40-8 \newline
+&amp;=0
+\end{align}
+]</p>
+<p>so we can be confident that $x=-2$ truly is a zero.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>Verify that $x=-1$, $x=0$, $x=1$ and $x=2$ are each zeros of $p(x)=x^5-5x^{3}+4x$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[
+\begin{align}
+p(-1)&amp;=(-1)^5-5(-1)^3+4(-1) \newline
+&amp;=-1+5-4 \newline
+&amp;=0 \newline \newline
+p(0)&amp;=(0)^5-5(0)^3+4(0) \newline
+&amp;=0-0+0 \newline
+&amp;=0 \newline \newline
+p(1)&amp;=(1)^5-5(1)^3+4(1) \newline
+&amp;=1-5+4 \newline
+&amp;=0 \newline \newline
+p(2)&amp;=(2)^5-5(2)^3+4(2) \newline
+&amp;=32-40+8 \newline
+&amp;=0
+\end{align}
+]</details></li>
+</ol>
+</div>
+<h2 id="finding-rational-zeros-of-a-polynomial">Finding Rational Zeros of a Polynomial</h2>
+<h3 id="rational-zeros-example-1">Rational Zeros Example 1</h3>
+<p>Let's return to the polynomial  $p(x)=\color{blue}{3}x^{3}+8x^{2}+3x\color{red}{-2}$ and see how the rational zeros theorem helps us identify its zeros.  Since the leading coefficient is $\color{blue}{3}$ and the constant term is $\color{red}{-2}$, we know that the numerators and denominators of possible rational zeros must be</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/rational_zeros_1_num_den.png#center" alt=""></p>
+<p>This means that all rational zeros of $p(x)=\color{blue}{3}x^{3}+8x^{2}+3x\color{red}{-2}$  can be found in the following list.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/rational_zeros_1.png#center" alt=""></p>
+<p>We can see from the graph that $-1$ and $-2$ are zeros, and both appear in this list.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/poly_graph_1_rational_2_integer_zeros_color.svg#center" alt=""></p>
+<p>Judging from the graph, if the third zero is a rational number then it is either $\frac{\color{red}{1}}{\color{blue}{3}}$ or $\frac{\color{red}{2}}{\color{blue}{3}}$.</p>
+<p>To see if either of these are the zeros we put the into the function and see if the result is zero.  We'll start with $\frac{\color{red}{1}}{\color{blue}{3}}$.</p>
+<p>[
+\begin{align}
+p\left(\frac{\color{red}{1}}{\color{blue}{3}}\right)&amp;=3\left(\frac{\color{red}{1}}{\color{blue}{3}}\right)^{3}+8\left(\frac{\color{red}{1}}{\color{blue}{3}}\right)^2+3\left(\frac{\color{red}{1}}{\color{blue}{3}}\right)-2 \newline
+&amp;=3\left(\frac{1}{27}\right)+8\left(\frac{1}{9}\right)+1-2 \newline
+&amp;= \frac{3}{27}+\frac{8}{9}-1 \newline
+&amp;= \frac{1}{9} + \frac{8}{9}-1 \newline
+&amp;= \frac{9}{9} - 1 \newline
+&amp;= 1 - 1 \newline
+&amp;= 0
+\end{align}
+]</p>
+<p>Since $p\left(\frac{\color{red}{1}}{\color{blue}{3}}\right)=0$ we know that $\frac{\color{red}{1}}{\color{blue}{3}}$ is the third zero of the polynomial.  There's no need to check $\frac{\color{red}{2}}{\color{blue}{3}}$ because this polynomial only has three zeros.</p>
+<h3 id="rational-zeros-example-2">Rational Zeros Example 2</h3>
+<p>Let's use a graph and the rational zeros theorem to see if $p(x)=\color{blue}{6}x^2+7x\color{red}{-5}$ has any rational zeros.</p>
+<p>With a leading coefficient of $\color{blue}{6}$ and a constant term of $\color{red}{-5}$, we know that all rational zeros, if there are any, must be in the following list.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5//rational_zeros_3.png#center" alt=""></p>
+<p>With the help of the graph we can narrow this list down to $\frac{ \color{red}{1} } { \color{blue}{2} }$, $\frac{\color{red}{1}}{\color{blue}{3}}$ and $\frac{\color{red}{-5}}{\color{blue}{3}}$, since the other values are not near the x-intercepts.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/poly_graph_2_rational_zeros_color.svg#center" alt=""></p>
+<p>Now we need to check each one, beginning with $x=\frac{\color{red}{1}}{\color{blue}{2}}$.</p>
+<p>[
+\begin{align}
+p\left(\frac{\color{red}{1}}{\color{blue}{2}}\right) &amp;= 6\left(\frac{\color{red}{1}}{\color{blue}{2}}\right)^2+7\left(\frac{\color{red}{1}}{\color{blue}{2}}\right)-5 \newline
+&amp;=\frac{6}{4}+\frac{7}{2}-5 \newline
+&amp;=0
+\end{align}
+]</p>
+<p>We've found one zero!  Let's keep going and check $x=\frac{\color{red}{1}}{\color{blue}{3}}$.</p>
+<p>[
+\begin{align}
+p\left(\frac{\color{red}{1}}{\color{blue}{3}}\right) &amp;= 6\left(\frac{\color{red}{1}}{\color{blue}{3}}\right)^2+7\left(\frac{\color{red}{1}}{\color{blue}{3}}\right)-5 \newline
+&amp;=\frac{6}{9}+\frac{7}{3}-5 \newline
+&amp;=2
+\end{align}
+]</p>
+<p>Since this is not $0$, we move on to our last option, $x=\frac{\color{red}{-5}}{\color{blue}{3}}$.</p>
+<p>[
+\begin{align}
+p\left(\frac{\color{red}{-5}}{\color{blue}{3}}\right) &amp;= 6\left(\frac{\color{red}{-5}}{\color{blue}{3}}\right)^2+7\left(\frac{\color{red}{-5}}{\color{blue}{3}}\right)-5 \newline
+&amp;=\frac{150}{9}-\frac{35}{3}-5 \newline
+&amp;=0
+\end{align}
+]</p>
+<p>From this it's clear that $\frac{ \color{red}{1} } { \color{blue}{2} }$ and $\frac{\color{red}{-5}}{\color{blue}{3}}$ are both zeros of our polynomial.  And since the Fundamental Theorem of Algebra says that a second degree polynomial has exactly two zeros, we know we have found all of the solutions.</p>
+<h2 id="finding-real-zeros-of-a-polynomial">Finding Real Zeros of a Polynomial</h2>
+<h3 id="real-zeros-example-1">Real Zeros Example 1</h3>
+<p>There are two other tools we have at our disposal that we shouldn't forget about.  For example, the possible rational zeros of $p(x)=\color{blue}{1}x^2-\color{red}{3}$ are</p>
+<p>[ \pm \frac{\color{red}{1}}{\color{blue}{1}}, \thinspace \pm \frac{\color{red}{3}}{\color{blue}{1}} ]</p>
+<p>but the graph does not have x-intercepts at $\pm 1$ or at $\pm 3$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/poly_graph_2_irrational.svg#center" alt=""></p>
+<p>It's important remember that the Rational Zeros Theorem only gives us a list of rational numbers that <em>might</em> be zeros.  If none of them work then the zeros are not fractions.</p>
+<p>In this case the two zeros are irrational numbers and can be found with the Quadratic Formula.</p>
+<p>[
+\begin{align}
+x &amp;= \frac{-b\pm\sqrt{b^2-4ac}}{2a} \newline
+&amp;= \frac{-(0)\pm\sqrt{(0)^2-4(\color{blue}{1})(\color{red}{-3})}}{2\color{blue}{(1)}} \newline
+&amp;= \frac{\pm\sqrt{12}}{2} \newline
+&amp;= \frac{\pm2\sqrt{3}}{2} \newline
+&amp;= \pm \sqrt{3} \newline
+\end{align}
+]</p>
+<p>So the first tool we shouldn't forget about is the Quadratic Formula.</p>
+<h3 id="real-zeros-example-2">Real Zeros Example 2</h3>
+<p>The second tool that is often helpful is synthetic division.  Consider, for instance the polynomial $p(x)=\color{blue}{6}x^3+7x^2-16x\color{red}{-12}$.  The list of possible rational zeros is huge.</p>
+<p>[ \pm \frac{\color{red}{1}}{\color{blue}{1}}, \thinspace \pm \frac{\color{red}{2}}{\color{blue}{1}},\thinspace \pm \frac{\color{red}{3}}{\color{blue}{1}},\thinspace  \pm \frac{\color{red}{4}}{\color{blue}{1}},\thinspace\pm \frac{\color{red}{6}}{\color{blue}{1}},\thinspace \pm \frac{\color{red}{12}}{\color{blue}{1}} ]</p>
+<p>[ \pm \frac{\color{red}{1}}{\color{blue}{2}}, \thinspace \pm \frac{\color{red}{2}}{\color{blue}{2}},\thinspace \pm \frac{\color{red}{3}}{\color{blue}{2}},\thinspace \pm \frac{\color{red}{4}}{\color{blue}{2}},\thinspace \pm \frac{\color{red}{6}}{\color{blue}{2}},\thinspace \pm \frac{\color{red}{12}}{\color{blue}{2}} ]</p>
+<p>[ \pm \frac{\color{red}{1}}{\color{blue}{3}}, \thinspace \pm \frac{\color{red}{2}}{\color{blue}{3}},\thinspace \pm \frac{\color{red}{3}}{\color{blue}{3}},\thinspace \pm \frac{\color{red}{4}}{\color{blue}{3}},\thinspace \pm \frac{\color{red}{6}}{\color{blue}{3}},\thinspace \pm \frac{\color{red}{12}}{\color{blue}{3}} ]</p>
+<p>[ \pm \frac{\color{red}{1}}{\color{blue}{6}}, \thinspace \pm \frac{\color{red}{2}}{\color{blue}{6}},\thinspace \pm \frac{\color{red}{3}}{\color{blue}{6}},\thinspace \pm \frac{\color{red}{4}}{\color{blue}{6}},\thinspace \pm \frac{\color{red}{6}}{\color{blue}{6}},\thinspace \pm \frac{\color{red}{12}}{\color{blue}{6}} ]</p>
+<p>By eliminating duplicate values like $\frac{\color{red}{1}}{\color{blue}{1}}$ and $\frac{\color{red}{2}}{\color{blue}{2}}$ and looking at the graph</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/poly_graph_1_integer_2_rational.svg#center" alt=""></p>
+<p>we can trim this list down significantly, but there are still five numbers to check (listed here in numerical order).</p>
+<p>[ \frac{\color{red}{-2}}{\color{blue}{1}}, \thinspace \frac{\color{red}{-2}}{\color{blue}{3}}, \thinspace \frac{\color{red}{-1}}{\color{blue}{2}}, \thinspace \frac{\color{red}{-1}}{\color{blue}{3}}, \thinspace \frac{\color{red}{3}}{\color{blue}{2}}]</p>
+<p>Earlier we plugged the values into the polynomial to check each one.  While that always works, synthetic division can also be used.  To show how this works we'll pick $\frac{\color{red}{-2}}{\color{blue}{1}}=-2$ out of our list and do synthetic division.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/synthetic_2_a.svg#center" alt=""></p>
+<p>Since the remainder is $0$ we know that $\left(x-\frac{\color{red}{-2}}{\color{blue}{1}}\right)$ is a factor of the polynomial, which also means that $\frac{\color{red}{-2}}{\color{blue}{1}}$ is a zero.</p>
+<p>Anytime we do synthetic division and end with a remainder of $0$ then we have found a zero of the polynomial.</p>
+<p>Additionally, any other real zeros must be inside the quotient $6x^2-5x-6$ and could be found by the quadratic formula.  But since our list of rational zeros was so small, it may be preferable to check the remaining three numbers by synthetic division before resorting to the quadratic formula.</p>
+<p>Starting with $\frac{\color{red}{-2}}{\color{blue}{3}}$, the synthetic division tells us that it is a zero.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/synthetic_2_b.svg#center" alt=""></p>
+<p>Since $\frac{\color{red}{-2}}{\color{blue}{3}}$ is a zero, there's no need to check $\frac{\color{red}{-1}}{\color{blue}{2}}$ and $\frac{\color{red}{-1}}{\color{blue}{3}}$, but we should still look at $\frac{\color{red}{3}}{\color{blue}{2}}$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/synthetic_2_c.svg#center" alt=""></p>
+<p>We conclude that the three zeros of our polynomial are $-2$, $\thinspace \frac{\color{red}{-2}}{\color{blue}{3}} \thinspace$ and $\thinspace \frac{\color{red}{3}}{\color{blue}{2}}$.</p>
+<h2 id="finding-complex-zeros-of-a-polynomial">Finding Complex Zeros of a Polynomial</h2>
+<h3 id="complex-zeros-example-1">Complex Zeros Example 1</h3>
+<p>The process we have developed can also find imaginary zeros.  This time we'll examine $p(x)=\color{blue}{3} x^{3}-14 x^{2}+23 x\color{red}{-10}$.</p>
+<p>This is a third degree polynomial so it must have three zeros.  We can tell right away from the graph that it only has one real zero, so there must be two that are imaginary.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/poly_graph_1_rational_2_imaginary.svg#center" alt=""></p>
+<p>If that real zero is a rational number, then we can find it using the Rational Zeros Theorem by examining the list of fractions that might be zeros.</p>
+<p>[ \pm \frac{\color{red}{1}}{\color{blue}{1}}, \thinspace \pm \frac{\color{red}{2}}{\color{blue}{1}},\thinspace \pm \frac{\color{red}{5}}{\color{blue}{1}},\thinspace \pm \frac{\color{red}{10}}{\color{blue}{1}}]</p>
+<p>[ \pm \frac{\color{red}{1}}{\color{blue}{3}}, \thinspace \pm ,\thinspace \pm \frac{\color{red}{5}}{\color{blue}{3}},\thinspace \pm \frac{\color{red}{10}}{\color{blue}{3}}]</p>
+<p>Out of that list $\frac{\color{red}{2}}{\color{blue}{3}}$ appears to be out best choice, so we'll use synthetic division to check it.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/synthetic_3.svg#center" alt=""></p>
+<p>Because the remainder is $0$ we know for sure that $\frac{\color{red}{2}}{\color{blue}{3}}$ is a zero.</p>
+<p>That takes care of our one real zero, but what about the two that are imaginary?  Those are inside the quotient $3x^{2}-12x+15$ and we'll get them with the quadratic formula.</p>
+<p>[
+\begin{align}
+x &amp;= \frac{-b\pm\sqrt{b^2-4ac}}{2a} \newline
+&amp;= \frac{-(-12)\pm\sqrt{(-12)^2-4(3)(15)}}{2(3)} \newline
+&amp;= \frac{12 \pm\sqrt{-36}}{6} \newline
+&amp;= \frac{12 \pm 6i}{6} \newline
+&amp;= 2 \pm i \newline
+\end{align}
+]</p>
+<p>The two imaginary zeros are $2+i$ and $2-i$ and we have now found all three of the complex zeros of our polynomial.</p>
+<h3 id="complex-zeros-example-2">Complex Zeros Example 2</h3>
+<p>Our final example $p(x)=x^4 + x^3 - x^2 + x -2$ is a fourth degree polynomial with a very short list of possible rational zeros.  The choices are $\pm 1$ and $\pm 2$ and a graph quickly shows us that $-2$ and $1$ are the likely candidates.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/poly_graph_2_integer_2_imaginary.svg#center" alt=""></p>
+<p>As before we'll check one of these by synthetic division, starting with $-2$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/synthetic_4_a.svg#center" alt=""></p>
+<p>This tells us that $-2$ is a zero, but we still have three more to find.  The key is to remember that all the other zeros must be in the quotient $x^3-x^2+x-1$.  So now we focus on the quotient and repeat the process.</p>
+<p>If $x^3-x^2+x-1$ has a rational zero then it is in our original list, so let's try $1$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/synthetic_4_b.svg#center" alt=""></p>
+<p>Since the remainder is zero, we know $1$ is a zero of the polynomial.  The final two zeros must be inside this new quotient $x^2+1$ and we'll use the quadratic formula to get them out.</p>
+<p>[
+\begin{align}
+x &amp;= \frac{-b\pm\sqrt{b^2-4ac}}{2a} \newline
+&amp;= \frac{-(0)\pm\sqrt{(0)^2-4(1)(1)}}{2(1)} \newline
+&amp;= \frac{\pm\sqrt{-4}}{2} \newline
+&amp;= \frac{\pm 2i}{2} \newline
+&amp;= \pm i \newline
+\end{align}
+]</p>
+<p>We add these two imaginary numbers to our list and can finally say that the four complex zeros of $p(x)=x^4 + x^3 - x^2 + x -2$ are $-2, \thinspace 1, \thinspace, -i \thinspace$ and $\thinspace i$.</p>
+<h2 id="summary">Summary</h2>
+<p>Let's take a moment to summarize the process that we have developed.  Given a polynomial, we can attempt to find its complex (real and imaginary) zeros by working through the following steps.</p>
+<ol>
+<li>Use the Rational Zeros Theorem to list all possible fractions that might be zeros.</li>
+<li>Trim down that list by looking at a graph and eliminating any values that are not reasonably close to the x-intercepts.</li>
+<li>Check the remaining values either by testing if $p(x)=0$ or by performing synthetic division and seeing if the remainder is zero.</li>
+<li>Repeat the process for the other zeros or, if the quotient is a 2nd degree polynomial, apply the quadratic formula.</li>
+</ol>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>While the process outlined here will work for all the exercises in the homework, it is far from being a universal method that will work for every polynomial.  For most problems, in fact, it is not possible to find exact zeros, so we have to find approximations.  There is even an entire field of modern math (numerical analysis) dedicated to, among other things, constructing algorithms for finding zeros of equations.  And many practical applications in physics, chemistry, engineering, etc. rely on those computational methods.</p>
+<p>In the next section we get a brief glimpse of a few ways polynomials end up being used in the real world.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

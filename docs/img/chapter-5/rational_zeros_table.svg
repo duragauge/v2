@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="459.94922"
+   height="207.03445"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="rational_zeros_table.svg"
+   inkscape:export-filename="C:\Book Ideas\images\rational_zeros_table.png"
+   inkscape:export-xdpi="75"
+   inkscape:export-ydpi="75">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.1996286"
+     inkscape:cx="435.68843"
+     inkscape:cy="-670.36839"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs4">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path3867"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendv"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendv">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#008000;fill-rule:evenodd;stroke:#008000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4288"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2MendR"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2MendR">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round"
+         id="path4291"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mendq"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mendq">
+      <path
+         transform="scale(-0.6,-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4294"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     transform="translate(-15.418913,-368.91278)">
+    <g
+       id="g6209"
+       transform="matrix(1.509393,0,0,1.509393,197.35221,-36.73763)"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66">
+      <text
+         sodipodi:linespacing="125%"
+         id="text6211"
+         y="847.8277"
+         x="200.17035"
+         style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:1.91808188px;fill:#ff0000"
+           y="847.8277"
+           x="200.17035"
+           id="tspan6213"
+           sodipodi:role="line">1</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 197.98957,850.83474 12.55216,0"
+         id="path6215"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="199.96057"
+         y="865.7298"
+         id="text6217"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6219"
+           x="199.96057"
+           y="865.7298"
+           style="letter-spacing:1.91808188px;fill:#0000ff">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="185.06699"
+         y="856.78906"
+         id="text6221"
+         sodipodi:linespacing="125%"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+           y="856.78906"
+           x="185.06699"
+           id="tspan6223"
+           sodipodi:role="line">±</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6225"
+         y="854.29126"
+         x="213.01984"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:3px"
+           y="854.29126"
+           x="213.01984"
+           id="tspan6227"
+           sodipodi:role="line">,</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text2985"
+       y="498.97516"
+       x="76.87149"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="letter-spacing:3px"
+         y="498.97516"
+         x="76.87149"
+         id="tspan2987"
+         sodipodi:role="line"><tspan
+           id="tspan3807"
+           style="letter-spacing:0px;fill:#0000ff">1<tspan
+   style="letter-spacing:2px"
+   id="tspan3930">5</tspan></tspan><tspan
+           id="tspan2989"
+           style="font-style:italic;letter-spacing:3px;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan><tspan
+           id="tspan2991"
+           style="font-size:65.00091553%;letter-spacing:6px;baseline-shift:super;fill:#000000">2</tspan><tspan
+           id="tspan3005"
+           style="letter-spacing:6px">+</tspan><tspan
+           style="letter-spacing:0px"
+           id="tspan3918">11</tspan><tspan
+           id="tspan2997"
+           style="font-style:italic;letter-spacing:6px;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan><tspan
+           id="tspan3936"
+           style="font-style:normal;letter-spacing:5px;-inkscape-font-specification:'Times New Roman,';fill:#ff0000">-</tspan><tspan
+           id="tspan3809"
+           style="letter-spacing:0px;fill:#ff0000">14</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="133.62956"
+       y="447.7941"
+       id="text3866"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3868"
+         x="133.62956"
+         y="447.7941"
+         style="letter-spacing:3px"><tspan
+           style="fill:#0000ff"
+           id="tspan3870">4</tspan><tspan
+           style="font-style:italic;letter-spacing:6px;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan3872">x</tspan><tspan
+           style="letter-spacing:6px;fill:#ff0000"
+           id="tspan3882">-</tspan><tspan
+           style="fill:#ff0000"
+           id="tspan3888">3</tspan></tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3890"
+       y="556.15625"
+       x="35.149551"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="letter-spacing:3px"
+         y="556.15625"
+         x="35.149551"
+         id="tspan3892"
+         sodipodi:role="line"><tspan
+   id="tspan3894"
+   style="letter-spacing:0px;fill:#0000ff">1<tspan
+   style="letter-spacing:2px"
+   id="tspan3928">2</tspan></tspan><tspan
+   id="tspan3896"
+   style="font-style:italic;letter-spacing:2px;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan><tspan
+   id="tspan3898"
+   style="font-size:65.00091553%;letter-spacing:6px;baseline-shift:super;fill:#000000">3</tspan><tspan
+   id="tspan3900"
+   style="letter-spacing:6px">+</tspan><tspan
+   style="letter-spacing:0px"
+   id="tspan3938">3</tspan>2<tspan
+   id="tspan3902"
+   style="font-style:italic;letter-spacing:3px;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan><tspan
+   id="tspan3904"
+   style="font-size:65.00091553%;letter-spacing:6px;baseline-shift:super">2</tspan><tspan
+   id="tspan3906"
+   style="letter-spacing:6px">+</tspan><tspan
+   id="tspan3934"
+   style="letter-spacing:0px">11</tspan><tspan
+   id="tspan3908"
+   style="font-style:italic;letter-spacing:6px;-inkscape-font-specification:'Times New Roman, Italic'">x<tspan
+   style="font-style:normal;font-weight:normal;-inkscape-font-specification:'Times New Roman,';fill:#ff0000"
+   id="tspan3940">-</tspan></tspan><tspan
+   id="tspan3912"
+   style="letter-spacing:1px;fill:#ff0000">15</tspan></tspan></text>
+    <g
+       id="g4067"
+       transform="matrix(1.3333333,0,0,1.3333333,-55.028131,-139.16571)">
+      <text
+         xml:space="preserve"
+         style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="331.06339"
+         y="429.59512"
+         id="text3942"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3944"
+           x="331.06339"
+           y="429.59512"
+           style="letter-spacing:1.91808188px"><tspan
+             style="fill:#ff0000"
+             id="tspan3952">3</tspan></tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3954"
+         d="m 328.88261,432.60212 12.55216,0"
+         style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3956"
+         y="447.49722"
+         x="330.85361"
+         style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:1.91808188px;fill:#0000ff"
+           y="447.49722"
+           x="330.85361"
+           id="tspan3958"
+           sodipodi:role="line">4<tspan
+   id="tspan3960"
+   style="fill:#0000ff" /></tspan></text>
+    </g>
+    <g
+       id="g5518"
+       transform="matrix(1.1422859,0,0,1.1422859,-66.741472,-73.619018)">
+      <g
+         transform="matrix(1.1680279,0,0,1.1680279,-29.526991,-94.200285)"
+         id="g4056">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4000"
+           y="541.59509"
+           x="331.06339"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#ff0000"
+             y="541.59509"
+             x="331.06339"
+             id="tspan4002"
+             sodipodi:role="line">5</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 328.88261,544.60212 12.55216,0"
+           id="path4006"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="330.85361"
+           y="559.49719"
+           id="text4008"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4010"
+             x="330.85361"
+             y="559.49719"
+             style="letter-spacing:1.91808188px;fill:#0000ff">3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="317.42529"
+           y="549.95313"
+           id="text4012"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4014"
+             x="317.42529"
+             y="549.95313"
+             style="letter-spacing:3px"><tspan
+               style="letter-spacing:6px"
+               id="tspan4016">-</tspan><tspan
+               style="fill:#ff0000"
+               id="tspan4018" /></tspan></text>
+      </g>
+      <g
+         transform="matrix(1.1666666,0,0,1.1666666,-15.707523,-93.176097)"
+         id="g4106">
+        <text
+           sodipodi:linespacing="125%"
+           id="text4030"
+           y="541.59509"
+           x="397.06339"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#ff0000"
+             y="541.59509"
+             x="397.06339"
+             id="tspan4032"
+             sodipodi:role="line">1</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 394.88261,544.60212 12.55216,0"
+           id="path4034"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="396.85361"
+           y="559.49719"
+           id="text4036"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4038"
+             x="396.85361"
+             y="559.49719"
+             style="letter-spacing:1.91808188px;fill:#0000ff">2</tspan></text>
+      </g>
+      <g
+         transform="matrix(1.1666666,0,0,1.1666666,-12.093322,-93.176097)"
+         id="g4076">
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="361.06339"
+           y="541.59509"
+           id="text4020"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4022"
+             x="361.06339"
+             y="541.59509"
+             style="letter-spacing:1.91808188px;fill:#ff0000">3</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path4024"
+           d="m 358.88261,544.60212 12.55216,0"
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text4026"
+           y="559.49719"
+           x="360.85361"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#0000ff"
+             y="559.49719"
+             x="360.85361"
+             id="tspan4028"
+             sodipodi:role="line">2</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4040"
+           y="549.95313"
+           x="347.42529"
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:3px"
+             y="549.95313"
+             x="347.42529"
+             id="tspan4042"
+             sodipodi:role="line"><tspan
+               id="tspan4044"
+               style="letter-spacing:6px">-</tspan><tspan
+               id="tspan4046"
+               style="fill:#ff0000" /></tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="370.11484"
+         y="547.26355"
+         id="text4048"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4050"
+           x="370.11484"
+           y="547.26355"
+           style="letter-spacing:3px">,</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4113"
+         y="547.26355"
+         x="422.11484"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:3px"
+           y="547.26355"
+           x="422.11484"
+           id="tspan4115"
+           sodipodi:role="line">,</tspan></text>
+    </g>
+    <g
+       id="g5466"
+       transform="matrix(1.1388737,0,0,1.1388737,-58.47456,-63.922414)">
+      <g
+         id="g5445">
+        <g
+           id="g4087"
+           transform="matrix(1.1680279,0,0,1.1680279,-8.5269915,-77.961492)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text3962"
+             y="479.59509"
+             x="331.06339"
+             style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+             xml:space="preserve"><tspan
+               style="letter-spacing:1.91808188px;fill:#ff0000"
+               y="479.59509"
+               x="331.06339"
+               id="tspan3964"
+               sodipodi:role="line">7<tspan
+   id="tspan3966"
+   style="fill:#ff0000" /></tspan></text>
+          <path
+             style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m 328.88261,482.60212 12.55216,0"
+             id="path3968"
+             inkscape:connector-curvature="0" />
+          <text
+             xml:space="preserve"
+             style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+             x="330.85361"
+             y="497.49719"
+             id="text3970"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan3972"
+               x="330.85361"
+               y="497.49719"
+               style="letter-spacing:1.91808188px;fill:#0000ff">5</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+             x="317.42529"
+             y="487.95313"
+             id="text3976"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan3978"
+               x="317.42529"
+               y="487.95313"
+               style="letter-spacing:3px"><tspan
+                 style="letter-spacing:6px"
+                 id="tspan3984">-</tspan><tspan
+                 style="fill:#ff0000"
+                 id="tspan3986" /></tspan></text>
+        </g>
+        <g
+           id="g4099"
+           transform="matrix(1.1585648,0,0,1.1585648,-3.8050753,-73.129219)">
+          <text
+             xml:space="preserve"
+             style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+             x="361.06339"
+             y="479.59509"
+             id="text3988"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan3990"
+               x="361.06339"
+               y="479.59509"
+               style="letter-spacing:1.91808188px;fill:#ff0000">2</tspan></text>
+          <path
+             inkscape:connector-curvature="0"
+             id="path3994"
+             d="m 358.88261,482.60212 12.55216,0"
+             style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3996"
+             y="497.49719"
+             x="360.85361"
+             style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+             xml:space="preserve"><tspan
+               style="letter-spacing:1.91808188px;fill:#0000ff"
+               y="497.49719"
+               x="360.85361"
+               id="tspan3998"
+               sodipodi:role="line">3</tspan></text>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="392.49393"
+           y="490.70712"
+           id="text4117"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4119"
+             x="392.49393"
+             y="490.70712"
+             style="letter-spacing:3px">,</tspan></text>
+      </g>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4174"
+       y="399.7941"
+       x="85.585617"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:3px;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+         y="399.7941"
+         x="85.585617"
+         id="tspan4176"
+         sodipodi:role="line">Polynomial</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="350.32373"
+       y="399.7941"
+       id="text4198"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4200"
+         x="350.32373"
+         y="399.7941"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:3px;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif">Zeros</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect4202"
+       width="447.47742"
+       height="204.28314"
+       x="21.890718"
+       y="370.66409"
+       rx="4"
+       ry="4" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4998"
+       d="m 21.434714,410.94606 447.495326,0"
+       style="fill:none;stroke:#000000;stroke-width:2.03160167px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 21.434714,463.99539 447.495326,0"
+       id="path5000"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5002"
+       d="m 21.434714,515.99539 447.495326,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.02716374px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 313.53185,369.92636 0,204.83984"
+       id="path5004"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="35.149551"
+       y="690.15625"
+       id="text5006"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_1_eq.png"
+       inkscape:export-xdpi="61.02729"
+       inkscape:export-ydpi="61.02729"><tspan
+         sodipodi:role="line"
+         id="tspan5008"
+         x="35.149551"
+         y="690.15625"
+         style="letter-spacing:3px"><tspan
+   style="letter-spacing:0px;fill:#0000ff"
+   id="tspan5010"><tspan
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic';fill:#000000;letter-spacing:2px"
+   id="tspan5110">p</tspan><tspan
+   style="fill:#000000;letter-spacing:2px"
+   id="tspan5112">(</tspan><tspan
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic';fill:#000000;letter-spacing:2px"
+   id="tspan5108">x</tspan><tspan
+   style="letter-spacing:6px;fill:#000000"
+   id="tspan5106">)=</tspan>3</tspan><tspan
+   style="font-style:italic;letter-spacing:2px;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan5014">x</tspan><tspan
+   style="font-size:65.00091553%;letter-spacing:6px;baseline-shift:super;fill:#000000"
+   id="tspan5016">3</tspan><tspan
+   style="letter-spacing:6px"
+   id="tspan5018">+</tspan>8<tspan
+   style="font-style:italic;letter-spacing:3px;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan5022">x</tspan><tspan
+   style="font-size:65.00091553%;letter-spacing:6px;baseline-shift:super"
+   id="tspan5024">2</tspan><tspan
+   style="letter-spacing:6px"
+   id="tspan5026">+</tspan><tspan
+   style="letter-spacing:0px"
+   id="tspan5028">3</tspan><tspan
+   style="font-style:italic;letter-spacing:6px;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan5030">x<tspan
+   id="tspan5032"
+   style="font-style:normal;font-weight:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'">-</tspan></tspan><tspan
+   style="letter-spacing:1px;fill:#ff0000"
+   id="tspan5034">2</tspan></tspan></text>
+    <g
+       id="g5317"
+       transform="matrix(1.509393,0,0,1.509393,125.10823,-456.73763)"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_1.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66">
+      <g
+         transform="translate(-246.89304,306.23262)"
+         id="g5194">
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="331.06339"
+           y="541.59509"
+           id="text5040"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5042"
+             x="331.06339"
+             y="541.59509"
+             style="letter-spacing:1.91808188px;fill:#ff0000">1</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path5044"
+           d="m 328.88261,544.60212 12.55216,0"
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5046"
+           y="559.49719"
+           x="330.85361"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#0000ff"
+             y="559.49719"
+             x="330.85361"
+             id="tspan5048"
+             sodipodi:role="line">1</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5050"
+           y="550.55646"
+           x="315.96002"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan5150"
+             x="315.96002"
+             y="550.55646"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif">±</tspan></text>
+      </g>
+      <g
+         transform="translate(-236.89304,306.23262)"
+         id="g5203">
+        <text
+           sodipodi:linespacing="125%"
+           id="text5152"
+           y="541.59509"
+           x="383.06339"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#ff0000"
+             y="541.59509"
+             x="383.06339"
+             id="tspan5154"
+             sodipodi:role="line">1</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 380.88261,544.60212 12.55216,0"
+           id="path5156"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="382.85361"
+           y="559.49719"
+           id="text5158"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5160"
+             x="382.85361"
+             y="559.49719"
+             style="letter-spacing:1.91808188px;fill:#0000ff">3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="367.96002"
+           y="550.55646"
+           id="text5162"
+           sodipodi:linespacing="125%"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+             y="550.55646"
+             x="367.96002"
+             id="tspan5164"
+             sodipodi:role="line">±</tspan></text>
+      </g>
+      <g
+         transform="translate(-226.89304,306.23262)"
+         id="g5212">
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="427.06339"
+           y="541.59509"
+           id="text5166"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5168"
+             x="427.06339"
+             y="541.59509"
+             style="letter-spacing:1.91808188px;fill:#ff0000">2</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path5170"
+           d="m 424.88261,544.60212 12.55216,0"
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5172"
+           y="559.49719"
+           x="426.85361"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#0000ff"
+             y="559.49719"
+             x="426.85361"
+             id="tspan5174"
+             sodipodi:role="line">1</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5176"
+           y="550.55646"
+           x="411.96002"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan5178"
+             x="411.96002"
+             y="550.55646"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif">±</tspan></text>
+      </g>
+      <g
+         transform="translate(-216.89304,306.23262)"
+         id="g5221">
+        <text
+           sodipodi:linespacing="125%"
+           id="text5180"
+           y="541.59509"
+           x="477.06339"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#ff0000"
+             y="541.59509"
+             x="477.06339"
+             id="tspan5182"
+             sodipodi:role="line">2</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 474.88261,544.60212 12.55216,0"
+           id="path5184"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="476.85361"
+           y="559.49719"
+           id="text5186"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5188"
+             x="476.85361"
+             y="559.49719"
+             style="letter-spacing:1.91808188px;fill:#0000ff">3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="461.96002"
+           y="550.55646"
+           id="text5190"
+           sodipodi:linespacing="125%"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+             y="550.55646"
+             x="461.96002"
+             id="tspan5192"
+             sodipodi:role="line">±</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5090"
+         y="854.29126"
+         x="99.019829"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:3px"
+           y="854.29126"
+           x="99.019829"
+           id="tspan5092"
+           sodipodi:role="line">,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="159.01984"
+         y="854.29126"
+         id="text5230"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5232"
+           x="159.01984"
+           y="854.29126"
+           style="letter-spacing:3px">,</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5234"
+         y="854.29126"
+         x="213.01984"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:3px"
+           y="854.29126"
+           x="213.01984"
+           id="tspan5236"
+           sodipodi:role="line">,</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="29.755249"
+       y="733.00073"
+       id="text5116"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_1_num_den.png"
+       inkscape:export-xdpi="65"
+       inkscape:export-ydpi="65"><tspan
+         sodipodi:role="line"
+         id="tspan5124"
+         x="29.755249"
+         y="733.00073"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+           id="tspan5136"><tspan
+   style="letter-spacing:2.70000005px"
+   id="tspan5552">Numerators</tspan>:</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+           id="tspan5126">  ±<tspan
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+   id="tspan5238">1</tspan>,   ±<tspan
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+   id="tspan5240">2 </tspan></tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="215.51414"
+       y="387.76089"
+       id="text5132"
+       sodipodi:linespacing="125%"
+       transform="translate(15.418913,368.91278)"><tspan
+         sodipodi:role="line"
+         id="tspan5134"></tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5138"
+       y="773.00073"
+       x="29.200562"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_1_num_den.png"
+       inkscape:export-xdpi="65"
+       inkscape:export-ydpi="65"><tspan
+         y="773.00073"
+         x="29.200562"
+         id="tspan5140"
+         sodipodi:role="line"><tspan
+           id="tspan5142"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif">Denominators:</tspan><tspan
+           id="tspan5144"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif">  ±<tspan
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+   id="tspan5242">1</tspan>,   ±<tspan
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+   id="tspan5244">3 </tspan></tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="-79.721565"
+       y="837.36377"
+       id="text5146"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_1.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66"><tspan
+         sodipodi:role="line"
+         id="tspan5148"
+         x="-79.721565"
+         y="837.36377">Possible rational zeros: </tspan></text>
+    <text
+       inkscape:export-ydpi="61.02729"
+       inkscape:export-xdpi="61.02729"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3_eq.png"
+       sodipodi:linespacing="125%"
+       id="text5384"
+       y="1036.8668"
+       x="0.71052331"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="letter-spacing:3px"
+         y="1036.8668"
+         x="0.71052331"
+         id="tspan5386"
+         sodipodi:role="line"><tspan
+           id="tspan5418"
+           style="font-style:italic;letter-spacing:2px;fill:#000000;-inkscape-font-specification:'Times New Roman, Italic'">p</tspan><tspan
+           id="tspan5420"
+           style="letter-spacing:2px;fill:#000000">(</tspan><tspan
+           id="tspan5422"
+           style="font-style:italic;letter-spacing:2px;fill:#000000;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan><tspan
+           id="tspan5388"
+           style="letter-spacing:6px;fill:#000000">)=<tspan
+   style="fill:#0000ff"
+   id="tspan5424">6</tspan></tspan><tspan
+           id="tspan5404"
+           style="font-style:italic;letter-spacing:3px;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan><tspan
+           id="tspan5406"
+           style="font-size:65.00091553%;letter-spacing:6px;baseline-shift:super">2</tspan><tspan
+           id="tspan5408"
+           style="letter-spacing:6px">+</tspan><tspan
+           id="tspan5410"
+           style="letter-spacing:0px">3</tspan><tspan
+           id="tspan5412"
+           style="font-style:italic;letter-spacing:6px;-inkscape-font-specification:'Times New Roman, Italic'">x<tspan
+   style="fill:#ff0000;font-style:normal;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan5738">-</tspan><tspan
+   style="font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan5550">5</tspan></tspan></tspan></text>
+    <image
+       y="636.92316"
+       x="-436.24789"
+       id="image5568"
+       xlink:href="data:image/png;base64,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
+ISLd/T9ZGC1PhkplLgAAAABJRU5ErkJggg==
+"
+       height="300"
+       width="286"
+       inkscape:export-filename="C:\Book Ideas\images\poly_graph_1_rational_2_integer_zeros_color.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="fill:#ffffe0;fill-opacity:1;stroke:none"
+       id="rect5571"
+       width="284.36972"
+       height="38.328979"
+       x="-435.43277"
+       y="638.45166"
+       rx="3.5860991"
+       ry="2.9645774"
+       inkscape:export-filename="C:\Book Ideas\images\poly_graph_1_rational_2_integer_zeros_color.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Book Ideas\images\poly_graph_1_rational_2_integer_zeros_color.png"
+       sodipodi:linespacing="125%"
+       id="text5573"
+       y="667.34448"
+       x="-423.896"
+       style="font-size:26.99009323px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         style="letter-spacing:2.89179564px"
+         y="667.34448"
+         x="-423.896"
+         id="tspan5575"
+         sodipodi:role="line"><tspan
+   id="tspan5577"
+   style="letter-spacing:0px;fill:#0000ff"><tspan
+   id="tspan5579"
+   style="font-style:italic;letter-spacing:1.92786384px;fill:#000000;-inkscape-font-specification:'Times New Roman, Italic'">p</tspan><tspan
+   id="tspan5581"
+   style="letter-spacing:1.92786384px;fill:#000000">(</tspan><tspan
+   id="tspan5583"
+   style="font-style:italic;letter-spacing:1.92786384px;fill:#000000;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan><tspan
+   id="tspan5585"
+   style="letter-spacing:5.78359127px;fill:#000000">)=</tspan>3</tspan><tspan
+   id="tspan5587"
+   style="font-style:italic;letter-spacing:1.92786384px;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan><tspan
+   id="tspan5589"
+   style="font-size:17.54380798px;letter-spacing:5.78359127px;baseline-shift:super;fill:#000000">3</tspan><tspan
+   id="tspan5591"
+   style="letter-spacing:5.78359127px">+</tspan>8<tspan
+   id="tspan5593"
+   style="font-style:italic;letter-spacing:2.89179564px;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan><tspan
+   id="tspan5595"
+   style="font-size:17.54380798px;letter-spacing:5.78359127px;baseline-shift:super">2</tspan><tspan
+   id="tspan5597"
+   style="letter-spacing:5.78359127px">+</tspan><tspan
+   id="tspan5599"
+   style="letter-spacing:0px">3</tspan><tspan
+   id="tspan5601"
+   style="font-style:italic;letter-spacing:5.78359127px;-inkscape-font-specification:'Times New Roman, Italic'">x<tspan
+   style="font-style:normal;font-weight:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan5603">-</tspan></tspan><tspan
+   id="tspan5605"
+   style="letter-spacing:0.96393192px;fill:#ff0000">2</tspan></tspan></text>
+    <image
+       y="1039.4883"
+       x="-443.46533"
+       id="image5709"
+       xlink:href="data:image/png;base64,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
+"
+       height="300"
+       width="287"
+       inkscape:export-filename="poly_graph_2_rational_zeros_color.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="751.53278"
+       y="694.72003"
+       id="text5712"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_2_eq.png"
+       inkscape:export-xdpi="61.02729"
+       inkscape:export-ydpi="61.02729"><tspan
+         sodipodi:role="line"
+         id="tspan5714"
+         x="751.53278"
+         y="694.72003"
+         style="letter-spacing:3px"><tspan
+           style="font-style:italic;letter-spacing:2px;fill:#000000;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan5716">p</tspan><tspan
+           style="letter-spacing:2px;fill:#000000"
+           id="tspan5718">(</tspan><tspan
+           style="font-style:italic;letter-spacing:2px;fill:#000000;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan5720">x</tspan><tspan
+           style="letter-spacing:6px;fill:#000000"
+           id="tspan5722">)=<tspan
+   id="tspan5724"
+   style="fill:#0000ff">5</tspan></tspan><tspan
+           style="font-style:italic;letter-spacing:3px;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan5726">x</tspan><tspan
+           style="font-size:65.00091553%;letter-spacing:6px;baseline-shift:super"
+           id="tspan5728">2</tspan><tspan
+           style="letter-spacing:6px"
+           id="tspan5730">+</tspan><tspan
+           style="letter-spacing:0px"
+           id="tspan5732">3</tspan><tspan
+           style="font-style:italic;letter-spacing:6px;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan5734">x+<tspan
+   id="tspan5736"
+   style="font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'">6</tspan></tspan></tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Book Ideas\images\poly_graph_1_rational_2_integer_zeros_color.png"
+       ry="2.9645774"
+       rx="3.5860991"
+       y="1039.5741"
+       x="-442.15021"
+       height="38.328979"
+       width="284.36972"
+       id="rect5761"
+       style="fill:#ffffe0;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="-404.00073"
+       y="1067.4941"
+       id="text5797"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_2_eq.png"
+       inkscape:export-xdpi="61.02729"
+       inkscape:export-ydpi="61.02729"><tspan
+         sodipodi:role="line"
+         id="tspan5799"
+         x="-404.00073"
+         y="1067.4941"
+         style="letter-spacing:3px"><tspan
+           style="font-style:italic;letter-spacing:2px;fill:#000000;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan5801">p</tspan><tspan
+           style="letter-spacing:2px;fill:#000000"
+           id="tspan5803">(</tspan><tspan
+           style="font-style:italic;letter-spacing:2px;fill:#000000;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan5805">x</tspan><tspan
+           style="letter-spacing:6px;fill:#000000"
+           id="tspan5807">)=<tspan
+   id="tspan5809"
+   style="fill:#0000ff">6</tspan></tspan><tspan
+           style="font-style:italic;letter-spacing:3px;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan5811">x</tspan><tspan
+           style="font-size:65.00091553%;letter-spacing:6px;baseline-shift:super"
+           id="tspan5813">2</tspan><tspan
+           style="letter-spacing:6px"
+           id="tspan5815">+</tspan><tspan
+           style="letter-spacing:0px"
+           id="tspan5817">3</tspan><tspan
+           style="font-style:italic;letter-spacing:6px;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan5819">x<tspan
+   id="tspan5821"
+   style="font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'">-</tspan><tspan
+   id="tspan5823"
+   style="font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'">5</tspan></tspan></tspan></text>
+    <g
+       transform="matrix(1.509393,0,0,1.509393,125.10823,-36.73763)"
+       id="g6061"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66">
+      <g
+         id="g5827"
+         transform="translate(-246.89304,306.23262)">
+        <text
+           sodipodi:linespacing="125%"
+           id="text5829"
+           y="541.59509"
+           x="331.06339"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#ff0000"
+             y="541.59509"
+             x="331.06339"
+             id="tspan5831"
+             sodipodi:role="line">1</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 328.88261,544.60212 12.55216,0"
+           id="path5833"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="330.85361"
+           y="559.49719"
+           id="text5835"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5837"
+             x="330.85361"
+             y="559.49719"
+             style="letter-spacing:1.91808188px;fill:#0000ff">1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="315.96002"
+           y="550.55646"
+           id="text5839"
+           sodipodi:linespacing="125%"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+             y="550.55646"
+             x="315.96002"
+             id="tspan5841"
+             sodipodi:role="line">±</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="99.019829"
+         y="854.29126"
+         id="text5891"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5893"
+           x="99.019829"
+           y="854.29126"
+           style="letter-spacing:3px">,</tspan></text>
+    </g>
+    <g
+       transform="matrix(1.509393,0,0,1.509393,119.98292,-36.73763)"
+       id="g6049"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66">
+      <g
+         id="g5843"
+         transform="translate(-239.54312,306.23262)">
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="383.06339"
+           y="541.59509"
+           id="text5845"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5847"
+             x="383.06339"
+             y="541.59509"
+             style="letter-spacing:1.91808188px;fill:#ff0000">1</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path5849"
+           d="m 380.88261,544.60212 12.55216,0"
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5851"
+           y="559.49719"
+           x="382.85361"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#0000ff"
+             y="559.49719"
+             x="382.85361"
+             id="tspan5853"
+             sodipodi:role="line">2</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5855"
+           y="550.55646"
+           x="367.96002"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan5857"
+             x="367.96002"
+             y="550.55646"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif">±</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5895"
+         y="854.29126"
+         x="156.36975"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:3px"
+           y="854.29126"
+           x="156.36975"
+           id="tspan5897"
+           sodipodi:role="line">,</tspan></text>
+    </g>
+    <g
+       transform="matrix(1.509393,0,0,1.509393,115.91394,-36.73763)"
+       id="g6087"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66">
+      <text
+         xml:space="preserve"
+         style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="200.17035"
+         y="847.8277"
+         id="text5861"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5863"
+           x="200.17035"
+           y="847.8277"
+           style="letter-spacing:1.91808188px;fill:#ff0000">1</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path5865"
+         d="m 197.98957,850.83474 12.55216,0"
+         style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text5867"
+         y="865.7298"
+         x="199.96057"
+         style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:1.91808188px;fill:#0000ff"
+           y="865.7298"
+           x="199.96057"
+           id="tspan5869"
+           sodipodi:role="line">3</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5871"
+         y="856.78906"
+         x="185.06699"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           sodipodi:role="line"
+           id="tspan5873"
+           x="185.06699"
+           y="856.78906"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif">±</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="213.01984"
+         y="854.29126"
+         id="text5899"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5901"
+           x="213.01984"
+           y="854.29126"
+           style="letter-spacing:3px">,</tspan></text>
+    </g>
+    <g
+       transform="matrix(1.509393,0,0,1.509393,112.29707,-36.73763)"
+       id="g6110"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66">
+      <g
+         transform="translate(-72.588164,306.23262)"
+         id="g5949">
+        <text
+           sodipodi:linespacing="125%"
+           id="text5951"
+           y="541.59509"
+           x="383.06339"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#ff0000"
+             y="541.59509"
+             x="383.06339"
+             id="tspan5953"
+             sodipodi:role="line">5</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 380.88261,544.60212 12.55216,0"
+           id="path5955"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="382.85361"
+           y="559.49719"
+           id="text5957"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5959"
+             x="382.85361"
+             y="559.49719"
+             style="letter-spacing:1.91808188px;fill:#0000ff">1</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="367.96002"
+           y="550.55646"
+           id="text5961"
+           sodipodi:linespacing="125%"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+             y="550.55646"
+             x="367.96002"
+             id="tspan5963"
+             sodipodi:role="line">±</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="323.32513"
+         y="854.29126"
+         id="text5983"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5985"
+           x="323.32513"
+           y="854.29126"
+           style="letter-spacing:3px">,</tspan></text>
+    </g>
+    <text
+       inkscape:export-ydpi="66"
+       inkscape:export-xdpi="66"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3_num_den.png"
+       sodipodi:linespacing="125%"
+       id="text5903"
+       y="1153.0007"
+       x="29.755249"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       xml:space="preserve"><tspan
+         y="1153.0007"
+         x="29.755249"
+         id="tspan5905"
+         sodipodi:role="line"><tspan
+           id="tspan5907"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"><tspan
+   id="tspan5909"
+   style="letter-spacing:2.70000005px">Numerators</tspan>:</tspan><tspan
+           id="tspan5911"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff0000;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif">  ±<tspan
+   id="tspan5913"
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman">1</tspan>,   ±5 <tspan
+   id="tspan5915"
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman" /></tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="66"
+       inkscape:export-xdpi="66"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3_num_den.png"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="29.200562"
+       y="1193.0007"
+       id="text5917"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5919"
+         x="29.200562"
+         y="1193.0007"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+           id="tspan5921">Denominators:</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#0000ff;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+           id="tspan5923">  ±<tspan
+   id="tspan5925"
+   style="font-family:Times New Roman;-inkscape-font-specification:Times New Roman">1</tspan>,   ±2 ,   ±3 ,   ±6</tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="66"
+       inkscape:export-xdpi="66"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3.png"
+       sodipodi:linespacing="125%"
+       id="text5929"
+       y="1257.3638"
+       x="-79.721565"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"><tspan
+         y="1257.3638"
+         x="-79.721565"
+         id="tspan5931"
+         sodipodi:role="line">Possible rational zeros: </tspan></text>
+    <g
+       id="g6229"
+       transform="matrix(1.509393,0,0,1.509393,193.736,-36.73763)"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66">
+      <g
+         id="g6231"
+         transform="translate(-72.588164,306.23262)">
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="383.06339"
+           y="541.59509"
+           id="text6233"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6235"
+             x="383.06339"
+             y="541.59509"
+             style="letter-spacing:1.91808188px;fill:#ff0000">5</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path6237"
+           d="m 380.88261,544.60212 12.55216,0"
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text6239"
+           y="559.49719"
+           x="382.85361"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#0000ff"
+             y="559.49719"
+             x="382.85361"
+             id="tspan6241"
+             sodipodi:role="line">2</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6243"
+           y="550.55646"
+           x="367.96002"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             sodipodi:role="line"
+             id="tspan6245"
+             x="367.96002"
+             y="550.55646"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif">±</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6247"
+         y="854.29126"
+         x="323.32513"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:3px"
+           y="854.29126"
+           x="323.32513"
+           id="tspan6249"
+           sodipodi:role="line">,</tspan></text>
+    </g>
+    <g
+       transform="matrix(1.509393,0,0,1.509393,275.10815,-36.73763)"
+       id="g6251"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66">
+      <text
+         sodipodi:linespacing="125%"
+         id="text6253"
+         y="847.8277"
+         x="364.47385"
+         style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="letter-spacing:1.91808188px;fill:#ff0000"
+           y="847.8277"
+           x="364.47385"
+           id="tspan6255"
+           sodipodi:role="line">5</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 362.29453,850.83474 12.55216,0"
+         id="path6257"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="364.26407"
+         y="865.7298"
+         id="text6259"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6261"
+           x="364.26407"
+           y="865.7298"
+           style="letter-spacing:1.91808188px;fill:#0000ff">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="349.37082"
+         y="856.78906"
+         id="text6263"
+         sodipodi:linespacing="125%"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+           y="856.78906"
+           x="349.37082"
+           id="tspan6265"
+           sodipodi:role="line">±</tspan></text>
+    </g>
+    <g
+       transform="matrix(1.509393,0,0,1.509393,275.1749,-36.73763)"
+       id="g6267"
+       inkscape:export-filename="C:\Book Ideas\images\rational_zeros_3.png"
+       inkscape:export-xdpi="66"
+       inkscape:export-ydpi="66">
+      <g
+         transform="translate(-72.588164,306.23262)"
+         id="g6269">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6271"
+           y="541.59509"
+           x="383.06339"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           xml:space="preserve"><tspan
+             style="letter-spacing:1.91808188px;fill:#ff0000"
+             y="541.59509"
+             x="383.06339"
+             id="tspan6273"
+             sodipodi:role="line">5</tspan></text>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:1.27465475px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 380.88261,544.60212 12.55216,0"
+           id="path6275"
+           inkscape:connector-curvature="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:17.9020977px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="382.85361"
+           y="559.49719"
+           id="text6277"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan6279"
+             x="382.85361"
+             y="559.49719"
+             style="letter-spacing:1.91808188px;fill:#0000ff">3</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           x="367.96002"
+           y="550.55646"
+           id="text6281"
+           sodipodi:linespacing="125%"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Microsoft Sans Serif;-inkscape-font-specification:Microsoft Sans Serif"
+             y="550.55646"
+             x="367.96002"
+             id="tspan6283"
+             sodipodi:role="line">±</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         x="323.32513"
+         y="854.29126"
+         id="text6285"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan6287"
+           x="323.32513"
+           y="854.29126"
+           style="letter-spacing:3px">,</tspan></text>
+    </g>
+  </g>
+</svg>

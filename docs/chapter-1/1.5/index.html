@@ -1,0 +1,617 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		1.5 Inverse Functions &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#inverse-operations">Inverse Operations</a></li>
+    <li><a href="#definition-of-an-inverse-function">Definition of an Inverse Function</a></li>
+    <li><a href="#identify-invertible-functions">Identify Invertible Functions</a></li>
+    <li><a href="#the-horizontal-line-test">The Horizontal Line Test</a></li>
+    <li><a href="#use-tables-or-diagrams-to-find-inverses">Use Tables or Diagrams to Find Inverses</a></li>
+    <li><a href="#graph-the-inverse-of-a-function">Graph the Inverse of a Function</a></li>
+    <li><a href="#inverses-of-basic-functions">Inverses of Basic Functions</a>
+      <ul>
+        <li><a href="#cube--cube-root">Cube &amp; Cube Root</a></li>
+        <li><a href="#square--square-root">Square &amp; Square Root</a></li>
+      </ul>
+    </li>
+    <li><a href="#use-the-shoes-and-socks-method-to-find-inverses">Use the Shoes and Socks Method to Find Inverses</a></li>
+    <li><a href="#interpreting-inverse-functions">Interpreting Inverse Functions</a></li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>1.5 Inverse Functions</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-1/Tahiti.jpg"  title="Bora Bora, Tahiti photo by Julius Silver on Pexels"  alt="Bora Bora, Tahiti photo by Julius Silver on Pexels" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://www.pexels.com/photo/cottages-in-the-middle-of-beach-753626/">Bora Bora, Tahiti photo by Julius Silver on Pexels</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>Imagine that you flew to Tahiti for a vacation.  After spending some time enjoying the white sandy beaches and crystal clear water, you <em>might</em> want to return home.  To get back home you would need to find a return flight.</p>
+<p>In mathematics, a process that brings you back to where you started is called an <strong>inverse</strong>.</p>
+<p>In this section you will learn to recognize when a function has an inverse and how to find it.</p>
+<h2 id="inverse-operations">Inverse Operations</h2>
+<p>Many real life processes have inverses while others do not.  For instance, if you put on your shoes and socks you can easily take them off, but once you boil an egg there's no way to make it raw again.</p>
+<p>You are, no doubt, already familiar with some <strong>inverse operations</strong> in mathematics.  Adding and subtracting are inverse operations, for instance.  If you add $6$, and then subtract $6$, you end up right back where you started, having completed a round trip.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_add_6.svg#center" alt=""></p>
+<p>Multiplication and division are also inverse operations.  As an example, multiplying by $-3$ and dividing by $-3$ are inverse operations.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_multiply_neg_3.svg#center" alt=""></p>
+<p>The only exception is $0$.  Multiplying by $0$ cannot be undone with division, since division by $0$ is not well defined.</p>
+<p>There are other operations that sometimes have inverses and sometimes do not.  Powers and roots are prime examples. When working with positive numbers, powers and roots are always inverses.  Here are a few powers of $2$ and the corresponding roots, for instance.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_square_2.svg#center" alt=""></p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_cube_2.svg#center" alt=""></p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_4th_power_2.svg#center" alt=""></p>
+<p>It gets more complicated when working with negative numbers, however.  Consider the following powers and roots of $ -5$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_square_neg_5.svg#center" alt=""></p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_cube_neg_5.svg#center" alt=""></p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_4th_power_neg_5.svg#center" alt=""></p>
+<p>This time, taking an even power followed by an even root did not produce a round trip.  This indicates that even powers and roots are not always inverse operations.  Even powers and roots are inverses only when working with non-negative numbers.</p>
+<p>The following table summarizes the basic inverse operations.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_operations.svg#center" alt=""></p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>What is the inverse of multiplying by $-4$?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Dividing by $-4$.</details></p>
+</li>
+<li>
+<p>What is the inverse of a power of $3$?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The 3rd root $\sqrt[3]{\thinspace \cdot \thinspace}$, which is also the $\frac{1}{3}$ power.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="definition-of-an-inverse-function">Definition of an Inverse Function</h2>
+<p>If a function has an inverse, then the inverse function should return each output back to its input, just like a return airline flight.  <div class="alert alert-info"></p>
+  <h4>DEFINITION</h4>
+   The <strong>inverse</strong> of a function $f$ is a function $f^{-1}$ with the property that whenever $f(a)=b$, it always follows that $f^{-1}(b)=a$.
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_function_diagram.svg#center" alt=""></p>
+</div>
+<p>Note that the outputs of the original function become the inputs of the inverse function.  As a consequence, the domain of $f$ is the range of $f^{-1}$, and the range of $f$ is the domain of $f^{-1}$.</p>
+<p>This new notation can be a bit confusing.  The symbol $f^{-1}$ is used to indicate the &quot;inverse of $f $ &quot;.  Even though the $-1$ looks like an exponent it is not:  $f^{-1}$ does <strong>not</strong> mean $\frac{1}{f}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Suppose the function $f$ has an inverse and that $f(3)=6$. What do you know about $f^{-1}(6)$?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f^{-1}(6)=3$</details></p>
+</li>
+<li>
+<p>Suppose the domain of $f$ is $D= \lbrace 1, 2, 3, 4 \rbrace$ and that its range is $R= \lbrace 5, 6, 7, 8 \rbrace$.  What are the domain and range of $f^{-1}$?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The domain and range trade places.  The domain of the inverse function is the set $D = \lbrace 5, 6, 7, 8 \rbrace$ and its range is $R = \lbrace 1, 2, 3, 4 \rbrace$.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="identify-invertible-functions">Identify Invertible Functions</h2>
+<p>Let's look at two functions defined by diagrams and see if they have inverse functions.</p>
+<p>This first function matches Josie, Ahani, and Mary with their favorite fruit.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/arrow_diagram_e.svg#center" alt=""></p>
+<p>Notice that it is easy to match each fruit back to the person who likes it by reversing the diagram for $f$.  This means that $f$ has an inverse function.</p>
+<p>The situation is different with the second function which pairs the same people with their Italian dream car.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/arrow_diagram_f.svg#center" alt=""></p>
+<p>Since both Josie and Ahani prefer Ferrari, we are unable to map Ferrari back to a single person.  Thus, according to our definition, $g$ does not have an inverse.</p>
+<p>These examples illustrate the general situation.  Functions only have inverses if each output comes from just one input.  In other words, different inputs always generate different outputs.  The only way for $f(x_1) = f(x_2)$ is for $x_1 = x_2$.  Functions with this property are called <strong>one-to-one</strong> functions.  Only one-to-one functions have inverses.</p>
+<p>When a function is defined by a diagram, you can determine if it is one-to-one by inspecting each input-output pair.  If two or more different inputs are paired with the same output, then the function is not one-to-one and does not have an inverse.  This technique can also be used when the function is defined by a table or a list of points.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Does this diagram represent a function that is one-to-one?
+<img src="https://duragauge.github.io/img/chapter-1/arrow_diagram_b.svg#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, it is one-to-one.  Each output is created by a different input.</details></p>
+</li>
+<li>
+<p>Does this diagram represent a function that is one-to-one?
+<img src="https://duragauge.github.io/img/chapter-1/arrow_diagram_d.svg#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, it is not one-to-one since salad was chosen by Ann and Chris.</details></p>
+</li>
+<li>
+<p>Is the function in this table one-to-one?
+<img src="https://duragauge.github.io/img/chapter-1/function_table_b.svg#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, it is not one-to-one.  Several outputs are created by more than one input.  For instance, $2$ and $3$ both create the same output of $6$.</details></p>
+</li>
+<li>
+<p>Are these ordered pairs a one-to-one function?
+[
+f(x) = \left\lbrace \thinspace (\color{red}{2}, \color{blue}{3}), \thinspace(\color{red}{5}, \color{blue}{1}), \thinspace(\color{red}{0}, \color{blue}{-9}) \thinspace \right\rbrace
+] <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, this is one-to-one.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="the-horizontal-line-test">The Horizontal Line Test</h2>
+<p>Since different inputs to a one-to-one function always create different outputs, no two points on the graph of a one-to-one function can have the same y-coordinate.</p>
+<p>A quick way to test this is to draw (or imagine drawing) several horizontal lines through the graph.  If the function is one-to-one, then no horizontal line will cross the graph more than once.  This test is called the <strong>horizontal line test</strong> and works exactly like the vertical line test, except in the horizontal direction.
+<label for="sn-HLT" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-HLT" class="margin-toggle" />
+<span class="sidenote">One-to-one <em>functions</em> must pass both the vertical line test (to be a function) and the horizontal line test (so that it is one-to-one).</span></p>
+<p>In each of the figures below there is a <strong><font color="blue">blue</font></strong> horizontal line.  Apply the horizontal line test to each function by moving the horizontal line up and down graph.</p>
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/GlrFXVKI/width/250/height/340/border/fafafa/rc/false/ai/false/sdz/false/smb/false/stb/false/stbh/false/ld/false/sri/false/at/auto" width="250px" height="340px" style="border:0px;"></iframe>
+<iframe scrolling="no" src="https://geogebra.org/material/iframe/id/AKIuJidM/width/250/height/340/border/fafafa/rc/false/ai/false/sdz/false/smb/false/stb/false/stbh/false/ld/false/sri/false/at/auto" width="250px" height="340px" style="border:0px;"></iframe>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Is this function one-to-one?
+<img src="https://duragauge.github.io/img/chapter-1/HLT_a1.svg#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, it does not pass the horizontal line test, so it is not one-to-one.
+<img src="https://duragauge.github.io/img/chapter-1/HLT_a.svg#center" alt=""></details></p>
+</li>
+<li>
+<p>Does this function have an inverse?
+<img src="https://duragauge.github.io/img/chapter-1/HLT_c1.svg#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, this passes the horizontal line test, so is one-to-one and must have an inverse.<img src="https://duragauge.github.io/img/chapter-1/HLT_c.svg#center" alt=""></details></p>
+</li>
+</ol>
+</div>
+<h2 id="use-tables-or-diagrams-to-find-inverses">Use Tables or Diagrams to Find Inverses</h2>
+<p>Consider again the function that matched Jill, Alicia and Mary with their favorite fruit.  Since it is a one-to-one function, it must have an inverse function.  We can construct the inverse function $f^{-1}$ by reversing the diagram for $f$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/arrow_diagram_e.svg#center" alt=""></p>
+<p><img src="https://duragauge.github.io/img/chapter-1/arrow_diagram_e_inverse.svg#center" alt=""></p>
+<p>In general, if a one-to-one function $f$ is defined by a diagram, a table or a list of ordered pairs, then the inverse function $f^{-1}$ is formed by reversing all the ordered pairs.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Find of the inverses of following one-to-one functions.</p>
+<ol>
+<li>
+<p>Find the inverse of the one-to-one function given in this diagram.
+<img src="https://duragauge.github.io/img/chapter-1/arrow_diagram_b_plain.svg#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-1/arrow_diagram_b_inverse_plain.svg#center" alt=""></details></p>
+</li>
+<li>
+<p>Find the inverse of the function in given by this table.
+<img src="https://duragauge.github.io/img/chapter-1/function_table_a.svg#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-1/function_table_a_inverse.svg#center" alt=""></details></p>
+</li>
+<li>
+<p>Find the inverse of the function below.
+[
+f(x) = \left\lbrace \thinspace (\color{red}{2}, \color{blue}{3}), \thinspace(\color{red}{5}, \color{blue}{1}), \thinspace(\color{red}{0}, \color{blue}{-9}) \thinspace \right\rbrace
+] <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[
+f^{-1}(x) = \left\lbrace \thinspace (\color{blue}{3},\color{red}{2}), \thinspace(\color{blue}{1},\color{red}{5}), \thinspace(\color{blue}{-9},\color{red}{0}) \thinspace \right\rbrace
+]</details></p>
+</li>
+</ol>
+</div>
+<h2 id="graph-the-inverse-of-a-function">Graph the Inverse of a Function</h2>
+<p>This idea of reversing the ordered pairs to find the inverse can be used to graph inverse functions, even if we don't know their equations.  We can do this by identifying a point $(\color{red}{x}, \color{blue}{y})$ on the graph of $f$ and reversing the coordinates.  The new point $(\color{blue}{y}, \color{red}{x})$ will be on the graph of $f^{-1}$.</p>
+<p>Use the interactive figure below to explore this relationship.  As you move the blue point $\color{blue}{(x, y)}$ on $f$ the inverse point $\color{black}{(y, x)}$ on $f^{-1}$ will be plotted.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/ahZnh6T9/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/ahZnh6T9"><img src="https://www.geogebra.org/resource/ahZnh6T9/2FNukWMoESxNIawO/material-ahZnh6T9.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/ahZnh6T9"><a href="https://www.geogebra.org/m/ahZnh6T9">https://www.geogebra.org/m/ahZnh6T9</a></a></p>
+</div>
+<p>As you might have noticed, reversing the ordered pairs has the same effect as reflecting the graph across the line $y=x$.  In fact, a quick way to graph an inverse by hand is to locate a few points on the graph of $f$ and reflect them.</p>
+<h2 id="inverses-of-basic-functions">Inverses of Basic Functions</h2>
+<p>When a function is defined by a single operation, finding the inverse is as simple as finding the inverse operation, if it exists.  This is the case with several of our six basic functions.</p>
+<h3 id="cube--cube-root">Cube &amp; Cube Root</h3>
+<p>For instance, since the cube and cube root are opposite operations, the cube and cube root functions are inverses of each other.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/library_cube.svg#center" alt=""> <img src="https://duragauge.github.io/img/chapter-1/library_cube_root.svg#center" alt=""></p>
+<p>Notice that both functions pass the horizontal line test.</p>
+<h3 id="square--square-root">Square &amp; Square Root</h3>
+<p>The square function, on the other hand, does not pass the horizontal line test, so it cannot have an inverse.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/library_square.svg#center" alt=""></p>
+<p>At the same time, it certainly would be useful to think of the square and square root functions as inverses.  Perhaps there is a way to work around this?</p>
+<p>The solution is to remember that the square and square root are inverse operations only when working with non-negative numbers.  If we restrict the domain and only work with $f(x)=x^{2}$ when $x \geq 0$, then we will have a pair of inverse functions.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/library_square_restricted.svg#center" alt=""> <img src="https://duragauge.github.io/img/chapter-1/library_square_root.svg#center" alt=""></p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>What is the inverse of the identity function $f(x)=x$?
+<img src="https://duragauge.github.io/img/chapter-1/library_identity.svg#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The identity function does not perform an operation, the output is exactly the same as the input.  As a result, the identity function is its own inverse, $f^{-1}(x)=f(x)=x$.</details></p>
+</li>
+<li>
+<p>What is the inverse of the reciprocal function$f(x)=\frac{1}{x}$?
+<img src="https://duragauge.github.io/img/chapter-1/library_reciprocal.svg#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Since the opposite of a reciprocal is a reciprocal, the reciprocal function is also its own inverse: $f^{-1}(x)=f(x)=\frac{1}{x}$.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="use-the-shoes-and-socks-method-to-find-inverses">Use the Shoes and Socks Method to Find Inverses</h2>
+<p>You have learned that if a one-to-one function is defined by a diagram, table, or graph, then its inverse can be found by reversing the ordered pairs.  If the function is defined by a single operation, then the inverse is the function that performs the opposite operation.</p>
+<p>When functions include several operations there are two methods for finding the inverse, if it exists.  In <a href="https://duragauge.github.io/chapter-4/4.4#learn-the-switch-and-solve-method">Chapter 4</a> you will learn a <strong>switch and solve</strong> method based on the idea of reversing the ordered pairs of a function.</p>
+<p>Right now, however, the focus is on a simpler <strong>socks and shoes</strong> method.  This method gets its name from the obvious place.  When getting dressed you put on your socks before putting on your shoes.  To take them off you must reverse the order:  first remove your shoes and then take off your socks.</p>
+<p>A great illustration of this method comes from the classic television program <em>Mr. Rogers' Neighborhood</em>.
+<label for="mn-" class="margin-toggle">⊕
+</label>
+<input type="checkbox" id="mn-" class="margin-toggle" />
+<span class="marginnote"><img src="https://duragauge.github.io/img/chapter-1/Mr-Rogers-stamp.jpg" alt=""> The U.S. Postal Service honored Fred Rogers (1928–2003) with a Forever stamp on the 50th anniversary of <em>Mister Rogers' Neighborhood</em> in March, 2018.</span>
+At the start of each episode, the late Fred Rogers would walk in singing the song &quot;Won't You Be My Neighbor?&quot;  As he sang he would</p>
+<ol>
+<li>Take off his jacket</li>
+<li>Put on a sweater</li>
+<li>Take off his shoes</li>
+<li>Put on sneakers</li>
+</ol>
+<p>At the end of each episode he would invert the process and</p>
+<ol>
+<li>Take off the sneakers</li>
+<li>Put on his shoes</li>
+<li>Take off the sweater</li>
+<li>Put on his jacket</li>
+</ol>
+<p>Notice that the two lists contain the inverse actions <em>in the reverse order</em>.  That is the key!  If we can identify the order in which a function performs its operations, we should be able to construct its inverse by doing the inverse operations in the reverse order.</p>
+<p>As an example, consider the function $f(x)=3x-2$.  Following the standard order of operations, this function first multiplies each input by $3$ and then subtracts $2$.</p>
+<p>The inverse function must do the inverse operations in the reverse order: add $2$ and then divide by $3$.</p>
+<p>Now that we have identified the operations that the inverse should do, we construct the equation for $f^{-1}$ by applying each of those operations, in the order listed, to a variable.  The steps are as follows:</p>
+<table>
+<thead>
+<tr>
+<th>1.</th>
+<th>Start with a variable</th>
+<th>$x$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.</td>
+<td>Add $2$</td>
+<td>[x+2]</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Divide by $3$</td>
+<td>[\frac{x+2}{3}]</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Write as a function</td>
+<td>[f^{-1}(x)=\frac{x+2}{3}]</td>
+</tr>
+</tbody>
+</table>
+<p>We should also check that $f$ and $f^{-1}$ have the round trip property we have seen earlier.  To do this pick any random number, see where $f$ takes that number, and then check to see if $f^{-1}$ will bring it back.  For instance, if $x=7$ then $f(\color{red}{7})=\color{blue}{19}$ and $f^{-1}(\color{blue}{19})=\color{red}{7}$</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_equation_a.svg#center" alt=""></p>
+<p>so the round trip property appears to hold.  It would be good to test this with a few more random values just to make sure.  In <a href="https://duragauge.github.io/chapter-4/4.4#verify-inverse-functions">Chapter 4</a> we will discuss a way to formally verify that it works for any number.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Find the inverse of the function $f(x)=\frac{x+1}{4}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The function adds $1$ and then divides by $4$, so the inverse must first multiply by $4$ and then subtract $1$.  The equation would be $f^{-1}(x)=4x-1$.</details></div>
+<p>Now let's use the shoes-and-socks method to find the inverse of $f(x) = 2x^3 + 4$.  We begin by identifying the operations performed by the function, and then invert the list to find the operations of the inverse function.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Operations Performed by the Function</strong></th>
+<th></th>
+<th><strong>Operations Performed by the Inverse</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Cube</td>
+<td>1.</td>
+<td>Subtract $4$</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Multiply by $2$</td>
+<td>2.</td>
+<td>Divide by $2$</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Add $4$</td>
+<td>3.</td>
+<td>Cube root</td>
+</tr>
+</tbody>
+</table>
+<p>Now that we know what the inverse function does, we construct its equation as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Start with a variable:</th>
+<th>$x$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Subtract $4$:</td>
+<td>[x-4]</td>
+</tr>
+<tr>
+<td>Divide by $2$:</td>
+<td>[\frac{x-4}{2}]</td>
+</tr>
+<tr>
+<td>Cube root:</td>
+<td>$$\sqrt[3]{\frac{x-4}{2}}$$</td>
+</tr>
+<tr>
+<td>Write as a function:</td>
+<td>$$f^{-1}(x)=\sqrt[3]{\frac{x-4}{2}}$$</td>
+</tr>
+</tbody>
+</table>
+<p>It's also a good idea to check the round trip property with at least one value, let's see what happens when $x=2$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_equation_b.svg#center" alt=""></p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Find the inverse of the function $f(x)=\sqrt[5]{6x+1}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[f^{-1}(x)=\frac{x^5-1}{6}]</details></div>
+<p>Let's look at one last example of the shoes-socks method and find the inverse of $f(x) = (x+1)^2$.  We'll list the operations performed by the function and then list what the inverse function should do, just as we have done earlier.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Operations Performed by the Function</strong></th>
+<th></th>
+<th><strong>Operations Performed by the Inverse</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Add $1$</td>
+<td>1.</td>
+<td>Square root</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Square</td>
+<td>2.</td>
+<td>Subtract $1$</td>
+</tr>
+</tbody>
+</table>
+<p>Then we write the equation for $f^{-1}$.</p>
+<table>
+<thead>
+<tr>
+<th>Start with a variable:</th>
+<th>$x$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Apply square root:</td>
+<td>[\sqrt{x}]</td>
+</tr>
+<tr>
+<td>Subtract $1$:</td>
+<td>[\sqrt{x}-1]</td>
+</tr>
+<tr>
+<td>Write as a function:</td>
+<td>[f^{-1}(x)=\sqrt{x}-1]</td>
+</tr>
+</tbody>
+</table>
+<p>But when we check the round trip property we see that some values, such as $x=-5$, don't work.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/inverse_equation_c.svg#center" alt=""></p>
+<p>This is because we have made a critical oversight.  A <a href="https://duragauge.github.io/img/chapter-1/graph_(x+1)2.png">graph</a> of $f(x) = (x+1)^2$ shows that it is <em>not</em> a one-to-one function, so it cannot have an inverse unless we <strong>restrict the domain</strong>.  To do this we require the input of the square to be greater than or equal to zero.  In this case, we need $x+1 \geq 0$, which is the same thing as saying $x \geq -1$.  Only when we restrict domain of $f(x)=(x+1)^2$ to $x \geq -1$ will the two functions will be inverses.  We will have to keep an eye out for this any time a function, or its potential inverse, includes an even power.</p>
+<h2 id="interpreting-inverse-functions">Interpreting Inverse Functions</h2>
+<p>Earlier in this section we found that the domain and range of $f$ become the range and domain, respectively, of the inverse function $f^{-1}$.  Not only do the domain and range trade places, but their units of measure do as well.  Keeping track of those units makes it much easier to understand the significance of an inverse function.</p>
+<p>For instance, the amount of time $T$ that it takes you to drive to work in minutes is a function of how fast you drive in miles per hour.  In theory, if you know your average speed $S$, then you can predict how long the trip will take.</p>
+<p>The inverse function, if it exists, would turn speed into a function that depends on the time.  With the inverse function, knowing the duration of the trip allows you to calculate the average speed. Symbolically, if $T=f(S)$, then $S=f^{-1}(T)$.</p>
+<p>With this understanding, the distinction between $f(45)$ and $f^{-1}(45)$ is much more clear.  In this example, $f(45)$ would be the time it takes to drive to work if the average speed is $45$ mph.  On the other hand, $f^{-1}(45)$ would be the speed required so that the trip takes $45$ minutes.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>The temperature of a potato depends on how long it has been in the oven.  In other words, the temperature in degrees Fahrenheit is a function of time in minutes.</p>
+<ol>
+<li>
+<p>Explain the significance of the inverse function in this instance. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The inverse function turns time into a function of the temperature.  Given a particular temperature, the inverse function would tell how long the potato has been in the oven.</details></p>
+</li>
+<li>
+<p>Describe the difference in meaning between  $f(60)$  and  $f^{-1}(60)$ in this example. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f(60)$ is the temperature of the potato after 60 minutes in the oven, while $f^{-1}(60)$ is the time it takes for the potato to reach a temperature of 60 degrees Fahrenheit.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>In this section we have seen how to identify when a function has an inverse and discussed techniques for finding and interpreting the inverse.  We have also hinted at the fact that an equation only has a unique solution if the underlying function is one-to-one.</p>
+<p>In the following chapters, every time we learn about a new function we will also check to see if it is one-to-one or not.  If it is, then we will also look for its inverse.  If not, then we will consider restricting its domain and focusing on a smaller piece of the function that does have an inverse.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,712 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		6.3 Using Technology to Model Data &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#general-strategy">General Strategy</a>
+      <ul>
+        <li><a href="#example-keplers-third-law">Example: Kepler's Third Law</a></li>
+        <li><a href="#example-allometry">Example: Allometry</a></li>
+      </ul>
+    </li>
+    <li><a href="#check-multiple-models">Check Multiple Models</a>
+      <ul>
+        <li><a href="#example-standing-mile">Example: Standing Mile</a></li>
+        <li><a href="#example--k-12-administration">Example:  K-12 Administration</a></li>
+        <li><a href="#example-redmond-oregon">Example: Redmond, Oregon</a></li>
+        <li><a href="#example-wild-mustangs">Example: Wild Mustangs</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>6.3 Using Technology to Model Data</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-6/horses-61158_1280.jpg"  title="Photo Steppinstars from Pixabay "  alt="Photo Steppinstars from Pixabay " style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/images/id-61158/">Photo Steppinstars from Pixabay </a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>Throughout the vast grasslands of Nevada live herds of wild horses known as &quot;mustangs&quot;.  The Bureau of Land Management (BLM) has been diligently monitoring the number of mustangs and the land's capacity to support them since 1971.</p>
+<p>A function model of that data could be used to predict the future size of the mustang herds, helping the BLM plan actions to help the herds thrive.</p>
+<p>In this section, we will explore the process of creating function models using large data sets and then we'll return to this scenario.</p>
+<h2 id="general-strategy">General Strategy</h2>
+<p>In the previous section we found functions by hand in situations were only two data points were known.  Creating a functional model from a larger dataset involves several steps including borrowing a powerful tool from statistics called <em>regression</em>.</p>
+<p>While this might sound intimidating, we will utilize technology to do the hard lifting, leaving us free to focus on the analysis. Here's our general strategy:</p>
+<ol>
+<li><strong>Align and/or Scale the Data</strong>: Before performing regression, consider <a href="https://duragauge.github.io/chapter-6/6.1/#aligning-and-scaling-data">aligning and/or scaling</a> the data to make it easier to work with. If you encounter an &quot;overflow&quot; error when running regression in a later step, consider coming back to this step and adjusting your data to more manageable values.</li>
+<li><strong>Make a Scatterplot of the Data</strong>: A <a href="https://duragauge.github.io/chapter-6/6.1/#scatterplots">scatterplot</a> will help you visually spot trends in the data points, providing insight into the relationship between the variables.</li>
+<li><strong>Compare the Shape of the Scatterplot to Known Functions</strong>: By comparing the scatterplot's shape to the shapes of functions we are familiar with (such as linear, exponential, or polynomial), we can get a rough idea of which function might be the best fit.</li>
+<li><strong>Use Software to Run Regressions for Different Functions</strong>: To find the best-fitting model more precisely, use a graphing calculator or other software to run regressions for the various functions you think match the shape of the data.</li>
+<li><strong>Graph the Functions with the Data</strong>: After running regressions, plot the resulting functions on the scatterplot alongside the actual data to visually assess the accuracy of each model.</li>
+<li><strong>Investigate Potential Model Breakdowns</strong>: We'll examine instances where the model might not accurately capture certain aspects of the data. This investigation helps in refining the model and understanding its limitations.</li>
+</ol>
+<p>While a graphing calculator or other software can give you equations and values (many of which are discussed in a full class on statistics), it can't see the data.  It can, for example, find the line that fits the data best, but it can't decide if a linear model is an appropriate choice--that's up to you.</p>
+<p>It's also important to point out that even when we can identify patterns and show a correlation in data, that doesn't necessarily imply causation between the two variables.  For instance, we saw that time of day is connected to the number of observed tornados, but that doesn't mean the clock generates tornadoes.  Establishing causality involves carefully designed and controlled experiments, something we'll touch on in the next example.</p>
+<h3 id="example-keplers-third-law">Example: Kepler's Third Law</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-6/solar-system-11111_1280.jpg"  title="Image by NASA"  alt="Image by NASA" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://en.wikipedia.org/wiki/File:Solar_sys8.jpg">Image by NASA</a></span>
+</div>
+<br>
+<p>When Johannes Kepler came up with his theory for the orbit of planets in 1618, he was only aware of six planets:  Mercury, Venus, Earth, Mars, Jupiter and Saturn.  Kepler based his theory on measurements taken years earlier by Tycho Brahe who spent his life making observations with the naked eye--he died 8 years before the telescope was invented!</p>
+<p>Kepler struggled for 17 years to find a relationship between the time it takes a planet to orbit the Sun (called its orbital period) and its average distance from the Sun (called the semi-major axis).  Let's see if we can't do something similar in less than 17 <strong>minutes</strong>.  We will show instructions for using a Texas Instruments graphing calculator, but other calculators and software should have similar commands available.</p>
+<p>The table below lists the periods and distances for the 8 major planets in our solar system.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Planet</strong></th>
+<th><strong>Distance from Sun (AU)</strong></th>
+<th><strong>Orbital Period (Years)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mercury</td>
+<td>0.39</td>
+<td>0.24</td>
+</tr>
+<tr>
+<td>Venus</td>
+<td>0.72</td>
+<td>0.62</td>
+</tr>
+<tr>
+<td>Earth</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Mars</td>
+<td>1.52</td>
+<td>1.88</td>
+</tr>
+<tr>
+<td>Jupiter</td>
+<td>5.20</td>
+<td>11.86</td>
+</tr>
+<tr>
+<td>Saturn</td>
+<td>9.54</td>
+<td>29.46</td>
+</tr>
+<tr>
+<td>Uranus</td>
+<td>19.19</td>
+<td>84.07</td>
+</tr>
+<tr>
+<td>Neptune</td>
+<td>30.06</td>
+<td>164.81</td>
+</tr>
+</tbody>
+</table>
+<p>We start by entering the data into a calculator</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/kepler_data.svg#center" alt=""></p>
+<p>and taking a look at the scatterplot.  Using <code>9: ZoomStat</code> gives a good viewing window.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/kepler_scatterplot.svg#center" alt=""></p>
+<p>The scatterplot looks like it could be an increasing power function, so we run <code>PwrReg</code></p>
+<p><img src="https://duragauge.github.io/img/chapter-6/kepler_equation.svg#center" alt=""></p>
+<p>and get back the equation $y=x^{1.5}$.  Graphing this equation along with our scatterplot shows that it is a very good fit.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/kepler_fit.svg#center" alt=""></p>
+<p>Kepler found this same equation over 400 years ago.  When he unveiled his findings, Kepler stated, &quot;It is absolutely certain and exact that the proportion between the periodic times of any two planets is precisely the sesquialternate proportion of the mean distances.&quot; The term 'sesquialternate proportion' is a way of expressing the power of $3/2$ using the language of proportionality, a concept we previously explored in <a href="https://duragauge.github.io/chapter-2/2.2/#direct-variation">Chapter 2</a>.</p>
+<p>All that remains is for us to turn this into a model by adding a description to our equation.</p>
+<blockquote>
+<p>The orbital period $P$ of a planet, in years, can be modeled by the equation
+[ P =  D^{3/2} ]
+where $D$ is the distance of the planet from the Sun in astronomical units (AU).</p>
+</blockquote>
+<p>Remember that including the units of the variables is an essential part of making a model.  If the data had been measured in days instead of years, or miles instead of astronomical units, then the equation would be different.  Understanding the units and their relevance in the model is crucial when using the model to make predictions.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Kepler discovered his third law by studying planets.  Below are the values for some objects in our solar system that are not planets.  </p>
+<table>
+<thead>
+<tr>
+<th><strong>Celestial Object</strong></th>
+<th><strong>Distance from Sun (AU)</strong></th>
+<th><strong>Orbital Period (Years)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Chiron (a centaur)</td>
+<td>13.71</td>
+<td>50.76</td>
+</tr>
+<tr>
+<td>Haley's Comet</td>
+<td>17.80</td>
+<td>75.30</td>
+</tr>
+<tr>
+<td>Pluto (a dwarf planet)</td>
+<td>39.26</td>
+<td>248.09</td>
+</tr>
+<tr>
+<td>Eris (a dwarf planet)</td>
+<td>68.01</td>
+<td>560.90</td>
+</tr>
+</tbody>
+</table>
+<p>Does Kepler's 3rd law work for these objects as well?  In other words, if you insert a value for $D$ into the equation $P =  D^{3/2}$ does the resulting value for $P$ match the table?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, Kepler's 3rd law is works for all of these objects, not just planets.</details></p>
+</div>
+<h3 id="example-allometry">Example: Allometry</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-6/james-youn-IA2pNk_dyqw-unsplash.jpg"  title="Photo by James Youn on Unsplash"  alt="Photo by James Youn on Unsplash" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://unsplash.com/photos/IA2pNk_dyqw">Photo by James Youn on Unsplash</a></span>
+</div>
+<br>
+<p>In the natural sciences, many aspects of an organism's life are connected to its size. Life expectancy, brain size, gestational period, metabolic rate, just to name a few, all depend on body mass. The study of the relationship of body size to shape, anatomy, physiology and behavior is called &quot;allometry&quot;.</p>
+<p>For example, the accompanying table shows the weight and cruising speed of several birds.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/bird_data.svg#center" alt=""></p>
+<p>A scatterplot of the data suggests that a slowly increasing power function with $0&lt;p&lt;1$, which would have a shape similar to the square root function, might model the data well.</p>
+<div class="no-print geogebra" style="padding-top: 33.33%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/ZnU6AiQr/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/ZnU6AiQr"><img src="https://www.geogebra.org/resource/ZnU6AiQr/ncguvQHLwhXvamtn/material-ZnU6AiQr.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/ZnU6AiQr"><a href="https://www.geogebra.org/m/ZnU6AiQr">https://www.geogebra.org/m/ZnU6AiQr</a></a></p>
+</div>
+</br>
+<p>Running the <code>PwrReg</code> program gives $f(x) =  23.66 x^{0.2}$ as the best fit, confirming our initial observation that $0 &lt; p &lt; 1$.</p>
+<p>We can use this function to predict the flying speed of other animals based on their weight.  For instance, the giant golden-crowned flying fox is one of the heaviest bat species, with some individuals weighing up to $3.1$ pounds.  Our model predicts that a $3.1$ pound flying fox has an optimal flying speed of $f(3.1) =  23.66 (3.1)^{0.2}=29.67 \text{ mph}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Check to see if this function works for an airplane like the Cessna 172 Skyhawk, which has a cruising speed of $140 \text{ mph}$ and weighs $2300 \text{ pounds}$.</p>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This model predicts a flying speed of [ f(2300) =  23.66 (2300)^{0.2} = 111.27 \text{ mph} ] which, surprisingly, isn't too far off the actual value of $140 \text{ mph}$.</details>
+</div>
+<h2 id="check-multiple-models">Check Multiple Models</h2>
+<p>In the last two examples we identified the scatterplots as a power functions.  This isn't surprising, since power functions can grow quickly (when $p \gt 1$), grow slowly (when $0 \lt p \lt 1$) and decay (when $p \lt 0$).</p>
+<p><img src="https://duragauge.github.io/img/chapter-2/powers_all_3.svg#center" alt=""></p>
+<p>However, it would have been better to check multiple function models.  For example, the scatterplot below looks similar to Kepler's data, but no mater which values you choose for $k$ and $p$, no power function will ever fit the curvature of the data.</p>
+<div class="no-print geogebra" style="padding-top: 33.33%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/Rv4EWJmR/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/Rv4EWJmR"><img src="https://www.geogebra.org/resource/Rv4EWJmR/LLBa2iAu6P4mcBKq/material-Rv4EWJmR.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/Rv4EWJmR"><a href="https://www.geogebra.org/m/Rv4EWJmR">https://www.geogebra.org/m/Rv4EWJmR</a></a></p>
+</div>
+<p>In particular, it's very easy to mistakenly identify data with exponential, logarithmic or even logistic trends as being power functions.  You can see the similarities in the three data sets below.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/scatterplots.svg#center" alt=""></p>
+<p>It's always best practice to try more than one type of function model to see which fits best.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>The following scatterplots have shapes similar to functions that have been discussed in earlier chapters.  Discuss which functions could fit the data well.</p>
+<ol>
+<li>
+<p>  <img src="https://duragauge.github.io/img/chapter-6/scatterplot_sqrt.svg#center" alt=""> <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This data is similar to a power function with a power of $0&lt;p&lt;1$, such as the square root function.  This shape is also visually similar to a logarithmic function.  Both should be tested to see which is a better fit.</details></p>
+</li>
+<li>
+<p>  <img src="https://duragauge.github.io/img/chapter-6/scatterplot_linear.svg#center" alt=""> <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This data has the shape of a linear function.  No other functions have this shape so it would be our best choice.</details></p>
+</li>
+<li>
+<p>  <img src="https://duragauge.github.io/img/chapter-6/scatterplot_reciprocal.svg#center" alt=""> <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This data has the shape of a power function with a power of $p&lt;0$, such as the reciprocal function.  This shape is also similar to an exponential decay function.  Both should be tested to see which is a better fit.</details></p>
+</li>
+<li>
+<p>  <img src="https://duragauge.github.io/img/chapter-6/scatterplot_quadratic.svg#center" alt=""> <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This data looks similar to a quadratic function.  It could potentially be a higher degree polynomial with an even degree.</details></p>
+</li>
+</ol>
+</div>
+<h3 id="example-standing-mile">Example: Standing Mile</h3>
+<p><img src="https://duragauge.github.io/img/chapter-6/standing_mile.gif#center" alt=""></p>
+<p>In the summer of 2005, Road and Track magazine gathered 13 cars, 1 motorcycle, and a Navy F/A-18 Hornet fighter jet for a one-mile long acceleration test at the Lemoore Naval Air Base in California.  This started a trend and &quot;standing mile&quot; events are now held around the country.</p>
+<p>At this event, the first-placed Lola Champ Car (yellow car on the bottom right) crossed the finish line in just 24.2 seconds!  The following table show how long it took the Lola to reach different speeds.</p>
+<table>
+<thead>
+<tr>
+<th>Time (sec)</th>
+<th>Speed (mph)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3.1</td>
+<td>60</td>
+</tr>
+<tr>
+<td>5.6</td>
+<td>100</td>
+</tr>
+<tr>
+<td>8.6</td>
+<td>150</td>
+</tr>
+<tr>
+<td>9.9</td>
+<td>161.4</td>
+</tr>
+<tr>
+<td>22</td>
+<td>200</td>
+</tr>
+<tr>
+<td>24.2</td>
+<td>203.3</td>
+</tr>
+</tbody>
+</table>
+<p>Can we find a function that fits this data?  As always, we start by creating a scatterplot.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/standing_mile_scatterplot.png#center" alt=""></p>
+<p>Looking at the scatterplot helps us narrow down the list of possible models.  For instance, the data does not appear to be linear, so no attempt will be made at running <code>LinReg</code> and trying to fit a line to the data.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Of all the functions you've seen, which one(s) do you think have a shape similar to the data in this scatterplot?</p>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Of the functions we have seen, this might match a logarithmic function, a logistic function, or even a quadratic.  In a moment we will try each of these and choose the one that appears to fit best.</details>
+</div>
+<p>The equations and graphs for natural log regression <code>LnReg</code>, logistic regression <code>Logistic</code>, and quadratic regression <code>QuadReg</code> are shown below.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/standing_mile_regressions.png#center" alt=""></p>
+<p>All three functions are reasonably close to all of the data points, so how do we pick the best?  We'll have to rely on our personal knowledge about how vehicles behave as they accelerate to their top speed.  We would expect the speed to rise quickly and then level off at the top speed.  The only model that has this behavior is the logistic function, so we choose it as the best fit.</p>
+<h3 id="example--k-12-administration">Example:  K-12 Administration</h3>
+<p>The majority of teachers in primary education (K-12) are women. However, positions in K-12 administration, such as principal or superintendent, are more frequently held by men. The following data, from Indiana's department of education, shows the percent of women in K-12 administration. 
+<label for="mn-" class="margin-toggle">⊕
+</label>
+<input type="checkbox" id="mn-" class="margin-toggle" />
+<span class="marginnote"><img src="https://duragauge.github.io/img/chapter-6/woman-2773007_640.jpg" alt=""> <a href="https://pixabay.com/images/id-2773007/">Image by ernestoeslava on Pixabay</a></span></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>% of women administrators</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1990</td>
+<td>18.3</td>
+</tr>
+<tr>
+<td>1992</td>
+<td>22.8</td>
+</tr>
+<tr>
+<td>1994</td>
+<td>26.7</td>
+</tr>
+<tr>
+<td>1996</td>
+<td>30.2</td>
+</tr>
+<tr>
+<td>1998</td>
+<td>32.5</td>
+</tr>
+<tr>
+<td>2000</td>
+<td>34.4</td>
+</tr>
+<tr>
+<td>2002</td>
+<td>36.3</td>
+</tr>
+<tr>
+<td>2004</td>
+<td>37.8</td>
+</tr>
+<tr>
+<td>2006</td>
+<td>39.3</td>
+</tr>
+</tbody>
+</table>
+<p>A scatterplot of the data shows an increasing, concave down trend.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/educator_scatterplot.png#center" alt=""></p>
+<p>Due to the shape, we can eliminate linear and exponential models from consideration.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Based on the shape of the data in the scatterplot, which types of functions do you think could be the best fit? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The shape is similar to a logarithmic function, but it is also reminiscent of a power function with a power $0&lt;p&lt;1$, like the square root function.  It might also be worthwhile to see if a logistic function might fit.</details></div>
+<p>Based on the curve of the data, it seems that we should run a logistic regression <code>Logistic</code>, a logarithmic regression <code>LnReg</code>, and a power regression <code>PwrReg</code>.</p>
+<p>Before running any regressions, we often align the data first.  In this case, it would seem natural to let $x$ represent years since 1990.  However, that would give us a value of $x=0$ and both logarithmic and power regression need $x$-values larger than $0$.  To adjust for that, we'll let $x$ represent years since 1989.  Now all of our $x$ values are positive.</p>
+<table>
+<thead>
+<tr>
+<th>Years since 1989</th>
+<th>% of women administrators</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>18.3</td>
+</tr>
+<tr>
+<td>3</td>
+<td>22.8</td>
+</tr>
+<tr>
+<td>5</td>
+<td>26.7</td>
+</tr>
+<tr>
+<td>7</td>
+<td>30.2</td>
+</tr>
+<tr>
+<td>9</td>
+<td>32.5</td>
+</tr>
+<tr>
+<td>11</td>
+<td>34.4</td>
+</tr>
+<tr>
+<td>13</td>
+<td>36.3</td>
+</tr>
+<tr>
+<td>15</td>
+<td>37.8</td>
+</tr>
+<tr>
+<td>17</td>
+<td>39.3</td>
+</tr>
+</tbody>
+</table>
+<p>The results of the three chosen regressions are shown below.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/educator_regressions.png#center" alt=""></p>
+<p>All three models match the data fairly well.  However, the logistic function has a significant flaw.  Remember that the carrying capacity $c$ is a horizontal asymptote.  In this case, the logistic model would never allow the percent of female administrators to exceed $40.866\%$.</p>
+<p>Consequently, either the logarithmic or the power models might be better predictors of future trends.</p>
+<h3 id="example-redmond-oregon">Example: Redmond, Oregon</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-6/6625662063_a45070af3b_b.jpg"  title="Photo of Smith Rock by Unsettler on Flickr"  alt="Photo of Smith Rock by Unsettler on Flickr" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://flic.kr/p/b6ufuP">Photo of Smith Rock by Unsettler on Flickr</a></span>
+</div>
+<br>
+<p>With stunning mountain views, snowy winters, warm summers and world-class outdoor activities, Redmond is
+one of the fastest growing cities in Oregon. The following table shows the population growth since 1970.</p>
+<p>[
+\begin{array}{|c|c|}
+\hline
+\text{Year} &amp; \text{Population} \newline
+\hline
+1970 &amp; 3721  \newline
+\hline
+1980 &amp; 6452 \newline
+\hline
+1990 &amp; 7165 \newline
+\hline
+2000 &amp; 13481 \newline
+\hline
+2010 &amp; 26216 \newline
+\hline
+\end{array}
+]</p>
+<p>Before choosing a model we should plot the data and see what it looks like.  To make it easier, we will use years <em>since</em> 1970 rather than the actual year.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/redmond_regression_1.png#center" alt=""></p>
+<p>The data appears to increase, slow down, and then increase again, like a polynomial function.  In generally, if you notice a pattern with $n$ turns in the data you can model it effectively with an $n-1$ degree polynomial. Since the data appears to have two turns, a cubic polynomial might be a good fit.</p>
+<p>Running <code>CubicReg</code> on a calculator</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/redmond_regression_2.png#center" alt=""></p>
+<p>gives a cubic polynomial which does fit the data well, coming very close to most of the data points.</p>
+<p>But what if we try a higher degree polynomial? Most calculators can do up to 4th degree polynomial regression <code>QuarticReg</code> and programs are available that can do polynomials with even higher degrees.  The results of running <code>QuarticReg</code></p>
+<p><img src="https://duragauge.github.io/img/chapter-6/redmond_regression_3.png#center" alt=""></p>
+<p>show that the quartic polynomial is a perfect fit!  It hits every single point precisely.</p>
+<p>So the 4th degree polynomial must be a better model than the 3rd degree polynomial, right?  Maybe not.</p>
+<p>Notice that our quartic model has a negative leading coefficient.  Because of that the right side of the graph must eventually come down. Zooming out makes this easier to see.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/redmond_regression_4.png#center" alt=""></p>
+<p>While the quartic model could be a good model for a few years, it is obviously a poor predictor for the population of Redmond in the distant future, especially since it eventually gives negative population values (and you can't have less than $0$ people living somewhere).</p>
+<p>Keeping an eye on when your model might predict unreasonable values is always important.  It's even a good idea to specify a particular domain for your model.  For instance, if the Census counts the population every 10 years, there's no reason to keep this model any longer than that.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>The equation of our cubic model for Redmond's population is
+[y=0.70x^3-23.89x^2+393.10x+3818.21]
+and the quartic model's equation is 
+[y=-0.028x^4+2.97x^3-79.38x^2+798.16x+3721]
+Use those to predict the population of Redmond in 2020.</p>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The year 2020 corresponds to $x=50$.  Evaluating both equations gives
+[y=0.70(50)^3-23.89(50)^2+393.10(50)+3818.21=51248]
+and
+[y=-0.028(50)^4+2.97(50)^3-79.38(50)^2+798.16(50)+3721=41429]
+The actual population in 2020 was 33,274 so neither of our models produced a good prediction for 2020. In fact, from 1990 to 2010 a linear model is more accurate.</details>
+</div>
+<h3 id="example-wild-mustangs">Example: Wild Mustangs</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-6/horses-61158_1280.jpg"  title="Photo Steppinstars from Pixabay "  alt="Photo Steppinstars from Pixabay " style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/images/id-61158/">Photo Steppinstars from Pixabay </a></span>
+</div>
+<br>
+<p>We're now ready to return to the example at the start of this section.  Every year the BLM conducts aerial surveys in an effort to get an accurate count of the mustangs in Nevada.</p>
+<p>When the number of horses exceeds a sustainable level, the BLM takes action by gathering animals from overpopulated herds and making them available to the public for adoption.</p>
+<p>The table below gives the total number of mustangs in Nevada from 2000 to 2011.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/horse_data.png" alt=""></p>
+<p>Notice that he population decreased and then started to increase, so it seems reasonable that a quadratic function might fit the data.</p>
+<p>Since this is our final example, we will approach this two ways.  First we will try using transformations to make a quadratic model in the vertex form like we did in <a href="https://duragauge.github.io/chapter-6/6.1#vertex-form-of-a-quadratic">section 6.1</a>.  Then we'll use regression and will show all the steps for using a Texas-Instruments TI83 or TI84 graphing calculators.  Since a quadratic function has $3$ parameters, we will not use the algebraic methods of <a href="https://duragauge.github.io/chapter-6/6.2">section 6.2</a> since we do not have the tools for large systems of equations.</p>
+<p>To hunt for a quadratic model in the vertex form, adjust the values of $\color{blue}{a}$, $\color{brown}{h}$ and $\color{green}{k}$ in the figure below.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/FdLFe4II/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/FdLFe4II"><img src="https://www.geogebra.org/resource/FdLFe4II/NYMIg0eN3w5XIZtN/material-FdLFe4II.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/FdLFe4II"><a href="https://www.geogebra.org/m/FdLFe4II">https://www.geogebra.org/m/FdLFe4II</a></a></p>
+</div>
+<p>With data sets like this one it is hard to know which combination of transformations will make the curve fit the data the best.  It will be easier to let technology find the equation for us.</p>
+<p>To enter the data into the calculator we press the <code>STAT</code> button and select <code>1: Edit</code>.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/horse_regression_1.png#center" alt=""></p>
+<p>The data is entered into the <code>L1</code> and <code>L2</code> lists, with the independent values in <code>L1</code> and the dependent values in <code>L2</code>.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/horse_regression_2.png#center" alt=""></p>
+<p>To view the scatterplot, press <code>2ND</code> and <code>Y=</code> to enter the <code>STAT PLOTS</code> menu,  then select the first plot and make sure it is turned on.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/horse_regression_3.png#center" alt=""></p>
+<p>Using <code>9:ZoomStat</code> in the <code>ZOOM</code> menu gives a good viewing window for the data.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/horse_regression_4.png#center" alt=""></p>
+<p>Once we have confirmed the shape of the data, we go back to the <code>STAT</code> menu and this time choose the <code>CALC</code> tab.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/horse_regression_5.png#center" alt=""></p>
+<p>This reveals all of the regression models built into the calculator, letting us choose the model that we think visually matches the shape of the data.  Since this data looks like the square function, we choose <code>5: QuadReg</code>.  If the data had looked like a line then <code>4: LinReg(ax+b)</code> would have been a good choice.</p>
+<p>After running <code>5: QuadReg</code> we are shown the equation that fits the data.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/horse_regression_6.png#center" alt=""></p>
+<p>The result is given in the standard form $y = a x^{2} + b x + c$ rather than in the vertex form we used when trying to fit the data by hand.  Copying this equation into the graphing window shows that it fits the data reasonably well.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/horse_regression_7.png#center" alt=""></p>
+<p>We could now use the equation $y=239.8x^2-3147.9x+24397.8$ as the basis for a model of the wild mustang population in Nevada.</p>
+<p>It bears repeating that a mathematical model is not the same as the real object, nor does it control the behavior of the real thing.  For instance, this model might <em>predict</em> the future number of wild mustangs, but it is not a guarantee of what will happen.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

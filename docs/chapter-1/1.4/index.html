@@ -1,0 +1,615 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		1.4 Transformations of Functions &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#vertical-shifts">Vertical Shifts</a></li>
+    <li><a href="#horizontal-shifts">Horizontal Shifts</a></li>
+    <li><a href="#vertical-stretches">Vertical Stretches</a></li>
+    <li><a href="#horizontal-stretches">Horizontal Stretches</a></li>
+    <li><a href="#vertical-and-horizontal-reflections">Vertical and Horizontal Reflections</a></li>
+    <li><a href="#identifying-transformations">Identifying Transformations</a></li>
+    <li><a href="#symmetry">Symmetry</a></li>
+    <li><a href="#even-and-odd-symmetry">Even and Odd Symmetry</a></li>
+    <li><a href="#verifying-symmetry-algebraically">Verifying Symmetry Algebraically</a></li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>1.4 Transformations of Functions</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-1/ice-cream-ice-cream-flavors-fruits-2202605.jpg"  title="Ice cream cones photo by silviarita on Pixabay"  alt="Ice cream cones photo by silviarita on Pixabay" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/en/ice-cream-ice-cream-flavors-fruits-2202605/">Ice cream cones photo by silviarita on Pixabay</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>When making ice cream, chefs often start with a basic recipe and then add in different amounts of special ingredients, like macadamia nuts or dark chocolate or berries. Experienced chefs know the effect that each addition will have before they even taste the finished product.</p>
+<p>In a very similar way, we can take basic functions and transform them into new functions by mixing in constants.  As you gain experience you will be able to predict the behavior of a transformed function without graphing it.  You will also learn to construct the equation for a function given its graph.</p>
+<p>Given a generic function $f$ and any constant number $\color{blue}{c}$, there are four ways to combine them to form a new function.  We could</p>
+<table>
+<thead>
+<tr>
+<th>1.</th>
+<th>Add $\color{blue}{c}$ to the function value $f(x)$.</th>
+<th>$f(x)+\color{blue}{c}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.</td>
+<td>Add $\color{blue}{c}$ to the input value $x$.</td>
+<td>$f(x+\color{blue}{c})$</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Multiply $f(x)$ by $\color{blue}{c}$.</td>
+<td>$\color{blue}{c} \thinspace  f(x)$</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Multiply $x$ by $\color{blue}{c}$.</td>
+<td>$f(\color{blue}{c} \thinspace x)$</td>
+</tr>
+</tbody>
+</table>
+<p>We will use interactive figures to explore each of these combinations.  Pay special attention to how both the graph and the equation change as you apply the transformation.  It may even help to keep track of one or two points and compare their locations before and after the transformation.</p>
+<h2 id="vertical-shifts">Vertical Shifts</h2>
+<p>The first transformation we want to look at is adding a constant $\color{blue}{c}$ to the output of the function, $f(x)$.</p>
+<p>In this figure you can change the value of $\color{blue}{c}$. The graph of the original function $\color{black}{f(x)}$ is shown in $\color{black}{black}$.  The transformed function $\color{red}{f(x)}  \color{blue}{+ c}$ will be shown in $\color{red}{red}$.</p>
+<p>How would you describe the relationship between the two graphs?</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/Y5TzgBaP/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/Y5TzgBaP"><img src="https://www.geogebra.org/resource/Y5TzgBaP/54RjPl1XZOn2p1CE/material-Y5TzgBaP.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/Y5TzgBaP"><a href="https://www.geogebra.org/m/Y5TzgBaP">https://www.geogebra.org/m/Y5TzgBaP</a></a></p>
+</div>
+<p>The result of adding a constant to a function is that the graph moves up or down $\color{blue}{c}$ spaces.</p>
+<p>More formally, if $\color{red}{f}$ is any function and $\color{blue}{c}$ is any constant, then the graph $\color{red}{f(x)}  \color{blue}{+ c}$ is a <strong>vertical shift</strong> of the function $f$.  The graph of $\color{red}{f(x)}  \color{blue}{+ c}$ can be found by adding $\color{blue}{c}$ to every y-value of the original graph.  We can summarize this by saying</p>
+<ul>
+<li>If $\color{blue}{c&gt;0}$, then $\color{red}{f(x)} \color{blue}{+ c}$ is found by shifting the graph of $f$ up $\color{blue}{c}$ spaces.</li>
+<li>If $\color{blue}{c&lt;0}$, then $\color{red}{f(x)} \color{blue}{+ c}$ is found by shifting the graph of $f$ down $\color{blue}{c}$ spaces.</li>
+</ul>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>How is the graph of $y=\sqrt{x}+10$ different from the graph of $f(x)=\sqrt{x}$ ? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The graph of $y=\sqrt{x}+10$ has the same shape as the graph of $f(x)=\sqrt{x}$, except that it has been shifted up $10$ spaces.</details></p>
+</li>
+<li>
+<p>What function would have the same shape as $f(x)=x^{2}$ but shifted $6$ spaces up?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f(x)+6 = x^{2}+6$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="horizontal-shifts">Horizontal Shifts</h2>
+<p>Another way to transform a function is to add a constant $\color{blue}{c}$ to the input $x$. Use the figure to observe what happens to $\color{red}{f(x }\color{blue}{+ c} \color{red}{)}$ as the value of $\color{blue}{c}$ changes.</p>
+<p>Pay special attention to the sign of $\color{blue}{c}$.  Which direction is the transformation when $\color{blue}{c}$ is positive?</p>
+<div class="no-print geogebra" style="padding-top: 33.33%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/YJUZlyHJ/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/YJUZlyHJ"><img src="https://www.geogebra.org/resource/YJUZlyHJ/yzTEP1RsXxkbsT26/material-YJUZlyHJ.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/YJUZlyHJ"><a href="https://www.geogebra.org/m/YJUZlyHJ">https://www.geogebra.org/m/YJUZlyHJ</a></a></p>
+</div>
+</br>
+You have just seen that the graph of $\color{red}{f(x } \color{blue}{+ c}\color{red}{)}$ is a <strong>horizontal shift</strong> of the function $f$.  The graph of $\color{red}{f(x } \color{blue}{+ c}\color{red}{)}$  can be found by subtracting $\color{blue}{c}$ from every x-value of the original graph.  In other words,
+<ul>
+<li>If $\color{blue}{c&gt;0}$, then $\color{red}{f(x} \color{blue}{+ c}\color{red}{)}$ is found by shifting $f$ to the left $\color{blue}{c}$ spaces.</li>
+<li>If $\color{blue}{c&lt;0}$, then $\color{red}{f(x } \color{blue}{+ c}\color{red}{)}$ is found by shifting $f$ to the right $\color{blue}{c}$ spaces.</li>
+</ul>
+<p>Horizontal shifts are somewhat counter intuitive, and you will want to refer back to this chart often as you work through the exercises.</p>
+<p>Vertical and horizontal shifts do not change the shape of the graph, only its location.  Our next few transformations, however, will alter the shape of the graph.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Suppose the function $P(h)$ gives your weekly pay based on the number of hours worked.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/translate_pay.svg#center" alt=""></p>
+<ol>
+<li>
+<p>Describe what the graph of $P(h+10)$ would look like, and what it would mean. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$P(h+10)$ is a shift left 10 spaces.  It corresponds to getting paid for 10 extra hours of work. <br><img src="https://duragauge.github.io/img/chapter-1/translate_pay_answer_plus.svg#center" alt=""><br> If you worked 15 hours, for example, then you would be paid for 25 hours of work.</details></p>
+</li>
+<li>
+<p>Describe what the graph of $P(h-10)$ would look like, and what it would mean. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$P(h-10)$ is a shift right 10 spaces. It would represent being paid for 10 fewer hours. <br><img src="https://duragauge.github.io/img/chapter-1/translate_pay_answer_minus.svg#center" alt=""><br> For instance, if you worked for 40 hours, you would only be paid for 30.</details></p>
+</li>
+<li>
+<p>What function would have the same shape as $f(x)=x^{2}$ but shifted $4$ spaces horizontally to the left?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f(x+4) = (x+4)^2$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="vertical-stretches">Vertical Stretches</h2>
+<p>The two previous transformations involved addition and resulted in a shift.  Using the figure below, you can discover the effect of multiplying a function by a positive constant $\color{blue}{c}$.  As you change the value of $\color{blue}{c}$ , the graph of  $\color{blue}{c}\color{red}{ f(x)}$ will change as well.  How would you describe this change?</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/HJhxc4Lx/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/HJhxc4Lx"><img src="https://www.geogebra.org/resource/HJhxc4Lx/F1Ew7ZyIA2OY7Kty/material-HJhxc4Lx.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/HJhxc4Lx"><a href="https://www.geogebra.org/m/HJhxc4Lx">https://www.geogebra.org/m/HJhxc4Lx</a></a></p>
+</div>
+<p>Hopefully you noticed that multiplying a function by a constant $\color{blue}{c}$ stretches the graph up and down.</p>
+<p>In other words, if $\color{red}{f}$ is any function and $\color{blue}{c}$ is any constant, then the graph of  $\color{blue}{c}\color{red}{ f(x)}$ is a <strong>vertical stretch</strong> of the original function $\color{red}{f}$. The graph of $\color{blue}{c}\color{red}{ f(x)}$ can be found by multiplying each y-value of the original graph by $\color{blue}{c}$.</p>
+<p>If $\color{blue}{0&lt;c&lt;1}$, then the graph $\color{blue}{c}\color{red}{f(x)}$ is sometimes called a vertical <em>compression</em> of the graph of $\color{red}{f}$.  We will use the word stretch for both situations, with the understanding that the graph is always scaled by a factor of $\color{blue}{c}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Suppose $(2, 5)$ is a point on the graph of the function $\color{red}{f}$.  What does the transformation  $\color{blue}{4}\color{red}{f(x)}$ do to that point? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The transformation multiplies the y-value by a factor of $\color{blue}{4}$ transforming the point $(2, 5)$ into $(2, 20)$.</details></p>
+</li>
+<li>
+<p>Suppose $(3, 8)$ is a point on the graph of the function $\color{red}{g}$.  What does the transformation  $\color{blue}{0.5}\color{red}{g(x)}$ do to that point? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The transformation multiplies the y-value by a factor of $\color{blue}{0.5}$, transforming the point $(3, 8)$ into $(3, 4)$.</details></p>
+</li>
+<li>
+<p>What function would look like $f(x)=x^{2}$ but stretched vertically by a factor of $5$?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$5f(x) = 5 x^{2}$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="horizontal-stretches">Horizontal Stretches</h2>
+<p>A function can be stretched horizontally by multiplying the input $x$ by some constant $\color{blue}{c}$. Use the following interactive figure to observe how the shape of the graph changes for different values of  $\color{blue}{c}$.</p>
+<p>How much wider is the function when $\color{blue}{c = 2}$ as compared to when $\color{blue}{c = 0.5}$?</p>
+<div class="no-print geogebra" style="padding-top: 33.33%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/ZPBnPTlS/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/ZPBnPTlS"><img src="https://www.geogebra.org/resource/ZPBnPTlS/fzaGIdMEjf6Fclnv/material-ZPBnPTlS.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/ZPBnPTlS"><a href="https://www.geogebra.org/m/ZPBnPTlS">https://www.geogebra.org/m/ZPBnPTlS</a></a></p>
+</div>
+<br>
+This <strong>horizontal stretch</strong> is one of the most counter-intuitive transformations you will encounter.  You should have seen that the graph got wider when $\color{blue}{c}$ was small, and narrower when $\color{blue}{c}$ was large.
+<p>When we encounter a transformation of the form $\color{red}{f (} \color{blue}{c}\thinspace \color{red}{x)}$,  its graph can be found by dividing each x-value of the original graph by $\color{blue}{c}$.</p>
+<ul>
+<li>If $\color{blue}{c&gt;1}$, then the resulting graph is <em>compressed</em> horizontally.</li>
+<li>If $\color{blue}{0&lt;c&lt;1}$, then the resulting graph is <em>stretched</em> horizontally.</li>
+</ul>
+<p>In either case, the x-values are always scaled by a factor of $\color{blue}{1/c}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Suppose that the graph of the function $f (x)$ below describes the path of an average drive by PGA professional Stewart Cink using his current golf club.<br>
+<img src="https://duragauge.github.io/img/chapter-1/golf_drive.gif#center" alt=""> Imagine that a new club has been developed that will transform $f(x)$ into $f(2 x)$.  What would this new club do to the distance of his drive? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f(2 x)$ is a horizontal stretch with $c=2$.  Since $c=2&gt;1$, this will actually compress the graph horizontally, cutting the distance in half. <br> <img src="https://duragauge.github.io/img/chapter-1/golf_drive_answer.gif" alt=""><br>  If the goal was to double the distance, the transformation would need to be $f\left(\frac{1}{2}x\right)$.</details></p>
+</li>
+<li>
+<p>What function would look like $f(x)=x^{2}$ but horizontally stretched by a factor of $3$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f\left(\frac{x}{3}\right) = \left(\frac{x}{3}\right)^2$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="vertical-and-horizontal-reflections">Vertical and Horizontal Reflections</h2>
+<p>The last category of transformations we will study are the reflections.  The graph of $-f(x)$ is a <strong>vertical reflection</strong> of the function $f$ across the x-axis.  In a vertical reflection all of the y-coordinates change signs from positive to negative or vice versa.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/ae4EaVFq/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/ae4EaVFq"><img src="https://www.geogebra.org/resource/ae4EaVFq/ncdiPmvbZyEYCXgS/material-ae4EaVFq.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/ae4EaVFq"><a href="https://www.geogebra.org/m/ae4EaVFq">https://www.geogebra.org/m/ae4EaVFq</a></a></p>
+</div>
+<p>The graph of $f(-x)$ is a <strong>horizontal reflection</strong> of $f$ across the y-axis  With horizontal reflections the x-coordinates change signs.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/xQwb021E/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/xQwb021E"><img src="https://www.geogebra.org/resource/xQwb021E/lTM0WJ1IbOmHhKiv/material-xQwb021E.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/xQwb021E"><a href="https://www.geogebra.org/m/xQwb021E">https://www.geogebra.org/m/xQwb021E</a></a></p>
+</div>
+<p>Notice that these transformations follow the pattern of inside/outside changes we've seen before.  Putting the negative sign <em>outside</em> the function causes a vertical reflection, while a negative <em>inside</em> the function produces a horizontal reflection.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Find the equation of a function whose graph looks similar to $f(x)=\sqrt{x}+3$, except reflected across the x-axis. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$y=-\sqrt{x}-3$.</details></p>
+</li>
+<li>
+<p>Find the equation of a function whose graph looks similar to $f(x)=\frac{1}{x-2}$, except reflected across the y-axis. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$y=\frac{1}{-x-2}$.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="identifying-transformations">Identifying Transformations</h2>
+<p>The six transformations we have discussed so far are summarized below.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Transformation</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Coordinate Change</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$f(x)\color{blue}{+c}$</td>
+<td>Vertical Shift</td>
+<td>$(x, y) \rightarrow (x \thinspace  , \thinspace y+\color{blue}{c})$</td>
+</tr>
+<tr>
+<td>$f(x\color{blue}{+c})$</td>
+<td>Horizontal Shift</td>
+<td>$(x, y) \rightarrow (x-\color{blue}{c}  \thinspace  , \thinspace y)$</td>
+</tr>
+<tr>
+<td>$\color{blue}{c} \thinspace  f(x)$</td>
+<td>Vertical Stretch</td>
+<td>$(x, y) \rightarrow (x  \thinspace  , \thinspace \color{blue}{c} \thinspace y)$</td>
+</tr>
+<tr>
+<td>$f(\color{blue}{c} \thinspace x)$</td>
+<td>Horizontal Stretch</td>
+<td>$(x, y) \rightarrow \left(\frac{x}{\color{blue}{c}}  \thinspace  , \thinspace y\right)$</td>
+</tr>
+<tr>
+<td>$\color{blue}{-}f(x)$</td>
+<td>Vertical Reflection</td>
+<td>$(x, y) \rightarrow (x  \thinspace  , \thinspace \color{blue}{-}y)$</td>
+</tr>
+<tr>
+<td>$f(\color{blue}{-}x)$</td>
+<td>Horizontal Reflection</td>
+<td>$(x, y) \rightarrow (\color{blue}{-}x  \thinspace  , \thinspace y)$</td>
+</tr>
+</tbody>
+</table>
+<p>Notice that the location of the constant indicates whether the transformation is vertical or horizontal.  Changes <em>outside</em> the function alter the y-coordinate and result in vertical transformations, while changes <em>inside</em> the function impact the x-coordinate and cause horizontal transformations.</p>
+<p>Furthermore, you can determine if the transformation is a shift or a stretch by looking at the operation. Shifts are addition, stretches are multiplication.  Horizontal transformations always behave in a counter intuitive way, so you will want to be extra careful with them.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>What is the difference between $2f(x)$, $ f(2x)$ and $ f(x)+2$ ? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$2f(x)$ means to multiply each $f(x)$ value by $2$, resulting in a vertical stretch by a factor of $2$.</br></br> $f(2x)$ means to use $2 x$ as the input to the function $f$.  The result is a  horizontal compression by a factor of $1/2$. </br></br>$f(x)+2$ means we add $2$ to each $f(x)$ value, which shifts the graph vertically $2$ spaces.</br></details></div>
+<h2 id="symmetry">Symmetry</h2>
+<p>Combining a horizontal reflection with a vertical reflection creates a <strong>reflection around the origin</strong>.</p>
+<p>The interactive figure below allows you to compare the horizontal reflection of a point across the y-axis with a reflection around the origin.  Choose the reflection(s) you want to see and move the <strong><font color="blue">blue pont</font></strong>.  As you do so, the location of the points will be traced, creating an image that has symmetry.  Experiment with this for a while before continuing.</p>
+<div class="no-print geogebra" style="padding-top: 33.33%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/iHmotfOF/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/iHmotfOF"><img src="https://www.geogebra.org/resource/iHmotfOF/pCwpjVUJCY0aQfEe/material-iHmotfOF.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/iHmotfOF"><a href="https://www.geogebra.org/m/iHmotfOF">https://www.geogebra.org/m/iHmotfOF</a></a></p>
+</div>
+<h2 id="even-and-odd-symmetry">Even and Odd Symmetry</h2>
+<p>When reflecting a graph, two interesting things happen sometimes.  The first is that a horizontal reflection across the y-axis might  produce the same exact graph as the original function.  Symbolically, $f(-x)=f(x)$.  When this happens we say that the function has <strong>even symmetry</strong>, or is symmetric across the y-axis.   The figure below illustrates the concept.</p>
+<div class="no-print geogebra" style="padding-top: 33.33%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/mSp9DhKO/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/mSp9DhKO"><img src="https://www.geogebra.org/resource/mSp9DhKO/gVgUDdts61aFd2vt/material-mSp9DhKO.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/mSp9DhKO"><a href="https://www.geogebra.org/m/mSp9DhKO">https://www.geogebra.org/m/mSp9DhKO</a></a></p>
+</div>
+<p>The other interesting thing that can happen with reflections is that a horizontal reflection and a vertical reflection might have the same result, that is $f(-x)=-f(x)$.  When this happens the function has <strong>odd symmetry</strong> and is symmetric around the origin.  Visually, a 180-degree rotation around the origin produces the same exact image.  This is illustrated in the following interactive figure.</p>
+<div class="no-print geogebra" style="padding-top: 33.33%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/DpMbG1ID/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/DpMbG1ID"><img src="https://www.geogebra.org/resource/DpMbG1ID/IplJTS1bHxXgKrvp/material-DpMbG1ID.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/DpMbG1ID"><a href="https://www.geogebra.org/m/DpMbG1ID">https://www.geogebra.org/m/DpMbG1ID</a></a></p>
+</div>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Describe the symmetry of the following graphs.</p>
+<ol>
+<li>
+<p>  <img src="https://duragauge.github.io/img/chapter-1/symmetry_check_a.png#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Odd symmetry</details></p>
+</li>
+<li>
+<p>  <img src="https://duragauge.github.io/img/chapter-1/symmetry_check_d.png#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Even symmetry</details></p>
+</li>
+<li>
+<p>  <img src="https://duragauge.github.io/img/chapter-1/symmetry_check_c.png#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Odd symmetry</details></p>
+</li>
+<li>
+<p>  <img src="https://duragauge.github.io/img/chapter-1/symmetry_check_b.png#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This graph does not have even or odd symmetry.  Had it been centered along the y-axis, then it would have had even symmetry.</details></p>
+</li>
+<li>
+<p>  <img src="https://duragauge.github.io/img/chapter-1/symmetry_check_e.png#center" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This graph does not have even or odd symmetry.  If it were centered at the origin, then it would have had odd symmetry.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="verifying-symmetry-algebraically">Verifying Symmetry Algebraically</h2>
+<p>While visual identification of symmetry is quick and easy, our eyes can sometimes be deceived.  If a function is defined by an equation, then it is best to verify symmetry algebraically.  If a function is even, then we should be able to demonstrate that the equations for $f(-x)$ and $f(x)$ are the same.  If has odd symmetry, then the equations for $f(-x)$ and $-f(x)$ should be identical.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/symmetry_check_algebraic.png#center" alt=""></p>
+<p>Consider the graph of $f(x)=x^3+0.01$, which appears to have odd symmetry.  Checking the equations we find that</p>
+<p>[
+f(-x) = (-x)^3+0.01 = -x^3+0.01
+]</p>
+<p>while</p>
+<p>[
+-f(x) = -(x^3+0.01) = -x^3-0.01
+]</p>
+<p>Since the two equations are not the same,  $f(x)=x^3+0.01$ does not have odd symmetry.</p>
+<p>A second look at the equation explains why this is the case.  Notice that $f(x)=x^3+0.01$ is nothing more than the cube function shifted $0.01$ units up.  It's graph</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/symmetry_check_algebraic_graph.png#center" alt=""></p>
+<p>does not go through the origin, rather it has a y-intercept at $(0, 0.01)$.  It is this small shift that causes the function to loose its odd symmetry.</p>
+<p>Let's look at one more example.  The graph of $f(x)=x^{2}-1$ looks like it has even symmetry.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/symmetry_check_algebraic_graph_2.png#center" alt=""></p>
+<p>To check this algebraically, we need to compare the equation for $f(-x)$ with the equation for $f(x)$.  If the two match, then it really does have even symmetry.  Otherwise, it does not.</p>
+<p>Replacing $x$ with $-x$ we find that</p>
+<p>[
+f(-x) = (-x)^2-1 = x^{2}-1
+]</p>
+<p>which is exactly the same equation as $f(x)$.  Since $f(-x)=f(x)$, we can confidently conclude that $f(x)=x^{2}-1$ has even symmetry.</p>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>In future chapters, we will find transformations included in the standard forms of several function models.  Being able to predict the effects of a shift or stretch will often simplify calculations and may give insight into easier techniques for solving equations.</p>
+<p>Transformations will be helpful when we model data in Chapter 6.  If a data set looks like a line, for example, then we can apply shifts and stretches to the identity function $f(x)=x$ until we find a combination that fits the shape of the data.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

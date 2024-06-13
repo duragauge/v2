@@ -1,0 +1,600 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		1.1 Sets &amp; Numbers &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#sets">Sets</a></li>
+    <li><a href="#set-builder-notation">Set-Builder Notation</a></li>
+    <li><a href="#combining-sets">Combining Sets</a></li>
+    <li><a href="#counting">Counting</a></li>
+    <li><a href="#development-of-numbers">Development of Numbers</a></li>
+    <li><a href="#natural-numbers-and-integers">Natural Numbers and Integers</a></li>
+    <li><a href="#rational-numbers">Rational Numbers</a></li>
+    <li><a href="#real-numbers">Real Numbers</a></li>
+    <li><a href="#the-real-number-line">The Real Number Line</a></li>
+    <li><a href="#intervals-of-real-numbers">Intervals of Real Numbers</a></li>
+    <li><a href="#combining-intervals">Combining Intervals</a></li>
+    <li><a href="#order-of-operations">Order of operations</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>1.1 Sets &amp; Numbers</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-1/Smithsonian_wide.jpg"  title="Smithsonian Museum of Natural History, photo by Blake Patterson"  alt="Smithsonian Museum of Natural History, photo by Blake Patterson" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://www.flickr.com/photos/35448539@N00/8151668486">Smithsonian Museum of Natural History, photo by Blake Patterson</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>The Smithsonian in Washington, DC is one of the largest museums in the world, with vast collections of rare and historically significant objects.</p>
+<p>For example, it houses the <a href="https://www.si.edu/object/nasm_A19610048000">1903 Wright Flyer</a> and the <a href="https://www.si.edu/object/nasm_A19700102000">Apollo 11 Module</a> in the Air and Space collection.</p>
+<p>In other collections you might find <a href="https://www.si.edu/object/nmah_1199660">Abraham Lincoln’s top hat</a>, an original <a href="https://www.si.edu/object/nmah_765593">Kermit the Frog</a> puppet, or the <a href="https://www.si.edu/spotlight/hope-diamond">Hope Diamond</a>. In total, the Smithsonian has more than 200 million fossils, specimens and treasures.</p>
+<p>These collections help preserve our nation’s history and culture and are invaluable to researchers and scientists.</p>
+<p>Collections are also important in math, although you seldom find them in a museum.</p>
+<h2 id="sets">Sets</h2>
+<p>In mathematics, collections are usually called <strong>sets</strong>.  Sets are the foundational building blocks of modern mathematics.</p>
+<p>To create a set, you simply need a way to decide if an object belongs to the set or not.</p>
+<p>One way to do that is to list everything in the set. For example, we know that traffic lights have three colors: red, yellow, and green. We can list these colors to form a set: $\lbrace \text{red, yellow, green} \rbrace$.  Sets are always written with curly braces $\lbrace \thinspace \thinspace \rbrace$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/set_colors.svg#center" alt="the set of colors on a traffic light"></p>
+<p>Another way to represent a set is by drawing a diagram.  This is done by making a big circle and then writing each item of the set inside this circle.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/set_colors_diagram.svg#center" alt="the set of colors on a traffic light"></p>
+<p>Visual diagrams like this will be very helpful in later sections where we investigate relationships between sets.</p>
+<h2 id="set-builder-notation">Set-Builder Notation</h2>
+<p>Sometimes it's hard to list everything in a set.  For instance, <em>whiskers on kittens</em>, <em>bright copper kettles</em> and <em>warm woolen mittens</em> might be a few of my favorite things, but listing all my favorites would be impossible.</p>
+<p>Luckily, we can describe sets using words rather than listing everything inside them.  This is called <strong>set-builder notation</strong>.</p>
+<p>Using set-builder notation, &quot;all of my favorite things&quot; would be written as</p>
+<p>[
+\left\lbrace x \thinspace \vert \thinspace x \text{ is one of my favorite things} \right\rbrace
+]</p>
+<p>The vertical bar symbol $\vert$ is shorthand for &quot;such that&quot; or &quot;where&quot;.  If we put the set above into words we would read it as &quot;the set of all $x$ <em>where</em> $x$ is one of my favorite things.&quot;</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Is $\text{Apple, Orange, Banana}$ a valid set?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Almost.  While it is a list of objects, it does not have the right format.  To be written as a set it should be surrounded by curly braces.  The correct way to write it is $\lbrace \text{apple, orange, banana} \rbrace$.</details></p>
+</li>
+<li>
+<p>Are $\lbrace \text{Taco, Cat, Goat, Cheese, Pizza} \rbrace$ and $\lbrace \text{Pizza, Cheese, Goat, Cat, Taco} \rbrace$ the same set?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, they are the same. In sets, the order of elements doesn't matter.</details></p>
+</li>
+<li>
+<p>Describe the set $\lbrace x \thinspace \vert \thinspace x \text{ is something in your backpack} \rbrace$ in words and list a few items that might be in it.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This is &quot;the set of all $x$ where $x$ is something in your backpack&quot;.  Elements in this set could include note paper, a pencil, a calculator, etc.</details></p>
+</li>
+<li>
+<p>Write the set of all vegetables using set-builder notation.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\lbrace x \thinspace \vert \thinspace x \text{ is a vegetable} \rbrace$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="combining-sets">Combining Sets</h2>
+<p>Sets can be combined in two different ways. The first way is to group everything from both sets together into one big set.  This is called the <strong>union</strong> of the two sets.  In the figure below you can form the union of the two sets by moving the <strong><font color="blue">blue</font></strong> slider.</p>
+<div class="no-print geogebra" style="padding-top: 20%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/s9wa8eba/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/gtgttdp7"><img src="https://www.geogebra.org/resource/s9wa8eba/BqfEqUqLAGw8mOXv/material-s9wa8eba.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/gtgttdp7"><a href="https://www.geogebra.org/m/gtgttdp7">https://www.geogebra.org/m/gtgttdp7</a></a></p>
+</div>
+<p>There is a special symbol we use for unions: $\bigcup$.  If we have two sets, $A$ and $B$, then we write their union as $A \bigcup B$</p>
+<p>[
+A \bigcup B = \left\lbrace x \thinspace \vert \thinspace x \text{ is in } A  \text{ or }  x \text{ is in }B  \right\rbrace
+]</p>
+<p>The second way to combine sets is to only consider items that the two sets have in common. This is called the <strong>intersection</strong> of the sets.</p>
+<div class="no-print geogebra" style="padding-top: 20%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/f6fbnnnc/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/hq9xagby"><img src="https://www.geogebra.org/resource/f6fbnnnc/EXR1qIEEqgqFvoOY/material-f6fbnnnc.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/hq9xagby"><a href="https://www.geogebra.org/m/hq9xagby">https://www.geogebra.org/m/hq9xagby</a></a></p>
+</div>
+<p>The intersection of two sets also has its own symbol: $\bigcap$.</p>
+<p>[
+A \bigcap B = \left\lbrace x \thinspace \vert \thinspace x \text{ is in } A  \text{ and }  x \text{ is in }B\ \right\rbrace
+]</p>
+<p>If the intersection has nothing in it we say it is <em>empty</em> and use the symbol $\varnothing$ to represent the <strong>empty set</strong>.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Consider the following sets
+[
+\begin{align}
+A &amp;= \lbrace \text{flour, sugar, butter, eggs, milk} \rbrace \newline
+B &amp;= \lbrace \text{bacon, pancakes, eggs, milk} \rbrace \newline
+C &amp;= \lbrace \text{peas, carrots, potatoes} \rbrace
+\end{align}
+]</p>
+<ol>
+<li>
+<p>List everything that would be in $A \bigcup C$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Since the union is all of the items in both sets combined, $A \bigcup C$ would contain flour, sugar, butter, eggs, milk, peas, carrots, and potatoes.</br></br></details></p>
+</li>
+<li>
+<p>List all the elements of $A \bigcap B$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Since intersection is only the items that the two sets have in common, $A \bigcap B$ would contain just eggs and milk.</br></br></details></p>
+</li>
+<li>
+<p>Describe $B\bigcap C$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The sets have nothing in common so their intersection is the empty set.  [ B \bigcap C = \varnothing ]</details></p>
+</li>
+</ol>
+</div>
+<h2 id="counting">Counting</h2>
+<p>It might be hard to imagine, but people have not always had numbers. The numbers we use today are actually the result of thousands of years of innovation and invention.</p>
+<p>Surprisingly, sets actually come before numbers. To see why this is the case, take a look at the following sets.  What do they have in common?</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/sets_of_3.png#center" alt=""></p>
+<p>These sets are similar because they are the same size.  Even though their contents are different, the <em>quantity</em> of items in each set is identical.  In other words, they have the same <strong>number</strong> of items.</p>
+<p>It's this need to count the objects in a set that sparked the development of numbers.</p>
+<h2 id="development-of-numbers">Development of Numbers</h2>
+<p>There's little doubt that fingers were among the earliest counting tools.  In fact, the English the words <em>eleven</em> and <em>twelve</em> come from the Old English words for &quot;one left over&quot; and &quot;two left over&quot;, indicating how many would be left over after counting to ten with your fingers.</p>
+<p>Over time people invented other ways to keep track of their flocks, herds, and other commodities.  They used tally marks on sticks, made piles of pebbles, and even carved figurines to look like sheep, goats, jars of oil, baskets of grain, and so on.
+<label for="sn-tokens" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-tokens" class="margin-toggle" />
+<span class="sidenote"><img src="https://duragauge.github.io/img/chapter-1/tally_sticks.jpg" alt=""> Tally sticks and figurines from the Swiss Alpine Museum. <a href="https://commons.wikimedia.org/wiki/File:SAM_PC_1_-_Tally_sticks_1_-_Overview.jpg"><em>Photo by Sandstein.</em></a></span></p>
+<p>In Mesopotamia, about 10,000 years ago, the Sumerians began making clay tokens shaped to resemble the items they were exchanging, one token for each item.  Soon these tokens were replaced by shapes drawn on clay tablets.</p>
+<p>Eventually special symbols, or <em>numerals</em>, were created to represent specific quantities. It was at that point, some 5000 years ago, that the first number system was born.
+<label for="sn-numerals" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-numerals" class="margin-toggle" />
+<span class="sidenote"><img src="https://duragauge.github.io/img/chapter-1/Sumerian_tablet.png" alt=""> This 5000 year-old clay tablet is one of the first artifacts in history to display numerical symbols.  It records how much beer should be paid to a particular worker for his labor. <a href="http://www.britishmuseum.org/research/collection_online/collection_object_details.aspx?objectId=327218&amp;partId=1">Photo courtesy of the British Museum</a> </span></p>
+<p>The Sumerian system did not look like the one we use today.  They counted using groups of 60 (which is why we have 60 minutes in an hour) and used different symbols than what we are used to.</p>
+<p>The number system we use today originally came from India and was later adopted by Arab scholars. That's why we call it the Hindu-Arabic system.</p>
+<p>It took until the 15th and 16th centuries for Europe to start using Hindu-Arabic numerals. Since then, this system has spread worldwide through colonization, trade, and scholarly communication.</p>
+<h2 id="natural-numbers-and-integers">Natural Numbers and Integers</h2>
+<p>The numbers we are most familiar with are the counting numbers $1, 2, 3, 4, ...$.</p>
+<p>The set of counting numbers is also known as the <strong>natural numbers</strong> and is represented by the symbol $\mathbb{N}$. In set notation we would say</p>
+<p>[
+\mathbb{N} = \left\lbrace 1,2,3,...\right\rbrace
+]</p>
+<p>You might already know that when we add two natural numbers the result is also a natural number. For example, $3$ and $5$ are both natural numbers and so is $3+5=8$.</p>
+<p>But what if we subtract one natural number from another, is the result always in $\mathbb{N}$?  Clearly not, since subtraction can result in negative values.</p>
+<p>The set that combines $\mathbb{N}$ with $0$ and all the negative natural numbers $ \left\lbrace ..., -3, -2, \right\rbrace$ is called the set of <strong>integers</strong> and is represented by the symbol $\mathbb{Z}$.</p>
+<p>[
+\mathbb{Z} = \left\lbrace ...,-3,-2,-1,0,1,2,3,... \right\rbrace
+]</p>
+<p>We can add and subtract integers as much as we like and the result will always be an integer.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>True or False:  $5$ is an integer. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><strong>True</strong>.  It is also a natural number.</details></p>
+</li>
+<li>
+<p>True or False:  $0$ is a natural number. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><strong>False</strong>.  It is an integer.</details></p>
+</li>
+<li>
+<p>True or False:  If you <em>multiply</em> two integers you always get another integer.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><strong>True</strong>.  Since multiplication is repeated addition/subtraction, the answer will always be an integer.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="rational-numbers">Rational Numbers</h2>
+<p>While multiplying two integers always results in another integer, division is more complicated.</p>
+<p>If $p$ and $q$ are integers, then the fraction $\frac{p}{q}$ could be an integer, but it doesn't have to be. For instance $\frac{6}{2}=3$ is an integer, but $\frac{5}{2}$ is not.</p>
+<p>The set that contains all the fractions, or ratios, of integers, is called the set of <strong>rational numbers</strong>, or $\mathbb{Q}$.</p>
+<p>[
+\mathbb{Q} = \left\lbrace \frac{p}{q}  \thinspace \bigg|  \thinspace {p} \text{ and } {q} \text{ are integers with } q\neq0 \right\rbrace.
+]</p>
+<p>Since division by $0$ is not well defined, ratios like $\frac{4}{0}$ and $\frac{-2}{0}$ are undefined and not included in the set of rational numbers.</p>
+<p>Also notice that since any integer can be written as a fraction, the set of rational numbers includes all of the integers.</p>
+<p>Rational numbers may be written as fractions or as decimals. The decimal expansion of a rational number will either terminate or eventually have a pattern that repeats forever, as these examples illustrate:
+[
+\begin{align}
+\frac{3}{16} &amp;=0.1875 &amp;&amp; \small \color{#5fa2ce}{\text{decimal terminates}} \newline \newline
+\frac{1}{3} &amp;=0.\overline{3} &amp;&amp; \small \color{#5fa2ce}{\text{decimal repeats}} \newline \newline
+\frac{1}{7} &amp;=0.\overline{142857} &amp;&amp; \small \color{#5fa2ce}{\text{decimal repeats}} \newline \newline
+\frac{10}{5} &amp;=2 &amp;&amp; \small \color{#5fa2ce}{\text{decimal terminates}}
+\end{align}
+]
+The set of rational numbers is special because you can add, subtract, multiply and divide as much as you want and never end up with a different type of number---the answer will always be a rational number.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Find three different ways to write $7$ as a rational number.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\frac{7}{1}$, $\frac{14}{2}$, and $\frac{21}{3}$ are a few of the many possible answers.</details></p>
+</li>
+<li>
+<p>Write $1.5$ as a rational number.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />To convert decimals to fractions, write the decimal over $1$ then multiply both top and bottom by $10$ for every digit to the right of decimal point.  Then simplify as needed.
+[
+\begin{align}
+1.5 &amp;= \frac{1.5}{1} &amp;&amp; \small \color{#5fa2ce}{\text{put the decimal over a }1} \newline \newline
+&amp; = \frac{15}{10} &amp;&amp; \small \color{#5fa2ce}{\text{multiply top &amp; bottom by }10} \newline \newline
+&amp; = \frac{3}{2} &amp;&amp; \small \color{#5fa2ce}{\text{simplify}}
+\end{align}
+]</details></p>
+</li>
+<li>
+<p>Write $\frac{3}{2} + \frac{5}{6}$ as a rational number.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Remember that to add fractions they must have the same denominator.  So first rewrite $\frac{3}{2}$ as $\frac{9}{6}$.  Then add and simplify.
+[\begin{align}
+\frac{3}{2} + \frac{5}{6} &amp;= \frac{9}{6} + \frac{5}{6} \newline
+&amp;= \frac{14}{6} \newline
+&amp;= \frac{7}{3}
+\end{align}]</details></p>
+</li>
+<li>
+<p>Write $\frac{3}{2} \div \frac{5}{6}$ as a rational number.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Dividing fractions is the same as multiplying by the reciprocal.  So
+[\begin{align}
+\frac{3}{2} \div \frac{5}{6} &amp;= \frac{3}{2} \times \frac{6}{5} \newline
+&amp;= \frac{18}{10} \newline
+&amp;= \frac{9}{5}
+\end{align}]</details></p>
+</li>
+</ol>
+</div>
+<h2 id="real-numbers">Real Numbers</h2>
+<p>Since the rational numbers are closed under addition, subtraction, multiplication and division, it might come as a surprise that other types of numbers exist and are essential to mathematics.  The discovery of one new type of number is attributed to an associate of Pythagoras whose name was Hippasus of Metapontum.</p>
+<p>According to legend, Hippasus was trying to measure the diagonal of a 1 by 1 square
+<label for="sn-sqrt_2" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-sqrt_2" class="margin-toggle" />
+<span class="sidenote"><img src="https://duragauge.github.io/img/chapter-1/sqrt_2.svg#center" alt=""></span>
+.  He knew from the Pythagorean theorem that the answer was $\sqrt{2}$, but had been unable to find a rational number that was equal to $2$ when you square it.</p>
+<p>Eventually he proved that $\sqrt{2}$ cannot be written as a ratio of any two integers and concluded that it must belong to a set of <strong>irrational numbers</strong>.</p>
+<p>Some accounts say that the other Pythagoreans were so shocked by Hippasus' discovery that they drowned him in the Mediterranean Sea in an attempt to hide irrational numbers from the world.</p>
+<p>Even though irrational numbers cannot be written as fractions, we can still represent them as decimals. The decimal expansion of an irrational number never ends and never repeats. For example, $\sqrt{2}\approx 1.414213562...$.</p>
+<p>The union of the rational and irrational numbers is called the set of <strong>real numbers</strong>, $\mathbb{R}$.  In other words, the set of real numbers includes every type of number we've discussed so far.</p>
+<p>For example, $-0.5$, $\sqrt{2}$, $\frac{7}{3}$, $-0.248$, and  $8.\overline{261}$ are all real numbers.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/real_numbers.png#center" alt=""></p>
+<p>The set of real numbers is closed under all standard operations including powers and some roots.  In fact, you can do just about anything to a real number and the result will still be a real number, as long as you do not take the square root of a negative value, something we will look into in a <a href="//chapter-5/5.2#imaginary-numbers">later chapter</a>.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>True or False:  $ 2^{3}+9.5-\frac{8}{\sqrt{2}}$ is a real number. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><strong>True</strong>.  Since we did not divide by zero and did not take the square root of a negative, the result must be a real number.</br></br></details></p>
+</li>
+<li>
+<p>True or False:   $\frac{6}{81-3^4}$ is a real number.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><strong>False</strong>.  This is because $81-3^{4}=0$ and division by $0$ is not well defined.</br></br></details></p>
+</li>
+<li>
+<p>True or False:   $\sqrt{16-4(15)}$ is a real number.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><strong>False</strong>. Simplifying the values inside the square root gives $\sqrt{-44}$ and the square root of a negative number is <strong>not</strong> a real number.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="the-real-number-line">The Real Number Line</h2>
+<p>It is often helpful to visualize the set of real numbers with a <strong>number line</strong>, which is nothing more than a straight line with marks representing the location of numbers.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/numberline_plain.svg#center" alt=""></p>
+<p>Positive numbers are always on the right side of zero, negative numbers are always on the left, and arrows indicate that the line continues in both directions.</p>
+<p>Every real number has a place on the number line, and every location on a number line is assumed to correspond to a real number.  Here are a few real numbers and their relative locations on the number line.</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/numberline_real_numbers.svg#center" alt=""></p>
+<h2 id="intervals-of-real-numbers">Intervals of Real Numbers</h2>
+<p>The set of all values in between two numbers is called an <strong>interval</strong>.  For instance, all of the numbers between $0$ and $3$ make an interval.</p>
+<p>There are several ways to describe this interval.  One way is to use inequalities and write it as a set.</p>
+<p>[\lbrace x \thinspace \vert \thinspace 0&lt;x&lt;3  \rbrace]</p>
+<p>Another option is to color the interval on a numberline</p>
+<p><img src="https://duragauge.github.io/img/chapter-1/interval_open_0_to_3.svg#center" alt=""></p>
+<p>Open circles indicate that the numbers $0$ and $3$ are <strong>not</strong> included in the interval.</p>
+<p>A third option is to use <strong>interval notation</strong>, which is a written abbreviation of the number line.  In this example the interval notation would be</p>
+<p>[(0 , 3)]</p>
+<p>Notice that this mirrors the number line by having the lowest number on the left, with parenthesis taking the place of the open circles.</p>
+<p>Other intervals might include an end point or even extend out toward infinity.  For example, the interval of all numbers greater than or equal to $-2$ can be described in any of the following ways</p>
+<ul>
+<li><strong>set notation</strong>: [\lbrace x\vert-2\leq x&lt;\infty  \rbrace]</li>
+<li><strong>number line</strong>: <img src="https://duragauge.github.io/img/chapter-1/interval_closed_-2_to_infinity.svg#center" alt=""></li>
+<li><strong>interval notation</strong>: [[ -2\thinspace, \thinspace \infty)]</li>
+</ul>
+<p>There are a few subtleties here that deserved to be highlighted.</p>
+<p>First, notice that there are three ways to indicate that an endpoint is included.  In set notation, the inequality used must have an equal sign ($\leq$ or $\geq$). On a number line, the circle marking the point is filled in. And in the interval notation, the parenthesis for that point changes to a square bracket.</p>
+<p>Second, to indicate that an interval continues out toward infinity we use an arrow pointing in the appropriate direction.  Since nothing equals infinity we must always use a parenthesis when writing that part of the interval.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Sketch the interval $\lbrace x \thinspace \vert \thinspace -1&lt; x \leq 4  \rbrace$ on a number line.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /></br><img src="https://duragauge.github.io/img/chapter-1/interval_open_-1_closed_4.svg" alt="">Because of the equal sign $4$ is included but $-1$ is not, so we put an open circle at $-1$ and a closed circle at $4$.</details></p>
+</li>
+<li>
+<p>Sketch the interval $[ 5 , 8 )$ on a number line.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /></br><img src="https://duragauge.github.io/img/chapter-1/interval_closed_5_open_8.svg" alt="">Because of the square bracket we know $5$ is included but $8$ is <strong>not</strong>, so we put a closed circle at $5$ and an open circle at $8$.</br></details></p>
+</li>
+<li>
+<p>Write the following interval in both set notation and interval notation.</br></br>
+<img src="https://duragauge.github.io/img/chapter-1/interval_-infinity_open_0.svg" alt=""><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />set notation: $\lbrace x \thinspace \vert \thinspace -\infty &lt; x&lt;0\ \rbrace$</br>interval notation: $( -\infty, 0)$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="combining-intervals">Combining Intervals</h2>
+<p>Since intervals are sets of real numbers, they can be combined using unions and intersections.</p>
+<p>As before, the union is the all of the two intervals joined together, while the intersection is just where two intervals overlap each other.  A few examples will illustrate the idea.</p>
+<p>Suppose we have the following intervals.  What will the <strong>union</strong> look like?  Move the <strong><font color="blue">blue</font></strong> slider to see the union.</p>
+<div class="no-print geogebra" style="padding-top: 20%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/xnsrxwts/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/fysebmbd"><img src="https://www.geogebra.org/resource/xnsrxwts/QA5vWqgFMdxjV0v5/material-xnsrxwts.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/fysebmbd"><a href="https://www.geogebra.org/m/fysebmbd">https://www.geogebra.org/m/fysebmbd</a></a></p>
+</div>
+<p>Once we've identified the union on the number line, it's much easier to write it in interval notation.</p>
+<p>[(-1, \infty) \bigcup  [-3,0 ) = [-3, \infty)]</p>
+<p>The <strong>intersection</strong> of the same two intervals is smaller, since it is only where they overlap.  You can explore the intersection in the figure below.</p>
+<div class="no-print geogebra" style="padding-top: 20%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/gmuyj24e/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/bhwanhyg"><img src="https://www.geogebra.org/resource/gmuyj24e/zFJFHgkNdUtUOqRM/material-gmuyj24e.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/bhwanhyg"><a href="https://www.geogebra.org/m/bhwanhyg">https://www.geogebra.org/m/bhwanhyg</a></a></p>
+</div>
+<p>Now that we can see the intersection visually, the notation follows naturally.</p>
+<p>[(-1, \infty) \bigcap  [-3,0 ) = (-1, 0)]</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Sketch the intersection of two intervals shown below
+<img src="https://duragauge.github.io/img/chapter-1/interval_open_-8_open_-2.svg" alt=""> <img src="https://duragauge.github.io/img/chapter-1/interval_closed_-6_open_2.svg" alt=""> <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-1/interval_closed_-6_open_-2.svg" alt=""></details></p>
+</li>
+<li>
+<p>Find $[-2, 5) \bigcup  (3,10 ]$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$[-2, 10]$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="order-of-operations">Order of operations</h2>
+<p>In elementary school students are often asked to add several numbers together, such as $4 + 10 + 5 = 19$.  What is seldom discussed is the fact that we can't technically add three numbers at once.</p>
+<p>Addition, like the other basic operations, is a &quot;binary&quot; operation--it only works on two numbers a time.  To avoid confusion, when multiple operations are needed there is a standard order that should be followed.</p>
+<p>The order of operations we use today is sometimes remembered by the acronym P E MD AS, which stands for</p>
+<ol>
+<li><strong>P</strong>arentheses (including brackets and fraction bars)</li>
+<li><strong>E</strong>xponents (including roots)</li>
+<li><strong>M</strong>ultiplication and <strong>D</strong>ivision</li>
+<li><strong>A</strong>ddition and <strong>S</strong>ubtraction</li>
+</ol>
+<p>When several of these operations are combined, operations higher on the list should be dealt with before those lower on the list.</p>
+<p>And if an expression has more than one operation with equal priority (like multiplication and division or addition and subtraction) then you work with them in the order they appear from left to right.  For instance, if we have $20 \div 5 \times 2$, then we start from the left and first do $20 \div 5$, which is $4$, and then multiply that by $2$, giving us $8$.</p>
+ <div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Calculate $12 - 3 + 5$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Since addition and subtraction have the same priority, we do these in the order they appear, working from left to right.  Start by subtracting $12 - 3$, which is $9$, and then add $5$ to get $14$.</details></p>
+</li>
+<li>
+<p>Evaluate $8-7(2+1)$.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[\begin{align} 8-7(2+1) &amp;= 8-7(3) \newline &amp;= 8-21 \newline &amp;= -13 \end{align}]</details></p>
+</li>
+<li>
+<p>Evaluate $\frac{4+2(5)}{7}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[\begin{align}\frac{4+2(5)}{7} &amp;= \frac{4+10}{7} \newline &amp;=\frac{14}{7} \newline &amp;=2 \end{align}]</details></p>
+</li>
+<li>
+<p>True or False:  $\frac{8}{4+2}=\frac{8}{4}+\frac{8}{2}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><strong>False</strong>. The correct calculation is [\frac{8}{4+2}=\frac{8}{6}=\frac{4}{3}].</details></p>
+</li>
+<li>
+<p>True or False:  $(a+b)^2=a^2+b^2$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><strong>False</strong>. To see why pick any two numbers and check if the expressions are equal.  If $a=2$ and $b=3$, for example, then $(2+3)^2=(5)^2=25$.  But the other side of the equation is $(2)^2+(3)^2=4+9=13$.  Since they are not equal the statement must be false.  <br><br>The true statement would be [(a+b)^2=a^2+2ab+b^2] using distribution.</details></p>
+</li>
+</ol>
+</div>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="569.53021"
+   height="67.318489"
+   id="svg3063"
+   version="1.1"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="exponential_growth_2.svg"
+   inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+   inkscape:export-xdpi="120.26861"
+   inkscape:export-ydpi="120.26861">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.8847406"
+     inkscape:cx="198.34322"
+     inkscape:cy="50.13765"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-left="5"
+     fit-margin-top="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <defs
+     id="defs3065">
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4022"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipEmfPath1">
+      <rect
+         x="-45.906158"
+         y="-15.05697"
+         width="523.70496"
+         height="61.168941"
+         id="rect3076" />
+    </clipPath>
+    <marker
+       style="overflow:visible"
+       id="Arrow2MendT"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2MendT">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4527"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <clipPath
+       id="clipEmfPath1-1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect4643"
+         height="45.120892"
+         width="645.90088"
+         y="-15.040298"
+         x="-45.934898" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter5016-6"
+       x="-0.17350398"
+       width="1.347008"
+       y="-0.27445176"
+       height="1.5489035"
+       style="color-interpolation-filters:sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.9397537"
+         id="feGaussianBlur5018-0" />
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow2MendT-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2MendT">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4527-8"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6472"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2MendT">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path6474"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6480"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2MendT">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path6482"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6488"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2MendT">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path6490"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata3068">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1"
+     transform="translate(-90.837326,-639.01411)">
+    <g
+       id="g6863"
+       transform="translate(-6.8988764)">
+      <text
+         xml:space="preserve"
+         x="289.39288"
+         y="697.98273"
+         style="font-style:normal;font-weight:normal;font-size:12.18680954px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         id="text6045">4=2</text>
+      <text
+         id="text6047"
+         style="font-style:normal;font-weight:normal;font-size:7.59139156px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         y="726.43671"
+         x="295.01193"
+         xml:space="preserve"
+         transform="scale(1.0516276,0.95090695)">2</text>
+    </g>
+    <g
+       id="g6867"
+       transform="translate(-7.0684603)">
+      <text
+         id="text6049"
+         style="font-style:normal;font-weight:normal;font-size:12.18680954px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         y="697.98273"
+         x="369.2428"
+         xml:space="preserve">8=2</text>
+      <text
+         transform="scale(1.0516276,0.95090695)"
+         xml:space="preserve"
+         x="370.9422"
+         y="726.43671"
+         style="font-style:normal;font-weight:normal;font-size:7.59139156px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         id="text6051">3</text>
+    </g>
+    <g
+       id="g6871"
+       transform="translate(-10.737536)">
+      <text
+         xml:space="preserve"
+         x="449.92139"
+         y="697.97211"
+         style="font-style:normal;font-weight:normal;font-size:12.18680954px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         id="text6053">16=2</text>
+      <text
+         id="text6055"
+         style="font-style:normal;font-weight:normal;font-size:7.59139156px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         y="726.4256"
+         x="453.84616"
+         xml:space="preserve"
+         transform="scale(1.0516276,0.95090695)">4</text>
+    </g>
+    <g
+       id="g6859"
+       transform="translate(-6.9999851)">
+      <text
+         id="text6144"
+         style="font-style:normal;font-weight:normal;font-size:12.18680954px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         y="697.98273"
+         x="210.30667"
+         xml:space="preserve">2=2</text>
+      <text
+         transform="scale(1.0516276,0.95090695)"
+         xml:space="preserve"
+         x="219.80818"
+         y="726.43671"
+         style="font-style:normal;font-weight:normal;font-size:7.59139156px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         id="text6146">1</text>
+    </g>
+    <text
+       id="text6150"
+       style="font-style:normal;font-weight:normal;font-size:12.18680954px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+       y="697.98273"
+       x="129.76944"
+       xml:space="preserve">1=2</text>
+    <text
+       transform="scale(1.0516276,0.95090695)"
+       xml:space="preserve"
+       x="143.22478"
+       y="726.43671"
+       style="font-style:normal;font-weight:normal;font-size:7.59139156px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+       id="text6152">0</text>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.10982215px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       clip-path="url(#clipEmfPath0)"
+       d="M 96.40014,683.70399 H 654.80472"
+       id="path4702-0"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.10982215px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 96.40014,700.77763 H 654.80472"
+       id="path4704-1"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.98072618px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 96.40014,683.70399 v 16.49758"
+       id="path4706-2"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.98072618px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 176.08312,683.70399 v 16.49758"
+       id="path4708-5"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.98072618px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 255.7661,683.70399 v 16.49758"
+       id="path4710-0"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.98072618px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 335.44909,683.70399 v 16.49758"
+       id="path4712-9"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.98072618px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 415.13207,683.70399 v 16.49758"
+       id="path4714-4"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.98072618px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 494.81506,683.70399 v 16.49758"
+       id="path4716-7"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4753-1"
+       d="m 139.31123,681.46063 c 22.08709,-32.34209 52.9044,-29.49356 73.42538,0.29607"
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2MendT)"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <ellipse
+       id="path5020-2"
+       style="fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5016-6)"
+       transform="matrix(1.3966924,0,0,1.1899568,-87.5999,-121.94805)"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"
+       cx="188.59302"
+       cy="656.82574"
+       rx="13.415856"
+       ry="8.481288" />
+    <text
+       id="text4757-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:0%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:start;text-anchor:start;fill:#ff0000;fill-opacity:1"
+       y="662.01434"
+       x="169.25809"
+       xml:space="preserve"
+       dy="-0.039999999 1.27"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"><tspan
+   style="font-weight:normal;font-size:11px;-inkscape-font-specification:Calibri;letter-spacing:2px"
+   id="tspan4795-1"
+   dy="-1.27">x</tspan>2</text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2MendT)"
+       d="m 219.31123,681.46063 c 22.08709,-32.34209 52.9044,-29.49356 73.42538,0.29607"
+       id="path5032"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <ellipse
+       transform="matrix(1.3966924,0,0,1.1899568,-7.5999,-121.94805)"
+       style="fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5016-6)"
+       id="path5070"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"
+       cx="188.59302"
+       cy="656.82574"
+       rx="13.415856"
+       ry="8.481288" />
+    <text
+       dy="-0.039999999 1.27"
+       xml:space="preserve"
+       x="249.25812"
+       y="662.01434"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:0%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:start;text-anchor:start;fill:#ff0000;fill-opacity:1"
+       id="text5034"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"><tspan
+   dy="-1.27"
+   id="tspan5036"
+   style="font-weight:normal;font-size:11px;-inkscape-font-specification:Calibri;letter-spacing:2px">x</tspan>2</text>
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path5048"
+       d="m 299.31123,681.46063 c 22.08709,-32.34209 52.9044,-29.49356 73.42538,0.29607"
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2MendT)"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <ellipse
+       id="path5072"
+       style="fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5016-6)"
+       transform="matrix(1.3966924,0,0,1.1899568,72.400106,-121.94805)"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"
+       cx="188.59302"
+       cy="656.82574"
+       rx="13.415856"
+       ry="8.481288" />
+    <text
+       id="text5050"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:0%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:start;text-anchor:start;fill:#ff0000;fill-opacity:1"
+       y="662.01434"
+       x="329.25812"
+       xml:space="preserve"
+       dy="-0.039999999 1.27"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"><tspan
+   style="font-weight:normal;font-size:11px;-inkscape-font-specification:Calibri;letter-spacing:2px"
+   id="tspan5052"
+   dy="-1.27">x</tspan>2</text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2MendT)"
+       d="m 379.31123,681.46063 c 22.08709,-32.34209 52.9044,-29.49356 73.42538,0.29607"
+       id="path5064"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <ellipse
+       transform="matrix(1.3966924,0,0,1.1899568,152.4001,-121.94805)"
+       style="fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5016-6)"
+       id="path5074"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"
+       cx="188.59302"
+       cy="656.82574"
+       rx="13.415856"
+       ry="8.481288" />
+    <text
+       dy="-0.039999999 1.27"
+       xml:space="preserve"
+       x="409.25809"
+       y="662.01434"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:0%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:start;text-anchor:start;fill:#ff0000;fill-opacity:1"
+       id="text5066"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"><tspan
+   dy="-1.27"
+   id="tspan5068"
+   style="font-weight:normal;font-size:11px;-inkscape-font-specification:Calibri;letter-spacing:2px">x</tspan>2</text>
+    <g
+       id="g6875"
+       transform="translate(-10)">
+      <text
+         id="text6827"
+         style="font-style:normal;font-weight:normal;font-size:12.18680954px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         y="697.97211"
+         x="529.92139"
+         xml:space="preserve">32=2</text>
+      <text
+         transform="scale(1.0516276,0.95090695)"
+         xml:space="preserve"
+         x="529.91888"
+         y="726.4256"
+         style="font-style:normal;font-weight:normal;font-size:7.59139156px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         id="text6829">5</text>
+    </g>
+    <path
+       inkscape:export-ydpi="100.03476"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       id="path6833"
+       d="m 574.81506,683.70399 v 16.49758"
+       style="fill:none;stroke:#000000;stroke-width:0.98072618px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="100.03476"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path6835"
+       d="m 459.31123,681.46063 c 22.08709,-32.34209 52.9044,-29.49356 73.42538,0.29607"
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2MendT)" />
+    <ellipse
+       inkscape:export-ydpi="100.03476"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       id="path6837"
+       style="fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5016-6)"
+       transform="matrix(1.3966924,0,0,1.1899568,232.4001,-121.94805)"
+       cx="188.59302"
+       cy="656.82574"
+       rx="13.415856"
+       ry="8.481288" />
+    <text
+       inkscape:export-ydpi="100.03476"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       id="text6839"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:0%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:start;text-anchor:start;fill:#ff0000;fill-opacity:1"
+       y="662.01434"
+       x="489.25809"
+       xml:space="preserve"
+       dy="-0.039999999 1.27"><tspan
+   style="font-weight:normal;font-size:11px;-inkscape-font-specification:Calibri;letter-spacing:2px"
+   id="tspan6841"
+   dy="-1.27">x</tspan>2</text>
+    <g
+       id="g6879"
+       transform="translate(-10)">
+      <text
+         xml:space="preserve"
+         x="609.92139"
+         y="697.97211"
+         style="font-style:normal;font-weight:normal;font-size:12.18680954px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         id="text6843">64=2</text>
+      <text
+         id="text6845"
+         style="font-style:normal;font-weight:normal;font-size:7.59139156px;line-height:0%;font-family:Arial;text-align:start;text-anchor:start;fill:#000000"
+         y="726.4256"
+         x="606.46118"
+         xml:space="preserve"
+         transform="scale(1.0516276,0.95090695)">6</text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.98072618px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 654.81506,683.70399 v 16.49758"
+       id="path6849"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2MendT)"
+       d="m 539.31123,681.46063 c 22.08709,-32.34209 52.9044,-29.49356 73.42538,0.29607"
+       id="path6851"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476" />
+    <ellipse
+       transform="matrix(1.3966924,0,0,1.1899568,312.4001,-121.94805)"
+       style="fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter5016-6)"
+       id="path6853"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"
+       cx="188.59302"
+       cy="656.82574"
+       rx="13.415856"
+       ry="8.481288" />
+    <text
+       dy="-0.039999999 1.27"
+       xml:space="preserve"
+       x="569.25806"
+       y="662.01434"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14px;line-height:0%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';text-align:start;text-anchor:start;fill:#ff0000;fill-opacity:1"
+       id="text6855"
+       inkscape:export-filename="C:\Book Ideas\images\exponential_growth_2.png"
+       inkscape:export-xdpi="100.03476"
+       inkscape:export-ydpi="100.03476"><tspan
+   dy="-1.27"
+   id="tspan6857"
+   style="font-weight:normal;font-size:11px;-inkscape-font-specification:Calibri;letter-spacing:2px">x</tspan>2</text>
+  </g>
+</svg>

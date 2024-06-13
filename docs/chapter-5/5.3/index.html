@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		5.3 Applications of Polynomials &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#projectile-motion">Projectile Motion</a></li>
+    <li><a href="#finding-the-vertex-of-a-parabola">Finding the Vertex of a Parabola</a></li>
+    <li><a href="#solving-quadratic-equations">Solving Quadratic Equations</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>5.3 Applications of Polynomials</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-5/generalife-3111770_1280x720.jpg"  title="Photo by granadandyou from Pixabay "  alt="Photo by granadandyou from Pixabay " style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/images/id-3111770/">Photo by granadandyou from Pixabay </a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>Located in the foothills of the Sierra Nevada mountains in the Andalusia region of Spain, the Alhambra palace is a world heritage site from the 13th century.  Among it's most photographed features today are the water fountains in the Generalife gardens.</p>
+<p>The water that flows out of these fountains follows a curved path through the air.  But it's not just any random curve, it is a parabola!</p>
+<h2 id="projectile-motion">Projectile Motion</h2>
+<p>It was Galileo who proved that any object launched into the air will follow the path of a parabola.
+<label for="sn-Galileo" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-Galileo" class="margin-toggle" />
+<span class="sidenote">Drawings from <a href="https://www.mpiwg-berlin.mpg.de/Galileo_Prototype/HTML/F116_V/F116_V.HTM">Galileo's notebook</a> showing results of his free fall experiments, dating from about 1609. <img src="https://duragauge.github.io/img/chapter-5/Galileo_Notebook_C116_V.jpg" alt="Folio 116v from Galileo's notebook"></span>
+This could be water tossed into the air by a fountain or a ball throw by a child, they all take on the same characteristic arc.</p>
+<p>Physicists have studied this for hundreds of years and have discovered several equations that model the motion of projectiles.  In particular, the vertical height of a projectile (in meters) can be written as a function of time</p>
+<p>[ h(t) = -4.9 t^{2} + v t + h ]</p>
+<p>where $v$ is vertical velocity (in meters per second), $h$ is the initial height (in meters) and $t$ is the time (in seconds).</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-5/16333686542_ca8b5866fc_b_flipped.jpg"  title="Photo by Petri Damstén on Flickr"  alt="Photo by Petri Damstén on Flickr" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://flic.kr/p/qTmpXd">Photo by Petri Damstén on Flickr</a></span>
+</div>
+<br>
+ Suppose the skier in this photo leaves the jump with a vertical velocity of $2$ meters per second from a initial height of $70$ meters.  Write an function that models their height, assuming the jump follows projectile motion. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Using $v=2$ and $h=70$ the function would be
+[ h(t)=-4.9t^{2}+2t+70 ]</details>
+</div>
+<h2 id="finding-the-vertex-of-a-parabola">Finding the Vertex of a Parabola</h2>
+<p>One place where projectile motion is used is in the sport of pumpkin chuckin', where teams build slingshots, catapults or air cannons (like the one below) to throw pumpkins as far as possible.</p>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-5/14421974334_a9a983284b_b_flipped.jpg"  title="Photos by Clark on Flickr"  alt="Photos by Clark on Flickr" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://flic.kr/p/nYqovU">Photos by Clark on Flickr</a></span>
+</div>
+<br>
+<p>If pumpkins leave the barrel of this air cannon 6.4 meters above the ground with a vertical velocity of 170 meters per second, then the height at any time is given by</p>
+<p>[ h(t) = -4.9 t^{2} + 170 t + 6.4 ]</p>
+<p>Our model gives the height at any time, so only questions involving height and time are fair game.
+<label for="sn-Pumpkin" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-Pumpkin" class="margin-toggle" />
+<span class="sidenote">The obvious question of how far the cannon can shoot a pumpkin is, unfortunately, not one we can solve with this function.  <br><br>Distance depends on the launch angle and you have to use trigonometry to find it.  But to give you some idea, the current world record is well over one mile!</span>
+The two that come to mind are determining when the pumpkin will come back down and hit the ground and finding its maximum height.</p>
+<p>Graphing our function will give us a better idea of where to look for the answers.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/projectile_graph_pumpkin.svg#center" alt=""></p>
+<p>The pumpkin will come back down and hit the ground when the height is $0$, which means we need to find the zeros of the function.  All that needs to be done is to solve $0= -4.9 t^{2} + 170 t + 6.4$ using the quadratic formula like we've done before.</p>
+<p>[
+\begin{align}
+t &amp;= \frac{-b\pm\sqrt{b^2-4ac}}{2a} \newline
+&amp;= \frac{-(170)\pm\sqrt{(170)^2-4(-4.9)(6.4)}}{(2)(-4.9)} \newline
+&amp;= \frac{-170\pm\sqrt{29025.44}}{-9.8} \newline
+&amp;= -0.0376 \small \text{ and } \normalsize 34.731 \small \text{ seconds} \newline
+\end{align}
+]</p>
+<p>Of the two values the only one that makes physical sense is $t=34.731$ seconds, which also matches the value in our graph.</p>
+<p>The maximum height occurs at the peak of the graph which, for a parabola, is called the <strong>vertex</strong>.  Due to symmetry, the vertex always occurs halfway between the two x-intercepts.  In other words, if $x_1$ and $x_2$ are the two x-intercepts, then the x-coordinate of the vertex is $x_v=\frac{x_1+x_2}{2}$.</p>
+<p>For our particular pumpkin cannon function $h(t) = -4.9 t^{2} + 170 t + 6.4 $ which had x-intercepts of $-0.0376$ and $34.731$, the x-coordinate of the vertex is</p>
+<p>[
+\begin{align}
+x_v &amp; =\frac{x_1+x_2}{2} \newline
+&amp;= \frac{-0.0376 + 34.731}{2} \newline
+&amp;= 17.347
+\end{align}
+]</p>
+<p>So our maximum height occurs $17.347$ seconds after launch.</p>
+<p>To figure out what that height is, we put this time into the function</p>
+<p>[
+\begin{align}
+h(t) &amp;= -4.9 t^{2} + 170 t + 6.4 \newline
+h(17.347) &amp;= -4.9(17.347)^{2} + 170(17.347) + 6.4 \newline
+&amp;= 1480.9 \small \text{ meters}
+\end{align}
+]</p>
+<p>and find that the maximum height is $1480.9$ meters.</p>
+<p>Using the x-intercepts to find the vertex always works, but there is a faster method.</p>
+<p>If your function is quadratic polynomial written as $f(x)=ax^2+bx+c$, then the x-coordinate of the vertex is always $x_v=\frac{-b}{2a}$ and the y-coordinate is $y_v=f(x_v)$.</p>
+<p>Let's go back to the pumpkin function $h(t) = -4.9 t^{2} + 170 t + 6.4$ and see how this works.</p>
+<p>The x-coordinate of the vertex is found by computing</p>
+<p>[
+\begin{align}
+x_v &amp;=\frac{-b}{2a} \newline
+&amp;= \frac{-170}{(2)(-4.9)} \newline
+&amp;= 17.347
+\end{align}
+]</p>
+<p>which is the same value as before, but we did not need to go through the quadratic formula to find the two zeros and locate the halfway point between them.</p>
+<p>Getting the y-coordinate of the vertex is exactly the same as before, we just evaluate the function when $x=17.347$.</p>
+<p>[
+\begin{align}
+y_v &amp;= f(x_v) \newline
+&amp;= f(17.347) \newline
+&amp;= -4.9(17.347)^{2} + 170(17.347) + 6.4 \newline
+&amp;= 1480.9 \small \text{ meters}
+\end{align}
+]</p>
+<p>This technique for finding the vertex works on any quadratic function, not just with projectile motion.  One thing to keep in mind, however, is that the vertex is <em>not always</em> a maximum.  Depending on the shape of the parabola it could be a minimum.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-5/9764584931_cab334ff9a_b.jpg"  title="Photo by Jeremy Taylor on Flickr"  alt="Photo by Jeremy Taylor on Flickr" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://flic.kr/p/fSS3UB">Photo by Jeremy Taylor on Flickr</a></span>
+</div>
+<br>
+ Suppose the motorcyclist in this photo leaves the ramp with a vertical velocity of 14 meters per second from a initial height of 2 meters.  Write an function that models their height, assuming the jump follows projectile motion.  Then find their maximum height by locating the vertex of your function. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Using $v=14$ and $h=2$ the function would be
+[ h(t)=-4.9t^{2}+14t+2 ]
+The x-coordinate of the vertex is
+[
+\begin{align}
+x_v &amp;=\frac{-b}{2a} \newline
+&amp;= \frac{-(14)}{(2)(-4.9)} \newline
+&amp;= 1.43 \small \text{ seconds}
+\end{align}
+]
+and the y-coordinate of the vertex is
+[
+\begin{align}
+y_v &amp;= f(x_v) \newline
+&amp;= f(1.43) \newline
+&amp;= -4.9(1.43)^2+14(1.43)+2 \newline
+&amp;= 12 \small \text{ meters}
+\end{align}
+]
+So the motorcycle reaches a maximum height of 12 meters 1.429 seconds after leaving the ramp.</details>
+</div>
+<h2 id="solving-quadratic-equations">Solving Quadratic Equations</h2>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-1/cliff_dive.jpg"  title="Saltos Red Bull en Bilbao 2015 by jamoral, on Flickr"  alt="Saltos Red Bull en Bilbao 2015 by jamoral, on Flickr" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://www.flickr.com/photos/jamoral/21713225096/">Saltos Red Bull en Bilbao 2015 by jamoral, on Flickr</a></span>
+</div>
+<br>
+<p>Cliff diving is potentially a very dangerous sport.  One maneuver that makes it a bit safer is called a <em>barani</em>.
+<label for="sn-barani" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-barani" class="margin-toggle" />
+<span class="sidenote"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/tx2ZgKYS-Yc?start=11" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></span></p>
+<p>The barani is a gymnastics move that combines a half somersault with a half twist.  Performing a barani gives the diver time to see the water and control their landing so that they hit the water feet first.</p>
+<p>Assuming a professional cliff diver can jump up with a vertical velocity of $3$ meters per second, then the projectile motion function</p>
+<p>[ h(t)=-4.9 t^{2} + 3t + 27 ]</p>
+<p>gives us their height above the water $t$ seconds after diving off the $27$ meter platform.</p>
+<p>If a diver can complete a barani about 5 meters above the surface of the water, then the chance of a safe dive is very high.  How much time does that give them to do their flips and twists?</p>
+<p>To answer this we have to find $t$ so that $h(t)=5$.  Setting up the equation we find that</p>
+<p>[
+\begin{align}
+h(t) &amp;= 5 &amp;&amp; \small \color{#5fa2ce}{\text{Original equation}} \newline
+-4.9 t^{2} + 3t + 27 &amp;= 5 &amp;&amp; \small \color{#5fa2ce}{\text{Insert equation for $h(t)$}} \newline
+-4.9 t^{2} + 3t + 22 &amp;= 0 &amp;&amp; \small \color{#5fa2ce}{\text{Subtract $5$}}
+\end{align}
+]</p>
+<p>which is another situation for the quadratic formula.</p>
+<p>[
+\begin{align}
+t &amp;= \frac{-(3)\pm\sqrt{(3)^2-4(-4.9)(22)}}{2(-4.9)} &amp;&amp; \small \color{#5fa2ce}{\text{Apply Quadratic Formula}} \newline
+t &amp;= \frac{-3\pm\sqrt{440.2}}{-9.8} &amp;&amp; \small \color{#5fa2ce}{\text{Simplify}} \newline
+t &amp;= -1.84 \small \text{ and } \normalsize 2.45 \small \text{ seconds } &amp;&amp; \small \color{#5fa2ce}{\text{Evaluate}}
+\end{align}
+]</p>
+<p>Clearly $t=-1.84$ seconds can't be our answer, so it must be that the diver has $2.45$ seconds to do their dive and complete the barani.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Assuming the diver completes their barani after $2.45$ seconds, how much longer will it take before they hit the water? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This question is asking us to find the zeros, or x-intercepts of our function $h(t)=-4.9 t^{2} + 3t + 27$ which, as we've done before, can be found through the quadratic formula.
+[
+\begin{align}
+t &amp;= \frac{-(3)\pm\sqrt{(3)^2-4(-4.9)(27)}}{2(-4.9)} &amp;&amp; \small \color{#5fa2ce}{\text{Apply Quadratic Formula}} \newline
+t &amp;= \frac{-3\pm\sqrt{538.2}}{-9.8} &amp;&amp; \small \color{#5fa2ce}{\text{Simplify}} \newline
+t &amp;= -2.06 \small \text{ and } \normalsize 2.67 \small \text{ seconds } &amp;&amp; \small \color{#5fa2ce}{\text{Evaluate}}
+\end{align}
+]
+The diver hits the water at $t=2.67$ seconds, which is $2.67-2.45=0.22$ seconds after completing the barani.</details></div>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

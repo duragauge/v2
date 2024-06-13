@@ -1,0 +1,600 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		4.1 Addition and Subtraction of Functions &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#combining-functions-by-addition">Combining Functions by Addition</a></li>
+    <li><a href="#adding-functions-graphically">Adding Functions Graphically</a></li>
+    <li><a href="#the-domain-of-fgx">The Domain of $(f+g)(x)$</a></li>
+    <li><a href="#equations-of-fgx">Equations of $(f+g)(x)$</a></li>
+    <li><a href="#combining-functions-by-subtraction">Combining Functions by Subtraction</a></li>
+    <li><a href="#symmetry">Symmetry</a></li>
+    <li><a href="#applications">Applications</a>
+      <ul>
+        <li><a href="#calculating-profit-and-deductions">Calculating Profit and Deductions</a></li>
+        <li><a href="#catenary-curves">Catenary Curves</a></li>
+      </ul>
+    </li>
+    <li><a href="#polynomials">Polynomials</a></li>
+    <li><a href="#graphs-of-polynomials">Graphs of Polynomials</a></li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>4.1 Addition and Subtraction of Functions</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-4/smartphone.jpg"  title="Photo by Pexels"  alt="Photo by Pexels" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/photo-1283938/">Photo by Pexels</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>Not too long ago, mobile phones were only used for making phone calls, nothing else was possible.  Today's smart phones, however, combine the functionality of several different devices into one convenient package.</p>
+<p>In a similar way, mathematical functions can be combined together to create new functions.  In this section we will focus on combining two or more functions through the algebraic operations of addition and subtraction.</p>
+<h2 id="combining-functions-by-addition">Combining Functions by Addition</h2>
+<p>We begin by summing the outputs of two functions. This is done with normal addition since the outputs of a function are real numbers.  For instance, if $\color{red}{f(}1\color{red}{) = -5}$ and $\color{blue}{g(}1\color{blue}{) = 19}$, then</p>
+<p>[
+\color{red}{f(}1\color{red}{)} + \color{blue}{g(}1\color{blue}{)} = \color{red}{-5} + \color{blue}{19} =  14
+]</p>
+<p>In the table below, use the given values of $\color{red}{f(}x\color{red}{)}$ and $\color{blue}{g(}x\color{blue}{)}$ to find values for $(f+g)(x)$.</p>
+<table>
+  <tr>
+    <th>$x$</th><th>$\color{red}{f(}x\color{red}{)}$</th><th>$\color{blue}{g(}x\color{blue}{)}$</th><th>$\color{red}{f(}x\color{red}{)} + \color{blue}{g(}x\color{blue}{)}$</th>
+  </tr>
+  <tr>
+    <td>$1$</td><td>$\color{red}{-5}$</td><td>$\color{blue}{19}$</td><td>$\color{red}{-5} + \color{blue}{19}=14$</td>
+  </tr>
+  <tr>
+    <td>$2$</td><td>$\color{red}{13}$</td><td>$\color{blue}{-7}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{13}  \color{blue}{-7}=6$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$3$</td><td>$\color{red}{21}$</td><td>$\color{blue}{4}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{21} + \color{blue}{4}=25$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$4$</td><td>$\color{red}{8}$</td><td>$\color{blue}{0}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{8} + \color{blue}{0}=8$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$5$</td><td>$\color{red}{-2}$</td><td>$\color{blue}{32}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{-2} + \color{blue}{32}=30$</details>
+</td>
+  </tr>
+</table>
+<p>Taking a closer look at these results you might notice that each $\color{black}{x}$ creates a single $\color{red}{f(}x\color{red}{)} + \color{blue}{g(}x\color{blue}{)}$ value.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/function_addition.svg#center" alt=""></p>
+<p>In other words, the values of  $\color{red}{f(}x\color{red}{)} + \color{blue}{g(}x\color{blue}{)}$  are a function of $\color{black}{x}$.  This is only natural since $\color{red}{f}$ and $\color{blue}{g}$ are both functions of $\color{black}{x}$.</p>
+<h2 id="adding-functions-graphically">Adding Functions Graphically</h2>
+<p>Now let's take a look at what happens when you add the outputs of two functions graphically.</p>
+<p>As you chanage $x$ in the interactive figure below the value of $\color{red}{f(}x\color{red}{)} + \color{blue}{g(}x\color{blue}{)}$ will be recorded, forming a new graph.  Is this new graph a function?  Does it look familiar?  Make a note of your observations before continuing.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/dPa7vBG3/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/dPa7vBG3"><img src="https://www.geogebra.org/resource/dPa7vBG3/eWfigb1Jo0IzflDg/material-dPa7vBG3.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/dPa7vBG3"><a href="https://www.geogebra.org/m/dPa7vBG3">https://www.geogebra.org/m/dPa7vBG3</a></a></p>
+</div>
+<p>There are two things you should notice about the resulting graph (shown here in <strong><font color="gray">gray</font></strong>).</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/function_addition_graph.svg#center" alt=""></p>
+<p>First, it passes the vertical line test, which confirms our earlier conclusion that $\color{red}{f} + \color{blue}{g}$ is a new function of $x$.  To emphasize this, from now on we will use the following notation</p>
+<p>[
+(f+g)(x) =   f(x) + g(x)
+]</p>
+<p>when referring to the sum of two functions.</p>
+<p>Second, the graph of $(f+g)(x)$ retains some of the properties of both $f(x)$ and $g(x)$.  It has dips and bumps like $g(x)$, but it also has the upward trend of $f(x)$.</p>
+<p>Adding two functions always creates a new function that blends together the behaviors of the two original functions.</p>
+<h2 id="the-domain-of-fgx">The Domain of $(f+g)(x)$</h2>
+<p>Let's now suppose that both $f(x)$ and $g(x)$ are undefined over some regions, as in the figure below.  How does this affect $(f+g)(x)$ ?</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/FOsUyxCc/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/FOsUyxCc"><img src="https://www.geogebra.org/resource/FOsUyxCc/mrpyHNh1nQAPSDPy/material-FOsUyxCc.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/FOsUyxCc"><a href="https://www.geogebra.org/m/FOsUyxCc">https://www.geogebra.org/m/FOsUyxCc</a></a></p>
+</div>
+<p>In working with the interactive figure above you probably realized that $(f+g)(x)$ is only defined if both $f(x)$ and $g(x)$ are defined.  If either is undefined, then $(f+g)(x)$ is undefined as well.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/function_addition_domain.svg#center" alt=""></p>
+<p>In this particular example, $f$ is defined on the intervals $[1, 5]$ and $[6, 8]$ while $g$ is defined on $[1,2]$ and $[3,8]$.  The function $f+g$ is only defined in the regions where those intervals overlap.</p>
+<p>The domain of $f+g$ is always the intersection of the domain of $f$ and the domain of $g$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Suppose the domain of $f$ is {1, 2, 3, 4, 5} and the domain of $g$ is {2, 4, 6, 8, 10}.  What is the domain of  $f+g$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The domain of  $f+g$ is {2, 4}, since those are the only values that are found in both the domain of $f$ and the domain of $g$.</details></p>
+</li>
+<li>
+<p>If the domains of the functions $p$ and $q$ are $x&lt;2$ and $x\geq-10$, respectively, what is the domain of $p+q$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The domain consists of the $x$ that are in both domains.  In this case, only $-10\leq x &lt; 2$ are allowable.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="equations-of-fgx">Equations of $(f+g)(x)$</h2>
+<p>If the functions $f$ and $g$ are defined by equations, then the combined function $f+g$ is the sum of those two equations.  Of course, this rule only makes sense when $f$ and $g$ are both defined.</p>
+<p>As an example, consider the two functions $f(x)=\sqrt{x}$ and $g(x)=2x$.  The equation for their sum is</p>
+<p>[
+(f+g)(x)=\sqrt{x} + 2x
+]</p>
+<p>Since the square root is not defined for negative values, the domain of $f+g$ must be $x\geq0$.</p>
+<p>With an equation we evaluate $f+g$ by simply replacing $x$ with the appropriate value.</p>
+<p>If we want to evaluate $(f+g)(9)$ for the function above, for example, we replace $x$ with $9$ and simplify.</p>
+<p>[
+\begin{align}
+(f+g)(9) &amp;= \sqrt{9} + 2(9) \newline
+&amp;= 3+18 \newline
+&amp;= 21
+\end{align}
+]</p>
+<p>On the other hand, we cannot evaluate $(f+g)(-4)$ since $x=-4$ is not in the domain of this particular function.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Suppose $f(x)=x^{3}$ and $g(x)=\frac{1}{x}$.</p>
+<ol>
+<li>
+<p>Find the equation for $f+g$.   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[(f+g)(x)=f(x)+g(x)=x^{3}+\frac{1}{x}].</details></p>
+</li>
+<li>
+<p>What is the domain of the function $f+g$?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The domain is all real numbers except for $x=0$ since $f(x)=x^{3}$ is defined for all real numbers but $g(x)=\frac{1}{x}$ is undefined when $x=0$.</details></p>
+</li>
+<li>
+<p>What is the value of $(f+g)(2)$?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[(f+g)(2)=(2)^{3}+\frac{1}{2}=8+\frac{1}{2}=8.5]</details></p>
+</li>
+</ol>
+</div>
+<h2 id="combining-functions-by-subtraction">Combining Functions by Subtraction</h2>
+<p>Up to this point we have focused on adding functions.  Predictably, subtracting functions yields similar results.</p>
+<p>Below values for two functions $\color{red}{f(}x\color{red}{)}$ and $\color{blue}{g(}x\color{blue}{)}$ are given.  Use subtraction to complete the table values for $(f-g)(x)$.</p>
+<table>
+<tr>
+  <td>$x$</td><td>$\color{red}{f(}x\color{red}{)}$</td><td>$\color{blue}{g(}x\color{blue}{)}$</td><td>$\color{red}{f(}x\color{red}{)} - \color{blue}{g(}x\color{blue}{)}$</td>
+</tr>
+<tr>
+  <td>$1$</td><td>$\color{red}{2}$</td><td>$\color{blue}{8}$</td><td>$\color{red}{2} - \color{blue}{8}=-6$</td>
+</tr>
+<tr>
+  <td>$2$</td><td>$\color{red}{29}$</td><td>$\color{blue}{-1}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{29} - \color{blue}{-1}=30$</details>
+</td>
+</tr>
+<tr>
+  <td>$3$</td><td>$\color{red}{13}$</td><td>$\color{blue}{-22}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{13} - \color{blue}{-22}=35$</details>
+</td>
+</tr>
+<tr>
+  <td>$4$</td><td>$\color{red}{-1}$</td><td>$\color{blue}{9}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{-1} - \color{blue}{9}=-10$</details>
+</td>
+</tr>
+<tr>
+  <td>$5$</td><td>$\color{red}{0}$</td><td>$\color{blue}{7}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{0} - \color{blue}{7}=-7$</details>
+</td>
+</tr>
+</table>
+<p>As with addition, the essential observation here is that if $f$ and $g$ are both functions of $x$, then their difference  $f - g$ is also a function of $x$.   Furthermore, $(f-g)(x)$ is evaluated by</p>
+<p>[
+(f-g)(x)=f(x)-g(x)
+]</p>
+<p>and its domain is the intersection of the domains of $f$ and $g$.</p>
+<p>Take, for instance,  the functions $f(x)=\frac{1}{x+6}$ and $g(x)=x+1$.  Their difference is the new function</p>
+<p>[
+\begin{align}
+(f-g)(x) &amp;=\frac{1}{x+6}-(x+1) \newline
+&amp;=\frac{1}{x+6}-x-1
+\end{align}
+]</p>
+<p>Since the domain of $f(x)=\frac{1}{x+6}$ does not include $x=-6$, we cannot include $x=-6$ in the domain of $(f-g)(x)$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Suppose $f(x)=\log(x)$, which has a domain of $x&gt;0$, and $g(x)=x^{3}$, which is defined for all real numbers.</p>
+<ol>
+<li>
+<p>Determine the equation for $(f-g)(x)$ and its domain.    <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$(f-g)(x)=\log(x)-x^{3}$.  The domain is all $x&gt;0$.</details></p>
+</li>
+<li>
+<p>Evaluate $(f-g)(2)$   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$(f-g)(2)=\log(2) - 8\approx-7.7$</details></p>
+</li>
+<li>
+<p>Evaluate $(f-g)(-2)$   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This is not defined, since $-2$ is not in the domain.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="symmetry">Symmetry</h2>
+<p>As we saw earlier, the function $f+g$ blends together the behaviors of $f$ and $g$.  However, since $f$  and $g$ can have very different maximums, minimums, intercepts, etc., predicting the exact behavior of $f+g$ is difficult.</p>
+<p>One behavior that we can usually predict is the symmetry of $f+g$.   If $f$ and $g$ are both even functions (ie. symmetric across the y-axis), then so is $f+g$.  Likewise, if $f$ and $g$ are odd functions (ie. symmetric around the origin), then $f+g$ is also an odd function.</p>
+<p>You may wish to verify this with the interactive figure below.  The graphs of two even functions $\color{red}{f(x)=3-x^2}$ and $\color{blue}{g(x)=x^{2/3}}$ are shown.  Changing $x$ and/or pressing <strong>Play</strong> will draw the graph of $f+g$.</p>
+<p>You are free to enter any equations you want for $\color{red}{f}$ and $\color{blue}{g}$.  You might want to also try two odd functions, like $x^{3}$ and $x^{1/3}$, or some other combinations before continuing.</p>
+<div class="no-print geogebra" style="padding-top: 40%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/ghdHeX19/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/ghdHeX19"><img src="https://www.geogebra.org/resource/ghdHeX19/FDg45LeJ67WEWpql/material-ghdHeX19.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/ghdHeX19"><a href="https://www.geogebra.org/m/ghdHeX19">https://www.geogebra.org/m/ghdHeX19</a></a></p>
+</div>
+<p>The same symmetry rules apply for $f-g$.  If $f$ and $g$ are both even functions (ie. symmetric across the y-axis), then so is $f-g$.  Likewise, if $f$ and $g$ are odd functions (ie. symmetric around the origin), then $f-g$ is also odd.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Without graphing, decide if the following functions have even or odd symmetry.</p>
+<ol>
+<li>
+<p>$f(x)=  x^{4} - x^{2}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Since both $x^{4}$ and $x^{2}$ are even, this function will have even symmetry.</details></p>
+</li>
+<li>
+<p>$g(x)=x^{3} + \ln(x)$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$x^{3}$ is odd but $\ln (x)$ is neither even nor odd, so this function does not have any symmetry.</details></p>
+</li>
+<li>
+<p>$h(x)=x + \frac{1}{x}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Since both $x$ and $\frac{1}{x}$ are odd, this function is also odd.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="applications">Applications</h2>
+<p>It is impossible to cover every possible application of adding and subtracting functions, but we'll look at a few just to illustrate the variety.</p>
+<h3 id="calculating-profit-and-deductions">Calculating Profit and Deductions</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-4/hanh-nguyen-j6DH45Bflho-unsplash.jpg"  title="Photo by Hanh Nguyen on Unsplash"  alt="Photo by Hanh Nguyen on Unsplash" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://unsplash.com/photos/j6DH45Bflho">Photo by Hanh Nguyen on Unsplash</a></span>
+</div>
+<br>
+<p>Imagine that one day you brought a homemade cupcake to work and a friend offered to buy it from you for $\$2.50$.  If the ingredients cost $\$1.00$, then you earned a profit of $\$1.50$.</p>
+<p>Recognizing that made-from-scratch-daily cupcakes could be a commercial success, you throw caution to the wind and open your own bakery.</p>
+<p>After several days and nights of baking, you discover that the ingredient cost for $x$ cupcakes is given by the function $\color{#E69F00}{C(x)=0.65 x + \frac{0.85}{x}}$.  And since you are charging $\$2.50$ per cupcake, your revenue is given by $\color{#56B4E9}{R(x)=2.5x}$.</p>
+<p>Your <em>profit</em> is the difference of these two functions.  That is to say, $P(x)=(\color{#56B4E9}{R} - \color{#E69F00}{C})(x)$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>What is the profit if you sell 500 cupcakes?   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[
+\begin{align}
+P(500) &amp;=(\color{#56B4E9}{R} - \color{#E69F00}{C})(500) \newline
+&amp;=\color{#56B4E9}{R(500)} - \color{#E69F00}{C(500)} \newline
+&amp;=\color{#56B4E9}{1250} - \color{#E69F00}{325} \newline
+&amp;=925
+\end{align}
+]
+So the profit on 500 cupcakes would be $925.</details></div>
+<p>Now that you are running a business and earning a profit, you need to calculate how much of your weekly profits $P$ should be sent to the federal government for income tax and Social Security.  Since different income levels pay different tax rates, federal income tax is a piecewise function.  Let's assume that</p>
+<p>[
+\color{#009E73}{T(P)=\begin{cases}
+0 &amp;  $0\leq P \leq $42 \newline
+0.1(P-42) &amp; $42 \leq P \leq $214 \newline
+17.2+0.15(P-214) &amp; $214 \leq P \leq $739 \newline
+95.95+0.25(P-739) &amp; $739 \leq P \leq $1732
+\end{cases} }
+]</p>
+<p>for single taxpayers.</p>
+<p>The Social Security deduction is fixed percent so it is a simpler function.  We'll say that for self-employed individuals it is $\color{#CC79A7}{S(P)=0.153P}$, or $15.3%$ of your weekly profit.</p>
+<p>If your weekly profit was $P=600$ dollars, then your total federal deductions are</p>
+<p>[
+\begin{align}
+\color{#009E73}{T(600)}+\color{#CC79A7}{S(600)} &amp;= \color{#009E73}{17.2+0.15(600-214)}+\color{#CC79A7}{0.153(600)} \newline
+&amp;= \color{#009E73}{71.5}+\color{#CC79A7}{91.80} \newline
+&amp;= $166.90
+\end{align}
+]</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Suppose your weekly profit doubles from $P=600$ to $P=1200$.  How much are your new federal deductions? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[
+\begin{align}
+\color{#009E73}{T(1200)}+\color{#CC79A7}{S(1200)} &amp;= \color{#009E73}{95.95+0.25(1200-739)}+\color{#CC79A7}{0.153(1200)} \newline
+&amp;= \color{#009E73}{211.20}+\color{#CC79A7}{183.60} \newline
+&amp;= $394.80
+\end{align}
+]</details></div>
+<h3 id="catenary-curves">Catenary Curves</h3>
+<p>Another useful, but less taxing, application comes from adding an exponential growth function, like $f(x)=e^{x}$, with an exponential decay function such as $g(x)=e^{-x}$.  What would the graph of such a function look like?</p>
+<p>The figure below lets you discover the answer.  Change $x$ and watch as the graph of $(f+g)(x)$ is drawn.  How would you describe its shape?</p>
+<div class="no-print geogebra" style="padding-top: 40%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/e6hPPmqS/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/e6hPPmqS"><img src="https://www.geogebra.org/resource/e6hPPmqS/R4L82gzS2s0kfcDA/material-e6hPPmqS.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/e6hPPmqS"><a href="https://www.geogebra.org/m/e6hPPmqS">https://www.geogebra.org/m/e6hPPmqS</a></a></p>
+</div>
+<p>While this shape looks like a parabola, it is actually a different curve known as a <strong>catenary</strong>.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/catenary.svg#center" alt=""></p>
+<p>A catenary is the shape formed by any chain hanging freely under its own weight whose ends are held in place.  If you have ever held a necklace or a string loosely between your hands, then you have made a catenary curve.</p>
+<p>Upside down, or &quot;inverted&quot; catenary curves are frequently used in the construction of bridges and arches because of the way they distribute the load.  The Gateway Arch
+<label for="sn-Gateway Arch" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-Gateway Arch" class="margin-toggle" />
+<span class="sidenote"><img src="https://duragauge.github.io/img/chapter-4/e785a7052f4e4d7c9d86259df9edc062Original.jpg" alt="">Photo by <a href="https://npgallery.nps.gov/AssetDetail/e785a7052f4e4d7c9d86259df9edc062">Cecil W. Stoughton</a></span>
+in St. Louis, Missouri is a famous example of an inverted catenary arch.</p>
+<h2 id="polynomials">Polynomials</h2>
+<p>Perhaps the most important consequence of adding and subtracting functions is the creation of a new category of functions known as polynomials.</p>
+<p>A <strong>polynomial</strong> is a function that can be written as a sum or difference of power functions whose powers are non-negative integers such as $0, 1, 2, 3, \dotsc$.</p>
+<p>For example, the polynomial $p(x)=\color{red}{5x^{3}}+\color{black}{7x^{2}}\color{orange}{-4x}+\color{green}{8}$ is a sum of the four power functions $\color{red}{5x^{3}}$,   $\color{black}{7x^{2}}$,   $\color{orange}{-4x}$   and   $\color{green}{8}$.</p>
+<p>Each power function is called a <strong>term</strong> of the polynomial.  The highest power is called the <strong>degree</strong> of the polynomial, and the coefficient of that term is called the <strong>leading coefficient</strong>.  The term without an $x$ is referred to as the <strong>constant term</strong>.</p>
+<p><img src="https://duragauge.github.io/img/chapter-5/polynomial_terms.svg#center" alt=""></p>
+<p>Polynomials cannot contain terms like $x^{5/2}$ or $x^{1.28}$ or $x^{-3}$,  since the powers $5/2$ and $1.28$ are not integers and $-3$ is negative.  Neither can a polynomial include any exponential or logarithmic terms like $2^{x}$, $e^{x}$ and $\ln x$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Decide if the following are polynomials or not.  If it not, explain why not.  If it is a polynomial, state its degree.</p>
+<ol>
+<li>
+<p>$f(x)=x^{2}+1$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, this is a polynomial.  The degree is $2$.</details></p>
+</li>
+<li>
+<p>$g(x)=2^{x}+3^{x}-7$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, this is not a polynomial because $2^{x}$ and $3^{x}$ are exponential functions.</details></p>
+</li>
+<li>
+<p>$h(x)=4x^{3.5}+2x^{-3/4}+6x$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, this is not a polynomial because the powers $3.5$ and $-3/4$ are not non-negative integers.</details></p>
+</li>
+<li>
+<p>$p(x)=x^{12}-x^{5}+9x-23$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, this is a $12-&quot;th&quot;$ degree polynomial.</details></p>
+</li>
+<li>
+<p>$q(x)=(x+3)^{2}$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, since this can be written as $q(x)=x^{2}+6x+9$, it is a polynomial.  The degree is $2$.</details></p>
+</li>
+<li>
+<p>$r(x)=\frac{1}{x-5}$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, this is not a polynomial because it cannot be written as a sum of non-negative integer powers of $x$.</details></p>
+</li>
+<li>
+<p>$s(x)=\sqrt{x+4}$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, this is not a polynomial because it cannot be written as a sum of non-negative integer powers of $x$.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="graphs-of-polynomials">Graphs of Polynomials</h2>
+<p>The graphs of polynomials are very reminiscent of roller coasters.  We will explore their graphs is greater detail in <a href="//chapter-5/5.1">Chapter 5</a>.  For now, use the interactive figure below to familiarize yourself with some of the possible shapes.  You are free to show or hide the individual power functions and to change their coefficients.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/IzqmS4xo/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/IzqmS4xo"><img src="https://www.geogebra.org/resource/IzqmS4xo/67U7cvounRV85WCc/material-IzqmS4xo.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/IzqmS4xo"><a href="https://www.geogebra.org/m/IzqmS4xo">https://www.geogebra.org/m/IzqmS4xo</a></a></p>
+</div>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>In this section we have seen how combining a few simple functions through the operations of function addition and subtraction can create new functions that display a wide variety of behaviors.</p>
+<p>Polynomial functions, in particular, are prized for both the simplicity of their equations and the complexity of their behavior.  That duality makes them attractive models for data and processes that change from increasing to decreasing multiple times.</p>
+<p>Since we've just covered function addition and subtraction, you can probably guess what is coming next:  multiplication and division.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

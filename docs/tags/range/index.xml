@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>range on Precalculus 1 - Functions</title>
+    <link>https://duragauge.github.io/tags/range/</link>
+    <description>Recent content in range on Precalculus 1 - Functions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://duragauge.github.io/tags/range/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.2 Functions</title>
+      <link>https://duragauge.github.io/chapter-1/1.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-1/1.2/</guid>
+      <description>Soda Vending Machine Japan Coast, photo by slackrhackrIntroduction Each button on a vending machine corresponds to a particular snack inside the machine. The item you get depends on the button you push. When you press the button for a soda the machine should give you that soda, if it is functioning properly.
+In this section we&#39;ll see that mathematical functions connect things in a similar way.
+The Definition of a Function While no single definition can capture the full extent of the function concept, it is still important to start with one.</description>
+    </item>
+    
+  </channel>
+</rss>

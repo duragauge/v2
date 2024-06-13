@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="969.54449"
+   height="272.98233"
+   id="svg5808"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="composition_equations_inverses.svg">
+  <defs
+     id="defs5810" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.55232124"
+     inkscape:cx="546.52739"
+     inkscape:cy="210.4409"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="850"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5813">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(95.291021,-843.34926)">
+    <g
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="c:\Book Ideas\images\composition__inverse_fa.png"
+       transform="matrix(0.7464513,0,0,0.7464513,-329.47728,491.8301)"
+       id="g3342">
+      <g
+         id="g5736"
+         transform="translate(9.5611513,18)"
+         inkscape:export-filename="F:\Book Ideas\images\inverse_equation_a.png"
+         inkscape:export-xdpi="119.1031"
+         inkscape:export-ydpi="119.1031">
+        <text
+           xml:space="preserve"
+           style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+           x="605.7771"
+           y="484.38556"
+           id="text5679"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan5681"
+             x="605.7771"
+             y="484.38556">f <tspan
+   style="font-style:normal;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan5683">(</tspan><tspan
+   style="font-style:italic;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan5687">x</tspan><tspan
+   id="tspan5689"
+   style="font-style:normal;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'">) =</tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text5693"
+           y="484.57391"
+           x="672.79425"
+           style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:2.88999963px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+           xml:space="preserve"><tspan
+             y="484.57391"
+             x="672.79425"
+             id="tspan5695"
+             sodipodi:role="line"
+             style="font-style:italic;letter-spacing:4.01901627px;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:'Times New Roman, Italic'"><tspan
+   id="tspan5734"
+   style="font-style:normal;letter-spacing:4.01901627px;-inkscape-font-specification:'Times New Roman,'">2</tspan>x+<tspan
+   style="font-style:normal;letter-spacing:4.01901627px;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan6382">6</tspan></tspan></text>
+      </g>
+    </g>
+    <text
+       inkscape:export-ydpi="100"
+       inkscape:export-xdpi="100"
+       inkscape:export-filename="c:\Book Ideas\images\composition_inverse_ga.png"
+       xml:space="preserve"
+       style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+       x="350.63971"
+       y="864.17236"
+       id="text3322"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3324"
+         x="350.63971"
+         y="864.17236">f <tspan
+   style="font-size:65.00091553%;font-style:normal;baseline-shift:super;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan6357">-1</tspan><tspan
+   style="font-style:normal;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan3326">(</tspan><tspan
+   style="font-style:italic;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan3330">x</tspan><tspan
+   id="tspan3332"
+   style="font-style:normal;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'">) =</tspan></tspan></text>
+    <g
+       id="g7428"
+       transform="translate(173.01543,531.91225)"
+       inkscape:export-filename="c:\Book Ideas\images\composition_inverse_ga.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100">
+      <text
+         xml:space="preserve"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         x="240.71049"
+         y="323.54352"
+         id="text3334"
+         sodipodi:linespacing="125%"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-ydpi="120.17618"><tspan
+           sodipodi:role="line"
+           id="tspan3336"
+           x="240.71049"
+           y="323.54352"
+           style="font-style:italic;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:'Times New Roman, Italic'">x - <tspan
+   style="font-style:normal;letter-spacing:3px;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan6355">6</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3342"
+         y="341.42554"
+         x="251.67108"
+         style="font-size:17.91483116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+         xml:space="preserve"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-ydpi="120.17618"><tspan
+           y="341.42554"
+           x="251.67108"
+           id="tspan3344"
+           sodipodi:role="line">2</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3348"
+         d="m 234.18067,326.55634 43.57959,0"
+         style="fill:none;stroke:#0000ff;stroke-width:0.80422902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-ydpi="120.17618" />
+    </g>
+    <g
+       inkscape:export-ydpi="90.090492"
+       inkscape:export-xdpi="90.090492"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1.png"
+       transform="translate(-873.09606,720.65168)"
+       id="g6538">
+      <g
+         id="g6540">
+        <text
+           sodipodi:linespacing="125%"
+           id="text6542"
+           y="226.89999"
+           x="777.07025"
+           style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+           xml:space="preserve"
+           inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+           inkscape:export-xdpi="120.17618"
+           inkscape:export-ydpi="120.17618"><tspan
+             y="226.89999"
+             x="777.07025"
+             id="tspan6544"
+             sodipodi:role="line"
+             style="fill:#000000"><tspan
+   style="font-style:normal;letter-spacing:3px;fill:#000000;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan6546">(</tspan>f   f <tspan
+   style="font-size:65.00091553%;font-style:normal;baseline-shift:super;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan6690">-1</tspan><tspan
+   style="font-style:normal;font-weight:normal;fill:#000000;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan6548">)</tspan><tspan
+   dy="0 0 -1.2"
+   id="tspan6550"
+   style="font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'">(<tspan
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan6692">x</tspan>)  </tspan></tspan></text>
+      </g>
+      <path
+         transform="matrix(0.53020376,0,0,0.55810921,649.22736,121.56927)"
+         d="m 283.19302,182.23677 c 0,2.59761 -2.2166,4.70338 -4.95092,4.70338 -2.73433,0 -4.95093,-2.10577 -4.95093,-4.70338 0,-2.5976 2.2166,-4.70338 4.95093,-4.70338 2.73432,0 4.95092,2.10578 4.95092,4.70338 z"
+         sodipodi:ry="4.7033806"
+         sodipodi:rx="4.9509268"
+         sodipodi:cy="182.23677"
+         sodipodi:cx="278.2421"
+         id="path6552"
+         style="fill:none;stroke:#000000;stroke-width:1.37873328;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6554"
+       y="948.0506"
+       x="-19.405613"
+       style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1.png"
+       inkscape:export-xdpi="90.090492"
+       inkscape:export-ydpi="90.090492"><tspan
+         y="948.0506"
+         x="-19.405613"
+         id="tspan6556"
+         sodipodi:role="line"><tspan
+           style="font-size:20px;letter-spacing:2px;fill:#ff0000"
+           id="tspan6558"><tspan
+   style="font-size:18px;fill:#000000"
+   id="tspan6560">= </tspan>f</tspan><tspan
+           style="font-size:20px;font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'"
+           id="tspan6562">( </tspan><tspan
+           style="font-size:16px;fill:#0000ff"
+           id="tspan6564">f<tspan
+   style="font-size:65.00091553%;font-style:normal;baseline-shift:super;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan6694"> -1</tspan></tspan><tspan
+           dy="0"
+           id="tspan6566"
+           style="font-size:16px;font-style:normal;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'">(<tspan
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan6696">x</tspan></tspan><tspan
+           style="font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"
+           id="tspan6568"><tspan
+             dy="-1.2"
+             id="tspan6570"
+             style="font-size:16px;fill:#0000ff">)</tspan><tspan
+             style="font-size:20px;fill:#ff0000"
+             id="tspan6572"
+             dy="1.2">)</tspan></tspan></tspan></text>
+    <text
+       inkscape:export-ydpi="90.090492"
+       inkscape:export-xdpi="90.090492"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1.png"
+       xml:space="preserve"
+       style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+       x="-19.405613"
+       y="1029.8413"
+       id="text6590"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6592"
+         x="-19.405613"
+         y="1029.8413"><tspan
+           id="tspan6594"
+           style="font-size:18px;letter-spacing:2px;fill:#000000">= </tspan><tspan
+           id="tspan6596"
+           style="font-size:20px;font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'">( <tspan
+   id="tspan6598"
+   style="font-size:16px;letter-spacing:3px;fill:#0000ff"><tspan
+   style="font-style:italic;letter-spacing:3px;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan8197">x-</tspan>6</tspan><tspan
+   id="tspan6600"
+   style="letter-spacing:2px">)</tspan></tspan><tspan
+           id="tspan6602"
+           style="font-size:16px;font-style:normal;letter-spacing:3px;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'">+6</tspan></tspan></text>
+    <g
+       id="g6606"
+       style="fill:#666666"
+       transform="translate(-657.09604,720.6517)"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1.png"
+       inkscape:export-xdpi="90.090492"
+       inkscape:export-ydpi="90.090492">
+      <text
+         sodipodi:linespacing="125%"
+         id="text6608"
+         y="226.89999"
+         x="785.07025"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         xml:space="preserve"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-ydpi="120.17618"><tspan
+           y="226.89999"
+           x="785.07025"
+           sodipodi:role="line"
+           style="font-style:italic;fill:#666666;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan6610">Use definition of composition.</tspan></text>
+      <g
+         style="fill-rule:evenodd"
+         id="g6612"
+         transform="translate(-1861.5489,-1080.4411)">
+        <g
+           id="g6614"
+           visibility="visible"
+           style="visibility:visible">
+          <desc
+             id="desc6616">Master slide</desc>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(-657.09604,762.44948)"
+       id="g6626"
+       style="fill:#666666"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1.png"
+       inkscape:export-xdpi="90.090492"
+       inkscape:export-ydpi="90.090492">
+      <text
+         sodipodi:linespacing="125%"
+         id="text6628"
+         y="226.89999"
+         x="785.07025"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         xml:space="preserve"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-ydpi="120.17618"><tspan
+           y="226.89999"
+           x="785.07025"
+           sodipodi:role="line"
+           style="font-style:italic;fill:#666666;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan6630">Apply f(x).</tspan></text>
+    </g>
+    <g
+       style="fill:#666666"
+       id="g6638"
+       transform="translate(-657.09604,802.42288)"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1.png"
+       inkscape:export-xdpi="90.090492"
+       inkscape:export-ydpi="90.090492">
+      <text
+         inkscape:export-ydpi="120.17618"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         xml:space="preserve"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         x="785.07025"
+         y="226.89999"
+         id="text6640"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan6642"
+           style="font-style:italic;fill:#666666;-inkscape-font-specification:'Times New Roman, Italic'"
+           sodipodi:role="line"
+           x="785.07025"
+           y="226.89999">Multiplication and division by 2 cancel.</tspan></text>
+    </g>
+    <g
+       transform="translate(-657.09604,837.56521)"
+       id="g6646"
+       style="fill:#666666"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1.png"
+       inkscape:export-xdpi="90.090492"
+       inkscape:export-ydpi="90.090492">
+      <text
+         sodipodi:linespacing="125%"
+         id="text6648"
+         y="226.89999"
+         x="785.07025"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         xml:space="preserve"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-ydpi="120.17618"><tspan
+           y="226.89999"
+           x="785.07025"
+           sodipodi:role="line"
+           style="font-style:italic;fill:#666666;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan6658">Simplify.</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6680"
+       y="1064.0505"
+       x="-19.405613"
+       style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1.png"
+       inkscape:export-xdpi="90.090492"
+       inkscape:export-ydpi="90.090492"><tspan
+         y="1064.0505"
+         x="-19.405613"
+         id="tspan6682"
+         sodipodi:role="line"><tspan
+           style="font-size:18px;letter-spacing:2px;fill:#000000"
+           id="tspan6684">= x</tspan><tspan
+           style="font-size:18px;font-style:normal;letter-spacing:2px;fill:#000000;-inkscape-font-specification:'Times New Roman,'"
+           id="tspan6686" /></tspan></text>
+    <g
+       transform="translate(745.81335,168.47639)"
+       id="g8123"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1.png"
+       inkscape:export-xdpi="90.090492"
+       inkscape:export-ydpi="90.090492">
+      <text
+         inkscape:export-ydpi="120.17618"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         xml:space="preserve"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         x="130.57271"
+         y="224.61612"
+         id="text8125"
+         sodipodi:linespacing="125%"
+         transform="translate(-895.79168,597.75142)"><tspan
+           sodipodi:role="line"
+           id="tspan8127"
+           x="130.57271"
+           y="224.61612"><tspan
+             id="tspan8129"
+             style="font-size:20px;letter-spacing:2px;fill:#ff0000"><tspan
+               id="tspan8131"
+               style="font-size:18px;fill:#000000">= <tspan
+   style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan8167"><tspan
+     style="fill:#ff0000"
+     id="tspan8169">2   </tspan></tspan></tspan></tspan><tspan
+             id="tspan8133"
+             style="font-size:32px;font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'" /><tspan
+             id="tspan8135"
+             style="font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"><tspan
+               id="tspan8137"
+               style="font-size:20px;fill:#ff0000"><tspan
+                 style="font-size:32px"
+                 id="tspan8139" /></tspan></tspan></tspan></text>
+      <text
+         transform="matrix(0.75909434,0,0,1.3173593,-895.79168,597.75142)"
+         inkscape:export-ydpi="120.17618"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         xml:space="preserve"
+         style="font-size:23.60026932px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         x="280.03473"
+         y="173.71211"
+         id="text8141"
+         sodipodi:linespacing="125%"><tspan
+           style="font-size:31.61662292px;font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"
+           sodipodi:role="line"
+           id="tspan8143"
+           x="280.03473"
+           y="173.71211"><tspan
+             dy="0"
+             id="tspan8145"
+             style="font-size:31.61662292px;fill:#ff0000">)</tspan></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text8147"
+         y="173.71211"
+         x="-226.74342"
+         style="font-size:23.60026932px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         xml:space="preserve"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-ydpi="120.17618"
+         transform="matrix(-0.75909434,0,0,1.3173593,-895.79168,597.75142)"><tspan
+           y="173.71211"
+           x="-226.74342"
+           id="tspan8149"
+           sodipodi:role="line"
+           style="font-size:31.61662292px;font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"><tspan
+             style="font-size:31.61662292px;fill:#ff0000"
+             id="tspan8151"
+             dy="0">)</tspan></tspan></text>
+      <g
+         id="g8153"
+         transform="translate(-959.23149,489.33731)"
+         inkscape:export-filename="c:\Book Ideas\images\composition_g3.png"
+         inkscape:export-xdpi="100"
+         inkscape:export-ydpi="100">
+        <text
+           xml:space="preserve"
+           style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+           x="240.71049"
+           y="323.54352"
+           id="text8155"
+           sodipodi:linespacing="125%"
+           inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+           inkscape:export-xdpi="120.17618"
+           inkscape:export-ydpi="120.17618"><tspan
+             sodipodi:role="line"
+             id="tspan8157"
+             x="240.71049"
+             y="323.54352"
+             style="font-style:italic;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:'Times New Roman, Italic'">x - <tspan
+   style="font-style:normal;letter-spacing:3px;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan8159">6</tspan></tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text8161"
+           y="341.42554"
+           x="251.67108"
+           style="font-size:17.91483116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           xml:space="preserve"
+           inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+           inkscape:export-xdpi="120.17618"
+           inkscape:export-ydpi="120.17618"><tspan
+             y="341.42554"
+             x="251.67108"
+             id="tspan8163"
+             sodipodi:role="line">2</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path8165"
+           d="m 234.18067,326.55634 43.57959,0"
+           style="fill:none;stroke:#0000ff;stroke-width:0.80422902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+           inkscape:export-xdpi="120.17618"
+           inkscape:export-ydpi="120.17618" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text8171"
+         y="822.36755"
+         x="-673.21899"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         xml:space="preserve"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-ydpi="120.17618"><tspan
+           y="822.36755"
+           x="-673.21899"
+           id="tspan8173"
+           sodipodi:role="line"><tspan
+             style="font-size:20px;letter-spacing:2px;fill:#ff0000"
+             id="tspan8175"><tspan
+               style="font-size:18px;fill:#000000"
+               id="tspan8177"><tspan
+                 style="fill:#ff0000"
+                 id="tspan8193">+</tspan><tspan
+                 style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"
+                 id="tspan8191"><tspan
+                   style="fill:#ff0000"
+                   id="tspan8195">6   </tspan></tspan></tspan></tspan><tspan
+             style="font-size:32px;font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'"
+             id="tspan8183" /><tspan
+             style="font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"
+             id="tspan8185"><tspan
+               style="font-size:20px;fill:#ff0000"
+               id="tspan8187"><tspan
+                 id="tspan8189"
+                 style="font-size:32px" /></tspan></tspan></tspan></text>
+    </g>
+    <g
+       id="g8204"
+       transform="translate(-350.1224,721.94988)"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-ydpi="90.187737">
+      <g
+         id="g8206">
+        <text
+           inkscape:export-ydpi="120.17618"
+           inkscape:export-xdpi="120.17618"
+           inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+           xml:space="preserve"
+           style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+           x="777.07025"
+           y="226.89999"
+           id="text8208"
+           sodipodi:linespacing="125%"><tspan
+             style="fill:#000000"
+             sodipodi:role="line"
+             id="tspan8210"
+             x="777.07025"
+             y="226.89999"><tspan
+   id="tspan8212"
+   style="font-style:normal;letter-spacing:3px;fill:#000000;-inkscape-font-specification:'Times New Roman,'">(</tspan>f <tspan
+   id="tspan8214"
+   style="font-size:65.00091553%;font-style:normal;baseline-shift:super;-inkscape-font-specification:'Times New Roman,'">-1   </tspan><tspan
+   style="font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan8218"
+   dy="0 0 0 0 0 -1.2"><tspan
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan8422">f </tspan>)(<tspan
+   id="tspan8220"
+   style="font-style:italic;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan>)  </tspan></tspan></text>
+      </g>
+      <path
+         sodipodi:type="arc"
+         style="fill:none;stroke:#000000;stroke-width:1.37873328;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path8222"
+         sodipodi:cx="278.2421"
+         sodipodi:cy="182.23677"
+         sodipodi:rx="4.9509268"
+         sodipodi:ry="4.7033806"
+         d="m 283.19302,182.23677 c 0,2.59761 -2.2166,4.70338 -4.95092,4.70338 -2.73433,0 -4.95093,-2.10577 -4.95093,-4.70338 0,-2.5976 2.2166,-4.70338 4.95093,-4.70338 2.73432,0 4.95092,2.10578 4.95092,4.70338 z"
+         transform="matrix(0.53020376,0,0,0.55810921,659.22736,121.56927)" />
+    </g>
+    <text
+       inkscape:export-ydpi="90.187737"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       xml:space="preserve"
+       style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+       x="503.56805"
+       y="949.49988"
+       id="text8224"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8226"
+         x="503.56805"
+         y="949.49988"><tspan
+           id="tspan8228"
+           style="font-size:20px;letter-spacing:2px;fill:#ff0000"><tspan
+             id="tspan8230"
+             style="font-size:18px;fill:#000000">= </tspan><tspan
+             style="fill:#0000ff"
+             id="tspan8455">f</tspan><tspan
+             style="font-size:65.00091553%;font-style:normal;baseline-shift:super;fill:#0000ff;-inkscape-font-specification:'Times New Roman,'"
+             id="tspan8424"> -1</tspan></tspan><tspan
+           id="tspan8232"
+           style="font-size:20px;font-style:normal;fill:#0000ff;-inkscape-font-specification:'Times New Roman,'">(</tspan><tspan
+           id="tspan8234"
+           style="font-size:16px;fill:#ff0000">f </tspan><tspan
+           style="font-size:16px;font-style:normal;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"
+           id="tspan8238">(<tspan
+   id="tspan8240"
+   style="font-style:italic;fill:#ff0000;-inkscape-font-specification:'Times New Roman, Italic'">x</tspan></tspan><tspan
+           id="tspan8242"
+           style="font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"><tspan
+             style="font-size:16px;fill:#ff0000"
+             id="tspan8244">)</tspan><tspan
+             dy="0"
+             id="tspan8246"
+             style="font-size:20px;fill:#0000ff">)</tspan></tspan></tspan></text>
+    <g
+       transform="translate(-134.12238,720.6517)"
+       style="fill:#666666"
+       id="g8264"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-ydpi="90.187737">
+      <text
+         inkscape:export-ydpi="120.17618"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         xml:space="preserve"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         x="785.07025"
+         y="226.89999"
+         id="text8266"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan8268"
+           style="font-style:italic;fill:#666666;-inkscape-font-specification:'Times New Roman, Italic'"
+           sodipodi:role="line"
+           x="785.07025"
+           y="226.89999">Use definition of composition.</tspan></text>
+      <g
+         transform="translate(-1861.5489,-1080.4411)"
+         id="g8270"
+         style="fill-rule:evenodd">
+        <g
+           style="visibility:visible"
+           visibility="visible"
+           id="g8272">
+          <desc
+             id="desc8274">Master slide</desc>
+        </g>
+      </g>
+    </g>
+    <text
+       inkscape:export-ydpi="90.187737"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       xml:space="preserve"
+       style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+       x="650.94788"
+       y="987.54462"
+       id="text8276"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan8278"
+         style="font-style:italic;fill:#666666;-inkscape-font-specification:'Times New Roman, Italic'"
+         sodipodi:role="line"
+         x="650.94788"
+         y="987.54462">Substitute the equation for f(x). </tspan></text>
+    <g
+       style="fill:#666666"
+       id="g8282"
+       transform="translate(-134.12238,802.00054)"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-ydpi="90.187737">
+      <text
+         inkscape:export-ydpi="120.17618"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         xml:space="preserve"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         x="785.07025"
+         y="226.89999"
+         id="text8284"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan8286"
+           style="font-style:italic;fill:#666666;-inkscape-font-specification:'Times New Roman, Italic'"
+           sodipodi:role="line"
+           x="785.07025"
+           y="226.89999">Apply f <tspan
+   style="font-size:65.00091553%;font-style:normal;baseline-shift:super;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan8572">-1</tspan>(x).</tspan></text>
+    </g>
+    <g
+       transform="translate(-134.12238,845.66617)"
+       id="g8288"
+       style="fill:#666666"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-ydpi="90.187737">
+      <text
+         sodipodi:linespacing="125%"
+         id="text8290"
+         y="226.89999"
+         x="785.07025"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         xml:space="preserve"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-ydpi="120.17618"><tspan
+           y="226.89999"
+           x="785.07025"
+           sodipodi:role="line"
+           style="font-style:italic;fill:#666666;-inkscape-font-specification:'Times New Roman, Italic'"
+           id="tspan8292">Cancel +6 and -6.</tspan></text>
+    </g>
+    <g
+       style="fill:#666666"
+       id="g8294"
+       transform="translate(-134.12238,885.56521)"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-ydpi="90.187737">
+      <text
+         inkscape:export-ydpi="120.17618"
+         inkscape:export-xdpi="120.17618"
+         inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+         xml:space="preserve"
+         style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+         x="785.07025"
+         y="226.89999"
+         id="text8296"
+         sodipodi:linespacing="125%"><tspan
+           id="tspan8298"
+           style="font-style:italic;fill:#666666;-inkscape-font-specification:'Times New Roman, Italic'"
+           sodipodi:role="line"
+           x="785.07025"
+           y="226.89999">Simplify.</tspan></text>
+    </g>
+    <text
+       inkscape:export-ydpi="90.187737"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       xml:space="preserve"
+       style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+       x="503.56805"
+       y="1112.0505"
+       id="text8300"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8302"
+         x="503.56805"
+         y="1112.0505"><tspan
+           id="tspan8304"
+           style="font-size:18px;letter-spacing:2px;fill:#000000">= x</tspan><tspan
+           id="tspan8306"
+           style="font-size:18px;font-style:normal;letter-spacing:2px;fill:#000000;-inkscape-font-specification:'Times New Roman,'" /></tspan></text>
+    <g
+       id="g8744"
+       transform="translate(226.69564,152.23357)"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-ydpi="90.187737">
+      <g
+         transform="translate(1042.0914,56.480168)"
+         id="g8352">
+        <text
+           inkscape:export-ydpi="120.17618"
+           inkscape:export-xdpi="120.17618"
+           inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+           xml:space="preserve"
+           style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+           x="130.57271"
+           y="224.61612"
+           id="text8354"
+           sodipodi:linespacing="125%"
+           transform="translate(-895.79168,597.75142)"><tspan
+             sodipodi:role="line"
+             id="tspan8356"
+             x="130.57271"
+             y="224.61612"><tspan
+               id="tspan8358"
+               style="font-size:20px;letter-spacing:2px;fill:#ff0000"><tspan
+                 id="tspan8360"
+                 style="font-size:18px;fill:#000000">=    <tspan
+   style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan8362"><tspan
+     style="fill:#ff0000"
+     id="tspan8364" /></tspan></tspan></tspan><tspan
+               id="tspan8366"
+               style="font-size:32px;font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'" /><tspan
+               id="tspan8368"
+               style="font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"><tspan
+                 id="tspan8370"
+                 style="font-size:20px;fill:#ff0000"><tspan
+                   style="font-size:32px"
+                   id="tspan8372" /></tspan></tspan></tspan></text>
+        <text
+           inkscape:export-ydpi="120.17618"
+           inkscape:export-xdpi="120.17618"
+           inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+           sodipodi:linespacing="125%"
+           id="text8388"
+           y="810.8808"
+           x="-738.521"
+           style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+           xml:space="preserve"><tspan
+             style="font-style:italic;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:'Times New Roman, Italic'"
+             y="810.8808"
+             x="-738.521"
+             id="tspan8390"
+             sodipodi:role="line"><tspan
+   style="font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan8555">(2</tspan><tspan
+   style="fill:#ff0000"
+   id="tspan8559">x+</tspan><tspan
+   style="font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan8557">6)</tspan> - <tspan
+   id="tspan8392"
+   style="font-style:normal;letter-spacing:3px;-inkscape-font-specification:'Times New Roman,'">6</tspan></tspan></text>
+        <text
+           inkscape:export-ydpi="120.17618"
+           inkscape:export-xdpi="120.17618"
+           inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+           xml:space="preserve"
+           style="font-size:17.91483116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+           x="-707.93427"
+           y="830.76282"
+           id="text8394"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan8396"
+             x="-707.93427"
+             y="830.76282">2</tspan></text>
+        <path
+           inkscape:export-ydpi="120.17618"
+           inkscape:export-xdpi="120.17618"
+           inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+           style="fill:none;stroke:#0000ff;stroke-width:1.10875809px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m -745.05082,815.89365 82.83184,0"
+           id="path8398"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text8519"
+       y="989.49274"
+       x="503.56805"
+       style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-ydpi="90.187737"><tspan
+         y="989.49274"
+         x="503.56805"
+         id="tspan8521"
+         sodipodi:role="line"><tspan
+           style="font-size:20px;letter-spacing:2px;fill:#ff0000"
+           id="tspan8523"><tspan
+             style="font-size:18px;fill:#000000"
+             id="tspan8525">= </tspan><tspan
+             id="tspan8527"
+             style="fill:#0000ff">f</tspan><tspan
+             id="tspan8529"
+             style="font-size:65.00091553%;font-style:normal;baseline-shift:super;fill:#0000ff;-inkscape-font-specification:'Times New Roman,'"> -1</tspan></tspan><tspan
+           style="font-size:20px;font-style:normal;fill:#0000ff;-inkscape-font-specification:'Times New Roman,'"
+           id="tspan8531">(</tspan><tspan
+           id="tspan8535"
+           style="font-size:16px;font-style:normal;fill:#ff0000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"><tspan
+   style="letter-spacing:2px"
+   id="tspan8553">2</tspan><tspan
+   style="font-style:italic;letter-spacing:2px;fill:#ff0000;-inkscape-font-specification:'Times New Roman, Italic'"
+   id="tspan8537">x+</tspan>6</tspan><tspan
+           style="font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"
+           id="tspan8539"><tspan
+             style="font-size:20px;fill:#0000ff"
+             id="tspan8543"
+             dy="0">)</tspan></tspan></tspan></text>
+    <g
+       id="g8576"
+       transform="translate(1268.787,250.71374)"
+       inkscape:export-filename="C:\Book Ideas\images\composition_inverse_1a.png"
+       inkscape:export-xdpi="90.187737"
+       inkscape:export-ydpi="90.187737">
+      <g
+         id="g8658"
+         transform="translate(-20.008225,0)">
+        <g
+           id="g8724">
+          <text
+             inkscape:export-ydpi="120.17618"
+             inkscape:export-xdpi="120.17618"
+             inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+             xml:space="preserve"
+             style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+             x="130.57271"
+             y="224.61612"
+             id="text8578"
+             sodipodi:linespacing="125%"
+             transform="translate(-875.78345,597.75142)"><tspan
+               sodipodi:role="line"
+               id="tspan8580"
+               x="130.57271"
+               y="224.61612"><tspan
+                 id="tspan8582"
+                 style="font-size:20px;letter-spacing:2px;fill:#ff0000"><tspan
+                   id="tspan8584"
+                   style="font-size:18px;fill:#000000">=    <tspan
+   style="font-style:normal;-inkscape-font-specification:'Times New Roman,'"
+   id="tspan8586"><tspan
+     style="fill:#ff0000"
+     id="tspan8588" /></tspan></tspan></tspan><tspan
+                 id="tspan8590"
+                 style="font-size:32px;font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'" /><tspan
+                 id="tspan8592"
+                 style="font-style:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:'Times New Roman,'"><tspan
+                   id="tspan8594"
+                   style="font-size:20px;fill:#ff0000"><tspan
+                     style="font-size:32px"
+                     id="tspan8596" /></tspan></tspan></tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:17.91483116px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman, Italic'"
+             x="-717.56036"
+             y="812.8808"
+             id="text8612"
+             sodipodi:linespacing="125%"
+             inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+             inkscape:export-xdpi="120.17618"
+             inkscape:export-ydpi="120.17618"><tspan
+               sodipodi:role="line"
+               id="tspan8614"
+               x="-717.56036"
+               y="812.8808"
+               style="font-style:italic;fill:#0000ff;fill-opacity:1;-inkscape-font-specification:'Times New Roman, Italic'"><tspan
+                 id="tspan8646"
+                 style="font-style:normal;fill:#ff0000;-inkscape-font-specification:'Times New Roman,'">2</tspan><tspan
+                 id="tspan8648"
+                 style="fill:#ff0000">x </tspan><tspan
+                 style="font-style:normal;letter-spacing:3px;-inkscape-font-specification:'Times New Roman,'"
+                 id="tspan8616" /></tspan></text>
+          <text
+             sodipodi:linespacing="125%"
+             id="text8618"
+             y="830.76282"
+             x="-713.21722"
+             style="font-size:17.91483116px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Times New Roman;-inkscape-font-specification:'Times New Roman,'"
+             xml:space="preserve"
+             inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+             inkscape:export-xdpi="120.17618"
+             inkscape:export-ydpi="120.17618"><tspan
+               y="830.76282"
+               x="-713.21722"
+               id="tspan8620"
+               sodipodi:role="line">2</tspan></text>
+          <path
+             inkscape:connector-curvature="0"
+             id="path8622"
+             d="m -725.05047,815.72431 32.26591,0"
+             style="fill:none;stroke:#0000ff;stroke-width:1.09540987px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             inkscape:export-filename="I:\Book Ideas\images\inverse_equation_b.png"
+             inkscape:export-xdpi="120.17618"
+             inkscape:export-ydpi="120.17618" />
+        </g>
+      </g>
+    </g>
+    <image
+       y="295.4693"
+       x="104.69169"
+       id="image8863"
+       xlink:href="data:image/png;base64,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
+AElFTkSuQmCC
+"
+       height="521"
+       width="556" />
+  </g>
+</svg>

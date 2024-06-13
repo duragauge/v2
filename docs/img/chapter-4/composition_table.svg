@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="571.11523"
+   height="132.65434"
+   id="svg4562"
+   version="1.1"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="composition_table.svg">
+  <defs
+     id="defs4564">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path4960"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path4966"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2LendB8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB8">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round"
+         id="path4227" />
+    </marker>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3419"
+       effect="spiro" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2LendB"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path5325" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3416"
+       is_visible="true" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2LendBm"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendBm">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round"
+         id="path4233" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3414"
+       is_visible="true" />
+    <marker
+       style="overflow:visible"
+       id="marker4353"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4355" />
+    </marker>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3412"
+       effect="spiro" />
+    <marker
+       style="overflow:visible"
+       id="marker4358"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB8">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round"
+         id="path4360" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3387"
+       is_visible="true" />
+    <marker
+       style="overflow:visible"
+       id="marker4363"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4365" />
+    </marker>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3394"
+       effect="spiro" />
+    <marker
+       style="overflow:visible"
+       id="marker4368"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendBm">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round"
+         id="path4370" />
+    </marker>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3399"
+       effect="spiro" />
+    <marker
+       style="overflow:visible"
+       id="marker4373"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4375" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3404"
+       is_visible="true" />
+    <marker
+       style="overflow:visible"
+       id="marker4378"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4380" />
+    </marker>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3370"
+       effect="spiro" />
+    <marker
+       style="overflow:visible"
+       id="Arrow2LendB6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB6">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round"
+         id="path4230" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3363"
+       is_visible="true" />
+    <marker
+       style="overflow:visible"
+       id="marker4386"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4388" />
+    </marker>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3264"
+       effect="spiro" />
+    <marker
+       style="overflow:visible"
+       id="marker4391"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendBm">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round"
+         id="path4393" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3266"
+       is_visible="true" />
+    <marker
+       style="overflow:visible"
+       id="marker4396"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#ff0000;fill-rule:evenodd;stroke:#ff0000;stroke-width:0.625;stroke-linejoin:round"
+         id="path4398" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3301"
+       is_visible="true" />
+    <marker
+       style="overflow:visible"
+       id="marker4401"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2LendB8">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#0000ff;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round"
+         id="path4403" />
+    </marker>
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect3303"
+       effect="spiro" />
+    <font
+       horiz-adv-x="2048"
+       id="EmbeddedFont_2"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
+      <font-face
+         id="font-face6781"
+         descent="503"
+         ascent="1826"
+         units-per-em="2048"
+         font-family="Times New Roman embedded" />
+      <missing-glyph
+         id="missing-glyph6783"
+         horiz-adv-x="2048">
+        <path
+           id="path6785"
+           d="M 0,2048 L 2047,2048 2047,1 0,1 0,2048 Z"
+           style="fill:none;stroke:black;stroke-width:33" />
+      </missing-glyph>
+      <glyph
+         id="glyph6787"
+         horiz-adv-x="901"
+         unicode="2">
+        <path
+           id="path6789"
+           d="M 939,261 L 844,0 44,0 44,37 C 279,252 445,427 541,563 637,699 685,823 685,936 685,1022 659,1093 606,1148 553,1203 490,1231 417,1231 350,1231 291,1212 238,1173 185,1134 145,1076 120,1001 L 83,1001 C 100,1124 143,1219 212,1285 281,1351 367,1384 470,1384 580,1384 672,1349 746,1278 819,1207 856,1124 856,1028 856,959 840,891 808,822 759,714 679,600 568,479 402,298 298,188 257,151 L 611,151 C 683,151 734,154 763,159 792,164 818,175 841,192 864,208 885,231 902,261 L 939,261 Z" />
+      </glyph>
+      <glyph
+         id="glyph6791"
+         horiz-adv-x="769"
+         unicode="3">
+        <path
+           id="path6793"
+           d="M 104,1098 C 143,1189 192,1260 251,1310 310,1359 383,1384 471,1384 580,1384 663,1349 721,1278 765,1225 787,1169 787,1109 787,1010 725,908 601,803 684,770 747,724 790,663 833,602 854,531 854,449 854,332 817,230 742,144 645,32 504,-24 319,-24 228,-24 166,-13 133,10 100,33 83,57 83,83 83,102 91,119 107,134 122,149 141,156 163,156 180,156 197,153 214,148 225,145 251,133 291,112 331,91 359,78 374,74 399,67 425,63 453,63 521,63 580,89 631,142 681,195 706,257 706,329 706,382 694,433 671,483 654,520 635,549 614,568 585,595 546,619 496,641 446,662 395,673 343,673 L 311,673 311,703 C 364,710 417,729 470,760 523,791 561,829 585,873 609,917 621,965 621,1018 621,1087 600,1142 557,1185 514,1227 460,1248 396,1248 293,1248 206,1193 137,1082 L 104,1098 Z" />
+      </glyph>
+      <glyph
+         id="glyph6795"
+         horiz-adv-x="795"
+         unicode="5">
+        <path
+           id="path6797"
+           d="M 889,1356 L 811,1186 403,1186 314,1004 C 491,978 631,912 734,807 823,716 867,610 867,487 867,416 853,350 824,289 795,228 758,177 714,134 670,91 621,57 567,31 490,-6 412,-24 331,-24 250,-24 191,-10 154,18 117,45 98,76 98,109 98,128 106,144 121,159 136,173 156,180 179,180 196,180 212,177 225,172 238,167 260,153 291,131 341,96 392,79 443,79 521,79 590,109 649,168 708,227 737,298 737,383 737,465 711,542 658,613 605,684 533,738 440,777 367,807 268,824 143,829 L 403,1356 889,1356 Z" />
+      </glyph>
+      <glyph
+         id="glyph6799"
+         horiz-adv-x="928"
+         unicode="x">
+        <path
+           id="path6801"
+           d="M 27,916 L 458,916 458,879 C 431,879 412,874 401,865 390,856 384,843 384,828 384,812 396,787 419,754 426,743 437,727 452,704 L 517,600 592,704 C 640,770 664,812 664,829 664,843 658,855 647,865 636,874 617,879 592,879 L 592,916 902,916 902,879 C 869,877 841,868 817,852 784,829 740,780 683,704 L 558,537 786,209 C 842,128 882,80 906,64 930,47 961,38 999,36 L 999,0 567,0 567,36 C 597,36 620,43 637,56 650,65 656,78 656,93 656,108 635,147 592,209 L 458,405 311,209 C 266,148 243,112 243,101 243,85 251,71 266,58 281,45 303,37 333,36 L 333,0 34,0 34,36 C 58,39 79,48 97,61 122,80 165,130 225,209 L 417,464 243,716 C 194,788 156,833 129,852 102,870 68,879 27,879 L 27,916 Z" />
+      </glyph>
+    </font>
+    <font
+       horiz-adv-x="2048"
+       id="EmbeddedFont_1"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
+      <font-face
+         id="font-face6760"
+         descent="397"
+         ascent="1640"
+         units-per-em="2048"
+         font-family="StarSymbol embedded" />
+      <missing-glyph
+         id="missing-glyph6762"
+         horiz-adv-x="2048">
+        <path
+           id="path6764"
+           d="M 0,2048 L 2047,2048 2047,1 0,1 0,2048 Z"
+           style="fill:none;stroke:black;stroke-width:33" />
+      </missing-glyph>
+      <glyph
+         id="glyph6766"
+         horiz-adv-x="1165"
+         unicode="">
+        <path
+           id="path6768"
+           d="M 766,0 L 766,543 221,543 221,641 766,641 766,1184 864,1184 864,641 1407,641 1407,543 864,543 864,0 766,0 Z" />
+      </glyph>
+      <glyph
+         id="glyph6770"
+         horiz-adv-x="398"
+         unicode="">
+        <path
+           id="path6772"
+           d="M 537,-424 C 407,-315 307,-160 238,39 177,213 147,397 147,590 147,778 178,962 240,1141 311,1352 410,1505 537,1602 L 537,1552 C 444,1465 372,1315 322,1102 283,935 264,764 264,590 264,417 283,247 322,78 372,-138 444,-288 537,-373 L 537,-424 Z" />
+      </glyph>
+      <glyph
+         id="glyph6774"
+         horiz-adv-x="398"
+         unicode="">
+        <path
+           id="path6776"
+           d="M 102,-373 C 192,-292 262,-148 311,57 352,224 373,388 373,547 373,737 355,915 319,1081 273,1304 201,1461 102,1552 L 102,1602 C 229,1511 328,1358 399,1143 459,963 489,779 489,590 489,397 460,213 401,37 330,-174 230,-328 102,-424 L 102,-373 Z" />
+      </glyph>
+    </font>
+    <font
+       horiz-adv-x="2048"
+       id="EmbeddedFont_2-5"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
+      <font-face
+         id="font-face7090"
+         descent="503"
+         ascent="1826"
+         units-per-em="2048"
+         font-family="Times New Roman embedded" />
+      <missing-glyph
+         id="missing-glyph7092"
+         horiz-adv-x="2048">
+        <path
+           id="path7094"
+           d="M 0,2048 L 2047,2048 2047,1 0,1 0,2048 Z"
+           style="fill:none;stroke:black;stroke-width:33" />
+      </missing-glyph>
+      <glyph
+         id="glyph7096"
+         horiz-adv-x="901"
+         unicode="2">
+        <path
+           id="path7098"
+           d="M 939,261 L 844,0 44,0 44,37 C 279,252 445,427 541,563 637,699 685,823 685,936 685,1022 659,1093 606,1148 553,1203 490,1231 417,1231 350,1231 291,1212 238,1173 185,1134 145,1076 120,1001 L 83,1001 C 100,1124 143,1219 212,1285 281,1351 367,1384 470,1384 580,1384 672,1349 746,1278 819,1207 856,1124 856,1028 856,959 840,891 808,822 759,714 679,600 568,479 402,298 298,188 257,151 L 611,151 C 683,151 734,154 763,159 792,164 818,175 841,192 864,208 885,231 902,261 L 939,261 Z" />
+      </glyph>
+      <glyph
+         id="glyph7100"
+         horiz-adv-x="769"
+         unicode="3">
+        <path
+           id="path7102"
+           d="M 104,1098 C 143,1189 192,1260 251,1310 310,1359 383,1384 471,1384 580,1384 663,1349 721,1278 765,1225 787,1169 787,1109 787,1010 725,908 601,803 684,770 747,724 790,663 833,602 854,531 854,449 854,332 817,230 742,144 645,32 504,-24 319,-24 228,-24 166,-13 133,10 100,33 83,57 83,83 83,102 91,119 107,134 122,149 141,156 163,156 180,156 197,153 214,148 225,145 251,133 291,112 331,91 359,78 374,74 399,67 425,63 453,63 521,63 580,89 631,142 681,195 706,257 706,329 706,382 694,433 671,483 654,520 635,549 614,568 585,595 546,619 496,641 446,662 395,673 343,673 L 311,673 311,703 C 364,710 417,729 470,760 523,791 561,829 585,873 609,917 621,965 621,1018 621,1087 600,1142 557,1185 514,1227 460,1248 396,1248 293,1248 206,1193 137,1082 L 104,1098 Z" />
+      </glyph>
+      <glyph
+         id="glyph7104"
+         horiz-adv-x="795"
+         unicode="5">
+        <path
+           id="path7106"
+           d="M 889,1356 L 811,1186 403,1186 314,1004 C 491,978 631,912 734,807 823,716 867,610 867,487 867,416 853,350 824,289 795,228 758,177 714,134 670,91 621,57 567,31 490,-6 412,-24 331,-24 250,-24 191,-10 154,18 117,45 98,76 98,109 98,128 106,144 121,159 136,173 156,180 179,180 196,180 212,177 225,172 238,167 260,153 291,131 341,96 392,79 443,79 521,79 590,109 649,168 708,227 737,298 737,383 737,465 711,542 658,613 605,684 533,738 440,777 367,807 268,824 143,829 L 403,1356 889,1356 Z" />
+      </glyph>
+      <glyph
+         id="glyph7108"
+         horiz-adv-x="928"
+         unicode="x">
+        <path
+           id="path7110"
+           d="M 27,916 L 458,916 458,879 C 431,879 412,874 401,865 390,856 384,843 384,828 384,812 396,787 419,754 426,743 437,727 452,704 L 517,600 592,704 C 640,770 664,812 664,829 664,843 658,855 647,865 636,874 617,879 592,879 L 592,916 902,916 902,879 C 869,877 841,868 817,852 784,829 740,780 683,704 L 558,537 786,209 C 842,128 882,80 906,64 930,47 961,38 999,36 L 999,0 567,0 567,36 C 597,36 620,43 637,56 650,65 656,78 656,93 656,108 635,147 592,209 L 458,405 311,209 C 266,148 243,112 243,101 243,85 251,71 266,58 281,45 303,37 333,36 L 333,0 34,0 34,36 C 58,39 79,48 97,61 122,80 165,130 225,209 L 417,464 243,716 C 194,788 156,833 129,852 102,870 68,879 27,879 L 27,916 Z" />
+      </glyph>
+    </font>
+    <font
+       horiz-adv-x="2048"
+       id="EmbeddedFont_1-9"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
+      <font-face
+         id="font-face7069"
+         descent="397"
+         ascent="1640"
+         units-per-em="2048"
+         font-family="StarSymbol embedded" />
+      <missing-glyph
+         id="missing-glyph7071"
+         horiz-adv-x="2048">
+        <path
+           id="path7073"
+           d="M 0,2048 L 2047,2048 2047,1 0,1 0,2048 Z"
+           style="fill:none;stroke:black;stroke-width:33" />
+      </missing-glyph>
+      <glyph
+         id="glyph7075"
+         horiz-adv-x="1165"
+         unicode="">
+        <path
+           id="path7077"
+           d="M 766,0 L 766,543 221,543 221,641 766,641 766,1184 864,1184 864,641 1407,641 1407,543 864,543 864,0 766,0 Z" />
+      </glyph>
+      <glyph
+         id="glyph7079"
+         horiz-adv-x="398"
+         unicode="">
+        <path
+           id="path7081"
+           d="M 537,-424 C 407,-315 307,-160 238,39 177,213 147,397 147,590 147,778 178,962 240,1141 311,1352 410,1505 537,1602 L 537,1552 C 444,1465 372,1315 322,1102 283,935 264,764 264,590 264,417 283,247 322,78 372,-138 444,-288 537,-373 L 537,-424 Z" />
+      </glyph>
+      <glyph
+         id="glyph7083"
+         horiz-adv-x="398"
+         unicode="">
+        <path
+           id="path7085"
+           d="M 102,-373 C 192,-292 262,-148 311,57 352,224 373,388 373,547 373,737 355,915 319,1081 273,1304 201,1461 102,1552 L 102,1602 C 229,1511 328,1358 399,1143 459,963 489,779 489,590 489,397 460,213 401,37 330,-174 230,-328 102,-424 L 102,-373 Z" />
+      </glyph>
+    </font>
+    <clipPath
+       id="clipEmfPath1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect4955"
+         height="180.39417"
+         width="290.98132"
+         y="-15.889642"
+         x="-79.528656" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath1-0"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect5160"
+         height="180.39417"
+         width="277.73373"
+         y="-15.889642"
+         x="-78.81633" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath1-9"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect5376"
+         height="149.43898"
+         width="662.63428"
+         y="-15.877892"
+         x="-45.925144" />
+    </clipPath>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mend-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path3886"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3061"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path3063"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3065"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path3067"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3069"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path3071"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3073"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path3075"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.23360263"
+     inkscape:cx="259.02995"
+     inkscape:cy="-256.80345"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <metadata
+     id="metadata4567">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-185.13992,511.87456)">
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       clip-path="url(#clipEmfPath1-9)"
+       d="M 0,0 H 536.10579"
+       id="path5380"
+       transform="matrix(1.0438259,0,0,1,190.63605,-506.38896)" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.95756555px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 190.63605,-481.17113 H 750.23717"
+       id="path5382" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.95756555px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 190.63605,-455.9533 H 750.23717"
+       id="path5384" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.95756555px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 190.63605,-506.38896 v 50.43566"
+       id="path5392" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 306.70245,-506.38896 v 50.43566"
+       id="path5396" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 396.67825,-506.38896 v 50.43566"
+       id="path5400" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 485.71679,-506.38896 v 50.43566"
+       id="path5404" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 575.69259,-506.38896 v 50.43566"
+       id="path5408" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 664.73114,-506.38896 v 50.43566"
+       id="path5412" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 750.76963,-506.38896 v 50.43566"
+       id="path5416" />
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="246.34677"
+       y="-488.64313"
+       style="font-style:italic;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5420">x</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="346.06686"
+       y="-488.64313"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5422">-2</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="435.10541"
+       y="-488.64313"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5424">-1</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="526.95575"
+       y="-488.64313"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5426">0</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="615.99426"
+       y="-488.64313"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5428">1</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="705.97003"
+       y="-488.64313"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5430">2</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="239.06061"
+       y="-463.42526"
+       style="font-style:italic;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#ff0000"
+       id="text5432"><tspan
+   id="tspan3565"
+   style="letter-spacing:2px">f</tspan><tspan
+   id="tspan3560"
+   style="font-style:normal;-inkscape-font-specification:'Times New Roman, Bold'">(</tspan>x<tspan
+   id="tspan3563"
+   style="font-style:normal;-inkscape-font-specification:'Times New Roman, Bold'">)</tspan></text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="347.94138"
+       y="-463.42526"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#ff0000"
+       id="text5434">5</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="431.35641"
+       y="-463.42526"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#ff0000"
+       id="text5436">-13</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="526.95575"
+       y="-463.42526"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#ff0000"
+       id="text5438">1</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="615.99426"
+       y="-463.42526"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#ff0000"
+       id="text5440">2</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="705.97003"
+       y="-463.42526"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#ff0000"
+       id="text5442">7</text>
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.95743382px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 191.32243,-434.20742 h 559.4472"
+       id="path5386" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.95743382px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 191.32243,-408.9896 h 559.4472"
+       id="path5388" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.95743382px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 191.32243,-384.70576 h 559.4472"
+       id="path5390" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.95743382px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 191.32243,-434.20742 v 49.50166"
+       id="path5394" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 303.70239,-434.20742 v 49.50166"
+       id="path5398" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 393.67819,-434.20742 v 49.50166"
+       id="path5402" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 482.71673,-434.20742 v 49.50166"
+       id="path5406" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 572.69253,-434.20742 v 49.50166"
+       id="path5410" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 661.73108,-434.20742 v 49.50166"
+       id="path5414" />
+    <path
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:0.93724787px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 750.76963,-434.20742 v 49.50166"
+       id="path5418" />
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="246.34677"
+       y="-416.46155"
+       style="font-style:italic;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5444">x</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="344.94131"
+       y="-416.46155"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5446">1</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="433.97983"
+       y="-416.46155"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5448">2</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="523.95569"
+       y="-416.46155"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5450">3</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="612.9942"
+       y="-416.46155"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5452">4</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="702.96997"
+       y="-416.46155"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#000000"
+       id="text5454">5</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="238.00307"
+       y="-392.17773"
+       style="font-style:italic;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#0000ff"
+       id="text5456">g<tspan
+   id="tspan3567"
+   style="font-style:normal;-inkscape-font-specification:'Times New Roman, Bold'">(</tspan>x<tspan
+   id="tspan3569"
+   style="font-style:normal;-inkscape-font-specification:'Times New Roman, Bold'">)</tspan></text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="344.94131"
+       y="-392.17773"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#0000ff"
+       id="text5458">3</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="431.97983"
+       y="-392.17773"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#0000ff"
+       id="text5460">-1</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="523.95569"
+       y="-392.17773"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#0000ff"
+       id="text5462">5</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="611.11969"
+       y="-392.17773"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#0000ff"
+       id="text5464">-2</text>
+    <text
+       inkscape:export-ydpi="109.99254"
+       inkscape:export-xdpi="109.99254"
+       inkscape:export-filename="C:\Book Ideas\images\composition_table.png"
+       xml:space="preserve"
+       x="702.96997"
+       y="-392.17773"
+       style="font-style:normal;font-weight:bold;font-size:14.99596596px;line-height:0%;font-family:'Times New Roman';text-align:start;text-anchor:start;fill:#0000ff"
+       id="text5466">2</text>
+    <g
+       id="g6179"
+       transform="translate(-303.64547,-1039.2982)" />
+    <g
+       inkscape:export-ydpi="110"
+       inkscape:export-xdpi="110"
+       inkscape:export-filename="c:\Book Ideas\images\composition_eval_b.png"
+       transform="translate(537.39226,7.4938166)"
+       id="g6352" />
+  </g>
+</svg>

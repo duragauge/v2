@@ -1,0 +1,680 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		3.1 Exponential Functions &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#exponential-growth">Exponential Growth</a>
+      <ul>
+        <li><a href="#going-viral">Going Viral</a></li>
+        <li><a href="#nuclear-reactions">Nuclear Reactions</a></li>
+        <li><a href="#cell-division">Cell Division</a></li>
+      </ul>
+    </li>
+    <li><a href="#exponential-decay">Exponential Decay</a></li>
+    <li><a href="#linear-vs-exponential">Linear vs. Exponential</a></li>
+    <li><a href="#identify-characteristics-of-exponential-functions">Identify Characteristics of Exponential Functions</a></li>
+    <li><a href="#evaluate-exponential-functions">Evaluate Exponential Functions</a></li>
+    <li><a href="#how-exponential-functions-change">How Exponential Functions Change</a></li>
+    <li><a href="#difference-quotients-of-exponentials">Difference Quotients of Exponentials</a></li>
+    <li><a href="#the-number-e">The Number <strong>e</strong></a></li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>3.1 Exponential Functions</h1>
+                            </header>
+
+                            <h2 id="introduction">Introduction</h2>
+<p>Exponential functions have a type of growth that we have not studied yet, but you have probably seen it before.  Perhaps the best place to start is with an example.</p>
+<p>The images below illustrate three different real world examples of exponential growth.  All three are exactly the same, just in a different context.</p>
+<table>
+<thead>
+<tr>
+<th><img src="https://duragauge.github.io/img/chapter-3/viral_e.gif" alt=""></th>
+<th><img src="https://duragauge.github.io/img/chapter-3/nuclear_explosion.gif" alt=""></th>
+<th><img src="https://duragauge.github.io/img/chapter-3/cell_growth_PNNL.gif" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../3.1#going-viral">Going Viral</a></td>
+<td><a href="../3.1#nuclear-reactions">Nuclear Reactions</a></td>
+<td><a href="../3.1#cell-division">Cell Division</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="exponential-growth">Exponential Growth</h2>
+<h3 id="going-viral">Going Viral</h3>
+<p><img src="https://duragauge.github.io/img/chapter-3/social.gif#center" alt=""></p>
+<p>The videos and games on social media sites like YouTube and Facebook can often &quot;go viral&quot; when they experience a rapid increase in popularity.<br>
+Imagine, for instance, that you share a video with two friends and each of them shares it with two new friends.  If that process continues then the number of new people viewing the video would follow the pattern:</p>
+<p>[
+1,  2,  4,  8,  16,  32,  64, \dotsc
+]</p>
+<p>Notice that these numbers are doubling.  One doubles to get two, two doubles to get four, four doubles to get eight, and so on.  This type of increase is one example of <strong>exponential growth</strong>.</p>
+<p>If the numbers were to consistently triple, for example $1, 3, 9, 27, \dotsc$, or quadruple like $1,\thinspace 4,\thinspace 16,\thinspace 64,\thinspace \dotsc$, that would also be considered exponential growth.</p>
+<h3 id="nuclear-reactions">Nuclear Reactions</h3>
+<p><img src="https://duragauge.github.io/img/chapter-3/chain_reaction.png#center" alt="">
+A nuclear reaction begins when a small particle, called a neutron, crashes into an atom and splits it in half.  When that atom splits it releases more neutrons.  Those neutrons crash into other atoms and cause them to split as well.</p>
+<p>If each atom that splits causes two more atoms to split, then the number of reactions would follow the pattern:</p>
+<p>[
+1,  2,  4,  8,  16,  32,  64, \dotsc
+]</p>
+<p>Notice that these numbers are doubling.  One doubles to get two, two doubles to get four, four doubles to get eight, and so on.  This type of increase is one example of <strong>exponential growth</strong>.</p>
+<p>If the numbers were to consistently triple, for example $1, 3, 9, 27, \dotsc$ or quadruple like $1,\thinspace 4,\thinspace 16,\thinspace 64,\thinspace \dotsc$, that would also be considered exponential growth.</p>
+<h3 id="cell-division">Cell Division</h3>
+<p><img src="https://duragauge.github.io/img/chapter-3/cell_division.png#center" alt="">
+All living cells reproduce by cell division.  Once a cell matures, it then splits into two new cells.  These new cells can also split once they mature.</p>
+<p>The number of cells would follow the pattern:</p>
+<p>[
+1,  2,  4,  8,  16,  32,  64, \dotsc
+]</p>
+<p>Notice that these numbers are doubling.  One doubles to get two, two doubles to get four, four doubles to get eight, and so on.  This type of increase is one example of <strong>exponential growth</strong>.</p>
+<p>If the numbers were to consistently triple for example $1, 3, 9, 27, \dotsc$, or quadruple like $1,\thinspace 4,\thinspace 16,\thinspace 64,\thinspace \dotsc$, that would also be considered exponential growth.</p>
+<h2 id="exponential-decay">Exponential Decay</h2>
+<p><img src="https://duragauge.github.io/img/chapter-3/World_Cup_Bracket_Large.gif#center" alt=""></p>
+<p>In the 2010 FIFA World Cup, teams from 16 countries competed for the world championship of men's soccer.</p>
+<p>In each round, the losing teams were eliminated from the tournament while the winners advanced to the next round.  This process continued until there was only one undefeated champion:  the Spanish national team.   The number of teams in each round followed the pattern:</p>
+<p>[
+16,  8, 4, 2, 1
+]</p>
+<p>Notice that these numbers are always halving.  One-half of sixteen is eight, one-half of eight is four, and so on.  This type of  decrease is an example of <strong>exponential decay</strong>.</p>
+<p>If each number was always one-third or one-fifth of the previous number (for example $27, 9, 3, 1\thinspace$ or $\thinspace250, 50, 10, 2$) then that would also be considered exponential decay.</p>
+<h2 id="linear-vs-exponential">Linear vs. Exponential</h2>
+<p>These examples show us that exponential growth is special because each new value is a <em>multiple</em> of the previous one.  Contrast this with linear growth where each new value is the previous value <em>plus</em> a constant.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/linear_vs_exponential_growth_table.svg#center" alt=""></p>
+<p>With linear growth, the number you add to move from one value to the next is called the <em>slope</em> and is usually represented by the letter $m$.  In exponential growth, the number we multiply by to move from one value to the next is called the <strong>growth factor</strong>.  We will use the letter $b$ to represent the growth factor.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Are the values $5,\thinspace 10,\thinspace 15,\thinspace 20, ...$ growing linearly or exponentially? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Each new value is the previous one <em>plus</em> $5$, so this is linear growth.</details></p>
+</li>
+<li>
+<p>Are the values $5,\thinspace 25,\thinspace 125,\thinspace 625, ...$ growing linearly or exponentially? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Each new value is the previous one <em>times</em> $5$, so this is exponential growth.</details></p>
+</li>
+<li>
+<p>Suppose a list of numbers grows exponentially with a growth factor of $b=3$.  How would you find the next value in the list? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Each new number would be $3$ times the prior one.</details></p>
+</li>
+</ol>
+</div>
+<p>Recall that the only difference between linear growth and linear decay is the sign of the slope.  If $m$ is positive, the line increases, or grows.  But if $m$ is negative, the line decreases, or decays.</p>
+<p>In a similar way, the only difference between exponential growth and exponential decay is the value of the growth factor $b$.  Growth occurs when $b$ is large, whereas the function decays if $b$ is small.  Specifically, any growth factor $0&lt;b&lt;1$ will result in exponential decay.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/linear_vs_exponential__decay_table.svg#center" alt=""></p>
+<p>If we know for certain that $0&lt;b&lt;1$, then we call $b$ a <strong>decay factor</strong>.  If no value of $b$ is specified, then we will use the term <em>growth factor</em> in a generic sense that could include the possibility of growth or decay.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Decide if the following tables display exponential growth or decay.  Then state the value of the growth factor.</p>
+<table>
+<thead>
+<tr>
+<th>$90$</th>
+<th>$30$</th>
+<th>$10$</th>
+<th>$\frac{10}{3}$</th>
+<th>$\frac{10}{9}$</th>
+</tr>
+</thead>
+</table>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Each new value is the previous one <em>multiplied</em> by $\frac{1}{3}$, so this is exponential decay with a growth factor of $b=\frac{1}{3}$.</details>
+<table>
+<thead>
+<tr>
+<th>$\frac{7}{16}$</th>
+<th>$\frac{7}{4}$</th>
+<th>$7$</th>
+<th>$28$</th>
+<th>$112$</th>
+</tr>
+</thead>
+</table>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Each new value is the previous value <em>times</em> $4$, so this is exponential growth with $b=4$.</details>
+</div>
+<h2 id="identify-characteristics-of-exponential-functions">Identify Characteristics of Exponential Functions</h2>
+<p>Now that we can identify exponential growth, it's time to derive the basic equation for an exponential function.</p>
+<p>Our first growth examples in this section followed the pattern $1, 2, 4, 8, 16, 32, 64,\dotsc$ where the growth factor is $b=2$ and each new value is twice the previous value.  If we recall that $1=2^0$, then a clear pattern emerges.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/exponential_growth_2.svg#center" alt=""></p>
+<p>Using function notation we might write this as $f(x) = 2^{x}$, which is nothing more than the growth factor $b=2$ raised to the power of $x$.  This gives us a clue for how the basic equation of an exponential function should look.</p>
+<p>All exponential functions, whether they represent growth or decay, have the same basic form.  The basic form for an exponential function is</p>
+<p>[
+f(x) = b^{x}
+]</p>
+<p>The <strong>base</strong> of the function is the growth factor $b$, which can be any positive number.</p>
+<p>We should be careful not to confuse an exponential function $f(x)=b^{x}$ with a power function $f(x)=x^{p}$.  Even though their equations look similar, they are completely different types of functions.  The key difference is that an exponential function has a variable $x$ in the exponent, whereas the exponent of a power function is a fixed constant.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Are any of the following exponential functions?  If so, identify the base $b$ and decide if the function grows or decays as $x$ increases.</p>
+<ol>
+<li>
+<p>$f(x)=3^{x}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, this is an exponential function with $b=3$.  Since $b&gt;1$ the function will grow as $x$ increases.</details></p>
+</li>
+<li>
+<p>$h(t)=t^{2}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, the variable needs to be in the exponent.  This is actually a power function.</details></p>
+</li>
+<li>
+<p>$g(x)=(1/5)^{x}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, this is an exponential function with $b=1/5$.  Since $0&lt;b&lt;1$ the value of the function will decay as $x$ increases.</details></p>
+</li>
+<li>
+<p>$Q(x)=x^{0.2}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, this is not an exponential function.  It is actually a power function.</details></p>
+</li>
+<li>
+<p>$P(t)=(-2)^t$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, this is not an exponential function.  The base of an exponential function must be positive.</details></p>
+</li>
+</ol>
+</div>
+<p>The shape of the graph of an exponential function is controlled entirely by the value of the base $b$.  In the following figure you can change the value of the base $b$ by moving the <strong><font color="blue">blue</font></strong> slider.  As you do so, pay attention to the shape of the graph.</p>
+<div class="no-print geogebra" style="padding-top: 40%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/t1KIn8Z3/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/t1KIn8Z3"><img src="https://www.geogebra.org/resource/t1KIn8Z3/JHZ4o4QcfJtuK37Y/material-t1KIn8Z3.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/t1KIn8Z3"><a href="https://www.geogebra.org/m/t1KIn8Z3">https://www.geogebra.org/m/t1KIn8Z3</a></a></p>
+</div>
+<p>You should specifically check for each of the following behaviors, which were introduced in <a href="//chapter-1/1.3">Chapter 1</a>.</p>
+<details><summary>Behaviors</summary>
+<ul>
+<li>Domain includes all $x$ values; the Range is $y&gt;0$.</li>
+<li>All exponential functions have the same <strong>y-intercept</strong> of $y=1$. There are no <strong>x-intercepts</strong> since exponential functions never cross the x-axis.</li>
+<li>If $b &gt; 1$ the function is always <strong>increasing</strong> and represents <strong>exponential growth</strong>.  Larger values of $b$ produce faster growth.  If $0 &lt; b &lt; 1$ the function is always <strong>decreasing</strong> and indicates <strong>exponential decay</strong>.  The decay is greatest when $b$ is close to $0$.  When $b=1$ the function is <strong>constant</strong> and is usually not considered exponential.</li>
+<li>Exponential functions are either always increasing or always decreasing.  They do not have any maximums or minimums.</li>
+<li>Exponential functions are always concave up.</li>
+<li>The x-axis is a horizontal asymptote, but there are no vertical asymptotes.</li>
+<li>Exponential functions do not have odd or even symmetry.</li>
+<li>All exponentials are one-to-one.  This means that every exponential function must have an inverse, which will be called a <strong>logarithm.</strong></li>
+</ul>
+</details>
+<h2 id="evaluate-exponential-functions">Evaluate Exponential Functions</h2>
+<p>When we want to evaluate an exponential function we can often take advantage of the rules of exponents.  For instance, if $f(x)=2^{x}$ then</p>
+<p>[
+f(-3/2) =  2^{-3/2} =  \frac{1}{\sqrt{2^{3}}} =  \frac{1}{2\sqrt{2}}
+]</p>
+<p>This is an <em>exact</em> expression for $f(-3/2)$.  Sometimes it may make sense to use a calculator to find an <em>approximate</em> decimal value instead.  In this case, $f(-3/2) \approx 0.3536$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Give exact values for the following.  Use the rules of exponents as needed.</p>
+<ol>
+<li>
+<p>$3^{-2}$<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\frac{1}{3^2}=1/9$</details></p>
+</li>
+<li>
+<p>$5^{1/2}$<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\sqrt{5}$</details></p>
+</li>
+<li>
+<p>$2^{0}$<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$1$</details></p>
+</li>
+</ol>
+<p>Use a calculator to approximate the following:</p>
+<ol>
+<li>
+<p>$\left(\frac{1}{2}\right)^{1.6}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-3/eval_exp_2.gif" alt=""></details></p>
+</li>
+<li>
+<p>$1.5^{\pi}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-3/eval_exp_4.gif" alt=""></details></p>
+</li>
+<li>
+<p>$\left(1+\frac{0.8}{12}\right)^{(12 \cdot 7)}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-3/eval_exp_5.gif" alt=""></details></p>
+</li>
+</ol>
+</div>
+<h2 id="how-exponential-functions-change">How Exponential Functions Change</h2>
+<p>We said earlier that exponential functions $f(x)=b^{x}$ are special because each time $x$ increases by $1$ the value of the function is multiplied by a factor of $b$.  In other words, if $f$ is an exponential function, then</p>
+<p>[
+f(x+1)=b \cdot f(x)
+]</p>
+<p>You'll recall that this pattern was the key to identifying exponential growth and decay.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/exponential_growth_vs_decay_table.svg#center" alt=""></p>
+<p>This simple property, $f(x+1)=b \cdot f(x)$, is unique to exponential functions and causes them to change in a way that is different than any other type of function.</p>
+<p>Consider, for example, the percent change of an exponential function $f$ over the interval $[x,\thinspace x+1]$.</p>
+<table>
+<thead>
+<tr>
+<th>Percent change</th>
+<th>[ \frac{f(x+1)-f(x)}{f(x)} ]</th>
+<th><em>Percent change formula.</em></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>[\frac{b \cdot f(x)-f(x)}{f(x)}]</td>
+<td><em>Apply the property $f(x+1)=b \cdot f(x)$.</em></td>
+</tr>
+<tr>
+<td></td>
+<td>[b-1]</td>
+<td><em>Cancel the $f(x)$.</em></td>
+</tr>
+</tbody>
+</table>
+<p>Since $b$ is constant, $b-1$ is also constant.  This means that the percent change from one value to the next is always constant.  Having a constant percent change is one of the features that distinguishes exponential functions from all other functions.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>The percent changes for two functions, $f$ and $g$, are shown below.<br>
+<img src="https://duragauge.github.io/img/chapter-3/percent_change_quick_check_b.png" alt="">
+<img src="https://duragauge.github.io/img/chapter-3/percent_change_quick_check_a.png" alt=""><br>
+Which one is an exponential function? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The first function $f$ is exponential because its percent change is constant.  The second function $g$ is likely a power function, since its percent change is decreasing.</details></li>
+</ol>
+</div>
+<p>For any exponential function $f(x)=b^{x}$ with a <em>growth factor</em> of $b$, the expression $b-1$ is called the <strong>growth rate</strong> of the function and is designated by the letter $r$.  For instance, if $f(x)=1.08^{x}$, where $b=1.08$, then the growth rate is $r=0.08$.</p>
+<p>To see why the growth rate is important, let's take a look at the total change of a basic exponential function over the interval $[x, \thinspace x+1]$.</p>
+<table>
+<thead>
+<tr>
+<th>$\Delta y$</th>
+<th>$= f(x+1)-f(x)$</th>
+<th>Total change formula.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>$=b \cdot f(x)-f(x)$</td>
+<td>Apply the property $f(x+1)=b \cdot f(x)$.</td>
+</tr>
+<tr>
+<td></td>
+<td>$=f(x) (b-1)$</td>
+<td>Factor out $f(x)$.</td>
+</tr>
+<tr>
+<td></td>
+<td>$=r \cdot f(x)$</td>
+<td>Substitute $r=b-1$.</td>
+</tr>
+</tbody>
+</table>
+<p>This result indicates that difference between $f(x)$ and $f(x+1)$ is $r \cdot f(x)$.  In other words, to move from one value to the next you add $r$ times the current function value.</p>
+<p>For instance, if $b=1.08$, then $f(x+1)=f(x) + .08f(x)$, meaning that every time $x$ increases by $1$, the function increases by $8\text{%}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>Suppose $f(x)=1.26^{x}$.  Identify both the growth factor $b$ and the growth rate $r$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The growth factor is the base $b=1.26$.  The growth rate is $r=0.26$, meaning the  every time $x$ increases by $1$ the function increases by $26\text{%}$.</details></li>
+</ol>
+</div>
+<h2 id="difference-quotients-of-exponentials">Difference Quotients of Exponentials</h2>
+<p>The difference quotient of an exponential function $f(x)=b^{x}$ can be simplified as follows:</p>
+<table>
+<thead>
+<tr>
+<th>$D(x)$</th>
+<th>$=  \frac{f(x+h)-f(x)}{h}$</th>
+<th>Difference quotient formula.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>$=  \frac{b^{x+h}-b^{x}}{h}$</td>
+<td>Insert $f(x+h)=b^{x+h}$ and $f(x)=b^x$.</td>
+</tr>
+<tr>
+<td></td>
+<td>$=  \frac{b^{x} b^{h}-b^{x}}{h}$</td>
+<td>Rewrite $b^{x+h}$ as $ b^{x} b^{h}$.</td>
+</tr>
+<tr>
+<td></td>
+<td>$=  b^{x} \left( \frac{b^{h}-1}{h} \right)$</td>
+<td>Factor out $b^{x}$.</td>
+</tr>
+</tbody>
+</table>
+<p>Since $b$ and $h$ are constants, the expression $\frac{b^{h}-1}{h}$ is also a constant.  This means that the difference quotient of any exponential function is always proportional to the function itself.</p>
+<p>This is certainly different from what we observed with power functions.  The difference quotient of a power function is related to a power function with a lower degree, not to the function itself.  For instance $x^{3}$ grows at a rate involving $x^{2}$.  Only exponential functions grow at rates proportional to themselves.</p>
+<p>Let's consider a specific example.  If $f(x)=10^{x}$ then the difference quotient is</p>
+<table>
+<thead>
+<tr>
+<th>$D(x)$</th>
+<th>$=  b^{x} \left( \frac{b^{h}-1}{h} \right)$</th>
+<th>Use the result from above.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>$=  10^{x} \left( \frac{10^{h}-1}{h} \right)$</td>
+<td>Insert the growth factor $b=10$.</td>
+</tr>
+</tbody>
+</table>
+<p>This shows that no mater which $h&gt;0$ we choose, $D(x)$ will always be a multiple of the original function $f(x)=10^{x}$.  For instance, choosing $h=1$ gives</p>
+<p>[
+D(x) = \left( \frac{10^{1}-1}{1} \right) 10^{x} = 9 \cdot 10^{x}
+]</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>What is the difference quotient of $f(x)=3^{x}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Inserting $b=3$ into the formula above we see that $D(x)=\left(\frac{3^{h-1}}{h}\right) 3^{x}$</details></p>
+</li>
+<li>
+<p>Evaluate with the difference quotient of $f(x)=3^{x}$ with $h=2$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />If $h=2$ then $D(x)=\left(\frac{3^{2-1}}{2}\right) 3^{x}=4 \cdot 3^{x}$ </br></br>In other words, the difference quotient is the original function times $4$.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="the-number-e">The Number <strong>e</strong></h2>
+<p>Since every exponential function is proportional to its difference quotient, it's possible that there are special cases where the function and the difference quotient are identical. To pinpoint when this might happen, let's reexamine the equation for the difference quotient of $f(x)=b^{x}$.</p>
+<p>[
+D(x) =  \frac{b^{h}-1}{h} b^{x}
+]</p>
+<p>Notice that if  $\frac{b^{h}-1}{h}=1$, then $D(x)=b^{x}=f(x)$.    In other words, if we can find values of $b$ and $h$ that make $\frac{b^{h}-1}{h}=1$, then the difference quotient will equal the function.</p>
+<p>Although there are many combinations of $b$ and $h$ that make $\frac{b^{h}-1}{h}=1$, the most important one arises when $h$ is chosen to be a very small, positive number.  In the interactive figure below, we have fixed $h = 0.001$.  Use the slider to adjust the value of $b$ until you find one where $\color{red}{D(x)}=f(x)$.</p>
+<div class="no-print geogebra" style="padding-top: 40%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/hl5o7xc8/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/hl5o7xc8"><img src="https://www.geogebra.org/resource/hl5o7xc8/rCXAt1yGSjNNjcdr/material-hl5o7xc8.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/hl5o7xc8"><a href="https://www.geogebra.org/m/hl5o7xc8">https://www.geogebra.org/m/hl5o7xc8</a></a></p>
+</div>
+<p>Which value of $b$ works? From the figure it appears that choosing $b$ somewhere around $2.718$ does the trick.</p>
+<p>The true value is an irrational number known as $e$.   Since $e$ is an irrational number, $2.718$ is just an approximation of  it, much like $3.14$ is an approximation of $\pi$.  Before we can find more precise approximations of $e$, we need to define exactly what $e$ is.</p>
+<p>The number $e$ was discovered by a Swiss mathematician, Jacob Bernoulli, as he studied interest on loans, an application we will look at in the next section. The name $e$ was given by another Swiss mathematician, Leonard Euler.</p>
+<p>While there are many ways to define $e$, we choose to say that $e$ is the number which causes $\frac{b^h-1}{h}=1$ as $h \rightarrow 0$.  Solving this equation for $b$ will give us a variation of the formula Bernoulli used to discover $e$.</p>
+<table>
+<thead>
+<tr>
+<th>$\frac{b^h-1}{h} = 1$</th>
+<th>Original equation.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$b^h-1 = h$</td>
+<td>Multiply both sides by $h$.</td>
+</tr>
+<tr>
+<td>$b^h = 1+h$</td>
+<td>Add $1$ to both sides.</td>
+</tr>
+<tr>
+<td>$b = (1+h)^{1/h}$</td>
+<td>Take the $1/h$ power.</td>
+</tr>
+</tbody>
+</table>
+<p>As $h&gt;0$ approaches zero, this expression approaches the number $e$.  That is to say,</p>
+<p>[
+(1+h)^{1/h} \rightarrow e \thinspace \text{  as  } \thinspace h \rightarrow 0
+]</p>
+<p>which is equivalent to one of the definitions Euler used.</p>
+<p>The fact that $(1+h)^{1/h} \rightarrow e$ as $h \rightarrow 0$ allows us to find more precise approximations of $e$ by simply making $h$ closer to $0$.</p>
+<table>
+<thead>
+<tr>
+<th>$h$</th>
+<th>$(1+h)^{1/h}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0.01$</td>
+<td>$2.70481$</td>
+</tr>
+<tr>
+<td>$0.0001$</td>
+<td>$2.71815$</td>
+</tr>
+<tr>
+<td>$0.000001$</td>
+<td>$2.71828$</td>
+</tr>
+<tr>
+<td>$0.00000001$</td>
+<td>$2.71828$</td>
+</tr>
+</tbody>
+</table>
+<p>Euler once approximated $e$ out to 18 decimal places as  $2.718281828459045235$, all <em>by hand</em>.   You do not need to memorize several digits of $e$, but remembering that $e \approx 2.718$ will give you a good approximation for making rough calculations.</p>
+<p>Today $e$ is considered one of the most important numbers in mathematics and science.   It is used so frequently, that the exponential function with a base of $e$ is often called <em>the</em> exponential function, as though no other bases mattered.  You will find that your calculator as a button dedicated to evaluating $e^{x}$ for any real number $x$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Find the $e^{x}$ button on your calculator and use it to evaluate the following:</p>
+<ol>
+<li>
+<p>$e^{2}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-3/eval_e_1.gif" alt=""></details></p>
+</li>
+<li>
+<p>$e^{-3.4}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-3/eval_e_2.gif" alt=""></details></p>
+</li>
+<li>
+<p>$60 e^{-.035*15}$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-3/eval_e_3.gif" alt=""></details></p>
+</li>
+<li>
+<p>Does $f(x)=e^{x}$ represent exponential growth or decay?  What about $f(x)=e^{-x}$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Since $e&gt;1$, it follows that $f(x)=e^{x}$ is an exponential growth function.  However, $0&lt;1/e&lt;1$, so $f(x)=e^{-x}=(1/e)^{x}$ is an exponential decay function.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>In the next section we will see several applications of exponential functions, and many of those will involve using the number $e$ as the base of an exponential function.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

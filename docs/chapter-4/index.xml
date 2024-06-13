@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 4 on Precalculus 1 - Functions</title>
+    <link>https://duragauge.github.io/chapter-4/</link>
+    <description>Recent content in Chapter 4 on Precalculus 1 - Functions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://duragauge.github.io/chapter-4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.1 Addition and Subtraction of Functions</title>
+      <link>https://duragauge.github.io/chapter-4/4.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-4/4.1/</guid>
+      <description>Photo by PexelsIntroduction Not too long ago, mobile phones were only used for making phone calls, nothing else was possible. Today&#39;s smart phones, however, combine the functionality of several different devices into one convenient package.
+In a similar way, mathematical functions can be combined together to create new functions. In this section we will focus on combining two or more functions through the algebraic operations of addition and subtraction.</description>
+    </item>
+    
+    <item>
+      <title>4.2 Multiplication and Division of Functions</title>
+      <link>https://duragauge.github.io/chapter-4/4.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-4/4.2/</guid>
+      <description>Photo by Jerry Coli from Pixabay Introduction The strong winds of large tropical storms, like hurricane Katrina or super storm Sandy, can push sea water toward the shore causing severe flooding. These &amp;quot;storm surges&amp;quot; are often a greater threat to life and property than the hurricane itself. The surge after Katrina reached 28 feet above flood level.
+In this section we will see a simplified model for storm surges that results from multiplying a power function by an exponential decay function.</description>
+    </item>
+    
+    <item>
+      <title>4.3 Composition of Functions</title>
+      <link>https://duragauge.github.io/chapter-4/4.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-4/4.3/</guid>
+      <description>Image by Steve Buissinne from PixabayIntroduction Washing laundry usually involves two machines: a washer and a dryer. Once the wash cycle is over you have to transfer the load over to the dryer.
+What does this have to do with math? Well, there is a new way to combine functions called composition. Composition is completely different than addition, subtraction, multiplication or division of functions. Fortunately, the concept behind composition is almost exactly the same as washing laundry.</description>
+    </item>
+    
+    <item>
+      <title>4.4 Inverses of Combined Functions</title>
+      <link>https://duragauge.github.io/chapter-4/4.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-4/4.4/</guid>
+      <description>Image by Vinson Tan from Pixabay Introduction In the 1980&#39;s Hasbro changed the toy world by introducing a line of robot action figures known as Transformers. What made each Transformer special was that if you bent the legs, twisted the torso, and folded the arms, the robot would change into something else, like a car or an airplane. Undoing each of those steps in the reverse order would change it back into a robot again.</description>
+    </item>
+    
+  </channel>
+</rss>

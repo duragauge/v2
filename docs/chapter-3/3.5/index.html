@@ -1,0 +1,917 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		3.5 Exponential and Logarithmic Equations &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#techniques-for-solving-exponential-equations">Techniques for Solving Exponential Equations</a>
+      <ul>
+        <li><a href="#first-step-isolate-the-exponential">First Step: Isolate the Exponential</a></li>
+        <li><a href="#solving-method-1-the-one-to-one-property-of-exponentials">Solving Method 1: The One-to-One Property of Exponentials</a></li>
+        <li><a href="#solving-method-2--rewrite-as-a-logarithmic-equation">Solving Method 2:  Rewrite as a Logarithmic Equation</a></li>
+        <li><a href="#solving-method-3-take-the-logarithm-of-both-sides">Solving Method #3: Take the Logarithm of Both Sides</a></li>
+      </ul>
+    </li>
+    <li><a href="#solve-applications-involving-exponential-equations">Solve Applications Involving Exponential Equations</a>
+      <ul>
+        <li><a href="#half-life">Half-Life</a></li>
+        <li><a href="#doubling-time">Doubling Time</a></li>
+        <li><a href="#stock-price-for-google">Stock Price for Google</a></li>
+        <li><a href="#radioactive-decay">Radioactive Decay</a></li>
+        <li><a href="#nuclear-stockpile">Nuclear Stockpile</a></li>
+        <li><a href="#population-growth">Population Growth</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#use-log-properties">Use Log Properties</a></li>
+        <li><a href="#solving-method-1-the-one-to-one-property-of-logarithms">Solving Method 1: The One-to-One Property of Logarithms</a></li>
+        <li><a href="#solving-method-2-rewrite-as-an-exponential-equation">Solving Method 2: Rewrite as an Exponential Equation</a></li>
+        <li><a href="#solving-method-3-exponentiate-both-sides">Solving Method 3: Exponentiate Both Sides</a></li>
+      </ul>
+    </li>
+    <li><a href="#find-inverses">Find Inverses</a></li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>3.5 Exponential and Logarithmic Equations</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-3/ken-treloar-pFoA5Pphb-Q-unsplash.jpg"  title="Photo by Ken Treloar on Unsplash"  alt="Photo by Ken Treloar on Unsplash" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://unsplash.com/photos/pFoA5Pphb-Q">Photo by Ken Treloar on Unsplash</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>Since exponential and logarithmic functions arise in many applications, it is essential to be able to manipulate and solve equations involving them.  As an example of the type of problems we might encounter, consider the following situation.</p>
+<p>A patient who is undergoing diagnostic imaging for thyroid cancer typically swallows a capsule containing the radioactive isotope Iodine-123 shortly before being placed inside a scanner.  The scanner detects radiation from the Iodine-123 and constructs a 3D image of the area being scanned, which is used by doctors to plan treatment options.</p>
+<p>One of the main advantages of using Iodine-123 is that it has a relatively short half-life of approximately 13.2 hours.  This means that within 13.2 hours, one-half of the Iodine-123 will be gone.</p>
+<p>If a patient is given 400 microcuries of Iodine-123, how long will it take for the radiation level to drop to a negligible 10 microcuries?</p>
+<p>To answer this question, we need to be able to solve the exponential half-life equation</p>
+<p>[
+10=400\left(\frac{1}{2}\right)^{t/13.2}
+]</p>
+<p>In this section, we will learn techniques for solving equations like this, where the variable is in the exponent, as well as equations involving logarithms. Once we have established the basic techniques, we can return and solve questions like this one.</p>
+<h2 id="techniques-for-solving-exponential-equations">Techniques for Solving Exponential Equations</h2>
+<p>There are three main techniques for solving exponential equations.  But before solving any exponential equation we should first isolate the exponential expression.</p>
+<h3 id="first-step-isolate-the-exponential">First Step: Isolate the Exponential</h3>
+<p>When working with more complicated exponential equations it is often necessary to perform some algebraic simplifications first in order to isolate the exponential expression.</p>
+<p>As an example, let's examine the equation $500(1.2)^{x}=3000$.  Here the exponential expression $(1.2)^{x}$ has been multiplied by $500$.  If we divide both sides of the equation by $500$, then we will have isolated $1.2^{x}$.</p>
+<p>[
+\begin{align}
+500(1.2)^{x} &amp;= 3000 \newline
+1.2^{x} &amp;= 6 &amp;&amp;  \small \color{#5fa2ce} {\text{Divide by } 500} \newline
+\end{align}
+]</p>
+<p>At this point we can choose an appropriate solving technique from the choices discussed below.  But this initial step of isolating the exponential is always an essential first step.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>What must be done to isolate the exponential in the equation $2^{x}+6=54$?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Subtracting $6$ from both sides will isolate the exponential.</details></p>
+</li>
+<li>
+<p>What must be done to isolate the exponential in the equation $4(3)^{x}=324$ ?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Dividing both sides by $4$ will isolate the exponential.</details></p>
+</li>
+</ol>
+</div>
+<h3 id="solving-method-1-the-one-to-one-property-of-exponentials">Solving Method 1: The One-to-One Property of Exponentials</h3>
+<p>One technique for solving an exponential equation is to take advantage of the fact that all exponential functions are one-to-one.  This means that</p>
+<p>[
+b^N=b^M \text{ if and only if }N=M
+]</p>
+<p>So if we can express both sides of an equations as powers of the same base, then the one-to-one property tells us that the solution can be found by comparing the exponents.</p>
+<p>For example, suppose we want to solve $7^{x+3}=49$.  We can do so by writing both sides as powers of $7$ and equating the exponents.</p>
+<p>[
+\begin{align}
+7^{x+3} &amp;= 49 \newline
+7^{x+3} &amp;= 7^2 &amp;&amp; \small \color{#5fa2ce}{{\text{Rewrite }} 49=7^2} \newline
+x+3 &amp;= 2 &amp;&amp; \small \color{#5fa2ce}{\text {One-to-one property of exponentials}} \newline
+x &amp;= -1 &amp;&amp; \small \color{#5fa2ce}{-3 \text{ from both sides}}
+\end{align}
+]</p>
+<p>Notice that this method only works when both sides can be written easily as powers of the same base.  If the equation had been just slightly different, say $7^{x+3}=50$, we would not have been able to solve it easily with this technique.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Solve the exponential equation $2^{x-1}=8$ by relating the bases.    <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[
+\begin{align}
+2^{x-1} &amp;= 8 \newline
+2^{x-1} &amp;= 2^{3} &amp;&amp; \small \color{#5fa2ce}{\text{rewrite } 8=2^{3}} \newline
+x-1 &amp;=3 &amp;&amp; \small \color{#5fa2ce}{\text{since exponentials are one-to-one}} \newline
+x &amp;= 4  &amp;&amp; \small \color{#5fa2ce}{+1 \text{ to both sides}}
+\end{align}
+]</details></div>
+<h3 id="solving-method-2--rewrite-as-a-logarithmic-equation">Solving Method 2:  Rewrite as a Logarithmic Equation</h3>
+<p>Another useful technique is to rewrite an exponential equation as an equivalent logarithmic equation using the definition of a logarithm.</p>
+<p>[
+b^{x}=y \Longleftrightarrow \log_{b}(y) = x
+]</p>
+<p>For instance, if we start with the equation $3^{x}=10$ then rewriting it as a logarithm gives us the solution $x = \log_3{10}$, which could be evaluated using the change of base formula.
+<label for="sn-Change of Base" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-Change of Base" class="margin-toggle" />
+<span class="sidenote">[ \log_b(x)=\frac{\log(x)}{\log(b)}=\frac{\ln(x)}{\ln(b)} ]</span>
+The complete process would look like this:</p>
+<p>[
+\begin{align}
+3^{x} &amp;= 10 \newline
+x &amp;= \log_3(10) &amp;&amp; \small \color{#5fa2ce}{\text{Rewrite as a log equation}} \newline
+x &amp;= \frac{\ln(10)}{\ln(3)} &amp;&amp; \small \color{#5fa2ce}{\text{Change of base formula}} \newline
+x &amp; \approx 2.0959 &amp;&amp; \small \color{#5fa2ce}{\text{Evaluate}} \newline
+\end{align}
+]</p>
+<p>We could have used $\log$ for the change of base formula and still arrived at the correct answer, but $\ln$ will be our default choice.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>How would you solve $5^{x}=200$ for $x$?    <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[
+\begin{align}
+5^{x} &amp;= 200 \newline
+x &amp;= \log_5(200) &amp;&amp; \small \color{#5fa2ce}{\text{Rewrite as a log equation}} \newline
+x &amp;= \frac{\ln(200)}{\ln(5)} &amp;&amp; \small \color{#5fa2ce}{\text{Change of base formula}} \newline
+x &amp; \approx 3.292 &amp;&amp; \small \color{#5fa2ce}{\text{Evaluate}} \newline
+\end{align}
+]</details></div>
+<h3 id="solving-method-3-take-the-logarithm-of-both-sides">Solving Method #3: Take the Logarithm of Both Sides</h3>
+<p>Perhaps the most useful technique for solving an exponential equation is to take the logarithm of both sides.</p>
+<p>For example, suppose we start with $3^{x}=10$ and take the natural log of both sides.
+[
+\begin{align}
+3^{x} &amp;= 10 \newline
+\ln\left(3^{x}\right) &amp;= \ln(10)  &amp;&amp; \small \color{#5fa2ce}{\text{Apply } \ln \text{to both sides}}
+\end{align}
+]</p>
+<p>While this might seem worse than the original equation, it is actually better because we can now apply the power rule for logarithms
+<label for="sn-Power Rule" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-Power Rule" class="margin-toggle" />
+<span class="sidenote">[ \log_b x^{p} =  p \log_b (x) ]</span>
+and bring the $x$ out of the exponent.</p>
+<p>[
+\begin{align}
+\ln\left(3^{x}\right) &amp;= \ln(10) \newline
+x \cdot \ln(3) &amp;= \ln(10) &amp;&amp; \small \color{#5fa2ce}{\text{Power rule for logs}}
+\end{align}
+]</p>
+<p>The final step is to divide both sides by the number $\ln(3)$.</p>
+<p>[
+\begin{align}
+x \cdot \ln(3) &amp;= \ln(10)  \newline
+x  &amp;= \frac{\ln(10)}{\ln(3)} &amp;&amp; \small \color{#5fa2ce} {\text{Divide by } \ln(3)} \newline
+x  &amp;\approx 2.0959 &amp;&amp; \small \color{#5fa2ce} {\text{Evaluate}}
+\end{align}
+]</p>
+<p>Notice that the last two lines are exactly the same as when we solved this earlier with the change of base formula.  One of the nice features of this technique is that the change of base formula is built in, so you do not need to memorize it.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Solve the same equation $3^{x}=10$ using $\log$ instead of $\ln$.  Verify that your decimal approximation is identical to the one found above.   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[
+\begin{align}
+3^{x} &amp;= 10 \newline
+\log\left(3^{x}\right) &amp;= \log(10)  &amp;&amp; \small \color{#5fa2ce}{\text{Apply } \log} \newline
+x \cdot \log(3) &amp;= \log(10) &amp;&amp; \small \color{#5fa2ce}{\text{Power rule for logs}} \newline
+x  &amp;= \frac{\log(10)}{\log(3)} &amp;&amp; \small \color{#5fa2ce} {\text{Divide by } \log(3)} \newline
+x  &amp;\approx 2.0959 &amp;&amp; \small \color{#5fa2ce} {\text{Evaluate}}
+\end{align}
+]</details></div>
+<p>This method has an extra benefit if the base of the exponential in the equation is $e$.</p>
+<p>If we start with the equation $e^{2x}=17$, as an example, then when taking the natural log of both sides we are able to use the inverse property of logs
+<label for="sn-Inverse Logs" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-Inverse Logs" class="margin-toggle" />
+<span class="sidenote">[ \log_b\left(b^x\right)=x ]</span>
+rather than the power rule.</p>
+<p>[
+\begin{align}
+e^{2x} &amp;= 17 \newline
+\ln\left(e^{2x}\right) &amp;= \ln 17 &amp;&amp; \small \color{#5fa2ce}{\text{Apply } \ln} \newline
+2x &amp;= \ln 17 &amp;&amp; \small \color{#5fa2ce} {\text{Inverse property of logs}} \newline
+x &amp;= \frac{\ln 17}{2} &amp;&amp; \small \color{#5fa2ce} {\text{Divide by }2} \newline
+x &amp;\approx 1.4166 &amp;&amp; \small \color{#5fa2ce} {\text{Evaluate}}
+\end{align}
+]</p>
+<p>Notice how this simplifies the solving process, with the logarithm undoing the exponential.</p>
+<h2 id="solve-applications-involving-exponential-equations">Solve Applications Involving Exponential Equations</h2>
+<h3 id="half-life">Half-Life</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-3/ken-treloar-pFoA5Pphb-Q-unsplash.jpg"  title="Photo by Ken Treloar on Unsplash"  alt="Photo by Ken Treloar on Unsplash" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://unsplash.com/photos/pFoA5Pphb-Q">Photo by Ken Treloar on Unsplash</a></span>
+</div>
+<br>
+<p>Now that we have established the basic techniques for solving exponential equations, let's return to the section opener.</p>
+<p>We want to know how long it will take for the radiation level to drop to 10 microcuries given an initial dose of 400 microcuries of Iodine-123.  Since we know that the half-life of Iodine-123 is 13.2 hours, we will use the half-life formula to write our equation:</p>
+<p>[
+10=400\left(\frac{1}{2}\right)^{t/13.2}
+]</p>
+<p>Our task is to solve this equation for $t$.  The first step is to isolate the exponential.</p>
+<p>[
+\begin{align}
+10 &amp;= 400\left(\frac{1}{2}\right)^{t/13.2} \newline
+\frac{10}{400}  &amp;=  \left(\frac{1}{2}\right)^{t/13.2} &amp;&amp;  \small \color{#5fa2ce} {\text{Divide by } 400} \newline
+\end{align}
+]</p>
+<p>Now we have to decide which method to use to solve the equation. Since it is not obvious how to write both sides as powers of $\frac{1}{2}$, and converting it to a logarithm equation looks like it would be messy, let's take the natural logarithm of both sides.</p>
+<p>[
+\begin{align}
+\frac{10}{400}  &amp;=  \left(\frac{1}{2}\right)^{t/13.2} \newline
+\ln \left(\frac{10}{400} \right) &amp;= \ln \left(\frac{1}{2}\right)^{t/13.2} &amp;&amp; \small \color{#5fa2ce} {\text{Apply } \ln} \newline
+\ln \left(\frac{10}{400} \right) &amp;= \frac{t}{13.2} \ln \left(\frac{1}{2}\right) &amp;&amp; \small \color{#5fa2ce} {\text{Power rule for logs}} \newline
+\frac{\ln \left(\frac{10}{400}\right)}{\ln \left(\frac{1}{2}\right)} &amp;= \frac{t}{13.2} &amp;&amp; \small \color{#5fa2ce} {\text{Divide by } \ln\left(\frac{1}{2}\right)} \newline
+t &amp;= 13.2 \frac{\ln \left(\frac{10}{400}\right)}{\ln \left(\frac{1}{2}\right)} &amp;&amp; \small \color{#5fa2ce} {\text{Multiply by } 13.2} \newline
+t &amp;\approx 70.249 &amp;&amp; \small \color{#5fa2ce} {\text{Evaluate}}
+\end{align}
+]</p>
+<p>This means that it will take 70.249 hours (roughly 3 days) for the radiation level to drop from 400 to 10 microcuries.</p>
+<h3 id="doubling-time">Doubling Time</h3>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/US_%245000_1934_Federal_Reserve_Note.jpg/1024px-US_%245000_1934_Federal_Reserve_Note.jpg" alt=""></p>
+<p>When solving real life problems, we usually will not be given the equation directly.  When this happens, we must construct it from the information available and our knowledge of appropriate models.</p>
+<p>For instance, suppose you have invested $5000 in an account earning 2% interest compounded continuously.  How long will it take for your investment to double?</p>
+<p>Since this question involves continuously compounded interest, we should use the continuous growth model $A(t)=P e^{r t}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Based on the information given, what are the values for $P$, $r$ and $A(t)$?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The initial deposit is 5000 dollars, so $P=5000$.  The rate is given as 2%, so $r=0.02$.  The balance of the account should be double the initial deposit, so $A(t)=10000$.  Substituting those values into $A(t)=P e^{r t}$ will let us solve for the time it takes for the investment to double.</details></div>
+<p>Making the substitutions $P=5000$ and $r=0.02$ we see that the account balance for any $t$ is given by $A(t)=5000e^{0.02 t}$.  We need to find $t$ so that $A(t)=10000$.</p>
+<p>[
+\begin{align}
+10000 &amp;= 5000 e^{0.02 t} \newline
+2 &amp;= e^{0.02 t} &amp;&amp; \small \color{#5fa2ce} {\text{Divide both sides by } 5000} \newline
+\ln(2) &amp;= \ln(e^{0.02 t}) &amp;&amp; \small \color{#5fa2ce} {\text{Apply } \ln \text{ to both sides}} \newline
+\ln(2) &amp;= 0.02 t &amp;&amp; \small \color{#5fa2ce} {\text{Use the inverse relationship } \ln(e^{x})=x} \newline
+\frac{\ln(2)}{0.02} &amp;= t &amp;&amp; \small \color{#5fa2ce} {\text{Divide both sides by } 0.02} \newline
+t &amp;\approx 34.657 &amp;&amp; \small \color{#5fa2ce} {\text{Decimal approximation}} \newline
+\end{align}
+]</p>
+<p>We have found that it will take close to 35 years for the investment to double if it earns 2% continuously.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Rework the problem above assuming the initial deposit is just $70$ dollars.  What is the doubling time?  What does this tell you about doubling times in general?<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><p>Once we divide by $70$, this is exactly the same as the problem above and has the same solution. </br></p></p>
+<table>
+<thead>
+<tr>
+<th>$140 =70 e^{0.02 t}$</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$2 =e^{0.02 t}$</td>
+<td><em>Divide both sides by $70$ to isolate the exponential.</em></td>
+</tr>
+<tr>
+<td></br> This shows that doubling time depends entirely on the rate, not on the size of the initial investment.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</details>
+</div>
+<h3 id="stock-price-for-google">Stock Price for Google</h3>
+<!-- prettier-ignore -->
+<p>Let's consider a similar example.  When Google went public in 2004 you could by a share of stock for $85 .</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/Google_2015_logo.svg#center" alt=""></p>
+<!-- prettier-ignore -->
+<p>Just 2 years later, Google stock was trading at $387 per share.  Assuming the price increased exponentially, what was the continuous rate of growth?</p>
+<p>In this case, we will also use $A(t)=P e^{r t}$.  We know $P=85$, $t=2$ and want to find $r$ so that $A(2)=387$.</p>
+<table>
+<thead>
+<tr>
+<th>$387 = 85 e^{r(2)}$</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$\frac{387}{85} =e^{2 r}$</td>
+<td><em>Divide both sides by $85$ to isolate the exponential.</em></td>
+</tr>
+<tr>
+<td>$\ln\left(\frac{387}{85}\right) = \ln\left(e^{2 r}\right)$</td>
+<td><em>Apply the natural log $\ln$ to both sides.</em></td>
+</tr>
+<tr>
+<td>$\ln\left(\frac{387}{85}\right) = 2 r$</td>
+<td><em>Use the inverse relationship $\ln(e^{x})=x$.</em></td>
+</tr>
+<tr>
+<td>$\frac{\ln\left(\frac{387}{85}\right)}{2} = r$</td>
+<td><em>Divide both sides by $2$.</em></td>
+</tr>
+<tr>
+<td>$r \approx 0.7579$</td>
+<td><em>Use a calculator to find a decimal approximation.</em></td>
+</tr>
+</tbody>
+</table>
+<p>This means that over the 2-year period from 2004 to 2006, Google's stock increased at a continuous rate of 75.79%.</p>
+<p>Notice that while the numbers were different, the process of solving this equation was exactly the same as in the previous example. The only difference being that we were solving for $r$ instead of $t$.</p>
+<h3 id="radioactive-decay">Radioactive Decay</h3>
+<p><img src="https://duragauge.github.io/img/chapter-3/piltdown.gif#center" alt=""></p>
+<p>In 1912, men working in an English quarry discovered what appeared to be a prehistoric human skull.  Piltdown Man, as the fossil was known, seemed to be a clear indication that the human species had originated in England and was considered by many to be the &quot;missing link&quot; in the history of human evolution.  But was it really?</p>
+<p>The age of fossils is often determined by a process called <em>carbon dating</em>.  Plants absorb small amounts of the radioactive isotope carbon-14 from the atmosphere.  People and animals collect carbon-14 when they eat plants and other animals.  Once they die, however, the amount of carbon-14 begins to decay exponentially with a half-life of about 5730 years.  By comparing the amount of carbon-14 in a fossil with the amount that would have been been present when it was alive we can estimate the fossil's age.</p>
+<p>Suppose that you were able to get a small fragment of the bone and extract $9.7 \times 10^{-15}$ grams of carbon-14 out of it.  If there would have been $1.05 \times 10^{-14}$ grams present when Piltdown Man was alive, how old is this fossil?</p>
+<p>To solve this we will use the half-life formula $f(t) = a \left(\frac{1}{2}\right)^{t/c}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Use the information above to write the equation that we must solve.  Keep in mind that $a$ is the initial value, $c$ is the half-life, and $f(t)$ is the amount after some period of time.   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Taking $a = 1.05 \times 10^{-14}$, $c = 5730$ and $f(t) = 9.7 \times 10^{-15}$, the equation that must be solved is
+[9.7 \times 10^{-15} = 1.05 \times 10^{-14}\left(\frac{1}{2}\right)^{t/5730}]</details></div>
+<p>To determine the actual age of the Piltdown skull, we must use the half-life formula with $a=1.05 \times 10^{-14}$, $c = 5730$ and $f(t) = 9.7 \times 10^{-15}$.  Our task is to solve for $t$.</p>
+<table>
+<thead>
+<tr>
+<th>$9.7 \times 10^{-15} = 1.05 \times 10^{-14}\left(\frac{1}{2}\right)^{t/5730}$</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$0.9238 = \left(\frac{1}{2}\right)^{t/5730}$</td>
+<td><em>Divide both sides by $1.05 \times 10^{-14}$ to isolate the exponential.</em></td>
+</tr>
+<tr>
+<td>$\ln(0.9238) = \ln \left(\left(\frac{1}{2}\right)^{t/5730}\right)$</td>
+<td><em>Apply the natural log $\ln$ to both sides.</em></td>
+</tr>
+<tr>
+<td>$\ln(0.9238) = \frac{t}{5730} \ln \left(\frac{1}{2}\right)$</td>
+<td><em>Use the power rule for logarithms.</em></td>
+</tr>
+<tr>
+<td>$\frac{\ln(0.9238)}{\ln\left(\frac{1}{2}\right)} = \frac{t}{5730}$</td>
+<td><em>Divide both sides by $\ln\left(\frac{1}{2}\right)$.</em></td>
+</tr>
+<tr>
+<td>$t = 5730 \frac{\ln(0.9238)}{\ln\left(\frac{1}{2}\right)}$</td>
+<td><em>Multiply both sides by $5730$.</em></td>
+</tr>
+<tr>
+<td>$t \approx 655.21$</td>
+<td><em>Use a calculator to find a decimal approximation.</em></td>
+</tr>
+</tbody>
+</table>
+<p>As this result suggests, Piltdown Man was an elaborate forgery.  Someone had cleverly stained and carved the bones to look old, though this fact was not discovered for more than 40 years.  And while the perpetrator has never been determined, there are several suspects, including Sir Arthur Conan Doyle (author of Sherlock Holmes) who lived nearby.  In any case, Piltdown Man remains one of the greatest unsolved scientific hoaxes of all time.</p>
+<h3 id="nuclear-stockpile">Nuclear Stockpile</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-3/B831_bomb.jpg"  title="Photo by Paul Shambroom"  alt="Photo by Paul Shambroom" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://paulshambroom.com/nuke">Photo by Paul Shambroom</a></span>
+</div>
+<br>
+<p>During the 1950's, the number of active nuclear warheads in the U.S. arsenal doubled every 2.27 years. If there were 369 nuclear warheads in 1950, when did the U.S. stockpile exceed 30,000?</p>
+<p>As we are given the doubling time, it makes sense to use the function $f(t)=a(2)^{t/c}$ with $a=369$, $c = 2.27$ and to try and find a $t$ so that $f(t)=30000$.</p>
+<table>
+<thead>
+<tr>
+<th>$30000 =369(2)^{t/2.27}$</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$\frac{30000}{369} = 2^{t/2.27}$</td>
+<td><em>Divide both sides by $369$ to isolate the exponential.</em></td>
+</tr>
+<tr>
+<td>$\ln\left(\frac{30000}{369}\right) = \ln\left(2^{t/2.27}\right)$</td>
+<td><em>Apply the natural log $\ln$ to both sides.</em></td>
+</tr>
+<tr>
+<td>$\ln\left(\frac{30000}{369}\right) = \frac{t}{2.27} \ln(2)$</td>
+<td><em>Use the power rule for logarithms.</em></td>
+</tr>
+<tr>
+<td>$\frac{\ln\left(\frac{30000}{369}\right)}{\ln(2)} =\frac{t}{2.27}$</td>
+<td><em>Divide both sides by $\ln(2)$.</em></td>
+</tr>
+<tr>
+<td>$t = 2.27 \frac{\ln\left(\frac{30000}{369}\right)}{\ln(2)}$</td>
+<td><em>Multiply both sides by $2.27$.</em></td>
+</tr>
+<tr>
+<td>$t \approx 14.40$</td>
+<td><em>Use a calculator to find a decimal approximation.</em></td>
+</tr>
+</tbody>
+</table>
+<p>So if the number of nuclear warheads since 1950 is given by $f(t)=369(2)^{t/2.27}$, then our work suggests the United States had a stockpile of more than 30,000 warheads some time in the spring of 1964.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>If nuclear arms production had continued at that rate, how many warheads would there have been in 2010?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Taking $t=60$, we have [ f(60)=369(2)^{60/2.27} \approx 33,401,528,382 ]
+which would have been enough for everyone on Earth to have about 5.  As of 2017, the official number was 3822 stockpiled warheads according to the <a href="https://open.defense.gov/Portals/23/Documents/frddwg/2017_Tables_UNCLASS.pdf">US Department of Energy</a>.</details></div>
+<h3 id="population-growth">Population Growth</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-3/rabbit-1436329_1280.jpg"  title="Photo by Andreas Lischka from Pixabay"  alt="Photo by Andreas Lischka from Pixabay" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/images/id-1422882/">Photo by Andreas Lischka from Pixabay</a></span>
+</div>
+<br>
+<p>Suppose your neighbor starts a farm with $4$ cute little rabbits.   One hundred days later, she is tending a herd of $28$ rabbits.  Assuming exponential growth, how long until she has $500$ rabbits at her farm?</p>
+<p>Before we can answer this question, we need to find the continuous rate of growth by solving $28=4e^{k \cdot 100}$ for $k$.</p>
+<table>
+<thead>
+<tr>
+<th>$28 = 4e^{k \cdot 100}$</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$\frac{28}{4} = e^{100 k}$</td>
+<td><em>Divide both sides by $4$ to isolate the exponential.</em></td>
+</tr>
+<tr>
+<td>$\ln 7 = \ln(e^{100 k})$</td>
+<td><em>Apply the natural log $\ln$ to both sides.</em></td>
+</tr>
+<tr>
+<td>$\ln 7 = 100 k$</td>
+<td><em>Use the inverse relationship $\ln(e^{x})=x$.</em></td>
+</tr>
+<tr>
+<td>$\frac{\ln 7}{100} = k$</td>
+<td><em>Divide both sides by $100$.</em></td>
+</tr>
+<tr>
+<td>$k \approx 0.0195$</td>
+<td><em>Use a calculator to find a decimal approximation.</em></td>
+</tr>
+</tbody>
+</table>
+<p>So the number of bunnies can be modeled by $f(t)=4e^{0.0195 \thinspace t}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>How can we determine when there will be 500 rabbits? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />We need to find $t$ so that $f(t)=500$, so we have to solve the equation $500=4e^{0.0195 \thinspace  t}$.</details></div>
+<p>Since the number of bunnies is modeled by $f(t)=4e^{0.0195 \thinspace t}$, to figure out when the population is at 500 we should solve the equation $500 = 4e^{0.0195 \thinspace t}$ for $t$.</p>
+<table>
+<thead>
+<tr>
+<th>$500 =4e^{0.0195 \thinspace  t}$</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$\frac{500}{4} = e^{0.0195 t}$</td>
+<td><em>Divide both sides by $4$ to isolate the exponential.</em></td>
+</tr>
+<tr>
+<td>$\ln 125 = \ln(e^{0.0195 t})$</td>
+<td><em>Apply the natural log $\ln$ to both sides.</em></td>
+</tr>
+<tr>
+<td>$\ln 125 = 0.0195 t$</td>
+<td><em>Use the inverse relationship $\ln(e^{x})=x$.</em></td>
+</tr>
+<tr>
+<td>$\frac{\ln 125}{0.0195} = t$</td>
+<td><em>Divide both sides by $0.0195$.</em></td>
+</tr>
+<tr>
+<td>$t \approx 247.6$</td>
+<td>Use a calculator to find a decimal approximation.</td>
+</tr>
+</tbody>
+</table>
+<p>We conclude that in roughly 250 days the farmer will have 500 rabbits.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>How would the equation have been different if we wanted to know when the farmer would have 2000 rabbits?</p>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The only change would be that $f(t)=2000$.  The solving process would remain the same.</details>
+</div>
+<h1 id="techniques-for-solving-logarithmic-equations">Techniques for Solving Logarithmic Equations</h1>
+<p>While our primary focus has been solving exponential equations that arise from different applications, we should also discuss solving logarithmic equations.</p>
+<p>Just as with exponential equations, it's usually best to try and simplify the equation first.</p>
+<h3 id="use-log-properties">Use Log Properties</h3>
+<p>If an equation contains multiple logarithms, we should start by using log properties to condense those into a single logarithm, if possible.</p>
+<p>For instance, the left side of the equation $\log(x+39)-\log(4x) = 1$ could be condensed using the quotient rule.</p>
+<p>[
+\begin{align}
+\log(x+39)-\log(4x) &amp;= 1 \newline
+\log\left(\frac{x+39}{4x}\right) &amp;= 1 &amp;&amp; \small \color{#5fa2ce}{\text{Quotient rule for logs}}
+\end{align}
+]</p>
+<p>At this point we can choose an appropriate solving technique from the choices discussed below.  But this initial step of trying to condense multiple logarithms is always something we should look for first.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Use the product property to write the left side of the equation $\ln 8 + \ln x = 7$ as a single logarithm.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\ln(8x)=7$</details></p>
+</li>
+<li>
+<p>Which log property could you use to simplify the equation $\log(x^{3})=12$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The power rule would make the equation $3\log(x)=12$ which becomes the much simpler equation $\log(x)=4$</details></p>
+</li>
+</ol>
+</div>
+<h3 id="solving-method-1-the-one-to-one-property-of-logarithms">Solving Method 1: The One-to-One Property of Logarithms</h3>
+<p>Since logarithms are one-to-one functions, if we know that two logs with the same base are equal then their inputs must also be equal.</p>
+<p>[
+\log_b(N) = \log_b(M) \text{ if and only if } N=M
+]</p>
+<p>In other words, as long as both sides are written as single logarithms with the same base, then the logarithms themselves can be ignored.</p>
+<p>For example, solving the equation $\log_2(x^{2}+1) = \log_2(26)$ is equivalent to solving $x^{2}+1 = 26$ as we see below.</p>
+<p>[
+\begin{align}
+\log_2(x^{2}+1) &amp;= \log_2(26) \newline
+x^{2}+1 &amp;= 26 &amp;&amp; \small \color{#5fa2ce}{\text{One-to-One Property}} \newline
+x^{2} &amp;= 25 &amp;&amp; \small \color{#5fa2ce}{\text{Subtract } 1} \newline
+x &amp;= \pm 5 &amp;&amp; \small \color{#5fa2ce}{\text{Square root both sides}}
+\end{align}
+]</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Solve the equation $\log_5(x-3) = \log_5(9)$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Using the logarithm property of equality, we only need to solve $x-3=9$.  The solution is $x=12$.</details></p>
+</li>
+<li>
+<p>Solve the equation $\ln\sqrt{x} = \ln(4)$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Using the logarithm property of equality, we only need to solve $\sqrt{x} = 4$.  The solution is $x=16$.</details></p>
+</li>
+</ol>
+</div>
+<h3 id="solving-method-2-rewrite-as-an-exponential-equation">Solving Method 2: Rewrite as an Exponential Equation</h3>
+<p>Another solving technique is to isolate the logarithmic expression and rewrite the equation as an equivalent exponential using the definition of a logarithm.</p>
+<p>[
+b^{x}=y \Longleftrightarrow \log_{b}(y) = x
+]</p>
+<p>Consider the equation $4 \log_3(x-2) = 16$.  If we divide both sides by $4$ then the logarithm will be isolated and we can solve by rewriting it as an exponential equation.</p>
+<p>[
+\begin{align}
+4 \log_3(x-2) &amp;= 16 \newline
+\log_3(x-2) &amp;= 4 &amp;&amp; \small \color{#5fa2ce}{\text{Divide by } 4} \newline
+3^{4} &amp;= x-2 &amp;&amp; \small \color{#5fa2ce}{\text{Rewrite as an exponential equation}} \newline
+81+2 &amp;= x &amp;&amp; \small \color{#5fa2ce}{\text{Add }2} \newline
+x &amp;= 83 &amp;&amp; \small \color{#5fa2ce}{\text{Simplify}}
+\end{align}
+]</p>
+<p>This is useful anytime the equation can be written as a single logarithm, even if it doesn't start out that way.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>What should be done to isolate the logarithm in the equation $6+\log(2x)=9$?</p>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Subtracting $6$ from both sides will isolate the logarithm.  It can then be solved using the technique above.
+[
+\begin{align}
+6+\log(2x) &amp;= 9 \newline
+\log(2x) &amp;= 3 &amp;&amp; \small \color{#5fa2ce}{\text{Subtract } 6} \newline
+10^{3} &amp;= 2 x &amp;&amp; \small \color{#5fa2ce}{\text{Rewrite as an exponential equation}} \newline
+\frac{1000}{2} &amp;= x &amp;&amp; \small \color{#5fa2ce}{\text{Divide by }2} \newline
+x &amp;= 500 &amp;&amp; \small \color{#5fa2ce}{\text{Simplify}}
+\end{align}
+]</details>
+</div>
+<h3 id="solving-method-3-exponentiate-both-sides">Solving Method 3: Exponentiate Both Sides</h3>
+<p>Our final method is to exponentiate both sides of the equation using the base of the logarithm.</p>
+<p>To <em>exponentiate</em> both sides of an equation means to turn each side into an exponent of the base $b$.  Once that has been done we can take advantage of the inverse property between logs and exponentials.
+<label for="sn-Inverse Exp" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-Inverse Exp" class="margin-toggle" />
+<span class="sidenote">[ b^{\log_b x} = x ]</span></p>
+<p>We will illustrate the process using the equation $\log_2 x= 6$.</p>
+<p>[
+\begin{align}
+\log_2 x &amp;= 6 \newline
+2^{\log_{2} x} &amp;= 2^{6}  &amp;&amp; \small \color{#5fa2ce}{\text{Exponentiate base } 2} \newline
+x &amp;= 2^{6} &amp;&amp; \small \color{#5fa2ce}{\text{Inverse property}} \newline
+x &amp;= 64 &amp;&amp; \small \color{#5fa2ce}{\text{Evaluate}}
+\end{align}
+]</p>
+<p>Earlier we would have solved this by rewriting it as the exponential equation $x=2^6$ and simplifying to see that $x=64$, and rewriting is probably the preferred method.  We introduce the idea of exponentiation here to reemphasize the inverse relationship between exponentials and logarithms.  Not only are they inverse functions, but it can sometimes be useful to think of exponentiation and taking the logarithm as inverse operations.  Exponentiating can then be viewed as just another operation we can use when we solve equations by reversing the order of operations.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Exponentiate both sides of the equation $\ln(x) = 4$.  Simplify if possible.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The base of the natural logarithm is $e$, so we will place both sides of the equation into the exponent of an $e$.  $e^{\ln(x)} = e^{4}$ But $e$ and $\ln$ are inverses, so this simplifies to $x=e^4$ which is the same answer we would get by converting $\ln(x) = 4$ to an exponential equation.</details></div>
+<h2 id="find-inverses">Find Inverses</h2>
+<p>As we learned earlier, we can find an inverse by listing the operations performed by the function and doing the <em>opposite operations in the reverse order</em>.  Viewing exponentiation and logarithms as opposite operations allows us to find the inverses of more complicated exponential and logarithmic functions.</p>
+<p>For instance, the function $f(x)=5(3)^{x+2}$ does three things to each input value.  It adds $2$, then exponentiates with a base of $3$, and lastly multiplies by $5$.  It's inverse should divide by $5$, then apply the base $3$ logarithm, and finally subtract $2$.  We summarize this in the table below.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Operations Done by the Function</strong></th>
+<th></th>
+<th><strong>Operations Done by the Inverse</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Add $2$</td>
+<td>1.</td>
+<td>Divide by $5$</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Exponentiate with a base of $3$</td>
+<td>2.</td>
+<td>Apply the base $3$ logarithm</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Multiply by $5$</td>
+<td>3.</td>
+<td>Subtract $2$</td>
+</tr>
+</tbody>
+</table>
+<p>Now we take the operations listed and build the inverse function $f^{-1}$ as follows:</p>
+<table>
+<thead>
+<tr>
+<th>1.</th>
+<th>Start with a variable:</th>
+<th>$x$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.</td>
+<td>Divide by $5$:</td>
+<td>$\frac{x}{5}$</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Apply the base $3$ logarithm:</td>
+<td>$\log_3\left(\frac{x}{5}\right)$</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Subtract $2$ :</td>
+<td>$\log_3\left(\frac{x}{5}\right)-2$</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Write as a function:</td>
+<td>$f^{-1}(x)=\log_3\left(\frac{x}{5}\right)-2$</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Identify the order of operations of the function $f(x)=500(2)^{x/27}$.  Then find the inverse function $f^{\thinspace-1}$.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This function <strong>(1)</strong> divides by 27, then <strong>(2)</strong> exponentiates with a base of 2, and <strong>(3)</strong> multiplies by 500.  The inverse should <strong>(1)</strong> divide by 500, <strong>(2)</strong> apply the base 2 logarithm, and <strong>(3)</strong> multiply by 27.  The equation is
+$f^{-1}(x)=27*\log_2\left(\frac{x}{500}\right)$.</details></div>
+<p>Let's look at another example.  This time we will find the inverse of $g(t)=\log_2(3 t-7)$.  Start by listing the operations of the function in the proper order and then list which operations its inverse should do.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Operations Done by the Function</strong></th>
+<th></th>
+<th><strong>Operations Done by the Inverse</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td>Multiply by $3$</td>
+<td>1.</td>
+<td>Apply the base $2$ exponential</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Subtract $7$</td>
+<td>2.</td>
+<td>Add $7$</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Apply the base$2$ logarithm</td>
+<td>3.</td>
+<td>Divide by $3$</td>
+</tr>
+</tbody>
+</table>
+<p>Once we know the inverse operations and their order we can build up the inverse function.</p>
+<table>
+<thead>
+<tr>
+<th>1.</th>
+<th>Start with a variable:</th>
+<th>$t$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2.</td>
+<td>Apply the base $2$ exponential:</td>
+<td>$2^t$</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Add $7$:</td>
+<td>$2^t+7$</td>
+</tr>
+<tr>
+<td>4.</td>
+<td>Divide by $3$:</td>
+<td>$\frac{2^t+7}{3}$</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>Write as a function:</td>
+<td>$g^{-1}(t)=\frac{2^t+7}{3}$</td>
+</tr>
+</tbody>
+</table>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>The key idea from this section is that since exponential and logarithmic functions are inverses functions, we can also use them as inverse operations to solve equations and applications.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

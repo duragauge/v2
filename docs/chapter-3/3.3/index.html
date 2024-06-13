@@ -1,0 +1,690 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		3.3 Logarithmic Functions &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#definition-of-logarithms">Definition of Logarithms</a></li>
+    <li><a href="#convert-between-exponential-and-logarithmic-equations">Convert Between Exponential and Logarithmic Equations</a></li>
+    <li><a href="#evaluate-logarithms">Evaluate Logarithms</a></li>
+    <li><a href="#graph-logarithmic-functions">Graph Logarithmic Functions</a></li>
+    <li><a href="#understand-how-logarithmic-functions-change">Understand How Logarithmic Functions Change</a></li>
+    <li><a href="#difference-quotient-of-logarithmic-functions">Difference Quotient of Logarithmic Functions</a></li>
+    <li><a href="#logarithmic-scales">Logarithmic Scales</a></li>
+    <li><a href="#product-rule-for-logarithms">Product Rule for Logarithms</a></li>
+    <li><a href="#quotient-rule-for-logarithms">Quotient Rule for Logarithms</a></li>
+    <li><a href="#power-rule-for-logarithms">Power Rule for Logarithms</a></li>
+    <li><a href="#properties-of-logarithms">Properties of Logarithms</a></li>
+    <li><a href="#logarithms-throughout-history">Logarithms Throughout History</a>
+      <ul>
+        <li><a href="#tables-of-logarithms">Tables of Logarithms</a></li>
+        <li><a href="#slide-rules">Slide Rules</a></li>
+      </ul>
+    </li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>3.3 Logarithmic Functions</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-3/371919441_51f06c8fb9_b.jpg"  title="Photo by john allspaw"  alt="Photo by john allspaw" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://flic.kr/p/ySbGa">Photo by john allspaw</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>Up until the invention of scientific calculators
+<label for="sn-HP-35" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-HP-35" class="margin-toggle" />
+<span class="sidenote"><img src="https://duragauge.github.io/img/chapter-3/4368541979_ec395ea1eb_o.jpg" alt="HP-35 scientific calculator">The HP-35 was the first handheld scientific calculator.  Developed by Hewlett-Packard, it went on sale in 1972 for $395.  <a href="https://flic.kr/p/7E2Vki">Photo by Julian Bucknall</a></span>
+in the 1970's, people relied on 300-year-old mechanical calculators called &quot;slide rules&quot;.</p>
+<p>Slide rules use the properties of exponents to simplify calculations.  For example, multiplication turns into addition and division becomes subtraction.</p>
+<p>To build a slide rule you need a function that can extract exponents.  Such functions are called <em>logarithmic</em> functions and just happen to be the inverses of exponential functions.  In this section we will study logarithms and even learn how to use a simple slide rule.</p>
+<h2 id="definition-of-logarithms">Definition of Logarithms</h2>
+<p>We learned in a <a href="//chapter-1/1.4">previous chapter</a> that every one-to-one function has an inverse.  Since the exponential function $b^{x}$ (where $b&gt;0$ and $b\neq1$) is one-to-one, it must have an inverse.</p>
+<p>The inverse of the exponential with base $b$ is called the <strong>logarithm</strong> with base $b$ and is written $\log_b (x)$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/inverse_exp_log.svg#center" alt=""></p>
+<p>As with exponential functions, the base $b$ must be a positive number not equal to $1$.</p>
+<p>In other words, as long as the base is the same, the functions $b^{x}$ and $\log_b(x)$ are inverses of each other.</p>
+<table>
+  <tr>
+    <th>Function</th><th>Inverse</th>
+  </tr>
+  <tr>
+    <td>$f(x) =  3^{x}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f^{-1}(x) = \log_{3}(x)$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$g(x) =  \log_{4} (x)$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$g^{-1}(x) = 4^{x}$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$h(t)  =  2^t$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$h^{-1}(t) = \log_2(t)$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$q(x) =  \log_{10}(x)$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$q^{-1}(x) = 10^{x}$</details>
+</td>
+  </tr>
+</table>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>What is the inverse of $f(x) =  7^{x}$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f^{-1}(x) = \log_{7}(x)$</details></p>
+</li>
+<li>
+<p>What is the inverse of $g(x) =  \log_{13} (x)$?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$g^{-1}(x) = 13^{x}$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="convert-between-exponential-and-logarithmic-equations">Convert Between Exponential and Logarithmic Equations</h2>
+<p>Whenever a function has an inverse, we know that $f(x) = y$ if and only if $f^{-1}(y) = x$.   In the present context, this inverse relationship means that $y = b^{x}$ is equivalent to $\log_{b}(y) = x$.</p>
+<p>This gives us the ability to rewrite exponential equations as logarithmic equations and/or convert logarithmic equations into exponential equations.
+<label for="sn-convert exp to log" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-convert exp to log" class="margin-toggle" />
+<span class="sidenote">To convert between exponential and logarithmic equations it is easiest to first identify the base and then remember that the logarithm equals the  exponent.</span></p>
+<p><img src="https://duragauge.github.io/img/chapter-3/rewrite_exp_log.svg#center" alt=""></p>
+<p>For example,  the exponential equation $9=3^{2}$ is equivalent to logarithmic equation $\log_{3}(9) = 2$.</p>
+<p>Going the other direction, $\log_{10}(1000)=3$ means the same thing as $1000=10^{3}$.  Here are a few more examples.</p>
+<table>
+  <tr>
+    <th> </th><th>Exponential Equation</th><th>Logarithmic Equation</th>
+  </tr>
+  <tr>
+    <td>a.</td><td>$5^{3}=125$ </td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\log_{5}125=3$</details>
+</td>
+    </tr>
+  <tr>
+    <td>b.</td><td>$9^{2}=81$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\log_{9}81=2$</details>
+</td>
+  </tr>
+  <tr>
+    <td>c.</td><td>$3^{y}=4$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$y=\log_{3}4$</details>
+</td>
+  </tr>
+  <tr>
+    <td>d.</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$2^4=16$</details>
+</td><td>$\log_2(16)=4$</td>
+  </tr>
+  <tr>
+    <td>e.</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$3^{3}=27$</details>
+</td><td>$\log_3(27)=3$</td>
+  </tr>
+  <tr>
+    <td>f.</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$10^5=x$</details>
+</td><td>$\log_{10}(x)=5$</td>
+  </tr>
+</table>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>Write a logarithmic equation that is equivalent to $2^{4}=16$.</li>
+</ol>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\log_{2}16=4$</details>
+<ol>
+<li>Write an exponential equation that is equivalent to $\log_{7}49=2$.</li>
+</ol>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$7^2=49$</details>
+</div>
+<h2 id="evaluate-logarithms">Evaluate Logarithms</h2>
+<p>The inverse relationship</p>
+<p>[
+y=b^{x} \Longleftrightarrow \log_{b}(y) = x
+]</p>
+<p>can also be used to evaluate logarithms by rewriting known exponential values. To illustrate this point, let's compute a few values of $\log_{2}(x)$ by looking at known values of $2^{x}$.</p>
+<table>
+  <tr>
+    <td>$y=2^{x}  \Longleftrightarrow  \log_{2}(y)=$</td><td>$x$</td>
+  </tr>
+  <tr>
+    <td>$1=2^{0}  \Longleftrightarrow  \log_{2}(1)=$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$0$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$2=2^{1}  \Longleftrightarrow  \log_{2}(2)=$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$1$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$4=2^{2}  \Longleftrightarrow  \log_{2}(4)=$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$2$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$8=2^{3}  \Longleftrightarrow  \log_{2}(8)=$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$3$</details>
+</td>
+  </tr>
+</table>
+<p>Notice that in each instance the logarithm is the exponent.  For example, $\log_{2}(8)=3$ because $3$ is the exponent that makes $2^{x}=8$.</p>
+<p>Of course, logarithmic functions can also be evaluated on a calculator.  Starting with the <a href="https://duragauge.github.io/img/chapter-3/HP-35_large.jpg">HP-35</a> in 1972, two different logarithms have been built into every handheld scientific and graphing calculator: the <strong>common log</strong> and the <strong>natural log</strong>.
+<label for="sn-calculator log and ln" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-calculator log and ln" class="margin-toggle" />
+<span class="sidenote">The buttons for $\log$ and $\ln$ on different calculators are shown below. <img src="https://duragauge.github.io/img/chapter-3/calculator_log_and_ln.png" alt="">  </span></p>
+<p>The common logarithm has a base of $10$.  It is written as $\log$ (lowercase LOG).  The natural logarithm has
+a base of $e$.  It is written as $\ln$ (lowercase LN).</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Use a calculator to evaluate $\log 1000$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\log 1000 = 3$ <br> This is the exponent you would have to put on $10$ to generate $1000$.  You can check your answer by seeing if $10^{3} = 1000$.</details></p>
+</li>
+<li>
+<p>Use a calculator to evaluate $\ln 1000$.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\ln 1000 \approx 6.90776$ <br>  This is the exponent you would have to put on $e$ to generate $1000$.  You can check your answer by seeing if $e^{6.9076} \approx 1000$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="graph-logarithmic-functions">Graph Logarithmic Functions</h2>
+<p>We can also use the inverse function relationship to sketch graphs of logarithmic functions.  Remember, with inverse function if the point $(x,y)$ is on the graph of $f$ then the point $(y,x)$ is on the graph of $f^{-1}$.</p>
+<p>Use the figure below to help you graph $\log_2(x)$.  As you move the <strong><font  color="blue">blue</font></strong> point, the pencil will plot its inverse (in <strong>black</strong>).</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/NqdtIjsk/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/NqdtIjsk"><img src="https://www.geogebra.org/resource/NqdtIjsk/TMQcNvcShckVTBRM/material-NqdtIjsk.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/NqdtIjsk"><a href="https://www.geogebra.org/m/NqdtIjsk">https://www.geogebra.org/m/NqdtIjsk</a></a></p>
+</div>
+<p>You may want to verify that each of the following points is on the appropriate graph.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Point on</strong> $f(x)=2^{x}$</th>
+<th><strong>Point on</strong> $f^{-1}(x)=\log_{2}(x)$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$(0,1)$</td>
+<td>$(1,0)$</td>
+</tr>
+<tr>
+<td>$(1,2)$</td>
+<td>$(2,1)$</td>
+</tr>
+<tr>
+<td>$(2,4)$</td>
+<td>$(4,2)$</td>
+</tr>
+<tr>
+<td>$(3,8)$</td>
+<td>$(8,3)$</td>
+</tr>
+</tbody>
+</table>
+<p>Like exponential functions, the shape of the graph of a logarithmic function is controlled entirely by the value of the base $b$.  Each base will have its own, slightly different graph. Use the following interactive figure to change the value of $b$ and analyze the behavior of the function.</p>
+<div class="no-print geogebra" style="padding-top: 33.333%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/u2R6RhFZ/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/u2R6RhFZ"><img src="https://www.geogebra.org/resource/u2R6RhFZ/mdoZbTnv0jseqoJk/material-u2R6RhFZ.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/u2R6RhFZ"><a href="https://www.geogebra.org/m/u2R6RhFZ">https://www.geogebra.org/m/u2R6RhFZ</a></a></p>
+</div>
+<p>Specifically, look for any of the 9 basic function properties.  Click each property to check your observations.</p>
+<details><summary>Domain and Range</summary>Domain includes all $x>0$, the Range is all real numbers.</details>
+<details><summary>y-intercept</summary>Logarithmic functions never cross the y-axis, so there are no y-intercepts.</details>
+<details><summary>x-intercepts</summary>All logarithmic functions have the same x-intercept of $x=1$.</details>
+<details><summary>Increasing, Decreasing, Constant</summary>
+If $b>1$ the function is always increasing and represents logarithmic growth.  Larger values of $b$ produce slower growth. </br></br>
+If $0 < b < 1$ the function is always decreasing and indicates logarithmic decay.  The decay is greatest when $b$ is close to $1$.</br></br>
+The function does not exist when $b \leq 0$ or if $b=1$. </details>
+<details><summary>Maximums & Minimums</summary>Since logarithmic functions are constantly increasing or decreasing they do not have any maximums or minimums.</details>
+<details><summary>Concavity</summary>Concavity depends on the base.  If $b>1$ the graph is concave down.  If $0 < b < 1$ it will be concave up. </details>
+<details><summary>Asymptotes</summary>No horizontal asymptotes exist, but the y-axis is a vertical asymptote.</details>
+<details><summary>Symmetry</summary>Logarithmic functions do not have odd or even symmetry.</details>
+<details><summary>1:1</summary>Yes, all logarithmic functions are 1:1.  The inverse function would be the exponential function with the same base.</details>
+<h2 id="understand-how-logarithmic-functions-change">Understand How Logarithmic Functions Change</h2>
+<p>Every time we define a new function, we need to investigate the way it changes.   Let's start by looking at the average rate of change $\frac{\Delta y}{\Delta x}$ over several intervals.</p>
+<p>For convenience, we will use the common logarithm $\log(x)$ and, to simplify the calculations, we will choose intervals $[a, b]$ that have a width of $\Delta x=1$.</p>
+<table>
+<thead>
+<tr>
+<th>Interval</th>
+<th>$\frac{\Delta y}{\Delta x} =\frac{f(b)-f(a)}{b-a}=\frac{\log(b)-\log(a)}{b-a}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$[0.001, 1.001]$</td>
+<td>$\frac{\Delta y}{\Delta x}=\frac{\log (1.001)-\log (0.001)}{1.001-0.001}=3.000$</td>
+</tr>
+<tr>
+<td>$[1, 2]$</td>
+<td>$\frac{\Delta y}{\Delta x}=\frac{\log 2-\log 1}{1-0}=0.301$</td>
+</tr>
+<tr>
+<td>$[2, 3]$</td>
+<td>$\frac{\Delta y}{\Delta x}=\frac{\log 3-\log 2}{3-2}=0.176$</td>
+</tr>
+<tr>
+<td>$[3, 4]$</td>
+<td>$\frac{\Delta y}{\Delta x}=\frac{\log 4-\log 3}{4-3}=0.125$</td>
+</tr>
+<tr>
+<td>$[50, 51]$</td>
+<td>$\frac{\Delta y}{\Delta x}=\frac{\log 51-\log 50}{51-50}=0.009$</td>
+</tr>
+<tr>
+<td>$[100, 101]$</td>
+<td>$\frac{\Delta y}{\Delta x}=\frac{\log 101-\log 100}{101-100}=0.004$</td>
+</tr>
+</tbody>
+</table>
+<p>What do these values for $\frac{\Delta y}{\Delta x}$ in the table tell us about the common logarithm function?  It appears that $\log(x)$ changes more when $x$ is small than it does when $x$ is large.  In other words, the values of $\log(x)$ are further apart when $x$ is small, and closer together when $x$ is large.  The difference quotient will help us understand why this happens.</p>
+<h2 id="difference-quotient-of-logarithmic-functions">Difference Quotient of Logarithmic Functions</h2>
+<p>In earlier chapters we saw that the difference quotient of a function, given by $D(x)=\frac{f(x+h)-f(x)}{h}$, is a function that describes how $f$ changes on any interval of length $h&gt;0$.</p>
+<p>Unlike power functions and exponential functions, it is very difficult to simplify the difference quotient of a logarithmic function by hand, so we will not attempt that.</p>
+<p>However, since $D(x)$ is itself a function, we can take a look at its graph and see if it has any interesting properties.</p>
+<p>It the figure below, the graphs of $f(x)=\log_{b}(x)$ and its difference quotient $D(x)$ are shown in <span style="font-weight: bold;color:black;">black</span> and in <span style="font-weight:bold;color:red">red</span>, respectively.</p>
+<p>We have fixed $h=0.001$, but the value of the base $b$ can change, allowing us to view the difference quotient for several different logarithms.  Use the <span style="font-weight:bold;color:blue">blue</span> slider to change the value of $b$ and see if you recognize $D(x)$ as one of the basic functions from <a href="//chapter-1/1.3#the-reciprocal-function">Chapter 1</a>.</p>
+<div class="no-print geogebra" style="padding-top: 33.333%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/XWcmkpYg/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/XWcmkpYg"><img src="https://www.geogebra.org/resource/XWcmkpYg/jsCkMkF0S57kJ8oP/material-XWcmkpYg.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/XWcmkpYg"><a href="https://www.geogebra.org/m/XWcmkpYg">https://www.geogebra.org/m/XWcmkpYg</a></a></p>
+</div>
+<p>No matter which base is chosen, the graph of $D(x)$ always looks like the reciprocal function $1/x$.  And the fact that $1/x$ is large when $x$ is small but small when $x$ is large confirms our earlier observation that logarithmic functions change rapidly when $x$ is small but that the rate slows down as $x$ increases.</p>
+<h2 id="logarithmic-scales">Logarithmic Scales</h2>
+<p>When we plot values for $\log (x)$ on a number line it quickly becomes apparent that they are not evenly spaced.  The smaller values are spread out while the larger values are more compressed.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/log_scale_a.svg#center" alt=""></p>
+<p>If we use the logarithms as increments and relabel the axis we end up with something called a <strong>logarithmic scale</strong>.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/log_scale_b.svg#center" alt=""></p>
+<p>Logarithmic scales have several applications, some of which will be covered in the next section.  For now, we will use it like a ruler to measure lengths.  In the process, we hope to uncover at least one property of logarithms.</p>
+<h2 id="product-rule-for-logarithms">Product Rule for Logarithms</h2>
+<p>We now turn our attention to some rather useful properties that deal with combining logarithms through addition and subtraction.  Rather than deriving these properties by rewriting rules of exponents, we will attempt to discover some of them by using the logarithmic scale in this interactive figure.  Keep in mind that since <em>logarithms are exponents</em>, we cannot expect the normal rules of addition to work.</p>
+<div class="no-print geogebra" style="padding-top: 45%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/iLAuEp1a/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/iLAuEp1a"><img src="https://www.geogebra.org/resource/iLAuEp1a/6MkXEHnjxFtTorWV/material-iLAuEp1a.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/iLAuEp1a"><a href="https://www.geogebra.org/m/iLAuEp1a">https://www.geogebra.org/m/iLAuEp1a</a></a></p>
+</div>
+<p>Start by adding two logarithms.  For instance, find $\log(3) + \log(5)$ by putting both $\log(3) $ and $\log(5)$  end-to-end on the log scale.  Is the answer $\log(8)$ ?    Experiment with other combinations to see if there is a pattern for addition.</p>
+<p>Then move on to expressions like $\log(9) - \log(3)$.  Since you are not given a bar for $\log(9)$ you might have to find multiple bars that add up to $\log(9)$ before you subtract $\log(3)$ away from them.</p>
+<p>Use a calculator to check your work and make a note of your results before continuing.</p>
+<p>Let's look closely at what you might have found from the interactive figure.  This is what it would look like if you placed $\log(3) $ and $\log(5)$  end-to-end on the log scale.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/log3_plus_log5.png#center" alt=""></p>
+<p>Notice that the resulting bar lines up with $15$ on the log scale.  We learn from this that $\log(3)+\log(5)=\log(15)$ or,  in other words,</p>
+<p>[
+\log(3)+\log(5)=\log(3 \cdot 5)
+]</p>
+<p>If you try this with other values you will find that it is always true.  The pattern is</p>
+<p>[
+\log(x)+\log(y)=\log(x \cdot y)
+]</p>
+<p>and is called the <strong>product rule</strong>.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>Verify the product rule $\log(x)+\log(y)=\log(x \cdot y)$ by evaluating both $\log(18)+\log(2)$ and $\log(18 \cdot 2)$ on your calculator.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-3/log18_plus_log2.gif#center" alt=""></details></li>
+</ol>
+</div>
+<h2 id="quotient-rule-for-logarithms">Quotient Rule for Logarithms</h2>
+<p>Since addition always tells us something about subtraction, let's take another look at $\log(3) + \log(5)$.<br>
+<img src="https://duragauge.github.io/img/chapter-3/log3_plus_log5.png#center" alt="">
+We know that $\log(3)+\log(5)=\log(15)$, but what if we were to remove the $\log(5)$ from the figure above?  The only thing left would be $\log(3)$.   In other words, $\log(15)-\log(5)=\log(3)$.
+Since $\frac{15}{5}=3$ the pattern for subtraction is
+$\log(x)-\log(y)=\log\left(\frac{x}{y}\right)$
+which is known as the <strong>quotient rule</strong>.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>Verify the pattern $\log(x)-\log(y)=\log\left(\frac{x}{y}\right)$ by evaluating both $\log(27)-\log(13)$ and $\log\left(\frac{27}{13}\right)$ on your calculator.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-3/log27_minus_log13.gif#center" alt=""></details></li>
+</ol>
+</div>
+<h2 id="power-rule-for-logarithms">Power Rule for Logarithms</h2>
+<p>One of the most useful logarithm properties is called the <strong>power rule</strong>.  Consider what happens when you add $\log(3)$ with another $\log(3)$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/power_rule.png#center" alt=""></p>
+<p>Clearly $\log(3)+\log(3)=\log(9)$.  And since $9=3^2$, this result can also be given as $\log(3)+\log(3)=\log(3^2)$.</p>
+<p>But it is also proper to write $\log(3)+\log(3)=2 \cdot \log(3)$, just as we might write $5+5=2*5$.</p>
+<p>Putting the two together we see that $\log(3^2)=2 \cdot \log(3)$.   The general pattern is</p>
+<p>[
+\log x^{p}=p \cdot \log(x)
+]</p>
+<p>and will be used extensively throughout the rest of this chapter.</p>
+<h2 id="properties-of-logarithms">Properties of Logarithms</h2>
+<p>The properties we discovered are valid for all logarithms, no mater which base is used.  We have listed them below in their general form.  You are encouraged to use a calculator to check the given examples.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Identity</strong></th>
+<th><strong>Formula</strong></th>
+<th><strong>Example</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Product Rule</strong></td>
+<td>[ \log_b (x \cdot  y) = \log_b (x) + \log_b (y) ]</td>
+<td>[ \ln(20) =  \ln(4) + \ln(5) ]</td>
+</tr>
+<tr>
+<td><strong>Quotient Rule</strong></td>
+<td>[ \log_b \left(\frac{x}{y}\right) =  \log_b (x) - \log_b (y) ]</td>
+<td>[ \ln\left(\frac{10}{2}\right) =  \ln(10) - \ln(2) ]</td>
+</tr>
+<tr>
+<td><strong>Power Rule</strong></td>
+<td>[ \log_b x^{p} =  p \log_b (x) ]</td>
+<td>[ \ln(2^{3}) =  3\ln(2) ]</td>
+</tr>
+</tbody>
+</table>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Use the <strong>product rule</strong> to rewrite $\log(7)+\log(3)$<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\log(7)+\log(3)=\log(7 \cdot 3)=\log(21)$</details></p>
+</li>
+<li>
+<p>Use the <strong>quotient rule</strong> to rewrite $\ln(8)-\ln(4)$<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\ln(8)-\ln(4)=\ln\left(\frac{8}{2}\right)=\ln(2)$</details></p>
+</li>
+<li>
+<p>Use the <strong>power rule</strong> to rewrite $\log(3^{x})$<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\log(3^{x})=x*\log(3)$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="logarithms-throughout-history">Logarithms Throughout History</h2>
+<h3 id="tables-of-logarithms">Tables of Logarithms</h3>
+<p>When <a href="http://upload.wikimedia.org/wikipedia/commons/4/4b/John_Napier_%28Neper%29.jpg">John Napier</a> discovered logarithms in 1614, he realized that with these logarithm rules, every operation could be converted to a simpler one.</p>
+<p>The power rule changes multiplication into addition; the quotient rule turns division into subtraction; and the power rule replaces powers with multiplication.</p>
+<p>The only tool needed to use these simplifications is a table of logarithmic values.</p>
+<p>To illustrate how to use a table of logarithms, we'll examine a very simple case.  Suppose we wanted to multiply $2$ and $3$.  Rather than doing the multiplication, we look up the two logarithms in the table and calculate their sum:  $\log(2) + \log(3) = 0.301 + 0.477 = 0.778$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-3/log_table.png#center" alt=""></p>
+<p>Next, we scan through the table until we find $0.778$.  Lastly, we read the table backward to find the $x$ next to $0.778$.  This value, $x = 6$ is the answer to our multiplication problem!</p>
+<p>What we just did was a product rule: $\log(2)+\log(3)=\log(2 \cdot 3)$.  And while our example was overly simple, the time saved when working with large numbers is tremendous since adding large numbers by hand is much faster than multiplying them.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Explain how you could use the above table and the properties of logarithms to evaluate the following:</p>
+<ol>
+<li>
+<p>$4\times2$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Using the product rule, $\log(4)+\log(2)=0.602+0.301=0.903$.  From the table we see that $0.903=\log(8)$ so the answer is $4*2=8$.</details></p>
+</li>
+<li>
+<p>$10\div2$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Using the quotient rule, $\log(10)-\log(2)=1.000-0.301=0.699$.  From the table we see that $0.699=\log(5)$ so the answer is $10/2=5$.</details></p>
+</li>
+<li>
+<p>$3^2$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Using the power rule we know $\log(3^2)=2 \cdot \log(3)$.  So we find $\log(3)=0.477$ on the table and double it: $2 \cdot 0.477=0.954$.  Next we look for $0.954$ and read it backward to get $x=9$ as our answer.</details></p>
+</li>
+</ol>
+</div>
+<h3 id="slide-rules">Slide Rules</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-3/371919441_51f06c8fb9_b.jpg"  title="Photo by john allspaw"  alt="Photo by john allspaw" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://flic.kr/p/ySbGa">Photo by john allspaw</a></span>
+</div>
+<br>
+<p>The rules of logarithms sped up calculations even more after the invention of slide rules.</p>
+<p>Slide rules look similar to regular rulers except that the markings are not evenly spaced.  Instead, the distances are proportional to the logarithms of the marked values. In essence, a slide rule is just two logarithmic scales, one placed on top of the other so they can slide back and forth.</p>
+<p>Let's see how this works.  Suppose you wanted to multiply $2 \cdot 3$.  The first step is to slide the top scale to the right until the $1$ is above the $2$.  Next move the hairline so that it is over the $3$ on the top scale.  The answer, $6$, will be directly below on the lower scale.</p>
+<div class="no-print geogebra" style="padding-top: 33.333%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/xHcwR0N3/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/xHcwR0N3"><img src="https://www.geogebra.org/resource/xHcwR0N3/5znJBOupbxSj7YbQ/material-xHcwR0N3.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/xHcwR0N3"><a href="https://www.geogebra.org/m/xHcwR0N3">https://www.geogebra.org/m/xHcwR0N3</a></a></p>
+</div>
+<p>Sliding the upper scale is a physical way to add logarithms and use the product rule.  And while it may not be as precise as a table, it is very quick.  Notice that no extra work is needed to calculate other multiples of $2$ because  all the numbers on the top scale are now lined up with their multiples on bottom scale.</p>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>Modern calculators and computers have rendered both logarithm tables and slide rules obsolete.</p>
+<p>However, the properties of logarithms that were developed in this section are valuable tools for solving exponential equations.</p>
+<p>We will also return to logarithmic scales, but with a slight twist, at the end of the next section.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

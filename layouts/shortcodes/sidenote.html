@@ -1,0 +1,8 @@
+<!-- side note
+This implements a Tufte style side note that is numbered.
+shortcode syntax is { sidenote "unique_id" }  text/image { /sidenote }
+Note that the "id" argument has to be unique for the entire page (it is used to toggle note visibility on mobile)-->
+<label for="sn-{{ index .Params 0 }}" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-{{ index .Params 0 }}" class="margin-toggle" />
+<span class="sidenote">{{ .Inner }}</span>

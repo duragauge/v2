@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 1 on Precalculus 1 - Functions</title>
+    <link>https://duragauge.github.io/chapter-1/</link>
+    <description>Recent content in Chapter 1 on Precalculus 1 - Functions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://duragauge.github.io/chapter-1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1.1 Sets &amp; Numbers</title>
+      <link>https://duragauge.github.io/chapter-1/1.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-1/1.1/</guid>
+      <description>Smithsonian Museum of Natural History, photo by Blake PattersonIntroduction The Smithsonian in Washington, DC is one of the largest museums in the world, with vast collections of rare and historically significant objects.
+For example, it houses the 1903 Wright Flyer and the Apollo 11 Module in the Air and Space collection.
+In other collections you might find Abraham Lincoln’s top hat, an original Kermit the Frog puppet, or the Hope Diamond.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Functions</title>
+      <link>https://duragauge.github.io/chapter-1/1.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-1/1.2/</guid>
+      <description>Soda Vending Machine Japan Coast, photo by slackrhackrIntroduction Each button on a vending machine corresponds to a particular snack inside the machine. The item you get depends on the button you push. When you press the button for a soda the machine should give you that soda, if it is functioning properly.
+In this section we&#39;ll see that mathematical functions connect things in a similar way.
+The Definition of a Function While no single definition can capture the full extent of the function concept, it is still important to start with one.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Graphs of Functions</title>
+      <link>https://duragauge.github.io/chapter-1/1.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-1/1.3/</guid>
+      <description>Roller coaster photo by dlohner on PixabayIntro If you&#39;ve ever ridden a roller coaster you know how it feels to crawl up a hill and rocket down the other side. You also know how your stomach floats at the top and sinks at the bottom. It would be a very boring ride if the track never changed direction. The twists and turns, peaks and valleys make a roller coaster exciting and give it character.</description>
+    </item>
+    
+    <item>
+      <title>1.4 Transformations of Functions</title>
+      <link>https://duragauge.github.io/chapter-1/1.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-1/1.4/</guid>
+      <description>Ice cream cones photo by silviarita on PixabayIntroduction When making ice cream, chefs often start with a basic recipe and then add in different amounts of special ingredients, like macadamia nuts or dark chocolate or berries. Experienced chefs know the effect that each addition will have before they even taste the finished product.
+In a very similar way, we can take basic functions and transform them into new functions by mixing in constants.</description>
+    </item>
+    
+    <item>
+      <title>1.5 Inverse Functions</title>
+      <link>https://duragauge.github.io/chapter-1/1.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-1/1.5/</guid>
+      <description>Bora Bora, Tahiti photo by Julius Silver on PexelsIntroduction Imagine that you flew to Tahiti for a vacation. After spending some time enjoying the white sandy beaches and crystal clear water, you might want to return home. To get back home you would need to find a return flight.
+In mathematics, a process that brings you back to where you started is called an inverse.
+In this section you will learn to recognize when a function has an inverse and how to find it.</description>
+    </item>
+    
+    <item>
+      <title>1.6 Measuring How Functions Change</title>
+      <link>https://duragauge.github.io/chapter-1/1.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-1/1.6/</guid>
+      <description>iPod photo by mikefoster on PixabayIntroduction When the stock market opened on Monday, October 22, 2001, stock in Enron (a large Fortune-500 energy company) was trading for about $20 per share.
+At the same time stock in Apple (the electronics manufacturer) could be also be purchased for $20.
+Without additional information, it would be natural to assume that state of both companies was the same. In reality, however, they were headed in opposite directions.</description>
+    </item>
+    
+  </channel>
+</rss>

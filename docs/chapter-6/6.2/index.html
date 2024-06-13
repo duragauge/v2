@@ -1,0 +1,539 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		6.2 Algebraic Methods for Modeling &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#identifying-functions-from-descriptions">Identifying Functions from Descriptions</a>
+      <ul>
+        <li><a href="#linear-functions-constant-rates">Linear Functions: Constant Rates</a></li>
+        <li><a href="#power-functions--proportional-changes">Power Functions:  Proportional Changes</a></li>
+        <li><a href="#exponential-functions--constant-percentages">Exponential Functions:  Constant Percentages</a></li>
+      </ul>
+    </li>
+    <li><a href="#writing-functions-from-descriptions">Writing Functions from Descriptions</a>
+      <ul>
+        <li><a href="#writing-linear-functions">Writing Linear Functions</a></li>
+        <li><a href="#writing-exponential-functions">Writing Exponential Functions</a></li>
+      </ul>
+    </li>
+    <li><a href="#creating-functions-from-two-points">Creating Functions from Two Points</a>
+      <ul>
+        <li><a href="#find-a-linear-function-from-two-points">Find a Linear Function from Two Points</a></li>
+        <li><a href="#find-a-power-function-from-two-points">Find a Power Function from Two Points</a></li>
+        <li><a href="#find-an-exponential-function-from-two-points">Find an Exponential Function from Two Points</a></li>
+      </ul>
+    </li>
+    <li><a href="#convert-between-exponential-models">Convert Between Exponential Models</a></li>
+    <li><a href="#create-exponential-models">Create Exponential Models</a>
+      <ul>
+        <li><a href="#continuous-biological-decay">Continuous Biological Decay</a></li>
+        <li><a href="#biological-half-life">Biological Half-Life</a></li>
+      </ul>
+    </li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>6.2 Algebraic Methods for Modeling</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-6/sushi-373588_1280.jpg"  title="Image by Design n Print from Pixabay"  alt="Image by Design n Print from Pixabay" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/images/id-373588/">Image by Design n Print from Pixabay</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>Many people are concerned about the amount of mercury they ingest by eating certain species of large fish like shark, swordfish, and tuna.  Mercury levels in large fish can be over a million times higher than that found in the surrounding waters, posing a possible health risk.</p>
+<p>An accurate mathematical model could help people understand those concerns and make informed decisions.  Fortunately, the elimination of substances like mercury from the body are known to have <em>biological half-lives</em>, and we know that half-lives can be modeled with exponential functions.</p>
+<p>In this section we'll will point out key words and phrases, like &quot;half-life&quot;, that indicate a scenario might be modeled by a particular type of function.  We'll also cover algebraic methods for finding those equations.</p>
+<h2 id="identifying-functions-from-descriptions">Identifying Functions from Descriptions</h2>
+<h3 id="linear-functions-constant-rates">Linear Functions: Constant Rates</h3>
+<p>When we studied how functions change in <a href="https://duragauge.github.io/chapter-1/1.6">Chapter 1</a>, we saw that the average rate of change formula was nothing more than the slope formula rewritten with function notation.</p>
+<p>Since the slope of a line remains consistent throughout, the key to identifying a linear function is to spot a constant rate of change.</p>
+<p>It helps to remember that a <strong>rate</strong> is ratio of two quantities.  Such rates are often described using the word <em>per</em> (miles <em>per</em> gallon, servings <em>per</em> package, dollars <em>per</em> hour, feet <em>per</em> second) or something equivalent (two tickets <em>for each</em> person, ten-thousand steps <em>every</em> day, etc.).</p>
+<p>Whatever that constant rate of change is, it will be the slope of the linear function.</p>
+<h3 id="power-functions--proportional-changes">Power Functions:  Proportional Changes</h3>
+<p>Back in <a href="https://duragauge.github.io/chapter-2/2.2">Chapter 2</a> when we introduced the ideas of direct and inverse proportionality, all the examples explicitly stated the type of proportionality.  Without specific guidance like that, we'll need to look for other clues.</p>
+<p>Specifically, if two quantities increase or decrease together, then they might vary directly.  On the other hand, if one goes up while the other goes down, then they could vary inversely.</p>
+<p>While those behaviors don't exclusively belong to power functions, they do indicate that a power function should be considered.</p>
+<h3 id="exponential-functions--constant-percentages">Exponential Functions:  Constant Percentages</h3>
+<p>As we saw in <a href="https://duragauge.github.io/chapter-3/3.2">Chapter 3</a> exponential functions often appear in scenarios involving growth or decay that follows a multiplicative pattern.</p>
+<p>A distinguishing features of exponential functions is that they involve a constant <strong>percentage change</strong> over equal intervals.  Almost without exception, if a constant percent change is mentioned within a certain time frame, then the scenario is likely exponential in nature.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Identify the type of function (linear, power, or exponential) that would likely be the best model for each scenario.</p>
+<ol>
+<li>
+<p>A bacteria culture doubles every $8$ hours.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The keyword &quot;doubles&quot; implies exponential growth.  Since doubling means growing constantly at 100%, this is exponential</details></p>
+</li>
+<li>
+<p>The cost of an Uber ride increases $\$2$ per mile.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The cost increases at a constant rate of $2 each mile, so this is linear</details></p>
+</li>
+<li>
+<p>The slower you drive the longer it takes to arrive at your destination.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This is likely an inversely proportional relationship, so a power function is probably the best model.</details></p>
+</li>
+<li>
+<p>The more horsepower a car has the faster it accelerates. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This sounds like a directly proportional relationship, so a power function is probably best.</details></p>
+</li>
+<li>
+<p>A job offers $3\%$ raises every year.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This scenario has a constant percent increase of 3%, so it is exponential</details></p>
+</li>
+<li>
+<p>A person spends $\$4$ each day on a bus pass.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$4 each day is a constant rate of change, so this is linear.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="writing-functions-from-descriptions">Writing Functions from Descriptions</h2>
+<p>Once we've chosen a function model that seems to fit the description, the next task is to write the equation of that function.</p>
+<p>If a starting value is given, then the equations for linear and exponential functions can generally be written without much trouble.  Power functions will require two known values, so we'll delay looking at them for a moment.</p>
+<h3 id="writing-linear-functions">Writing Linear Functions</h3>
+<p>As we saw in the previous section, the <strong>slope-intercept</strong> form of a linear function is $y=mx+b$, where $m$ is the slope and $b$ is the y-intercept.</p>
+<p>To pull the slope and y-intercept out of a description, look for the following:</p>
+<ul>
+<li>The slope $m$ is the constant rate of change of the function.</li>
+<li>The y-intercept $b$ is a starting value, which is the value of $y$ when $x = 0$.</li>
+</ul>
+<p>For instance, suppose a gym has an initial sign-up fee of $\$50$ and monthly membership fee of $\$20$.  In this scenario, the initial sign-up fee is the y-intercept and the monthly fee is the slope.  Using $m=20$ and $b=50$ the equation of the linear function is:
+[ y = 20x + 50 ]
+This linear function allows us to calculate the total cost of the gym membership based on the number of months ($x$).</p>
+<h3 id="writing-exponential-functions">Writing Exponential Functions</h3>
+<p>In <a href="//chapter-3/3.2">Chapter 3</a> we learned that the general form of an exponential function is $y = ab^x$, where $a$ is the initial value (or starting amount) and $b$ is the base (growth/decay factor).</p>
+<p>So, much like a linear function, we only need two parameters to write the equation of an exponential function.  To extract these from a description, look for the following:</p>
+<ul>
+<li>The initial value $a$ is the value of $y$ when $x = 0$. It represents the starting point of the exponential growth or decay.</li>
+<li>The base $b$ is the factor by which $y$ changes for each unit change in $x$. If $b &gt; 1$, it represents exponential growth; if $0 &lt; b &lt; 1$, it represents exponential decay.  If a percentage rate $r$ is given then the base is $b=1+r$ for growth and $b=1-r$ for decay.  If the change takes $c$ units to occur, then $x$ should be divided by $c$, which is how we obtained the half-life and doubling-time equations.</li>
+</ul>
+<p>As a simple example, suppose an aspiring social influencer has $400$ followers and expects that number to grow by $3\%$ every month.  Then $y=400(1.03)^x$ allows us the calculate how many followers they have after $x$ months.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Suppose a different gym has a $\$75$ initial fee and $\$10$ monthly dues.  Write an equation for the total cost. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$y=10x+75$ where $x$ is months.</details></p>
+</li>
+<li>
+<p>Suppose the aspiring social influencer above realizes their number of followers increases by $3\%$ every $2$ months. Write an equation for the number of followers they have after $x$ months.<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$y=400(1.03)^{x/2}$ where $x$ is months.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="creating-functions-from-two-points">Creating Functions from Two Points</h2>
+<p>In many cases we may have to determine the parameters of a function from two pairs of data.  This can apply to any of the three types of functions we're looking at in this section.</p>
+<h3 id="find-a-linear-function-from-two-points">Find a Linear Function from Two Points</h3>
+<p>The first step in finding a linear function through two points is to use the slope formula 
+[m=\frac{y_2-y_1}{x_2-x_1}]</p>
+<p>Once we have the slope in hand we can finish the process with either the point-slope form or the slope-intercept form.  Many people prefer the slope-intercept form since it is more familiar, but the point-slope form is actually easier to work with.  We'll do the same example both ways and you can decide for yourself.</p>
+<p>For our example, let's use the points $(2,5)$ as $(x_1,y_1)$ and $(6,-1)$ as $(x_2,y_2)$.  We'll start with the slope</p>
+<p>[
+\begin{align}
+m &amp;= \frac{y_2-y_1}{x_2-x_1} &amp;&amp; \small \color{#5fa2ce} {\text{slope formula}} \newline
+&amp;= \frac{-1 - 5}{6-2} &amp;&amp; \small \color{#5fa2ce} {\text{insert coordinates of the two points}} \newline
+&amp;= \frac{-6}{4} &amp;&amp; \small \color{#5fa2ce} {\text{evaluate the subtractions}} \newline
+&amp;= -\frac{3}{2} &amp;&amp; \small \color{#5fa2ce} {\text{reduce the fraction}} \newline
+\end{align}
+]</p>
+<p>To finish this with the slope-intercept form we need to find the y-intercept $b$.  This is done by taking putting the coordinates of either point into the equation and solving for $b$.  We will use $(2,5)$ and, of course, $m = \frac{-3}{2}$.</p>
+<p>[
+\begin{align}
+y &amp;= m x  + b &amp;&amp; \small \color{#5fa2ce} {\text{slope-intercept form}} \newline
+5 &amp;= -\frac{3}{2}(2)+b &amp;&amp; \small \color{#5fa2ce} {\text{insert the slope and the coordinates of the point}} \newline
+5 &amp;= -3+b &amp;&amp; \small \color{#5fa2ce} {\text{simplify}} \newline
+8 &amp;= b &amp;&amp; \small \color{#5fa2ce} {\text{add $3$ to both sides}}
+\end{align}
+]</p>
+<p>We now have $y=-\frac{3}{2}x+8$ as our linear model in the slope-intercept form.</p>
+<p>Since the point-slope form only requires the coordinates of a point and the slope, we can get the equation just by substituting.  Here we will also use $(2,5)$ and $m = \frac{-3}{2}$.</p>
+<p>[
+\begin{align}
+y &amp;= m(x-x_1)  + y_1 &amp;&amp; \small \color{#5fa2ce} {\text{point-slope form}} \newline
+y &amp;= -\frac{3}{2}(x-2)+5 &amp;&amp; \small \color{#5fa2ce} {\text{insert the slope and the coordinates of the point}}
+\end{align}
+]</p>
+<p>We now have $y=-\frac{3}{2}(x-2)+5$ as our linear model in the point-slope form.  It is important to point out that these are the same exact equation, just in different formats.  This can be seen clearly if we start with point-slope form, distribute the slope and simplify.</p>
+<p>[
+\begin{align}
+y &amp;= -\frac{3}{2}(x-2)+5 &amp;&amp; \small \color{#5fa2ce} {\text{point-slope form}} \newline
+y &amp;= \left(-\frac{3}{2}\cdot x\right)-\left(-\frac{3}{2}\cdot 2\right) + 5 &amp;&amp; \small \color{#5fa2ce} {\text{distribute the slope}} \newline
+y &amp;= -\frac{3}{2}x + 3 + 5 &amp;&amp; \small \color{#5fa2ce} {\text{simplify the multiplication}} \newline
+y &amp;= -\frac{3}{2}x + 8 &amp;&amp; \small \color{#5fa2ce} {\text{simplify the addition}}
+\end{align}
+]</p>
+<p>The end result is the same slope-intercept form we found earlier.  This process can always be used to find a line through any two points, provided both points have different $x$-coordinates.  If the points have the same $x$-coordinate then we cannot create a linear function since those points would not pass the vertical line test.</p>
+<h3 id="find-a-power-function-from-two-points">Find a Power Function from Two Points</h3>
+<p>Suppose we are asked to find a standard power function through the points $(6, 10)$ and $(2, 5)$.  Since power functions are not lines, we cannot use the slope formula and must employ different techniques.</p>
+<p>One thing that will help is remembering that each point has an $x$ and a $y=f(x)$ coordinate. Substituting those values into the standard power function equation $f(x)=kx^p$ will give us a pair of equations to work with.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/substitution_power.svg#center" alt=""></p>
+<p>Since there are two unknown values, $k$ and $p$, we need to eliminate one of them in order to solve for the other.  Notice that if we form a ratio of our equations then $k$'s will cancel.  That's our first step.</p>
+<p>[
+\begin{align}
+\frac{10}{5} &amp;= \frac{k (6)^{p}}{k (2)^{p}} &amp;&amp; \small \color{#5fa2ce}{\text{Form a ratio of the two equations.}} \newline
+\frac{10}{5} &amp;= \frac{6^{p}}{2^{p}} &amp;&amp; \small \color{#5fa2ce}{\text{Cancel $k$'s.}} \newline
+\frac{10}{5} &amp;= \left(\frac{6}{2}\right)^p &amp;&amp; \small \color{#5fa2ce}{\text{Use the rule $\frac{a^x}{b^x}=\left(\frac{a}{b}\right)^{x}$.}} \newline
+2 &amp; = 3^p &amp;&amp; \small \color{#5fa2ce}{\text{Reduce the fractions.}}
+\end{align}
+]</p>
+<p>With $k$ out of the way momentarily, we can focus on finding $p$.  Since $p$ is in the exponent, we'll need to use logarithms to find it.</p>
+<p>[
+\begin{align}
+\ln(2) &amp;= \ln \left(3^{p}\right) &amp;&amp; \small \color{#5fa2ce}{\text{Apply a logarithm to both sides.}} \newline
+\ln(2) &amp;= p \cdot \ln (3) &amp;&amp; \small \color{#5fa2ce}{\text{Use the power rule for logarithms.}} \newline
+\frac{\ln(2)}{\ln(3)} &amp;= p &amp;&amp; \small \color{#5fa2ce}{\text{Divide to isolate $p$.}} \newline
+p &amp;\approx 0.6309 &amp;&amp; \small \color{#5fa2ce}{\text{Decimal approximation.}}
+\end{align}
+]</p>
+<p>By putting $p=0.6309$ back into either of our original two equations we'll be able to determine $k$.</p>
+<p>[
+\begin{align}
+10 &amp;= k (6)^{p} &amp;&amp; \small \color{#5fa2ce}{\text{Choose one of the original equations.}} \newline
+10 &amp;= k (6)^{0.6309} &amp;&amp; \small \color{#5fa2ce}{\text{Substitute $p=0.6309$}} \newline
+10 &amp;= k \cdot 3.097 &amp;&amp; \small \color{#5fa2ce}{\text{Evaluate the power.}} \newline
+\frac{10}{3.097} &amp;= k &amp;&amp; \small \color{#5fa2ce}{\text{Divide both sides by $3.097$}} \newline
+k &amp;= 3.229 &amp;&amp; \small \color{#5fa2ce}{\text{Evaluate the division.}}
+\end{align}
+]</p>
+<p>With both $k$ and $p$ in hand, we can now write the equation for our power function.</p>
+<p>[
+f(x)=3.229x^{0.6309}
+]</p>
+<p>Keep in mind that, since power functions generally exist only when $x \gt 0$, we should check that both $x$-coordinates are positive before starting this process.  Additionally, since logarithms were involved in our solving process, the two $y$-coordinates should be non-zero and have the same sign.  For the most part, expect to find power functions only when both points are in the first quadrant.</p>
+<h3 id="find-an-exponential-function-from-two-points">Find an Exponential Function from Two Points</h3>
+<p>Suppose we are asked to find an exponential function that passes through the points $(1, 12)$ and $(3, 27)$, how is that done?  The process begins the same way it did with a power function--inserting the coordinates into the standard exponential function $f(x)=a \thinspace b^{x}$ to make two equations.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/substitution_exponential.svg#center" alt=""></p>
+<p>Forming a ratio the two equations worked before, so let's try that again.  We'll put the equation with the larger numbers on top, which should help us reduce fractions along the way.</p>
+<p>[
+\begin{align}
+\frac{27}{12} &amp;= \frac{ a  \thinspace  b^{3}}{a  \thinspace  b^{1}} &amp;&amp; \small \color{#5fa2ce}{\text{Form the ratio of the two equations.}} \newline
+\frac{27}{12} &amp;= \frac{b^{3}}{b^{1}} &amp;&amp; \small \color{#5fa2ce}{\text{Cancel the $a$'s.}} \newline
+\frac{27}{12} &amp;= b^{2} &amp;&amp; \small \color{#5fa2ce}{\text{Simplify the powers.}} \newline
+\frac{9}{4} &amp;= b^{2} &amp;&amp; \small \color{#5fa2ce}{\text{Reduce the fraction.}} \newline
+\pm \sqrt{\frac{9}{4}} &amp;= b   &amp;&amp; \small \color{#5fa2ce}{\text{Take $\pm \sqrt{\text{  }}$ of both sides}} \newline
+\pm \frac{3}{2} &amp;= b  &amp;&amp; \small \color{#5fa2ce}{\text{Simplify}}
+\end{align}
+]</p>
+<p>Normally getting two answers could cause a problem, but in this case we know something extra.  We are trying to find the base of an exponential function, and the base of an exponential is never negative.  So the correct value must be $b=\frac{3}{2}$.</p>
+<p>This is only half of the solution; we also need to know what $a$ is.  To find that, we'll substitute $b$ back into one of our equations.  As before, either one will work but we'll choose the one with the lower values in it--it's just is a bit simpler.</p>
+<p>[
+\begin{align}
+12 &amp;= a  \thinspace  b^{1} &amp;&amp; \small \color{#5fa2ce}{\text{Equation #1}} \newline
+12 &amp; = a \frac{3}{2} &amp;&amp; \small \color{#5fa2ce}{\text{Substitute $b = \frac{3}{2}$}} \newline
+\frac{2}{3} \cdot 12 &amp;= a &amp;&amp; \small \color{#5fa2ce}{\text{Multiply by $\frac{2}{3}$}} \newline
+8 &amp;= a &amp;&amp; \small \color{#5fa2ce}{\text{Simplify}} \newline
+\end{align}
+]</p>
+<p>Now that we know the values for $a$ and $b$, we can finally say that</p>
+<p>[f(x)=8 \left(\frac{3}{2} \right)^{x}]</p>
+<p>is the exponential function that passes through the points $(1, 12)$ and $(3, 27)$.</p>
+<h2 id="convert-between-exponential-models">Convert Between Exponential Models</h2>
+<p>In the previous example we used the standard exponential model $f(x)=a \thinspace b^{x}$, where $b=1+r$, but we know from <a href="//chapter-3/3.2#looking-ahead">Chapter 3</a> that there are several different exponential forms.  Why didn't we use one of those?</p>
+<p>The answer is that we certainly could have.  The format we use doesn't really matter since its possible to switch between any of them.  In particular, the standard model $f(x)=a \thinspace b^{x}$ and the continuous growth model $f(t)=a \thinspace e^{k t}$ are equivalent (and are the most commonly used).  Here's how you convert from one to the other.</p>
+<p>[
+\begin{align}
+a \thinspace b^{\ x} &amp;\Longrightarrow a \thinspace e^{\ k \  t} &amp;&amp; \small \color{#5fa2ce}{\text{by setting $k = \ln (b)$}} \newline \newline
+a \thinspace e^{\ k \ t} &amp;\Longrightarrow a \thinspace b^{\ x} &amp;&amp; \small \color{#5fa2ce}{\text{by setting $b=e^{\ k}$}} \newline
+\end{align}
+]</p>
+<p>Either form can be used for any application.  We often make the decision based on convenience and whether its preferable to emphasize the growth factor $b$ or the continuous growth rate $k$ in a given scenario.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Use the identity $b=e^{k}$ to rewrite $f(t)=2 \thinspace e^{-0.356 t}$ in the standard exponential model form $f(x)=a \thinspace b^{x}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Since $e^{-0.356}=0.7$, the equivalent standard model is $f(x)=2(0.7)^{x}$.</details></p>
+</li>
+<li>
+<p>Use the identity $k = \ln (b)$ to rewrite $f(x)=138(1.493)^{x}$ as a continuous growth exponential function of the form $f(t)=a \thinspace e^{k  t}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Since $\ln(1.493)=0.4$, the equivalent continuous growth model is $f(t)=138 \thinspace e^{0.4 t}$.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="create-exponential-models">Create Exponential Models</h2>
+<h3 id="continuous-biological-decay">Continuous Biological Decay</h3>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-6/sushi-373588_1280.jpg"  title="Image by Design n Print from Pixabay"  alt="Image by Design n Print from Pixabay" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/images/id-373588/">Image by Design n Print from Pixabay</a></span>
+</div>
+<br>
+<p>Let's return to the example that at the start of this section.  The Mercury that small fish eat gets collectected in large predatory fish such as shark, swordfish, and tuna that live longer.
+<label for="sn-fish" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-fish" class="margin-toggle" />
+<span class="sidenote"><img src="https://duragauge.github.io/img/chapter-6/MercuryFoodChain.svg#center" alt=""></span>
+Mercury levels in large fish can be over a million times higher than that found in the surrounding waters.</p>
+<p>The U. S. Environmental Protection Agency (EPA) believes that if a person has a blood mercury level under 5.8 micrograms per liter ($\mu$g/L) then they are relatively safe and should see no adverse effects.</p>
+<p>Suppose the Mercury level in your blood is at 15 $\mu$g/L.  If 5 days later it has only dropped to 14  $\mu$g/L, how long will it take to reach a safe level?</p>
+<p>If we assume mercury leaves your body in a continuous fashion, then we can try to find a model of the form $f(t)=ae^{k t}$.  From the information given we can find $k$ by solving  $14=15e^{k \thinspace 5}$.</p>
+<p>[ \begin{align}
+14 =&amp; 15e^{k \thinspace 5} \newline
+\frac{14}{15} &amp;= e^{5 \thinspace  k} &amp;&amp; \small \color{#5fa2ce} {\text{Divide both sides by $15$ to isolate the exponential.}} \newline
+\ln\left(\frac{14}{15}\right) &amp;= \ln\left(e^{5 k}\right) &amp;&amp; \small \color{#5fa2ce} {\text{Apply the natural log $\ln$ to both sides.}} \newline
+\ln\left(\frac{14}{15}\right) &amp;= 5 k &amp;&amp; \small \color{#5fa2ce} {\text{Use the inverse relationship $\ln(e^{x})=x$.}} \newline
+\frac{\ln\left(\frac{14}{15}\right)}{5} &amp;= k &amp;&amp; \small \color{#5fa2ce} {\text{Divide both sides by $5$.}} \newline
+k  &amp;\approx  -0.0138 &amp;&amp; \small \color{#5fa2ce} {\text{Use a calculator to find a decimal approximation.}} 
+\end{align}]</p>
+<p>From this we see that the mercury concentration can be modeled by $f(t)=15e^{-0.0138  \thinspace  t}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>Now that we know the model is $f(t)=15e^{-0.0138 \thinspace t}$, how do we figure out the amount of time it will take to reach a safe level of  5.8$\mu$/L?</li>
+</ol>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />We need to set $f(t)=5.8$ and solve the equation for $t$.</details>
+</div>
+<p>We know that if your blood mercury level is initially at 15 $\mu$/L, then the mercury concentration can be modeled by the function $f(t)=15e^{-0.0138  \thinspace t}$ where $t$ is time in days.</p>
+<p>To find out how long it will take to reach a safe level of 5.8 $\mu$g/L, we need to find $t$ so that $f(t)=5.8$.</p>
+<p>[
+\begin{align}
+5.8 &amp;=  15e^{-0.0138 \thinspace  t} \newline
+\frac{5.8}{15}  &amp;=  e^{-0.0138 \thinspace  t} &amp;&amp; \small \color{#5fa2ce} {\text{Divide both sides by $15$ to isolate the exponential.}} \newline
+\ln\left(\frac{5.8}{15}\right)  &amp;=  \ln\left(e^{-0.0138 t}\right) &amp;&amp; \small \color{#5fa2ce} {\text{Apply the natural log $\ln$ to both sides.}} \newline
+\ln\left(\frac{5.8}{15}\right)  &amp;=  -0.0138 t &amp;&amp; \small \color{#5fa2ce} {\text{Use the inverse relationship $\ln(e^{x})=x$.}} \newline
+\frac{\ln\left(\frac{5.8}{15}\right)}{-0.0138}  &amp;=  t &amp;&amp; \small \color{#5fa2ce} {\text{Divide both sides by $-0.0138$.}} \newline
+t  &amp;\approx  68.85 &amp;&amp; \small \color{#5fa2ce} {\text{Decimal approximation.}}
+\end{align}
+]</p>
+<p>It appears that it will take roughly 69 days for the blood mercury concentration to return to a safe level.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>How would this process have changed if you were asked to find the biological half-life of mercury in the blood stream?</li>
+</ol>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />To find the half-life we would need to solve for $t$ with $f(t)=\frac{1}{2} a$ where $a$ is the initial concentration.  The solving steps would be nearly identical to what was done above.</details>
+</div>
+<h3 id="biological-half-life">Biological Half-Life</h3>
+<p>It is very common to use the half-life model $f(x)=a\left(\frac{1}{2}\right)^{x/c}$ to describe the biological decay of substances in the body.  To change our continuous decay model for mercury into a half-life model, we must find $t$ so that $f(t)=\frac{1}{2}  a$, where $a$ is the initial concentration.</p>
+<p>[
+\begin{align}
+\frac{1}{2} \cdot 15  &amp;=  15 e^{-0.0138 t} &amp;&amp; \small \color{#5fa2ce} {\text{Start with continuous decay model from above.}} \newline
+\frac{1}{2}  &amp;=  e^{-0.0138 t} &amp;&amp; \small \color{#5fa2ce} {\text{Divide both sides by $15$ to isolate the exponential.}} \newline
+\ln\left(\frac{1}{2}\right) &amp;= \ln(e^{-0.0138 t}) &amp;&amp; \small \color{#5fa2ce} {\text{Apply the natural log $\ln$ to both sides.}} \newline
+\ln\left(\frac{1}{2}\right) &amp;= -0.0138 t &amp;&amp; \small \color{#5fa2ce} {\text{Use the inverse relationship $\ln(e^{x})=x$.}} \newline
+\frac{\ln\left(\frac{1}{2}\right)}{-0.0138} &amp;= t &amp;&amp; \small \color{#5fa2ce} {\text{Divide both sides by $-0.0138$.}} \newline
+t  &amp;\approx  50.23 &amp;&amp; \small \color{#5fa2ce} {\text{Use a calculator to find a decimal approximation.}}
+\end{align}
+]</p>
+<p>This shows that the half-life of mercury in the body is about 50 days.  By taking $c=50$, we conclude that the function</p>
+<p>[
+f(x)=15\left(\frac{1}{2}\right)^{x/50}
+]</p>
+<p>is the half-life model for mercury concentration that is equivalent to our earlier continuous decay model.  Both both produce the same values, they are just written in different formats.</p>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>In our final section we will use technology to find models that fit larger sets of data rather than doing the work by hand.  Even so, the basic process will be the same as what we've done in the past two sections.</p>
+<p>We will always start by comparing the properties of the data with the behaviors of functions we know so that we can choose an appropriate function model that can be used to predict unknown values.</p>
+<p>If the model predicts unreasonable values that do not make any sense, then we should try to explain how we know the result is an error and why it might have occurred.  An analysis of the errors can often lead to the construction of a more robust model.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

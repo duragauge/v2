@@ -1,0 +1,419 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		4.3 Composition of Functions &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#composition-of-functions">Composition of Functions</a></li>
+    <li><a href="#understand-composition-of-functions">Understand Composition of Functions</a></li>
+    <li><a href="#composition-notation">Composition Notation</a></li>
+    <li><a href="#order-of-composition">Order of Composition</a></li>
+    <li><a href="#evaluate-composite-functions">Evaluate Composite Functions</a></li>
+    <li><a href="#the-domain-of-composite-functions">The Domain of Composite Functions</a></li>
+    <li><a href="#composition-with-tables">Composition with Tables</a></li>
+    <li><a href="#equation-of-f-circ-g">Equation of $f \circ g$</a></li>
+    <li><a href="#graph-composite-functions">Graph Composite Functions</a></li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>4.3 Composition of Functions</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-4/washing-machine-2668472_1280.jpg"  title="Image by Steve Buissinne from Pixabay"  alt="Image by Steve Buissinne from Pixabay" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/images/id-2668472/">Image by Steve Buissinne from Pixabay</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>Washing laundry usually involves two machines: a washer and a dryer.  Once the wash cycle is over you have to transfer the load over to the dryer.</p>
+<p>What does this have to do with math?  Well, there is a new way to combine functions called <strong>composition</strong>.  Composition is completely different than addition, subtraction, multiplication or division of functions.  Fortunately, the concept behind composition is almost exactly the same as washing laundry.</p>
+<h2 id="composition-of-functions">Composition of Functions</h2>
+<p>Let's diagram the laundry experience.  You start by putting a load of dirty clothes and linens into a washing machine.  When the washing cycle is over your laundry is not only clean, but wet as well.  To remedy this you transfer the clean, wet clothes into the dryer and turn it on.  Eventually you have what you wanted:  clean and dry clothes.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_laundry.svg" alt=""></p>
+<p>If we overlay the laundry diagram with function notation you can begin to see what function composition is.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_laundry_notation.svg" alt=""></p>
+<p>When we take the output of one function (like clean, wet laundry from the washing machine) and input it into another function (like the dryer), the result (clean, dry laundry) is a <strong>composition</strong> of the two functions.</p>
+<p>Suppose, for instance, that $\color{blue}{g}$ adds 2 to any number,  and that $\color{red}{f}$ multiplies any input by 10.  In other words, $\color{blue}{g(x)=x+2}$ and $\color{red}{f(x)=10x}$.</p>
+<p>If we insert $x = 4$ into $\color{blue}{g}$ then $\color{blue}{6}$ comes out.  Now take $\color{blue}{6}$ and use it as the input to $\color{red}{f}$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_laundry_values.svg" alt=""></p>
+<p>The result is the composition $\color{red}{f(}\color{blue}{g(}4\color{blue}{)}\color{red}{)}=60$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Suppose the example above had started with $x = 1$ instead.  What would be the result of the composition?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Putting $x =1$ into $\color{blue}{g}$ gives $\color{blue}{g(}1\color{blue}{)}=\color{blue}{3}$.  Putting $\color{blue}{3}$ into $\color{red}{f}$  produces  $\color{red}{f(}\color{blue}{3}\color{red}{)}=\color{red}{30}$.  So $\color{red}{f(}\color{blue}{g(}1\color{blue}{)}\color{red}{)}=30$ is the result of the composition.</details></div>
+<h2 id="understand-composition-of-functions">Understand Composition of Functions</h2>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-4/hanh-nguyen-j6DH45Bflho-unsplash.jpg"  title="Photo by Hanh Nguyen on Unsplash"  alt="Photo by Hanh Nguyen on Unsplash" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://unsplash.com/photos/j6DH45Bflho">Photo by Hanh Nguyen on Unsplash</a></span>
+</div>
+<br>
+<p>We encountered composition <a href="//chapter-4/4.1#calculating-profit-and-deductions">earlier in this chapter</a>, though we did not call it composition at the time.</p>
+<p>Recall that the Social Security deduction for someone who is self-employed was given by the function $S(P)=0.153P$, where $P$ are the profits earned.</p>
+<p>But the profit depends on how many items are sold.  In the cupcake example, for instance, $P(x)=1.85x -\frac{0.85}{x}$ where $x$ is the number of cupcakes sold.</p>
+<p>If you sold $1000$ cupcakes you would need to first calculate $P(1000)$ before using that value as the input to $S(P)$ to find the Social Security deduction.  This is composition since you are using the output of one function as the input to a second function.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Using the functions above, find the Social Security deduction on the profits from selling $1000$ cupcakes. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />First find [P(1000)=1.85(1000) - \frac{0.85}{1000}\approx$1850]
+Then evaluate [S(1850)=0.153(1850)=$283.05]</details></div>
+<h2 id="composition-notation">Composition Notation</h2>
+<p>Since composition is a new way of combining functions, it needs its own symbol.  The symbol for composition is a small open circle $\circ$ .  If $\color{red}{f}$ and $\color{blue}{g}$ are functions, the composition of $\color{red}{f}$ with $\color{blue}{g}$ is the function given by</p>
+<p>[(f \circ g)(x)=\color{red}{f(}\color{blue}{g(}x\color{blue}{)}\color{red}{)}]</p>
+<p>For example, using $\color{red}{f(x)=2x^{3}}$ and $\color{blue}{g(x)=\frac{x+3}{2}}$ as our two functions, we can find $(f \circ g)(1)$ as follows:</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_eval_b.svg#center" alt=""></p>
+<p>Notice that the output of the $\color{blue}{g}$ function was used as the input of the $\color{red}{f}$ function.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Using the same functions as above, find $(f \circ g)(7)$.   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[
+\begin{align}
+(f \circ g)(7) &amp;= f(g(7) \newline
+&amp;=f\left(\frac{7+3}{2}\right) \newline
+&amp;=f(5) \newline
+&amp;=2(5)^3 \newline
+&amp;=250
+\end{align}
+]</details></div>
+<h2 id="order-of-composition">Order of Composition</h2>
+<p>You are probably aware that some operations, like addition and multiplication, are <em>commutative</em>, meaning they can be done in any order.</p>
+<p>With other operations, like subtraction and division, the order makes a big difference in the result.</p>
+<p>This begs the question: Is the operation of composition commutative?  Can we compose functions in any order we like, or is the order important?</p>
+<p>Our laundry analogy suggests that composition may not be commutative, since drying clothes before washing them is not the same as first washing and then drying.</p>
+<p>But the analogy is merely a suggestion.  To get real evidence we need to look at some functions and compare $(f \circ g)(x)$ with $(g \circ f)(x)$.</p>
+<p>Let's choose two simple functions to work with $\color{red}{f(x)=x+4}$ and $\color{blue}{g(x)=x^2}$.</p>
+<p>First we compute $(f \circ g)(5)$ and we'll compare that value with $(g \circ f)(5)$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_eval_a.svg#center" alt=""></p>
+<p>If we compare this with $(g \circ f)(5)$</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_eval_a_reverse.svg#center" alt=""></p>
+<p>it becomes clear that $(f \circ g)(5)$ and $(g \circ f)(5)$ are not the same.  In general, composition is <em>not</em> a commutative operation, and we will need to pay close attention to the order of the functions.</p>
+<h2 id="evaluate-composite-functions">Evaluate Composite Functions</h2>
+<p>Now that we know order is important, we should look at a few more examples.  This time $\color{red}{f}$ and $\color{blue}{g}$ are defined by the tables below.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_table.svg#center" alt=""></p>
+<p>To evaluate $(g \circ f)(1)$, for example, we first use the table to find $f(1) = 2$, and then find $g(2) = -1$.  Thus, $(g \circ f)(1) = -1$.</p>
+<p>Contrast this with $(f \circ g)(1)=f(g(1))=f(3)$ which is undefined.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Use the table above to evaluate the following, if possible.</p>
+<ol>
+<li>
+<p>$(f \circ g)(2)$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f(g(2))=f(-1)=-13$</details></p>
+</li>
+<li>
+<p>$(g \circ f)(0)$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$g(f(0))=g(1)=3$</details></p>
+</li>
+<li>
+<p>$(f \circ g)(1)$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$f(g(3))=f(5)=\text{undefined}$</details></p>
+</li>
+<li>
+<p>$(g \circ f)(2)$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$g(f(2))=g(7)=\text{undefined}$</details></p>
+</li>
+<li>
+<p>$(g \circ g)(5)$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$g(g(5))=g(2)=-1$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="the-domain-of-composite-functions">The Domain of Composite Functions</h2>
+<p>Let's consider another analogy for composition.  Imagine you wanted to fly from Portland, Oregon to Tahiti.  Since there is no direct service from Portland to Tahiti, you would need to fly somewhere else first and then find a connecting flight.  For instance, you might fly to Hawaii first and then on to Tahiti.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_tahiti.png#center" alt=""></p>
+<p>If we regard each flight as a function, then the entire trip could be viewed as a composition of functions.  This analogy gives us two useful insights.</p>
+<p>First, in order for composition to work, there must be some location, like Hawaii, where the range of the first function intersects the domain of the second function.  Otherwise, the composition is undefined, as you discovered previously.</p>
+<p>Second, it's possible to create a single new function that has the same actions as the composition of the two separate functions.  This new function would be similar to a direct flight from Portland to Tahiti.</p>
+<p>Consider the two functions $\color{red}{f}$ and $\color{blue}{g}$ defined by the arrow diagrams below.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_arrow_diagram_1.svg#center" alt=""></p>
+<p>Since the range of $\color{blue}{g}$ intersects the domain of $\color{red}{f}$ only at $10$, the domain of $h=f \circ g$ can only be the single number $2$, there's no way to use $1$ as an input to $h = f \circ g$ because $5$ is not in the domain of $\color{red}{f}$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_arrow_diagram_2.svg#center" alt=""></p>
+<p>And just as a direct flight from Portland to Tahiti would not stop in Hawaii, the composed function $h=f \circ g$ maps $2$ directly to $13$ without stopping at $10$.</p>
+<h2 id="composition-with-tables">Composition with Tables</h2>
+<p>If we return to the functions $\color{red}{f}$ and $\color{blue}{g}$ as defined in the tables below,</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_table.svg#center" alt=""></p>
+<p>we should be able to compute values of $h(x)=(f \circ g)(x)$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_table_b.svg#center" alt=""></p>
+<p>Since $x = 1$ and $x = 3$ are not valid inputs to
+$h(x)=(f \circ g)(x)$ we conclude that the domain is the set $ \lbrace 2,4,5 \rbrace $.</p>
+<p>Notice again that the domain of $h=f \circ g$ is always a subset of the domain of $\color{blue}{g}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Using the same function tables as above, what is the domain of $(g \circ f)(x)$?   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The domain of $(g \circ f)(x)$ is the set {-2,0,1}.</details></div>
+<h2 id="equation-of-f-circ-g">Equation of $f \circ g$</h2>
+<p>When $\color{red}{f}$ and $\color{blue}{g}$ are defined by equations, we find the equation for $h=f \circ g$ by composing the two equations rather than working with individual values.</p>
+<p>For instance, if $\color{red}{f(x)=3x^2-x+2}$ and $\color{blue}{g(x)=2^x}$ then</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_eval_4.svg#center" alt=""></p>
+<p>The benefit of having an equation for $h=f \circ g$ is that it allows you to evaluate the composition more efficiently.  You need only deal with one function instead of two.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4>Using the same functions as above, verify that $(f \circ g)(1)$ gives the same value as $h(1)$.   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[ \begin{align}
+(f \circ g)(1)&amp;=f(g(1)) \newline
+&amp;=f(2^1) \newline
+&amp;=f(2) \newline
+&amp;=3(2)^2-2+2 \newline
+&amp;=12
+\end{align}]
+[ \begin{align}
+h(1)&amp;=3(4)^1-2^1+2 \newline
+&amp; =12
+\end{align}]</details></div>
+<p>Finding an equation for $h=f \circ g$ also helps us determine its domain.</p>
+<p>Take, for example, $f(x)=\ln(x)$ and $g(x)=x-4$.  The composed equation is $h(x)=(f \circ g)(x)=\ln(x-4)$.</p>
+<p>Since the natural logarithm can only take in positive numbers, the domain of $h=f \circ g$ can only include $x$ values for which $x-4&gt;0$.  Therefore, the domain of $h=f \circ g$ must be $x&gt;4$.</p>
+<p>Notice that this domain of $x&gt;0$ is a subset of the domain of $g$, which is all real numbers.  Assuming $h=f \circ g$ exits, its domain is always either the entire domain of $g$ or a subset of it.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>If $f(x)=\sqrt{x}$ and $g(x)=8-x^{3}$, find the equation for $h(x)=(f \circ g)(x)$ and state its domain.   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$h(x)=(f \circ g)(x)=\sqrt{8-x^{3}}$. Since only positive numbers, or zero, have real square roots, we need $8-x^{3}\geq0$, or $x\leq2$.  So while the domain of $g$ is all real numbers, the domain of $h=f \circ g$ is $x \leq 2$.</details></p>
+</li>
+<li>
+<p>If $f(x)=e^{x}$ and $g(x)=1/x$, find the equation for $h(x)=(f \circ g)(x)$and state its domain.   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$h(x)=(f \circ g)(x)=e^{1/x}$.  Any real number can be inserted into the exponential function, so it does not impose any extra restrictions on the domain of $h=f \circ g$.  We conclude that the domain of $h=f \circ g$ is the same as the domain of $g$, which is $x \neq 0$.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="graph-composite-functions">Graph Composite Functions</h2>
+<p>The graphs of composite functions can display a wide range of behaviors.  In the figure below you can let $\color{red}{f}$ and $\color{blue}{g}$ be any functions you want.  The graph of $h=f \circ g$ will be drawn as you change $x$ or press <strong>Play</strong>.</p>
+<p>Consider putting a polynomial like $g(x)=2x^{2}-x^4$ inside of an exponential function $f(x)=e^{x}$.  Or, as in the example below, compose two functions that are vertical reflections of each other.  The goal here is just to have fun making graphs, so try as many as you like before continuing.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/Kbg4KOk8/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/Kbg4KOk8"><img src="https://www.geogebra.org/resource/Kbg4KOk8/QNrmk8lmdIInXZ3s/material-Kbg4KOk8.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/Kbg4KOk8"><a href="https://www.geogebra.org/m/Kbg4KOk8">https://www.geogebra.org/m/Kbg4KOk8</a></a></p>
+</div>
+<p>Determining the exact shape of the graph of a composite function $h=f \circ g$ by examining the equations and/or graphs of $f$ and $g$ is a complicated process.  Generally, it will be best to find the equation for $h=f \circ g$ and then use a computer or graphing calculator to analyze its behavior.</p>
+<p>For instance, if $f(x)=e^{-x}$ and $g(x)=x^{2}$ then $h(x)=(f \circ g)(x)=e^{-x^{2}}$ and it can be graphed as follows.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/composition_calculator.svg" alt=""></p>
+<p>With the graph it is easier to analyze the behavior of the function.  For instance, it is now clear that the function $h$ has a maximum of $h(x)=1$ at $x=0$.  We could also discuss asymptotes and regions where the function is increasing or decreasing as well as domain and range.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Using the graph above, or a graph on your own calculator, discuss domain, range, asymptotes, etc. of $h(x)=(f \circ g)(x)=e^{-x^{2}}$.</p>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><ul>
+<li>The domain appears to be all real numbers.</li>
+<li>The range looks to be $(0,1]$.</li>
+<li>The x-axis appears to be a horizontal asymptote.</li>
+<li>The function is increasing on the interval $(-oo, 0)$ and decreasing on the interval $(0, \infty)$</li>
+</ul>
+</details>
+</div>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>We now have five different ways to combine functions, addition, subtraction, multiplication, division and composition.  Combining two functions with any of these operations always produces a new function.</p>
+<p>Many of these combined functions are generally not one-to-one.  They do not pass a vertical line test and do not have inverses unless the domain is restricted.  In the next section we will discuss how to find inverses of these more complicated functions.</p>
+<p>We will also see how composition can be used to prove that two functions are inverses of each other.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

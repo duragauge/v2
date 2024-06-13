@@ -1,0 +1,604 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		4.2 Multiplication and Division of Functions &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#combining-functions-by-multiplication">Combining Functions by Multiplication</a></li>
+    <li><a href="#the-domain-of-fgx">The Domain of $(fg)(x)$</a></li>
+    <li><a href="#simplifying-fgx">Simplifying $(fg)(x)$</a>
+      <ul>
+        <li><a href="#when-f-and-g-are-power-functions">When $f$ and $g$ are Power Functions</a></li>
+        <li><a href="#when-f-and-g-are-exponential-functions">When $f$ and $g$ are Exponential Functions</a></li>
+        <li><a href="#when-f-and-g-are-polynomials">When $f$ and $g$ are Polynomials</a></li>
+      </ul>
+    </li>
+    <li><a href="#graphs-of-fgx">Graphs of $(fg)(x)$</a></li>
+    <li><a href="#applications">Applications</a></li>
+    <li><a href="#combining-functions-by-division">Combining Functions by Division</a></li>
+    <li><a href="#simplifying-leftfracfgrightx">Simplifying $\left(\frac{f}{g}\right)(x)$</a></li>
+    <li><a href="#rational-functions">Rational Functions</a></li>
+    <li><a href="#graphs-of-rational-functions">Graphs of Rational Functions</a></li>
+    <li><a href="#simplifying-rational-functions-by-cancellation">Simplifying Rational Functions by Cancellation</a></li>
+    <li><a href="#simplify-rational-functions-by-long-division">Simplify Rational Functions by Long Division</a></li>
+    <li><a href="#synthetic-division">Synthetic Division</a></li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>4.2 Multiplication and Division of Functions</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-4/storm-surge-3735936_1280.jpg"  title="Photo by Jerry Coli from Pixabay "  alt="Photo by Jerry Coli from Pixabay " style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://pixabay.com/images/id-3735936/">Photo by Jerry Coli from Pixabay </a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>The strong winds of large tropical storms, like hurricane Katrina or super storm Sandy, can push sea water toward the shore causing severe flooding.  These &quot;storm surges&quot; are often a greater threat to life and property than the hurricane itself.  The surge after Katrina reached 28 feet above flood level.</p>
+<p>In this section we will see a simplified model for storm surges that results from multiplying a power function by an exponential decay function.</p>
+<h2 id="combining-functions-by-multiplication">Combining Functions by Multiplication</h2>
+<p>In the last section we saw that if $f$ and $g$ are both functions, then we can form new functions by taking their sum $f+g$ or their difference $f-g$.  The <em>product</em> of two functions $fg$ is also a function and can be evaluated using the rule</p>
+<p>[
+(fg)(x)=f(x)g(x)
+]</p>
+<p>In the table below, use the given values of $\color{red}{f(}x\color{red}{)}$ and $\color{blue}{g(}x\color{blue}{)}$ to find values for $(fg)(x)$.</p>
+<table>
+  <tr>
+    <td>$x$</td><td>$\color{red}{f(}x\color{red}{)}$</td><td>$\color{blue}{g(}x\color{blue}{)}$</td><td>$(fg)(x)=\color{red}{f(}x\color{red}{)}\color{blue}{g(}x\color{blue}{)}$</td>
+  </tr>
+    <td>$1$</td><td>$\color{red}{4}$</td><td>$\color{blue}{9}$</td><td>$\color{red}{(4)}\color{blue}{(9)}=36$</td>
+  </tr>
+  <tr>
+    <td>$2$</td><td>$\color{red}{3}$</td><td>$\color{blue}{-5}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{(3)}\color{blue}{(-5)}=-15$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$3$</td><td>$\color{red}{1}$</td><td>$\color{blue}{14}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{(1)}\color{blue}{(14)}=14$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$4$</td><td>$\color{red}{-8}$</td><td>$\color{blue}{-3}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{(-8)}\color{blue}{(-3)}=24$</details>
+</td>
+  </tr>
+  <tr>
+    <td>$5$</td><td>$\color{red}{-32}$</td><td>$\color{blue}{0}$</td><td><details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$\color{red}{(-32)}\color{blue}{(0)}=0$</details>
+</td>
+  </tr>
+</table
+<p>Notice that each $x$ creates only one $(fg)(x)$ value, which means that multiplying two functions always creates a new function.</p>
+<h2 id="the-domain-of-fgx">The Domain of $(fg)(x)$</h2>
+<p>As with the sum and difference, the domain of $fg$ is the intersection of the domains of $f$ and $g$.</p>
+<p>For example, if $f(x)=\ln(x)$ and $g(x)=4-x^{2}$, then</p>
+<p>[
+\begin{align}
+(fg)(x) &amp;= \ln(x)(4-x^{2}) \newline
+&amp;= 4\ln(x)-x^{2}\ln(x)
+\end{align}
+]</p>
+<p>Since $f(x)=\ln(x)$ is only defined for positive values of $x$, the product $f g$ is only defined for $x&gt;0$ as well.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Suppose $f(x)=\sqrt{x+4}$ and $g(x)=\frac{1}{x}$.  Find the equation for $f g$ and state its domain. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[ (f g)(x)=f(x)g(x)=\sqrt{x+4} \frac{1}{x}=\frac{\sqrt{x+4}}{x} ].
+The domain of $f(x)=\sqrt{x+4}$ is all numbers greater than or equal to $-4$.  The domain of $g$ is anything except $0$.  So the domain of $fg$ is all real numbers greater than or equal to $-4$, except for $0$.  In interval notation, it would be $[-4, 0) \bigcup (0,\infty)$.</details></p>
+</li>
+<li>
+<p>If the domain of $f$ is $[-10, 6)$ and the domain of $g$ is $(4, 9]$, what is the domain of $fg$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$[-10, 6) \cap (4, 9] = (4, 6)$ so the domain of $fg$ is $(4, 6)$.  In other words, only the numbers between 4 and 6.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="simplifying-fgx">Simplifying $(fg)(x)$</h2>
+<p>Sometimes we can tell what type of function the product $f g$ will be by recognizing what type of function $f$ and $g$ are.</p>
+<h3 id="when-f-and-g-are-power-functions">When $f$ and $g$ are Power Functions</h3>
+<p>Suppose you take two power functions, like $\color{red}{f(x)=x^{1.3}}$ and $\color{blue}{g(x)=x^{2.5}}$.  Their product is also a power function</p>
+<p>[
+\begin{align}
+(f g)(x) &amp;= \color{red}{x^{1.3}}\color{blue}{x^{2.5}} \newline
+&amp;= x^{3.8}
+\end{align}
+]</p>
+<h3 id="when-f-and-g-are-exponential-functions">When $f$ and $g$ are Exponential Functions</h3>
+<p>A similar thing holds if $f$ and $g$ are both exponential functions.  As an example, consider $\color{red}{f(x)=2^{x}}$ and $\color{blue}{g(x)=3^{x}}$.  The equation for $f g$ is</p>
+<p>[
+\begin{align}
+(f g)(x) &amp;= \color{red}{2^{x}}\color{blue}{3^{x}} \newline
+&amp;= 6^{x}
+\end{align}
+]</p>
+<p>which is also an exponential function.</p>
+<h3 id="when-f-and-g-are-polynomials">When $f$ and $g$ are Polynomials</h3>
+<p>Lastly, the product of two polynomials is still a polynomial.  Using $\color{red}{f(x)=3x+1}$ and $\color{blue}{g(x)=x+4}$, for instance, gives</p>
+<p>[
+\begin{align}
+(f g)(x) &amp;= \color{red}{(3x+1)}\color{blue}{(x+4)} \newline
+&amp;= 3x^{2}+13x+4
+\end{align}
+]</p>
+<h2 id="graphs-of-fgx">Graphs of $(fg)(x)$</h2>
+<p>We can also gain some insight into the graph of $(fg)(x)$ by inspecting the graphs of $f(x)$ and $g(x)$.</p>
+<p>Of particular interest is the fact that $(fg)(x)$ inherits the x-intercepts from both $f(x)$ and $g(x)$.</p>
+<p>This can be explored in the interactive figure below.  The $\color{red}{f(x)=4-x^{2}}$ and $\color{blue}{\ln(x)}$ are shown, though you can change either one.</p>
+<div class="no-print geogebra" style="padding-top: 40%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/ccAPEyMG/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/ccAPEyMG"><img src="https://www.geogebra.org/resource/ccAPEyMG/7088gRlSnR7MzxmG/material-ccAPEyMG.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/ccAPEyMG"><a href="https://www.geogebra.org/m/ccAPEyMG">https://www.geogebra.org/m/ccAPEyMG</a></a></p>
+</div>
+<p>It's worth noting that the product $fg$ only exists for $x&gt;0$ since the domain of the logarithm is $x&gt;0$.</p>
+<h2 id="applications">Applications</h2>
+<p>At the start of this section we mentioned the storm surge following a tropical storm like a hurricane.  It's now time that we looked at this shape and tried to find a function with a similar graph.</p>
+<p>The chart below from the United States Geological Survey shows the storm surge for Hurricane Rita in 2005.  Notice how the water level (in blue) increases quickly, and then recedes at a slower rate.</p>
+<p><img src="https://pubs.usgs.gov/ds/2006/220/images/LA9b.gif" alt=""></p>
+<p>One way to create a function that grows quickly and then decays is to multiply an increasing power function by an exponential decay function.</p>
+<p>In the figure below, the graphs of $f(x)=10x^{2}$ and $g(x)=e^{-x}$ are shown.  The graph of $(fg)(x)=10x^{2}e^{-x}$ will be drawn as you change the value of $x$.</p>
+<div class="no-print geogebra" style="padding-top: 40%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/AfMnn6k3/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/AfMnn6k3"><img src="https://www.geogebra.org/resource/AfMnn6k3/GZumI2j14Zzb1bPr/material-AfMnn6k3.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/AfMnn6k3"><a href="https://www.geogebra.org/m/AfMnn6k3">https://www.geogebra.org/m/AfMnn6k3</a></a></p>
+</div>
+<p>As you have just seen, the graph of the function $f(x)=10x^{2}e^{-x}$ is similar in some ways to storm surge flooding.  In fact, functions of this type, where an increasing power function is multiplied by an exponential decay function, are often called <em>surge</em> functions.  All <strong>surge functions</strong> have the form</p>
+<p>[
+f(x)=ax^{p}e^{-b x}
+]</p>
+<p>where $p&gt;0$ and $b&gt;0$.  The rapid rise, or surge, is caused by the power function and the eventual decay is due to the exponential function.</p>
+<p>Surge functions can be found in a number of areas.  For instance, the level of <a href="https://duragauge.github.io/img/chapter-4/surge_data_2.png">glucose</a> in your blood, the <a href="https://duragauge.github.io/img/chapter-4/surge_data_3.png">electrical current</a> in a toy car, the number of <a href="https://duragauge.github.io/img/chapter-4/surge_data_4.png">Tweets</a> about a world news event, or even the number of people trying to figure out how to watch the <a href="https://duragauge.github.io/img/chapter-4/surge_data_5.png">Superbowl</a> online can display surge-like behavior.</p>
+<p>Unfortunately, fitting a surge function to real data is beyond the scope of this book, but it's existence should illustrate the utility of creating new functions by multiplication.  Division of functions is also useful, and that is where we turn our attention next.</p>
+<h2 id="combining-functions-by-division">Combining Functions by Division</h2>
+<p>Since we have worked with addition, subtraction and multiplication of functions, it should come as no surprise that dividing one function by another creates a new function.  The <strong>quotient</strong> of two functions $f$ and $g$ is defined as</p>
+<p>[
+\left(\frac{f}{g}\right)(x)=\frac{f(x)}{g(x)}
+]</p>
+<p>provided that $g(x) \neq 0$.</p>
+<h2 id="simplifying-leftfracfgrightx">Simplifying $\left(\frac{f}{g}\right)(x)$</h2>
+<p>If $f$ and $g$ are either both power functions or both exponential functions then the rules of exponents allow us to simplify their quotients.</p>
+<p>You might recall that</p>
+<p>[
+\frac{x^m}{x^n}=x^{m-n}
+]</p>
+<p>where $m$ and $n$ are any real numbers and $x \neq 0$.  In the present context, this shows that the quotient of any two power functions is just another power function, and that $x=0$ must be excluded from the domain of $x^{m-n}$.</p>
+<p>Another rule of exponents states that</p>
+<p>[
+\frac{a^x}{b^x}=\left(\frac{a}{b}\right)^{x}
+]</p>
+<p>where $a$ and $b$ are any positive real numbers.  This rule shows that the quotient of any two exponential functions is still an exponential function.  And since $a$ and $b$ are positive, there are no restrictions on the domain of $\left(\frac{a}{b}\right)^{x}$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>If $f(x)=x^{2}$ and $g(x)=x^5$, find the equation for $\left(\frac{f}{g}\right)(x)$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[ \left(\frac{f}{g}\right)(x) = \frac{x^2}{x^5} = x^{2-5} = x^{-3} ]</details></p>
+</li>
+<li>
+<p>If $f(x)=2^{x}$ and $g(x)=5^{x}$, find the equation for $\left(\frac{f}{g}\right)(x)$ <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[ \left(\frac{f}{g}\right)(x) = \frac{2^{x}}{5^{x}} = \left(\frac{2}{5}\right)^{x} ]</details></p>
+</li>
+</ol>
+</div>
+<h2 id="rational-functions">Rational Functions</h2>
+<p>As we have just seen, division of power functions and division of exponential functions is simply an application of the rules of exponents.</p>
+<p>In those cases division does not generate a new category of function--the quotient of two power functions is just another power function and the quotient of two exponentials is another exponential function.</p>
+<p>However, dividing one polynomial by another polynomial does create a new family of functions, known as <strong>rational functions</strong>.  A rational function is any function that can be written in the form</p>
+<p>[
+f(x)=\frac{n(x)}{d(x)}
+]</p>
+<p>where $n(x)$ and $d(x)$ are both polynomials and $d(x)\neq0$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Which of the following are rational functions?</p>
+<ol>
+<li>
+<p>$f(x)=\frac{x^{2}+1}{x-3}$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, this is a rational function.</details></p>
+</li>
+<li>
+<p>$g(x)=\frac{2^x+3}{3^x-7}$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, this is not a rational function because $2^x+3$ and $3^x-7$ are not polynomials.</details></p>
+</li>
+<li>
+<p>$h(x)=6x^{2}+2x$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, every polynomial is a rational function where the denominator is $d(x)=1$.</details></p>
+</li>
+<li>
+<p>$p(x)=\frac{2}{x^5-9x^{2}-3}$  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, this is a rational function.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="graphs-of-rational-functions">Graphs of Rational Functions</h2>
+<p>The graphs of rational functions can have very interesting and complex behaviors.  The graphs below should give you an idea of the variety we might encounter.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/rational_functions_graphs.svg#center" alt=""></p>
+<p>In <a href="//chapter-5/5.5">Chapter 5</a> we will examine the properties of rational functions.  One tool that will help us do that is being able to simplify the equation by cancelling common terms, if possible, or by polynomial division.</p>
+<h2 id="simplifying-rational-functions-by-cancellation">Simplifying Rational Functions by Cancellation</h2>
+<p>Sometimes it is possible to simplify a rational function by canceling common factors.  Whenever we cancel factors, we should keep in mind the domain of the original rational function.</p>
+<p>For instance, the rational function $f(x)=\frac{x^{2}-3x}{x}$ can be simplified by canceling the $x$ that all terms have in common.</p>
+<p>[
+\begin{align}
+f(x) &amp;= \frac{x^{2}-3x}{x} \newline
+&amp;= \frac{x^{2}}{x} - \frac{3x}{x} \newline
+&amp;= x-3
+\end{align}
+]</p>
+<p>But we must remember to specify that this only holds for $x \neq 0$, since $0$ is not included in the domain of $f(x)=\frac{x^{2}-3x}{x}$.  The proper way to write it is</p>
+<p>[
+f(x)=\frac{x^{2}-3x}{x}=x-3, \thinspace x \neq 0
+]</p>
+<p>Without the condition that $x \neq 0$, this would be a false statement.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>What is the domain of the rational function $f(x)=\frac{(x-3)(x-4)}{x-3}$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$x \neq 3$</details></p>
+</li>
+<li>
+<p>Simplify the rational function $f(x)=\frac{(x-3)(x-4)}{x-3}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This simplifies to [ f(x)=x-4, x \neq 3 ]  The $x \neq 3$ restriction is necessary.</details></p>
+</li>
+<li>
+<p>Simplify the rational function $f(x)=\frac{x^{2}+3x+2}{x+2}$ by first factoring the numerator. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />[\begin{align}f(x)&amp;=\frac{x^{2}+3x+2}{x+2} \newline &amp;=\frac{(x+1)(x+2)}{x+2} \newline &amp;= x+1, \thinspace x \neq -2 \end{align} ]</details></p>
+</li>
+</ol>
+</div>
+<h2 id="simplify-rational-functions-by-long-division">Simplify Rational Functions by Long Division</h2>
+<p>When no common factors can be found, a rational function can be simplified by division, but only if the polynomial in the numerator has a degree that is higher than or equal to the degree of the denominator.</p>
+<p>For instance, $f(x)=\frac{x^{2}-3x}{x-1}$ and $f(x)=\frac{x^4-6x}{x^4+8}$ can be simplified by division while $g(x)=\frac{2x+4}{x^{3}-5}$ cannot.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Can we use division to simplify $f(x)=\frac{7x^5-2x^{3}+11}{x^{2}+3x-1}$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Yes, the degree in the numerator is $5$, which is higher than the denominator's degree of $2$.  So polynomial division could be used.</details></p>
+</li>
+<li>
+<p>Can we use division to simplify $f(x)=\frac{x^{2}+1}{x^{4}+3x-1}$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, the degree in the numerator is $2$, which is lower than the denominator's degree of $4$.  So polynomial division cannot be used.</details></p>
+</li>
+</ol>
+</div>
+<p>You'll recall that dividing one whole number by a whole number <em>divisor</em> results in a <em>quotient</em> and a <em>remainder</em>.  As an example,</p>
+<p>[
+\frac{15}{7} = 2 + \frac{1}{7}
+]</p>
+<p>were $7$ is the divisor, $2$ is the quotient and $1$ is the remainder.</p>
+<p>Polynomial division follows the identical pattern:</p>
+<p>[
+\frac{n(x)}{d(x)}=q(x)+\frac{r(x)}{d(x)}
+]</p>
+<p>We refer to the function $d(x)$ as the <strong>divisor</strong>, $q(x)$ as the <strong>quotient</strong> and $r(x)$ as the <strong>remainder</strong>.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Suppose $\frac{3x^{2}+1}{x-2}=3x+6+\frac{13}{x-2}$.  Identify the divisor, quotient and remainder.</p>
+<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />The divisor is $d(x)=x-2$.  The quotient is $q(x)=3x+6$.  The remainder is $r(x)=13$.</details>
+</div>
+<p>The traditional method for dividing one polynomial by another is called <strong>polynomial long division</strong>, and works much like long division of numbers.  The figure below will walk you through the algorithm for dividing $3x^{2}+5x-2$ by $x+1$.  Use the controls in the lower left corner to start or pause the process or skip directly to any step.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/kBIVwuSv/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/kBIVwuSv"><img src="https://www.geogebra.org/resource/kBIVwuSv/CoF2ZmtzTw1P1KwH/material-kBIVwuSv.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/kBIVwuSv"><a href="https://www.geogebra.org/m/kBIVwuSv">https://www.geogebra.org/m/kBIVwuSv</a></a></p>
+</div>
+<p>After performing the division we need to identify the divisor $d(x)$, the quotient $q(x)$ and the remainder $r(x)$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/long_division.png#center" alt=""></p>
+<p>Now we can simplify $\frac{3x^{2}+5x-2}{x+1}$ using the $\frac{n(x)}{d(x)}=q(x)+\frac{r(x)}{d(x)}$ pattern.  The final result is</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/polynomial_long_division_1b.png#center" alt=""></p>
+<p>Now that you have seen an example, let's walk through another division problem together.  This time we will divide $4x^{2}-5$ by $x+2$.</p>
+<ol>
+<li>
+<p>Write the problem as a long division. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/long_division_QC_1a.png" alt=""></details></p>
+</li>
+<li>
+<p>What multiplies $x$ to create $4x^{2}$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$4x$</details></p>
+</li>
+<li>
+<p>Perform the first step of the division. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/long_division_QC_1b.png" alt=""></details></p>
+</li>
+<li>
+<p>What is the next number that should go above the division symbol? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />It needs to be a $-8$.</details></p>
+</li>
+<li>
+<p>Perform the rest of the division. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/long_division_QC_1c.png" alt=""></details></p>
+</li>
+<li>
+<p>Now identify the quotient and remainder. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/long_division_QC_1d.png" alt=""></details></p>
+</li>
+</ol>
+<h2 id="synthetic-division">Synthetic Division</h2>
+<p>When the divisor is simple, something of the form $x-c$, such as $x-3$ or $x-5$, then the long division process can be greatly simplified.  This simplified division process is called <strong>synthetic division</strong>.  Synthetic division is simpler because we only work with the number $c$ from the divisor and the coefficients of the numerator.</p>
+<p>For instance, if the divisor is $x-6$ then $c=6$, if the divisor is $x+8$ then $c=-8$.</p>
+<p>If the numerator is $7x^{3}+5x-9$ then we work with the coefficients $7, 0, 5, -9$, including a $0$ for any term that is missing.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>What is $c$ if the divisor is $x+4$?   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$c=-4$</details></p>
+</li>
+<li>
+<p>Can we use synthetic division if the divisor is $x^{2}-5$?   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />No, the divisor must be of the form $x-c$ for some constant $c$.</details></p>
+</li>
+<li>
+<p>What are the coefficients of $-2x^5 + x^{3} - 7x$?   <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$-2,0,1,0,-7$</details></p>
+</li>
+</ol>
+</div>
+<p>Whereas the long division algorithm required multiplication and then subtraction, with synthetic division we multiply and then add.</p>
+<p>Earlier we used long division to divide $3x^{2}+5x-2$ by $x+1$.  Here we perform the same calculation with synthetic division.   Use the controls in the lower left corner to start or pause the process or skip directly to any step.</p>
+<div class="no-print geogebra" style="padding-top: 33.333%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/kNm8cmKM/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/kNm8cmKM"><img src="https://www.geogebra.org/resource/kNm8cmKM/XtFvoYTcImPMucDB/material-kNm8cmKM.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/kNm8cmKM"><a href="https://www.geogebra.org/m/kNm8cmKM">https://www.geogebra.org/m/kNm8cmKM</a></a></p>
+</div>
+<p>After identifying the divisor $d(x)$, quotient $q(x)$ and remainder $r(x)$.</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/synthetic_division.png#center" alt=""></p>
+<p>we can rewrite $\frac{3x^{2}+5x-2}{x+1}$ as</p>
+<p><img src="https://duragauge.github.io/img/chapter-4/long_division_1a.png#center" alt=""></p>
+<p>using the $\frac{n(x)}{d(x)}=q(x)+\frac{r(x)}{d(x)}$ pattern.</p>
+<p>Next we will divide $2x^{3}+7x^{2}-2x-12$ by $x+3$.   Fill in the steps as prompted below.</p>
+<ol>
+<li>
+<p>What are the coefficients of the numerator? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/synthetic_QCe.png" alt=""></details></p>
+</li>
+<li>
+<p>What is $c$? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/synthetic_QCd.png" alt=""></details></p>
+</li>
+<li>
+<p>Write as a synthetic division. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/synthetic_QCa.png" alt=""></details></p>
+</li>
+<li>
+<p>Complete the synthetic division. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/synthetic_QCb.png" alt=""></details></p>
+</li>
+<li>
+<p>Identify the quotient and remainder. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/synthetic_QCc.png" alt=""></details></p>
+</li>
+<li>
+<p>Use the quotient and remainder to simplify  $\frac{2x^{3}+7x^{2}-2x-12}{x+3}$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" /><img src="https://duragauge.github.io/img/chapter-4/synthetic_QCf.png" alt=""></details></p>
+</li>
+</ol>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>We now know how to combine functions using the four basic operations of addition, subtraction, multiplication and division.  We've also seen how complicated behaviors, like those of polynomial and rational functions, can arise by combining simple functions.</p>
+<p>We will return to polynomial and rational functions in the <a href="https://duragauge.github.io/chapter-5/">following chapter</a>, but first we must investigate <a href="../4.3">another way to combine functions</a>.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>

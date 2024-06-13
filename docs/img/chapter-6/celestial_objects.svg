@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="341.60242"
+   height="135.10304"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="planets.svg"
+   inkscape:export-filename="C:\Book Ideas\images\planets.png"
+   inkscape:export-xdpi="100"
+   inkscape:export-ydpi="100">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipEmfPath1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect2990"
+         height="372.67227"
+         width="447.20389"
+         y="-15.918163"
+         x="-45.939182" />
+    </clipPath>
+    <clipPath
+       id="clipEmfPath1-1"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         id="rect3182"
+         height="418.49649"
+         width="454.91531"
+         y="-15.95166"
+         x="-45.960518" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.52539063"
+     inkscape:cx="-34.320094"
+     inkscape:cy="34.578134"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-left="0"
+     fit-margin-bottom="0"
+     fit-margin-top="0"
+     fit-margin-right="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-203.48451,-617.00362)">
+    <rect
+       style="fill:#cccccc;fill-opacity:0.59912857;fill-rule:nonzero;stroke:#000000;stroke-width:0.49238467;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect3319"
+       width="341.11005"
+       height="134.61066"
+       x="203.7307"
+       y="617.24982"
+       ry="18.195255" />
+    <text
+       xml:space="preserve"
+       x="216.13774"
+       y="641.24243"
+       style="font-size:15.00751591px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3240">Object</text>
+    <text
+       xml:space="preserve"
+       x="303.68448"
+       y="641.24243"
+       style="font-size:15.00751591px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3244">Distance (AU)</text>
+    <text
+       xml:space="preserve"
+       x="216.13774"
+       y="667.51575"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3246">Chiron</text>
+    <text
+       xml:space="preserve"
+       x="337.45139"
+       y="667.51575"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3250">13.71</text>
+    <text
+       xml:space="preserve"
+       x="216.13774"
+       y="692.85077"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3252">Haley's Comet</text>
+    <text
+       xml:space="preserve"
+       x="337.45139"
+       y="692.85077"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3256">17.80</text>
+    <text
+       xml:space="preserve"
+       x="216.13774"
+       y="717.24738"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3258">Pluto</text>
+    <text
+       xml:space="preserve"
+       x="337.45139"
+       y="717.24738"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3262">39.26</text>
+    <text
+       xml:space="preserve"
+       x="216.13774"
+       y="742.5824"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3264">Eris</text>
+    <text
+       xml:space="preserve"
+       x="428.62415"
+       y="641.24243"
+       style="font-size:15.00751591px;font-style:normal;font-weight:bold;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3242">Period (years)</text>
+    <text
+       xml:space="preserve"
+       x="463.32901"
+       y="667.51575"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3248">50.76</text>
+    <text
+       xml:space="preserve"
+       x="463.32901"
+       y="692.85077"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3254">75.30</text>
+    <text
+       xml:space="preserve"
+       x="459.57715"
+       y="717.24738"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3260">248.09</text>
+    <text
+       xml:space="preserve"
+       x="459.57715"
+       y="742.5824"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3266">560.90</text>
+    <text
+       xml:space="preserve"
+       x="337.45139"
+       y="742.5824"
+       style="font-size:12.19360638px;font-style:normal;font-weight:normal;text-align:start;text-anchor:start;fill:#000000;font-family:Arial"
+       id="text3268">68.01</text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 214.1167,649.23212 322.65172,0"
+       id="path3321"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3323"
+       d="m 214.1167,649.23212 322.65172,0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

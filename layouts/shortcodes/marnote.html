@@ -1,0 +1,8 @@
+<!-- margin note
+This implements a Tufte style margin note that is not numbered.
+shortcode syntax is { marnote "unique_id" }  text/image { /marnote }
+Note that the "id" argument has to be unique for the entire page (it is used to toggle note visibility on mobile)-->
+<label for="mn-{{ index .Params 0 }}" class="margin-toggle">&#8853;
+</label>
+<input type="checkbox" id="mn-{{ index .Params 0 }}" class="margin-toggle" />
+<span class="marginnote">{{ .Inner }}</span>

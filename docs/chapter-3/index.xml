@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chapter 3 on Precalculus 1 - Functions</title>
+    <link>https://duragauge.github.io/chapter-3/</link>
+    <description>Recent content in Chapter 3 on Precalculus 1 - Functions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://duragauge.github.io/chapter-3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.1 Exponential Functions</title>
+      <link>https://duragauge.github.io/chapter-3/3.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-3/3.1/</guid>
+      <description>Introduction Exponential functions have a type of growth that we have not studied yet, but you have probably seen it before. Perhaps the best place to start is with an example.
+The images below illustrate three different real world examples of exponential growth. All three are exactly the same, just in a different context.
+          Going Viral Nuclear Reactions Cell Division    Exponential Growth Going Viral The videos and games on social media sites like YouTube and Facebook can often &amp;quot;go viral&amp;quot; when they experience a rapid increase in popularity.</description>
+    </item>
+    
+    <item>
+      <title>3.2 Exponential Models and Applications</title>
+      <link>https://duragauge.github.io/chapter-3/3.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-3/3.2/</guid>
+      <description>Hot cocoa photo by Rawpixels on UnsplashIntroduction Imagine that you have a delicious mug of creamy, homemade hot cocoa that is, unfortunately, much too hot to drink. How long should you leave it on your kitchen counter so that it cools but doesn&#39;t lose all of its comforting warmth?
+We&#39;re not ready to answer that question yet, but it should not surprise you that it has to do with exponential functions!</description>
+    </item>
+    
+    <item>
+      <title>3.3 Logarithmic Functions</title>
+      <link>https://duragauge.github.io/chapter-3/3.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-3/3.3/</guid>
+      <description>Photo by john allspawIntroduction Up until the invention of scientific calculators  The HP-35 was the first handheld scientific calculator. Developed by Hewlett-Packard, it went on sale in 1972 for $395. Photo by Julian Bucknall in the 1970&#39;s, people relied on 300-year-old mechanical calculators called &amp;quot;slide rules&amp;quot;.
+Slide rules use the properties of exponents to simplify calculations. For example, multiplication turns into addition and division becomes subtraction.
+To build a slide rule you need a function that can extract exponents.</description>
+    </item>
+    
+    <item>
+      <title>3.4 Logarithmic Models and Applications</title>
+      <link>https://duragauge.github.io/chapter-3/3.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-3/3.4/</guid>
+      <description>Photo by Matthieu A on UnsplashIntroduction The human senses are capable of perceiving a wide range of stimuli. Our sense of hearing, for example, picks up both faint whispers and highly amplified music.
+One reason for this is the fact that your ears don&#39;t perceive the actual intensity of sound, rather they respond approximately to logarithm of the sound intensity. For example, if you increase the intensity of a sound 10 times, it will only sound about twice as loud.</description>
+    </item>
+    
+    <item>
+      <title>3.5 Exponential and Logarithmic Equations</title>
+      <link>https://duragauge.github.io/chapter-3/3.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://duragauge.github.io/chapter-3/3.5/</guid>
+      <description>Photo by Ken Treloar on UnsplashIntroduction Since exponential and logarithmic functions arise in many applications, it is essential to be able to manipulate and solve equations involving them. As an example of the type of problems we might encounter, consider the following situation.
+A patient who is undergoing diagnostic imaging for thyroid cancer typically swallows a capsule containing the radioactive isotope Iodine-123 shortly before being placed inside a scanner.</description>
+    </item>
+    
+  </channel>
+</rss>

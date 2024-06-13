@@ -1,0 +1,615 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<title>
+		6.1 Concepts of Modeling &middot; Precalculus 1 - Functions
+	</title>
+	
+	<!-- Stylesheets -->
+
+	<link rel="stylesheet" href="https://duragauge.github.io/css/main.css"/>
+
+	
+
+	<!-- Custom Fonts -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	
+	<link rel="shortcut icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="https://duragauge.github.io/favicon.ico">
+	
+
+
+	<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+    <body>
+
+    <!-- Wrapper -->
+        <div id="wrapper">
+        <!-- Header -->
+    <header id="header" class="alt">
+      <a href="https://duragauge.github.io" class="logo"><strong>Precalculus</strong>Functions</a>
+
+        <nav>
+
+        </nav>
+
+    </header>
+
+<!-- Menu -->
+    <nav id="menu">
+        <ul class="links">
+            
+        </ul>
+
+        <ul class="actions vertical">
+            
+                <li><a href="https://duragauge.github.io" class="button special fit">Home</a></li>
+            
+            
+                <li><a href="https://duragauge.github.io/search" class="button fit">Search</a></li>
+            
+        </ul>
+        <div id="table_of_contents">
+          <p>Content on this page</p>
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#the-modeling-process">The Modeling Process</a></li>
+    <li><a href="#scatterplots">Scatterplots</a></li>
+    <li><a href="#interpolation-and-extrapolation">Interpolation and Extrapolation</a></li>
+    <li><a href="#another-tornado-data-set">Another Tornado Data Set</a></li>
+    <li><a href="#independent-and-dependent-variables">Independent and Dependent Variables</a></li>
+    <li><a href="#aligning-and-scaling-data">Aligning and Scaling Data</a></li>
+    <li><a href="#modeling-with-transformations">Modeling with Transformations</a>
+      <ul>
+        <li><a href="#slope-intercept-form-of-a-line">Slope-Intercept Form of a Line</a></li>
+        <li><a href="#point-slope-form-of-a-line">Point-Slope Form of a Line</a></li>
+        <li><a href="#vertex-form-of-a-quadratic">Vertex Form of a Quadratic</a></li>
+      </ul>
+    </li>
+    <li><a href="#example-apple-prices">Example: Apple Prices</a>
+      <ul>
+        <li><a href="#step-1-choosing-variables">Step 1: Choosing Variables</a></li>
+        <li><a href="#step-2-aligning-and-scaling-data">Step 2: Aligning and Scaling Data</a></li>
+        <li><a href="#step-3-using-a-scatterplot-to-choose-a-function">Step 3: Using a Scatterplot to Choose a Function</a></li>
+        <li><a href="#step-4--using-transformations-to-fit-the-function-to-the-data">Step 4:  Using Transformations to Fit the Function to the Data</a></li>
+        <li><a href="#step-5-constructing-the-model">Step 5: Constructing the Model</a></li>
+        <li><a href="#step-6--using-the-model-to-make-predictions">Step 6:  Using the Model to Make Predictions</a></li>
+      </ul>
+    </li>
+    <li><a href="#modeling-with-piecewise-defined-functions">Modeling with Piecewise-Defined Functions</a></li>
+    <li><a href="#looking-ahead">Looking Ahead</a></li>
+  </ul>
+</nav>
+        </div>
+
+
+      </nav>
+
+
+        <!-- Main -->
+            <div id="main" class="tufte">
+
+                
+                    <section id="one">
+                        <div class="inner">
+                            <header class="major">
+                                <h1>6.1 Concepts of Modeling</h1>
+                            </header>
+
+                            <div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-6/nikolas-noonan-682177-unsplash.jpg"  title="Tornado photo by Nikolas Noonan on Unsplash"  alt="Tornado photo by Nikolas Noonan on Unsplash" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://unsplash.com/photos/fQM8cbGY6iQ">Tornado photo by Nikolas Noonan on Unsplash</a></span>
+</div>
+<br>
+<h2 id="introduction">Introduction</h2>
+<p>Every spring, hundreds of people come to the Great Plains region of the United States in an attempt to get as close as possible to one of nature's most violent events:  a tornado.  While some go to &quot;Tornado Alley&quot; just for the thrill, most professional storm chasers have a different goal.  What they want is data: scientific measurements that can only be found inside real tornadoes.</p>
+<p>Scientists and university researchers, like those at NOAA's National Severe Storms Laboratory, hope to use that data to create mathematical models that will help them understand the inner workings of tornadoes and how they form.</p>
+<h2 id="the-modeling-process">The Modeling Process</h2>
+<p>When we speak of creating a <strong>mathematical model</strong>, what exactly are we talking about?</p>
+<p>A model is simplified representation of a real world object.  Mathematical models are found in nearly every field of study and are useful when it is not feasible, economical, practical, or safe to work with the real item.</p>
+<p>To construct a model, we begin with a set of data points and a description of the scenario and then try to find an equation of a function that closely aligns with our observations and what we know about the situation.</p>
+<p>Once a model has been created, we can use the rules of mathematics to discover things about its mathematical behavior. The insights gained from these analyses can, in turn, be used to make predictions and gain understanding about how the real-world object might behave.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/modeling_diagram.svg#center" alt=""></p>
+<p>Through continued observations and adjustments, the model can be refined to more accurately represent the real-world phenomenon it is intended to simulate.</p>
+<p>While our models will never be perfect, there is a good chance that they might be accurate enough to be genuinely useful.  Renowned physicist Eugene Wigner referred to the predictive nature of mathematics, especially in the natural sciences, as the <em>&quot;unreasonable effectiveness of mathematics.&quot;</em>  This theme will be prevalent throughout this chapter.</p>
+<h2 id="scatterplots">Scatterplots</h2>
+<p>Many physical laws, like the law of gravity, were discovered by gathering data and looking for patterns.  One of our primary tools for visualizing data is the <strong>scatterplot</strong>.  A scatterplot is nothing more than pairs of data plotted as points on a grid.</p>
+<p>For instance, researchers from Purdue University analyzed 1285 tornadoes in Indiana from 1950 to 2012.
+<label for="sn-tornado citation" class="margin-toggle sidenote-number">
+</label>
+<input type="checkbox" id="sn-tornado citation" class="margin-toggle" />
+<span class="sidenote">See the paper by Olivia Kellner and Dev Niyogi in the <a href="https://doi.org/10.1175/2013EI000548.1">American Meteorological Society's Earth Interactions journal, volume 18 no. 10 (2014).</a></span>
+One set of data compared the number of tornadoes observed at different hours of the day.  The scatterplot below illustrates this data.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/tornado_time.svg#center" alt=""></p>
+<p>The scatterplot reveals a distinct pattern, suggesting that most tornadoes form late in the afternoon.  This is a well-known result that follows from the fact that, by mid-afternoon, the sun has sufficiently heated the ground and atmosphere enough to produce thunderstorms.</p>
+<p>Notice that there is a subtle but important difference between the data (black dots) and the model (the red curve).  The model allows us to make predictions for values that were not recorded.  For instance, no data point corresponds to 10:15am, but using the model we can say the number is likely to be around 20 tornadoes.</p>
+<h2 id="interpolation-and-extrapolation">Interpolation and Extrapolation</h2>
+<p>Models can be used to make estimations in two different ways. Making a prediction outside of a data set is called <strong>extrapolation</strong>.  Estimating a value that is in between known values is <strong>interpolation</strong>.</p>
+<p>For instance, if we knew the number of tornadoes in 1900 and in 2000, predicting how many will occur in 2050 would be an extrapolation since that value lies beyond the known data. Extrapolation assumes that an existing trend will continue unchanged into the future, which is not always guaranteed.</p>
+<p>On the other hand, estimating the number of tornadoes in the year 1950 would be interpolation since 1950 falls between the known values.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Suppose that we know the price of a movie ticket in 2000 and also the price in 2010, but no other years.  Decide if the following would be examples of interpolation or extrapolation.</p>
+<ol>
+<li>
+<p>Predicting what the cost of a movie ticket will be in 2050. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Extrapolation because 2050 is outside of the known data.</details></p>
+</li>
+<li>
+<p>Estimating what the cost of a movie ticket was in 2005. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Interpolation since 2005 is in between known values.</details></p>
+</li>
+<li>
+<p>Estimating what the cost of a movie ticket was in 1920. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Extrapolation.  1920 is outside of the data set.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="another-tornado-data-set">Another Tornado Data Set</h2>
+<p>Let's take a look at another set of tornado data, showing how closely tornadoes occur to populated areas.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/mrcsehab/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/j64zgw6h"><img src="https://www.geogebra.org/resource/mrcsehab/6XcJvVUnACwrTb4z/material-mrcsehab.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/j64zgw6h"><a href="https://www.geogebra.org/m/j64zgw6h">https://www.geogebra.org/m/j64zgw6h</a></a></p>
+</div>
+<p>This scatterplot reveals a strong linear trend, indicating that the percentage of observed tornadoes increases as one moves further away from the city or town center. The equation $y=\color{blue}{2.84}x+\color{green}{0.14}$ serves a good model for the data.</p>
+<p>If we use our model to extrapolate back to a distance of $0$ kilometers it suggests that there is a $0\%$ chance of seeing a tornado, which might lead to the assumption that people in cities are safer than those in rural areas. That conclusion, however, needs to be approached with caution since many other factors may come into play.</p>
+<p>Contrary to what one might think, tornadoes are not diverted by structures or buildings.  They have been know to hit large cities, pass over rivers, climb hills and cross canyons.</p>
+<p>Research even suggests that slower winds and hotter air in urban areas can actually <em>increase</em> the tornado-genesis process.  According to NOAA's tornado safety guidelines, the safest place is in a <a href="https://www.spc.noaa.gov/faq/tornado/#Safety" title="NOAA's tornado safety guidelines">fortified tornado shelter.</a></p>
+<p>This example serves as a valuable lesson that even when data displays an apparent pattern, it is crucial to take time to investigate and consider other underlying factors before we make predictions or draw conclusions from our model.</p>
+<h2 id="independent-and-dependent-variables">Independent and Dependent Variables</h2>
+<p>In all of the tornado data sets we've seen, it was up to the researchers to decide which variable was independent and which was dependent.</p>
+<p>Whenever we work with a raw set of data, it will be up to us to do the same thing and determine which quantity is the independent and which one is dependent.</p>
+<p>The <strong>independent variable</strong> is the parameter that changes or controls the other variable, and it is often plotted on the x-axis of a graph.</p>
+<p>On the other hand, the <strong>dependent variable</strong> is the outcome or response that is measured or observed as the independent variable changes, and it is typically plotted on the y-axis of a graph.</p>
+<p>Often, certain variables are naturally independent or dependent based on our knowledge of the situation. For example, suppose researchers collect data on the dosage of a medication given to patients and their corresponding blood pressure measurements.  Since researchers control the dosage, it would be considered the independent variable.  Blood pressure, on the other hand, is expected to change in response to the dosage level, so it should be the dependent variable.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>In an experiment, data is collected on the amount of sunlight and the harvest yield of a tomato plant.  Which variable would be considered dependent?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />We would expect the yield to be dependent on the amount of sunlight.</details></p>
+</li>
+<li>
+<p>If the speed of a rocket is your dependent variable, what kinds of things might be reasonable independent variables? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Anything that influences the speed could be a reasonable choice:  time since launch; weight of the rocket; amount of fuel; size of the payload; etc.</details></p>
+</li>
+<li>
+<p>In 1662, scientist Robert Boyle investigated the relationship between pressure and volume in a gas.  Which variable do you think he used as the independent one? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />This is a harder one.  Boyle discovered that pressure and volume are inversely proportional to each other so, in theory, either one could be independent.  In practice, Boyle, found it easier to change the pressure rather than change the volume, so pressure was his independent variable.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="aligning-and-scaling-data">Aligning and Scaling Data</h2>
+<p>To make the data more manageable and relatable, we often use aligning and scaling techniques.</p>
+<p><strong>Aligning</strong> the data involves shifting the independent variable to a more convenient starting point. <strong>Scaling</strong> the data allows us to convert the units of the dependent variable to a more practical scale.</p>
+<p>Let's look at an example where both of these might be helpful.  The table below shows the total number of mobile game downloads on iOS and Android from 2015 to 2022.</p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>Downloads</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2015</td>
+<td>24,300,000,000</td>
+</tr>
+<tr>
+<td>2016</td>
+<td>27,900,000,000</td>
+</tr>
+<tr>
+<td>2017</td>
+<td>34,700,000,000</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>38,400,000,000</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>42,100,000,000</td>
+</tr>
+<tr>
+<td>2020</td>
+<td>56,200,000,000</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>55,300,000,000</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>55,600,000,000</td>
+</tr>
+</tbody>
+</table>
+<p>Since 2015 is a convenient starting point, we can align this data by converting the time to &quot;years since 2015&quot;. This is done by subtracting 2015 from each year, resulting in the aligned years 0, 1, 2, ..., 7.</p>
+<p>Next, we might want to scale the number of downloads so that 1 on the graph represents &quot;1 billion downloads&quot;. We can do this by dividing each value by 1,000,000,000.</p>
+<p>After aligning and scaling our data table has the same information but with more manageable values.  Notice how the labels of each column have been updated to reflect those changes.</p>
+<table>
+<thead>
+<tr>
+<th>Year Since 2015</th>
+<th>Billions of Downloads</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>24.3</td>
+</tr>
+<tr>
+<td>1</td>
+<td>27.9</td>
+</tr>
+<tr>
+<td>2</td>
+<td>34.7</td>
+</tr>
+<tr>
+<td>3</td>
+<td>38.4</td>
+</tr>
+<tr>
+<td>4</td>
+<td>42.1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>56.2</td>
+</tr>
+<tr>
+<td>6</td>
+<td>55.3</td>
+</tr>
+<tr>
+<td>7</td>
+<td>55.6</td>
+</tr>
+</tbody>
+</table>
+<p>Not only is the aligned and scaled data easier to read, it is also much easier to graph in a scatterplot.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/game_download_scatterplot.svg#center" alt=""></p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Suppose you have data on housing prices from 1956 through 1974.  What would be a convenient starting point and how would you align your data?  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Several answers are possible, but perhaps the best one would be to use 1950 as the starting year and subtract 1950 from each given year.</details></p>
+</li>
+<li>
+<p>Suppose you were looking at data involving the national debt, which was $31,419,689,421,557.90 at the end of 2022.  How might you scale the data to make it more manageable? <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Dividing by 1,000,000,000,000 (1-trillion) would give $31.42 trillion which would be easier to work with.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="modeling-with-transformations">Modeling with Transformations</h2>
+<p>You might have noticed that the mobile game data above roughly has the shape of a line.  If we find that a set of data has a shape similar to one of our basic functions, then transformations can be used to shift and stretch that function to make align with the data.</p>
+<p>Let's start by looking at a few transformed functions that you might have seen in prior algebra classes.</p>
+<h3 id="slope-intercept-form-of-a-line">Slope-Intercept Form of a Line</h3>
+<p>To begin, we take the identity function $f(x)=x$ and stretch it vertically by a factor of $\color{blue}{m}$ and shift it vertically $\color{green}{b}$ units.  The resulting equation, $y=\color{blue}{m}x+\color{green}{b}$, is known as the <strong>slope-intercept</strong> form for a line, where $\color{blue}{m}$ is the slope and $\color{green}{b}$ is the y-intercept.  The figure below will let you experiment with this equation.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/hBQsE4O1/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/hBQsE4O1"><img src="https://www.geogebra.org/resource/hBQsE4O1/Wr52bKrzTkGnlmob/material-hBQsE4O1.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/hBQsE4O1"><a href="https://www.geogebra.org/m/hBQsE4O1">https://www.geogebra.org/m/hBQsE4O1</a></a></p>
+</div>
+</br>
+<h3 id="point-slope-form-of-a-line">Point-Slope Form of a Line</h3>
+<p>Another transformed version of the identity function is $y=\color{blue}{m}(x-\color{brown}{x_1})+\color{green}{y_1}$.</p>
+<p>This new equation involves a horizontal shift $\color{brown}{x_1}$ spaces, a vertical stretch by $\color{blue}{m}$, and a vertical shift $\color{green}{y_1}$ units.</p>
+<p>The result is a line that passes through the point $(\color{brown}{x_1}, \color{green}{y_1})$ and has a slope of $\color{blue}{m}$.  We refer to this equation as the <strong>point-slope</strong> form of a line.  Feel free to experiment with this equation using the figure below.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/PdeIue6n/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/PdeIue6n"><img src="https://www.geogebra.org/resource/PdeIue6n/kDqggaOWaZNpd7Ni/material-PdeIue6n.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/PdeIue6n"><a href="https://www.geogebra.org/m/PdeIue6n">https://www.geogebra.org/m/PdeIue6n</a></a></p>
+</div>
+</br>
+<h3 id="vertex-form-of-a-quadratic">Vertex Form of a Quadratic</h3>
+<p>Lastly, consider $y=\color{blue}{a}(x-\color{brown}{h})^2+\color{green}{k}$, which is a transformed version of the square function.</p>
+<p>The horizontal and vertical shifts move the vertex to the point $(\color{brown}{h}, \color{green}{k})$ while the vertical stretch by a factor of $\color{blue}{a}$ influences the concavity of the graph.</p>
+<p>This equation is often referred to as the <strong>vertex form</strong> of a quadratic function.  You can identify the three transformations in the figure below.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/uTrJWh1K/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/uTrJWh1K"><img src="https://www.geogebra.org/resource/uTrJWh1K/BBDfruwxgd3VVqyG/material-uTrJWh1K.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/uTrJWh1K"><a href="https://www.geogebra.org/m/uTrJWh1K">https://www.geogebra.org/m/uTrJWh1K</a></a></p>
+</div>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><ol>
+<li>
+<p>Write the equation of a line with a slope of $2$ and a y-intercept of $3$.  <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Using the slope-intercept form, $m=2$ and $b=3$ so the equation would be $y=2x+3$.</details></p>
+</li>
+<li>
+<p>Write the equation for a line passing through the point $(3, 5)$ that has a slope of $4$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />With the point-slope form the equation would be $y=4(x-3)+5$.  If desired, this could be converted to the slope-intercept form as $y=4x -7$.</details></p>
+</li>
+<li>
+<p>Write the equation for any quadratic function with a vertex at $(2, -1)$. <details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />Using the vertex-form, your equation should look similar to $y=a(x-2)^2-1$.  Since $a$ was not specified, any nonzero value will work.</details></p>
+</li>
+</ol>
+</div>
+<h2 id="example-apple-prices">Example: Apple Prices</h2>
+<p>To demonstrate how all this works together, let's use the following raw data from the U.S. Department of Agriculture.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/apple_data_raw.png#center" alt=""></p>
+<h3 id="step-1-choosing-variables">Step 1: Choosing Variables</h3>
+<p>With this data, it seems reasonable that the year is independent and the price is dependent.</p>
+<h3 id="step-2-aligning-and-scaling-data">Step 2: Aligning and Scaling Data</h3>
+<p>To avoid a graph that spans $2009$ units, we choose to align the years by converting them to &quot;years since 2000&quot;.  This is done by subtracting $2000$ from each year.</p>
+<p>And we might want to convert the price to &quot;<em>dollars</em> per pound&quot; rather than <em>cents</em> per pound.  To do this we'll change the scale of the prices by dividing each price by $100$.</p>
+<p>The result of aligning the years and scaling the prices is shown below.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/apple_data_aligned.png#center" alt=""></p>
+<h3 id="step-3-using-a-scatterplot-to-choose-a-function">Step 3: Using a Scatterplot to Choose a Function</h3>
+<p>Now that we have aligned and scaled the apple data, let's examine the scatterplot and compare its shape with the shapes of the six basic functions that we know.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/apple_data_graph.svg#center" alt=""></p>
+<p>Does the data look like the identity function or the square function? Perhaps it looks like the reciprocal or the cube root function?</p>
+<p>Since this data appears linear, we should be able to model it with a transformed version of the identity function $f(x)=x$.  For simplicity, we will use the slope-intercept form of a line $y = \color{blue}{m} x + \color{green}{b}$ but the point-slope form could be used as well.</p>
+<h3 id="step-4--using-transformations-to-fit-the-function-to-the-data">Step 4:  Using Transformations to Fit the Function to the Data</h3>
+<p>All that remains is to find values of $\color{red}{m}$ and $\color{green}{b}$ that make the model fit the data as closely as possible.</p>
+<p>In the figure below, you are free to change both the slope $\color{red}{m}$ and the y-intercept $\color{green}{b}$ until you find a line that fits the data.  Make a note of your equation before continuing.</p>
+<div class="no-print geogebra" style="padding-top: 50%;margin-bottom:0.5rem; ">
+  <iframe src="https://www.geogebra.org/material/iframe/id/m9XFVxlH/border/fafafa" scrolling="no"
+  style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent">
+  </iframe>
+</div>
+<div id="printOnly" style="text-align:center; font-size:0.8em; margin:0.5em;">
+  <a href="https://www.geogebra.org/m/m9XFVxlH"><img src="https://www.geogebra.org/resource/m9XFVxlH/XNmissvYwqQV8RC8/material-m9XFVxlH.png"></img></a>
+<p><em>To use the interactive figure visit </em>   <a href="https://www.geogebra.org/m/m9XFVxlH"><a href="https://www.geogebra.org/m/m9XFVxlH">https://www.geogebra.org/m/m9XFVxlH</a></a></p>
+</div>
+<p>You may have had trouble finding just one line that fit well.  In fact, good arguments could be made for several lines.  However, the line that is as close as possible to each point is the line $\color{blue}{y} = \color{red}{0.04}x + \color{green}{0.86}$.</p>
+<p>Where did this equation come from, and how do we know it is the best?  Well, that's a great question would take a few weeks in a statistics course to explain fully.  For now, it's enough to know that most graphing utilities have programs that fit equations to data.  That process is called <em>least squares regression</em> and we will look at it later in this chapter.</p>
+<h3 id="step-5-constructing-the-model">Step 5: Constructing the Model</h3>
+<p>Now that we have an equation, $\color{blue}{y} = \color{red}{0.04}x + \color{green}{0.86}$, it's time to turn that into an actual model.</p>
+<p>A model is not just an equation or function, it also includes a description of the variables and their units of measure.  Without an accurate description, the function itself is meaningless since there would be no way to relate it to the real world.</p>
+<p>Since our independent variable is time in years since $2000$, we take the liberty of using $t$ in place of $\color{blue}{x}$.</p>
+<p>Similarly, using $p$ instead of $\color{blue}{y}$ will help us remember that the dependent variable represents the price of apples.  We are now ready to write our model.</p>
+<blockquote>
+<p>According to data provided by the U.S. Department of Agriculture, the price $p$ of apples per pound in dollars can be modeled by the function
+[ p(t) = 0.04t + 0.86 ]
+where $t$ is the time in years since 2000.</p>
+</blockquote>
+<h3 id="step-6--using-the-model-to-make-predictions">Step 6:  Using the Model to Make Predictions</h3>
+<p>We can use this model to estimate the price of apples in any year we want.  For example, to predict the price of a pound of apples in the year 2030 we simply evaluate the function for $t=30$ (remember, $t$ is years <em>since</em> 2000.)</p>
+<p>[
+p(30) = 0.04(30) + 0.86 = 2.06
+]</p>
+<p>Thus, our model predicts the average price of a pound of apples will be $2.06 in the year 2030.  How accurate is that?  We'll have to wait and see.</p>
+<h2 id="modeling-with-piecewise-defined-functions">Modeling with Piecewise-Defined Functions</h2>
+<div style="position:relative; clear:both; padding:0;">
+  <img src="https://duragauge.github.io/img/chapter-6/pompidou_1.jpg"  title="Photo by Yann Caradec on Flickr"  alt="Photo by Yann Caradec on Flickr" style="display:block; width:100%; height:auto;" >
+  <span style="position:absolute; height:auto; bottom:0em; right:0em; margin:0;  padding: .1em .3em;  color:white;  font-size: .8em;  background:rgba(0, 0, 0, 1);  text-align:right;  z-index:5;  opacity:0.65;  border-radius:.3em 0em 0em 0em;">
+    <a href = "https://www.flickr.com/photos/la_bretagne_a_paris/5995530090">Photo by Yann Caradec on Flickr</a></span>
+</div>
+<br>
+<p>The Pompidou Center in Paris has an amazing escalator. Designed by Italian architect Renzo Piano and British designer Richard Rogers, the 6 story escalator is encased in a glass tube and attached to the outside of the building!</p>
+<p>The Pompidou escalator is not a single straight line, but rather several small lines pieced together.  It's an example of a new type of function which we'll call <strong>piecewise-defined</strong> functions.  For instance, to model the Pompidou escalator we shift and stretch several pieces of the identity function and connect them together with horizontal line segments.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/pompidou_model.gif" alt=""></p>
+<p><strong>Piecewise-defined</strong> functions, such as this, give us a lot more flexibility when creating models.  No longer are we required to find a single function; we are now free to construct models in multiple pieces.</p>
+<p>When writing piecewise functions, we list the equations for each piece and then specify where each is used.  Consider, for example, the path a bounding ball.</p>
+<p><img src="https://duragauge.github.io/img/chapter-6/piecewise_bounce.gif#center" alt="https://people.rit.edu/andpph/photofile-misc/stroboscope/bouncing-ball-7791m.jpg"></p>
+<p>Each bounce is an individual parabola, with its own equation, and its own limited domain.  The piecewise function for this particular ball is</p>
+<p>[ f(x)=\begin{cases}
+-(x+2)(x-2) &amp; \text{if } &amp; 0 \leq x \leq 2 \newline
+-1.2(x-2)(x-5) &amp; \text{if } &amp; 2 &lt;  x \leq 5 \newline
+-1.8(x-5)(x-7) &amp; \text{if } &amp; 5 &lt; x \leq 7
+\end{cases}
+]</p>
+<p>To find a value such as $f(4)$, we first compare our x-value $4$ with the three inequalities.  Since $4$ would fit in $2&lt;x \leq 5$, we must use the second equation.  Thus, $f(4)=-1.2(4-2)(4-5) =2.4$.</p>
+<div class="alert alert-success"><h4>QUICK CHECK</h4><p>Use the piecewise function above to evaluate the following:</p>
+<ol>
+<li>
+<p>$f(0)$<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$-(0+2)(0-2) = 4$</details></p>
+</li>
+<li>
+<p>$f(2)$<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$-(2+2)(2-2)=0$</details></p>
+</li>
+<li>
+<p>$f(6)$<details class='no-print' style="margin-left:0.7rem;border-style: solid;"><summary style="cursor:pointer;">Answer</summary><hr style="height:0px; visibility:hidden;" />$-1.8(6-5)(6-7)=1.8$</details></p>
+</li>
+</ol>
+</div>
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>In the final two sections of this book, we will approach mathematical modeling from two different perspectives.</p>
+<p>In <a href="//chapter-6/6.2">6.2</a> we will have limited data and will need to find a suitable model based on descriptions of the situation and our knowledge of how linear, power, and exponential functions behave.</p>
+<p>In <a href="//chapter-6/6.3">last section</a> we will explore the practical application of using graphing utilities to create scatterplots and find functions that best fit the data.</p>
+<p>Throughout it all, remember that while models are powerful tools, they are not infallible. Careful consideration of underlying factors is crucial for drawing meaningful insights and making accurate predictions.</p>
+
+                        </div>
+                    </section>
+            </div>
+
+        <!-- Footer -->
+            
+                <!-- Footer -->
+    <footer id="footer">
+        <div class="inner">
+            <ul class="icons">
+                
+            </ul>
+            <ul class="copyright">
+                <li>&copy; </li>
+                
+                <li>Deign:  <a href="https://www.html5up.net">HTML5 UP</a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+      },
+      "HTML-CSS": {
+        styles: {".MathJax": {color: "#ff0000"}}
+        }
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;float:left;margin:0.5em;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.svg" /></a>This work copyrighted by Nolan Mitchell under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+Source files are available at <a href="https://github.com/duragauge/duragauge.github.io">https://github.com/duragauge/duragauge.github.io</a>.</p>
+<p>You can also download a PDF copy of the entire book <a href="https://duragauge.github.io/precalculus-1-functions.pdf">here</a>. The PDF was last updated on January 21, 2024, and may not reflect changes to the online content made after that date.</p>
+            
+
+        </div>
+
+        <!-- Scripts -->
+          <!-- Scripts -->
+    <!-- jQuery -->
+    <script src="https://duragauge.github.io/js/jquery.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrolly.min.js"></script>
+    <script src="https://duragauge.github.io/js/jquery.scrollex.min.js"></script>
+    <script src="https://duragauge.github.io/js/skel.min.js"></script>
+    <script src="https://duragauge.github.io/js/util.js"></script>
+
+
+
+    
+
+    <!-- Main JS -->
+    <script src="https://duragauge.github.io/js/main.js"></script>
+
+    
+
+    
+
+
+
+
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+
+          <script>
+          let vuesearch = new Vue({
+              el: '#search', 
+              data: {
+                  txt: '', 
+                  timeoutID: 0, 
+                  showresult: false, 
+                  result: {}, 
+                  bdd: [] 
+                  },
+              mounted: function() {
+                  
+                  axios.get('')
+                  .then(function (response) {
+                      vuesearch.bdd = response.data.results;
+                      })
+                  .catch(function (error) {
+                      console.log(error);
+                      });
+                  },
+              methods: {
+                  close: function() {
+                      
+                      
+                      setTimeout(function() {
+                          vuesearch.showresult = false;
+                          vuesearch.txt = '';
+                          }, 300);
+                      },
+                  search: function() {
+                      
+                      clearTimeout(this.timeoutID);
+                      this.timeoutID = setTimeout(this.dosearch, 500);
+                      },
+                  dosearch: function() {
+                      
+                      this.result = []; 
+                      let words = this.txt.split(' '); 
+                      let words2 = []; 
+                      words.forEach(function(element) { 
+                          if(element) {words2.push(element);}
+                          });
+                      let r;
+                      let resultmp;
+                      words2.forEach(function(e) { 
+                          r = vuesearch.bdd.filter(p => p.content.indexOf(e.toLowerCase()) !== -1);
+                          if(vuesearch.result.length===0) {vuesearch.result = r.slice(); return;}
+                          resultmp = [];
+                          vuesearch.result.forEach(function(all1) {
+                              r.forEach(function(all2) { 
+                                  if(all1.url===all2.url) {resultmp.push(all1);}
+                                  });
+                              });
+                          vuesearch.result = resultmp.slice();
+                          });
+                      this.result = this.result.slice(0, 10); 
+                      this.showresult = (this.result.length>0); 
+                      } 
+                  } 
+              }); 
+          </script>
+
+
+
+    </body>
+</html>
