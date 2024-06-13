@@ -95,7 +95,7 @@ home = [ "HTML"]
   # Navigation Section
   [params.navigation]
     title = "Precalculus"
-    subtitle = "Functions"
+    subtitle = "Functions-v2"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
